@@ -1,0 +1,220 @@
+{
+  "Home": "Strona glówna",
+  "Services": "Usługi",
+  "About": "O nas",
+  "Contact": "Kontakt",
+  "Home page title": "Sprawimy, że Twoja infrastruktura IT będzie niezawodna, nowoczesna i bezpieczna.",
+  "Home page button": "Skontaktuj się",
+  "Back to Services": "Powrót do usług",
+  "have been": "byli obsługiwani przez naszą firmę",
+  "What we do": "Co robimy",
+  "We specialize": "Specjalizujemy się w infrastrukturze IT i bezpieczeństwie.",
+  "Our mission": "Nasza misja to rozwijanie i utrzymywanie nowoczesnych rozwiązań technologicznych, zapewniających niezawodność, efektywność i ochronę.",
+  "experienced": "Jesteśmy doświadczoną firmą zajmującą się infrastrukturą IT i bezpieczeństwem, napędzaną innowacjami od pierwszego dnia.",
+  "collaborate": "Ścisła współpraca z naszymi klientami, tworzenie spersonalizowanych rozwiązań idealnie dopasowanych do ich celów i potrzeb.",
+  "Our team": "Nasz zespół może poszczycić się głęboką wiedzą w nawigowaniu dzisiejszym skomplikowanym środowiskiem informacyjnym. Rozumiemy, że solidna infrastruktura stanowi fundament sukcesu biznesowego.",
+  "employees": "Wszyscy nasi pracownicy to certyfikowani profesjonaliści.",
+  "boasts expertise": "Nasz zespół posiada głęboką wiedzę w nawigowaniu w dzisiejszym skomplikowanym środowisku informacyjnym. Rozumiemy, że solidna infrastruktura stanowi fundament sukcesu biznesowego.",
+  "contact text": "Skontaktuj się, aby dowiedzieć się więcej o naszych usługach z zakresu infrastruktury IT i jak możemy pomóc Ci osiągnąć cele biznesowe.",
+  "formName": "Imię",
+  "formEmail": "Email",
+  "formPhone": "Telefon",
+  "formMessage": "Wiadomość",
+  "Sent": "Wysłane",
+  "audit": {
+    "title": "Bezpieczeństwo",
+    "description": "Skoncentrowani na ochronie Twojego biznesu, oferujemy kompleksowe rozwiązania z zakresu cyberbezpieczeństwa.",
+    "pageTitle": "Rewizja IT",
+    "pageDescription": "Umożliwiamy firmom pełne zrozumienie i usprawnienie ich systemów informatycznych.",
+    "options": [
+      {
+        "title": "Analiza infrastruktury",
+        "description": "Ocena aktualnego stanu infrastruktury IT, w tym sprzętu, oprogramowania, topologii sieci i zasobów chmurowych."
+      },
+      {
+        "title": "Bezpieczeństwo i podatności",
+        "description": "Przeprowadź skan podatności oraz analizę systemów zabezpieczeń, w tym uwierzytelnianie, autoryzację, szyfrowanie i ochronę danych."
+      },
+      {
+        "title": "Zgodność z przepisami",
+        "description": "Upewnij się, że firma przestrzega odpowiednich przepisów branżowych i standardów zabezpieczeń danych (np. RODO, HIPAA) zależnie od obszaru działalności."
+      },
+      {
+        "title": "Kopie zapasowe i przywracanie",
+        "description": "Ocen strategie tworzenia kopii zapasowych danych i plany przywracania, aby systemy można było przywrócić w przypadku awarii."
+      },
+      {
+        "title": "Infrastruktura sieciowa",
+        "description": "Analiza architektury sieci, wydajności, segmentacji, zarządzania ruchem i bezpieczeństwa."
+      },
+      {
+        "title": "Procesy i wydajność",
+        "description": "Badanie procesów biznesowych i ich dopasowania do systemów informatycznych, identyfikacja wąskich gardeł i sugestie dotyczące optymalizacji wydajności."
+      },
+      {
+        "title": "Zarządzanie zasobami",
+        "description": "Analiza wykorzystania zasobów IT, takich jak serwery, magazyn danych, licencje oprogramowania w celu optymalizacji kosztów."
+      }
+    ]
+  },
+  "security": {
+    "title": "Zapewnienie niezawodności infrastruktury",
+    "description": "Nasza specjalność polega na tworzeniu niezawodnej infrastruktury informatycznej dla efektywnych operacji.",
+    "pageTitle": "Bezpieczeństwo",
+    "pageDescription": "Oferujemy kompleksowe rozwiązania do wykrywania, zapobiegania i reagowania na zagrożenia związane z cyberprzestępczością.",
+    "options": [
+      {
+        "title": "Identyfikacja i uwierzytelnianie",
+        "description": "Wprowadź mechanizmy identyfikacji i uwierzytelniania dwuskładnikowego, aby zapewnić, że tylko upoważnione osoby mają dostęp do systemów."
+      },
+      {
+        "title": "Zarządzanie prawami dostępu",
+        "description": "Ogranicz uprawnienia dostępu użytkowników, zapewniając minimalne niezbędne przywileje zgodnie z ich rolami i odpowiedzialnościami."
+      },
+      {
+        "title": "Szyfrowanie danych",
+        "description": "Zastosuj szyfrowanie w celu ochrony danych w spoczynku i w trakcie transmisji, zapewniając prywatność nawet w przypadku wycieku."
+      },
+      {
+        "title": "Monitorowanie i wykrywanie zagrożeń",
+        "description": "Wprowadź systemy monitorowania, które analizują działalność w czasie rzeczywistym i wykrywają nietypowe zachowanie wskazujące na potencjalne zagrożenia."
+      },
+      {
+        "title": "Ochrona antywirusowa i antymalware",
+        "description": "Używaj aktualnego oprogramowania antywirusowego i antymalware do wykrywania i neutralizacji złośliwego oprogramowania."
+      },
+      {
+        "title": "Szkolenia i świadomość użytkowników",
+        "description": "Zapewniaj regularne szkolenia z zakresu cyberbezpieczeństwa dla pracowników w celu zmniejszenia ryzyka inżynierii społecznej."
+      },
+      {
+        "title": "Planowanie i reakcja na incydenty",
+        "description": "Opracuj plan reagowania na incydenty związane z bezpieczeństwem, obejmujący procedury powiadomienia, odzyskiwania i terminową komunikację z interesariuszami."
+      },
+      {
+        "title": "Audyt i przegląd systemów",
+        "description": "Przeprowadzaj regularne audyty bezpieczeństwa w celu identyfikacji podatności, weryfikacji zgodności i wprowadzania ulepszeń w strategii bezpieczeństwa."
+      }
+    ]
+  },
+  "ensuring": {
+    "title": "Administracja IT",
+    "description": "Nasza profesjonalna administracja IT utrzymuje Twoje technologie w doskonałym stanie.",
+    "pageTitle": "Zabezpieczenie niezawodności infrastruktury",
+    "pageDescription": "Nasza specjalizacja polega na tworzeniu niezawodnej infrastruktury IT dla efektywnych operacji.",
+    "options": [
+      {
+        "title": "Analiza i planowanie",
+        "description": "Rozpocznij od dokładnej analizy potrzeb i celów biznesowych, aby opracować plan infrastruktury, który spełnia obecne i przyszłe potrzeby."
+      },
+      {
+        "title": "Wybór technologii",
+        "description": "Określ optymalne technologie i rozwiązania, w tym serwery, magazyn danych, sprzęt sieciowy, platformy chmurowe itp."
+      },
+      {
+        "title": "Redundancja i odporność",
+        "description": "Opracuj strategie redundancji danych i komponentów, aby zapewnić ciągłość działania biznesu i szybkie odtworzenie w przypadku awarii."
+      },
+      {
+        "title": "Bezpieczeństwo sieci",
+        "description": "Wprowadź środki bezpieczeństwa, takie jak zapory ogniowe, systemy wykrywania intruzów (IDS) i systemy zapobiegania intruzom (IPS), aby zminimalizować ryzyko ataków cybernetycznych."
+      },
+      {
+        "title": "Szyfrowanie i uwierzytelnianie",
+        "description": "Stosuj szyfrowanie danych w spoczynku i w trakcie transmisji, a także uwierzytelnianie dwuskładnikowe, aby poprawić bezpieczeństwo dostępu."
+      },
+      {
+        "title": "Monitorowanie i zarządzanie",
+        "description": "Wprowadź systemy monitorowania, które ciągle monitorują stan infrastruktury, ostrzegają przed pojawiającymi się problemami i pomagają w obsłudze operacyjnej."
+      },
+      {
+        "title": "Aktualizacje i łatki",
+        "description": "Regularnie aktualizuj systemy operacyjne, aplikacje i podatne komponenty, aby zminimalizować ryzyko podatności i ataków."
+      },
+      {
+        "title": "Skalowalność",
+        "description": "Zaprojektuj swoją infrastrukturę w taki sposób, aby mogła rosnąć wraz z rozwojem firmy, unikając przyszłych ograniczeń."
+      },
+      {
+        "title": "Kopie zapasowe i przywracanie",
+        "description": "Regularnie sporządzaj kopie zapasowe danych i testuj procedury przywracania, aby zminimalizować straty w przypadku awarii."
+      }
+    ]
+  },
+  "administration": {
+    "title": "Nowoczesne Rozwiązania",
+    "description": "Specjalizujemy się w rozwiązaniach biznesowych nowej generacji, optymalizujemy efektywność.",
+    "pageTitle": "Administracja IT",
+    "pageDescription": "Nasza profesjonalna administracja IT zapewnia płynne działanie Twojej technologii.",
+    "options": [
+      {
+        "title": "Instalacja i konfiguracja sprzętu",
+        "description": "Wykonywanie instalacji i konfiguracji serwerów, komputerów, urządzeń sieciowych i innych urządzeń zgodnie z wymaganiami biznesowymi."
+      },
+      {
+        "title": "Utrzymanie systemu",
+        "description": "Ciągłe monitorowanie zdrowia systemu, wykonywanie regularnych prac konserwacyjnych, w tym aktualizacji, optymalizacji i rozwiązywania problemów."
+      },
+      {
+        "title": "Administracja systemem operacyjnym",
+        "description": "Zarządzanie systemami operacyjnymi, instalowanie łatek i aktualizacji, zapewnianie stabilnej i bezpiecznej pracy."
+      },
+      {
+        "title": "Zarządzanie użytkownikami i zasobami",
+        "description": "Tworzenie i zarządzanie kontami użytkowników, przydzielanie praw dostępu, monitorowanie wykorzystania zasobów."
+      },
+      {
+        "title": "Kopie zapasowe i przywracanie",
+        "description": "Rozwijanie i wdrażanie strategii tworzenia kopii zapasowych danych oraz testowanie procedur przywracania."
+      },
+      {
+        "title": "Wsparcie techniczne",
+        "description": "Świadczenie wsparcia technicznego dla pracowników w zakresie problemów związanych z hardware, oprogramowaniem i siecią za pomocą różnych kanałów komunikacji."
+      },
+      {
+        "title": "Monitorowanie bezpieczeństwa",
+        "description": "Wdrażanie środków bezpieczeństwa, w tym programów antywirusowych, zapór ogniowych, systemów wykrywania intruzów i analizy logów."
+      },
+      {
+        "title": "Planowanie i doradztwo",
+        "description": "Świadczenie konsultacji i doradztwa w zakresie strategicznego rozwoju infrastruktury IT, a także planowania wzrostu i ekspansji."
+      }
+    ]
+  },
+  "solution": {
+    "title": "Nowoczesne Rozwiązania",
+    "description": "Specjalizujemy się w rozwiązaniach biznesowych nowej generacji, optymalizujemy efektywność. Klienci have been obsługiwani by our company.",
+    "pageTitle": "Nowoczesne Rozwiązania",
+    "pageDescription": "Specjalizujemy się w zaawansowanych rozwiązaniach biznesowych, optymalizujemy efektywność.",
+    "options": [
+      {
+        "title": "Technologie chmurowe",
+        "description": "Wykorzystuj platformy chmurowe dla elastyczności i skalowalności, umożliwiając szybkie wdrażanie i skalowanie aplikacji i zasobów."
+      },
+      {
+        "title": "Sztuczna inteligencja i analiza danych",
+        "description": "Stosuj sztuczną inteligencję i analizę danych, aby uzyskać cenne wnioski z dużych ilości informacji, automatyzować procesy i przewidywać trendy."
+      },
+      {
+        "title": "Internet rzeczy (IoT)",
+        "description": "Integruj urządzenia i sensory do zbierania danych w czasie rzeczywistym w celu optymalizacji produkcji, zarządzania zasobami i poprawy usług."
+      },
+      {
+        "title": "Cyberbezpieczeństwo i ochrona danych",
+        "description": "Wprowadź zaawansowane rozwiązania w celu zapewnienia bezpieczeństwa danych i sieci, w tym mechanizmów wykrywania zagrożeń i zapobiegania atakom."
+      },
+      {
+        "title": "Automatyzacja procesów",
+        "description": "Automatyzuj powtarzalne zadania i procesy biznesowe za pomocą robotyzacji procesów (RPA), aby poprawić efektywność i zredukować ryzyko błędów."
+      },
+      {
+        "title": "Elastyczne modele pracy",
+        "description": "Wprowadź rozwiązania pracy zdalnej, zapewniając elastyczność dla pracowników i zwiększając produktywność."
+      },
+      {
+        "title": "Aplikacje mobilne i doświadczenie użytkownika",
+        "description": "Rozwijaj aplikacje mobilne i interfejsy użytkownika, które zapewniają łatwość użytkowania i spersonalizowane doświadczenia dla klientów."
+      }
+    ]
+  }
+}

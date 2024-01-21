@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  background: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+
+  .container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 28px 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .options {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+
+    .links {
+      display: flex;
+      align-items: flex-start;
+      gap: 48px;
+
+      .link {
+        color: #616161;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;
+        text-decoration: none;
+
+        &:hover {
+          color: #E75934;
+        }
+
+        &:active {
+          color: #A93719
+        }
+
+      }
+    }
+  }
+}
+
+
+
+

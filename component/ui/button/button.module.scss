@@ -1,0 +1,56 @@
+@mixin button(
+  $background,
+  $activeBackground,
+  $hoverBackground,
+  $disabledBackground
+) {
+  cursor: pointer;
+
+
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+
+  display: flex;
+  min-width: 215px;
+  padding: 16px 40px;
+  gap: 8px;
+
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  font-style: normal;
+  line-height: 140%;
+
+  background: $background;
+  border: none;
+
+  &:hover {
+    background: $hoverBackground;
+  }
+
+  &:disabled {
+    cursor: default;
+    background: $disabledBackground;
+  }
+
+  &:active {
+    background: $activeBackground;
+  }
+}
+.link,
+.primary {
+  @include button(
+                  #E75934,
+                  #A93719,
+                  #D34721,
+                  #EC957E
+  );
+
+}
+
+
+.fullWidth {
+  width: 100%;
+}

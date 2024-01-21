@@ -1,0 +1,43 @@
+
+:root {
+  html {
+    box-sizing: border-box;
+    font-size: 100%;
+
+
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  .os-scrollbar{
+    --os-size: 6px;
+    --os-track-bg:#E0E0E0;
+    --os-track-bg-hover: #E0E0E0;
+    --os-track-bg-active: #E0E0E0;
+    --os-track-border-radius: 100px;
+    --os-handle-max-size: 14%;
+
+  }
+  .os-scrollbar-track{
+    left: -630px;
+  }
+
+
+
+  body {
+    margin: 0;
+    padding: 0;
+
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}

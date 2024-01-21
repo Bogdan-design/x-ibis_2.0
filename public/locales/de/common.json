@@ -1,0 +1,220 @@
+{
+  "Home": "Heim",
+  "Services": "Dienstleistungen",
+  "About": "Um",
+  "Contact": "Kontakt",
+  "Home page title": "Wir machen Ihre IT-Infrastruktur zuverlässig, modern und sicher.",
+  "Home page button": "In Kontakt kommen",
+  "Back to Services": "Zurück zu den Diensten",
+  "have been": "von unserem Unternehmen betreut worden",
+  "What we do": "Was wir tun",
+  "We specialize": "Wir haben uns auf IT-Infrastruktur und Sicherheit spezialisiert.",
+  "Our mission": "Unsere Mission besteht darin, moderne Technologielösungen zu entwickeln und aufrechtzuerhalten, um Zuverlässigkeit, Effizienz und Schutz sicherzustellen.",
+  "experienced": "Wir sind ein erfahrenes Unternehmen im Bereich IT-Infrastruktur und Sicherheit, angetrieben von Innovationen seit Tag eins.",
+  "collaborate": "Wir arbeiten eng mit unseren Kunden zusammen und entwickeln maßgeschneiderte Lösungen, die perfekt auf ihre Ziele und Bedürfnisse abgestimmt sind.",
+  "Our team": "Unser Team verfügt über tiefgreifende Kenntnisse bei der Navigation in der komplexen Informationsumgebung von heute. Wir verstehen, dass eine solide Infrastruktur das Fundament für den geschäftlichen Erfolg ist.",
+  "employees": "Alle unsere Mitarbeiter sind zertifizierte Fachleute.",
+  "boasts expertise": "Unser Team verfügt über umfassende Expertise in der Navigation in der komplexen Informationsumgebung von heute. Wir verstehen, dass eine solide Infrastruktur das Fundament für den Erfolg im Geschäft darstellt.",
+  "contact text": "Kontaktieren Sie uns, um mehr über unsere IT-Infrastrukturdienstleistungen zu erfahren und wie wir Ihnen bei der Erreichung Ihrer geschäftlichen Ziele helfen können.",
+  "formName": "Name",
+  "formEmail": "E-Mail",
+  "formPhone": "Telefon",
+  "formMessage": "Nachricht",
+  "Sent": "Gesendet",
+  "audit": {
+    "title": "IT-Prüfung",
+    "description": "Wir ermöglichen Unternehmen, ihre Informationssysteme vollständig zu erfassen und zu verbessern.",
+    "pageTitle": "IT Audit",
+    "pageDescription": "Wir ermöglichen Unternehmen, ihre Informationssysteme vollständig zu erfassen und zu verbessern.",
+    "options": [
+      {
+        "title": "Infrastrukturanalyse",
+        "description": "Bewertung des aktuellen Zustands der IT-Infrastruktur, einschließlich Hardware, Software, Netzwerktopologie und Cloud-Ressourcen."
+      },
+      {
+        "title": "Sicherheit und Schwachstellen",
+        "description": "Führen Sie einen Schwachstellen-Scan durch und analysieren Sie Sicherheitssysteme, einschließlich Authentifizierung, Autorisierung, Verschlüsselung und Datenschutz."
+      },
+      {
+        "title": "Regulatorische Compliance",
+        "description": "Stellen Sie sicher, dass das Unternehmen den relevanten Branchenvorschriften und Datenschutzstandards (z.B. DSGVO, HIPAA) je nach Geschäftsbereich entspricht."
+      },
+      {
+        "title": "Backup und Wiederherstellung",
+        "description": "Bewerten Sie Strategien zur Datensicherung und Wiederherstellung, um sicherzustellen, dass Systeme im Falle von Ausfällen wiederhergestellt werden können."
+      },
+      {
+        "title": "Netzwerkinfrastruktur",
+        "description": "Analyse der Netzwerkarchitektur, Leistung, Segmentierung, Verkehrsverwaltung und Sicherheit."
+      },
+      {
+        "title": "Prozesse und Leistung",
+        "description": "Untersuchung von Geschäftsprozessen und ihrer Abstimmung auf IT-Systeme, Identifizierung von Engpässen und Vorschläge zur Optimierung der Leistung."
+      },
+      {
+        "title": "Ressourcenmanagement",
+        "description": "Analyse der Nutzung von IT-Ressourcen wie Servern, Datenspeicher und Softwarelizenzen zur Kostenoptimierung."
+      }
+    ]
+  },
+  "security": {
+    "title": "Sicherheit",
+    "description": "Mit Schwerpunkt auf der Sicherung Ihres Unternehmens bieten wir komplexe Cybersicherheitslösungen.",
+    "pageTitle": "Sicherheit",
+    "pageDescription": "Wir bieten umfassende Lösungen zur Erkennung, Verhinderung und Reaktion auf Cyberbedrohungen.",
+    "options": [
+      {
+        "title": "Identifikation und Authentifizierung",
+        "description": "Implementieren Sie Identifikations- und Zwei-Faktor-Authentifizierungsmechanismen, um sicherzustellen, dass nur autorisierte Benutzer auf Systeme zugreifen."
+      },
+      {
+        "title": "Zugriffsrechtsverwaltung",
+        "description": "Beschränken Sie die Zugriffsrechte von Benutzern, indem Sie die minimal notwendigen Berechtigungen gemäß ihren Rollen und Verantwortlichkeiten bereitstellen."
+      },
+      {
+        "title": "Datenverschlüsselung",
+        "description": "Wenden Sie Verschlüsselung an, um Daten im Ruhezustand und während der Übertragung zu schützen und die Privatsphäre auch im Falle von Lecks sicherzustellen."
+      },
+      {
+        "title": "Überwachung und Bedrohungserkennung",
+        "description": "Implementieren Sie Überwachungssysteme, die Aktivitäten in Echtzeit analysieren und anomale Verhaltensweisen erkennen, die auf mögliche Bedrohungen hinweisen."
+      },
+      {
+        "title": "Antiviren- und Antischadsoftware-Schutz",
+        "description": "Verwenden Sie aktuelle Antiviren- und Antischadsoftware, um Malware zu erkennen und zu neutralisieren."
+      },
+      {
+        "title": "Benutzerschulung und -bewusstsein",
+        "description": "Bieten Sie Mitarbeitern regelmäßige Schulungen zum Thema Cybersicherheit, um das Risiko von Social Engineering zu reduzieren."
+      },
+      {
+        "title": "Vorfallplanung und -reaktion",
+        "description": "Entwickeln Sie einen Plan zur Reaktion auf Sicherheitsvorfälle, einschließlich Verfahren zur Benachrichtigung, Wiederherstellung und rechtzeitigen Kommunikation mit Interessenvertretern."
+      },
+      {
+        "title": "Systemüberprüfung und -prüfung",
+        "description": "Führen Sie regelmäßige Sicherheitsprüfungen durch, um Schwachstellen zu identifizieren, die Einhaltung zu überprüfen und die Sicherheitsstrategie zu verbessern."
+      }
+    ]
+  },
+  "ensuring": {
+    "title": "Gewährleistung der Zuverlässigkeit der Infrastruktur",
+    "description": "Unsere Spezialität liegt in der Schaffung einer zuverlässigen IT-Infrastruktur für effiziente Abläufe.",
+    "pageTitle": "Gewährleistung der Zuverlässigkeit der Infrastruktur",
+    "pageDescription": "Unsere Spezialität liegt in der Schaffung einer zuverlässigen IT-Infrastruktur für effiziente Betriebsabläufe.",
+    "options": [
+      {
+        "title": "Analyse und Planung",
+        "description": "Beginnen Sie mit einer ausführlichen Analyse der Geschäftsbedürfnisse und -ziele, um einen Infrastrukturplan zu entwickeln, der aktuellen und zukünftigen Anforderungen gerecht wird."
+      },
+      {
+        "title": "Technologieauswahl",
+        "description": "Bestimmen Sie optimale Technologien und Lösungen, einschließlich Server, Datenspeicher, Netzwerkgeräte, Cloud-Plattformen usw."
+      },
+      {
+        "title": "Redundanz und Widerstandsfähigkeit",
+        "description": "Entwickeln Sie Strategien für die Redundanz von Daten und Komponenten, um die Geschäftskontinuität und schnelle Wiederherstellung nach Ausfällen sicherzustellen."
+      },
+      {
+        "title": "Netzwerksicherheit",
+        "description": "Implementieren Sie Sicherheitsmaßnahmen wie Firewalls, Intrusion Detection Systems (IDS) und Intrusion Prevention Systems (IPS), um das Risiko von Cyberangriffen zu minimieren."
+      },
+      {
+        "title": "Verschlüsselung und Authentifizierung",
+        "description": "Wenden Sie die Verschlüsselung von Daten im Ruhezustand und während der Übertragung sowie die Zwei-Faktor-Authentifizierung an, um die Zugangssicherheit zu verbessern."
+      },
+      {
+        "title": "Überwachung und Management",
+        "description": "Implementieren Sie Überwachungssysteme, die den Zustand der Infrastruktur ständig überwachen, auf aufkommende Probleme hinweisen und bei der operativen Unterstützung helfen."
+      },
+      {
+        "title": "Updates und Patches",
+        "description": "Aktualisieren Sie regelmäßig Betriebssysteme, Anwendungen und anfällige Komponenten, um das Risiko von Schwachstellen und Angriffen zu minimieren."
+      },
+      {
+        "title": "Skalierbarkeit",
+        "description": "Gestalten Sie Ihre Infrastruktur so, dass sie mit dem Wachstum Ihres Unternehmens mithalten kann, um zukünftige Einschränkungen zu vermeiden."
+      },
+      {
+        "title": "Backup und Wiederherstellung",
+        "description": "Erstellen Sie regelmäßig Backups von Daten und testen Sie Wiederherstellungsverfahren, um Verluste im Falle von Ausfällen zu minimieren."
+      }
+    ]
+  },
+  "administration": {
+    "title": "IT-Verwaltung",
+    "description": "Unsere professionelle IT-Verwaltung sorgt dafür, dass Ihre Technologie reibungslos läuft.",
+    "pageTitle": "IT-Verwaltung",
+    "pageDescription": "Unsere professionelle IT-Verwaltung sorgt für einen reibungslosen Betrieb Ihrer Technologie.",
+    "options": [
+      {
+        "title": "Installation und Konfiguration von Geräten",
+        "description": "Durchführung von Installation und Konfiguration von Servern, Computern, Netzwerkgeräten und anderen Geräten gemäß den betrieblichen Anforderungen."
+      },
+      {
+        "title": "Systemwartung",
+        "description": "Kontinuierliche Überwachung des Systemzustands, Durchführung regelmäßiger Wartungsarbeiten, einschließlich Upgrades, Optimierung und Fehlerbehebung."
+      },
+      {
+        "title": "Betriebssystemverwaltung",
+        "description": "Verwaltung von Betriebssystemen, Installation von Patches und Updates, Sicherstellung eines stabilen und sicheren Betriebs."
+      },
+      {
+        "title": "Benutzer- und Ressourcenverwaltung",
+        "description": "Erstellung und Verwaltung von Benutzerkonten, Zuweisung von Zugriffsrechten, Überwachung der Ressourcenauslastung."
+      },
+      {
+        "title": "Backup und Wiederherstellung",
+        "description": "Entwicklung und Implementierung von Daten-Backup-Strategien und Testen von Wiederherstellungsverfahren."
+      },
+      {
+        "title": "Technischer Support",
+        "description": "Bereitstellung von technischem Support für Mitarbeiter bei Problemen mit Hardware, Software und Netzwerken über verschiedene Kommunikationskanäle."
+      },
+      {
+        "title": "Sicherheitsüberwachung",
+        "description": "Umsetzung von Sicherheitsmaßnahmen, einschließlich Antivirenprogrammen, Firewalls, Intrusion Detection Systems und Log-Analyse."
+      },
+      {
+        "title": "Planung und Beratung",
+        "description": "Bereitstellung von Beratung und Ratschlägen zur strategischen Entwicklung der IT-Infrastruktur sowie zur Planung von Wachstum und Expansion."
+      }
+    ]
+  },
+  "solution": {
+    "title": "Moderne Lösungen",
+    "description": "Spezialisiert auf Business-Lösungen der nächsten Stufe, optimieren wir die Effizienz.",
+    "pageTitle": "Moderne Lösungen",
+    "pageDescription": "Spezialisiert auf hochmoderne Geschäftslösungen, optimieren wir die Effizienz.",
+    "options": [
+      {
+        "title": "Cloud-Technologien",
+        "description": "Nutzen Sie Cloud-Plattformen für Flexibilität und Skalierbarkeit, um Anwendungen und Ressourcen schnell bereitzustellen und zu skalieren."
+      },
+      {
+        "title": "Künstliche Intelligenz und Datenanalyse",
+        "description": "Setzen Sie KI und Datenanalyse ein, um wertvolle Erkenntnisse aus großen Datenmengen zu gewinnen, Prozesse zu automatisieren und Trends vorherzusagen."
+      },
+      {
+        "title": "Internet der Dinge (IoT)",
+        "description": "Integrieren Sie Geräte und Sensoren, um Echtzeitdaten zur Optimierung der Produktion, Ressourcenverwaltung und Verbesserung von Dienstleistungen zu sammeln."
+      },
+      {
+        "title": "Cybersicherheit und Datenschutz",
+        "description": "Implementieren Sie fortschrittliche Lösungen zur Sicherung von Daten und Netzwerken, einschließlich Mechanismen zur Erkennung von Bedrohungen und zur Verhinderung von Angriffen."
+      },
+      {
+        "title": "Prozessautomatisierung",
+        "description": "Automatisieren Sie wiederholte Aufgaben und Geschäftsprozesse mit Hilfe von Robotic Process Automation (RPA), um die Effizienz zu steigern und das Fehlerrisiko zu minimieren."
+      },
+      {
+        "title": "Flexible Arbeitsmodelle",
+        "description": "Implementieren Sie Lösungen für die Fernarbeit, um den Mitarbeitern Flexibilität zu bieten und die Produktivität zu steigern."
+      },
+      {
+        "title": "Mobile Anwendungen und Benutzererfahrung",
+        "description": "Entwickeln Sie mobile Anwendungen und Benutzeroberflächen, die Benutzerfreundlichkeit und personalisierte Erlebnisse für Kunden bieten."
+      }
+    ]
+  }
+}

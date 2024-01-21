@@ -1,0 +1,28 @@
+.certification{
+  display: flex;
+  justify-content: center;
+  .container{
+    max-width: 1440px;
+    width: 100%;
+    padding: 120px 165px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+    .text{
+      display: flex;
+      width: 540px;
+      flex-direction: column;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 32px;
+    }
+    .images{
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+
+    }
+  }
+}

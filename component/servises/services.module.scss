@@ -1,0 +1,27 @@
+.services {
+
+  .container {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+
+
+    .description {
+      max-width: 1440px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 165px;
+      gap: 32px;
+
+      .cards {
+        display: flex;
+        align-self: stretch;
+        gap: 30px;
+        flex-wrap: wrap;
+
+      }
+    }
+  }
+
+}
