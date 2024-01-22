@@ -23,3 +23,4 @@ export const Typography = <T extends ElementType = 'h2'>({
     const font: CSSProperties = variant === 'title' ? monumentExtended.style : {}
     return <Component style={font} className={classNames} {...rest}/>
 }
+

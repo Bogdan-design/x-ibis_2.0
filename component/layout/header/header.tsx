@@ -21,10 +21,9 @@ export const Header = () => {
                 <div className={s.options}>
                     <nav>
                         <div className={s.links}>
-                            {links.map(l => (
-                                <Link className={s.link} key={l.hash} href={`${'/'}${l.hash}`}>{t(`${l.name}`)}
-                                </Link>)
-                            )}
+                            {links.slice(1).map((l) => (
+                                <Link className={s.link} key={l.hash} href={`/${l.hash}`}>{t(`${l.name}`)}</Link>
+                            ))}
                         </div>
                     </nav>
                     <Menu/>
