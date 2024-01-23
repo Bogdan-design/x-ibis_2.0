@@ -20,7 +20,6 @@ export default function RootLayout({children}: { children: ReactNode }) {
         <html lang={Constants.EN}>
         <body className={`${BDO_Grotesk.className}`}>
         <div>
-            <Header/>
             {children}
             <Toaster position='bottom-center'/>
         </div>

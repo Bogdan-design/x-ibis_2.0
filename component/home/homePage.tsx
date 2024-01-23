@@ -6,12 +6,14 @@ import {useTranslation} from "next-i18next";
 import {monumentExtended} from "@/fonts/fonts";
 import {Typography} from "@/component/ui/typography/typography";
 import s from './homePage.module.scss'
+import {Header} from "@/component/layout/header/header";
 
 export const HomePage =() => {
     const {t}=useTranslation()
 
     return (
         <section id='home' className={s.homePage}>
+            <Header/>
             <div className={s.container}>
                 <div className={s.description} >
                     <Typography as={'h1'} style={monumentExtended.style} className={s.title}>{t('Home page title')}</Typography>
