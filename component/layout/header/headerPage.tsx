@@ -9,7 +9,7 @@ import s from './header.module.scss'
 import {monumentExtended} from "@/fonts/fonts";
 
 export const HeaderPage = () => {
-    const {t}=useTranslation()
+    const {t} = useTranslation()
 
 
     return (
@@ -17,7 +17,7 @@ export const HeaderPage = () => {
             <div className={s.container}>
 
                 <Link href={'/'}>
-                    <Logo style={{width: '154px', height: '31px'}}/>
+                    <Logo/>
                 </Link>
                 <div className={s.options}>
                     <nav>

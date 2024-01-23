@@ -6,6 +6,7 @@ import Link from "next/link";
 import {Menu} from "@/component/menu/menu";
 import {useTranslation} from "next-i18next";
 import s from './header.module.scss'
+import {monumentExtended} from "@/fonts/fonts";
 
 export const Header = () => {
     const {t}=useTranslation()
@@ -14,15 +15,14 @@ export const Header = () => {
     return (
         <header className={s.header}>
             <div className={s.container}>
-
                 <Link href={'/'}>
-                    <Logo style={{width: '90px', height: '18px'}}/>
+                    <Logo/>
                 </Link>
                 <div className={s.options}>
                     <nav>
                         <div className={s.links}>
                             {links.slice(1).map((l) => (
-                                <Link className={s.link} key={l.hash} href={`/${l.hash}`}>{t(`${l.name}`)}</Link>
+                                <Link style={monumentExtended.style} className={s.link} key={l.hash} href={`/${l.hash}`}>{t(`${l.name}`)}</Link>
                             ))}
                         </div>
                     </nav>
