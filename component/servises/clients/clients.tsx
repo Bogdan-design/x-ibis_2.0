@@ -3,7 +3,7 @@ import React from 'react';
 import nodral from '@/assest/icon/nodral.png'
 import times from '@/assest/icon/tines.png'
 import Image from "next/image";
-import s from 'component/servises/clients/clients.module.scss'
+import s from './clients.module.scss'
 import {monumentExtended} from "@/fonts/fonts";
 import {useTranslation} from "next-i18next";
 
@@ -17,7 +17,7 @@ export const Clients = () => {
         <section className={s.clients}>
             <div className={s.container}>
                 <div className={s.description}>
-                    <p style={monumentExtended.style} className={s.quantity}>100+</p>
+                    <p style={monumentExtended.style} className={s.quantity}>20+</p>
                     <p className={s.text}>{t('have been')}</p>
                 </div>
                 <Image src={'https://galeinvest.pl/wp-content/themes/newgale/images/logo.svg'} style={{backgroundColor: 'none'}} alt={'gala-invest'} width={'163'}
