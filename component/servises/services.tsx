@@ -8,17 +8,17 @@ import {useTranslation} from "next-i18next";
 import s from './services.module.scss'
 
 export const Services = () => {
-    const {t}=useTranslation()
+    const {t} = useTranslation()
 
     return (
         <section id={'services'} className={s.services}>
             <Clients/>
+            <Typography variant='title' className={s.title}>{t('What we do')}</Typography>
             <div className={s.container}>
                 <div className={s.description}>
-                    <Typography>{t('What we do')}</Typography>
                     <div className={s.cards}>
                         {whatWeDoData.map((s, i) => (
-                                <Card key={i} {...s}/>
+                            <Card key={i} {...s}/>
                         ))}
                     </div>
                 </div>
