@@ -7,7 +7,7 @@ type TextProps<T extends ElementType = 'h2'> = {
     as?: T
     children: ReactNode,
     className?: string,
-    variant?: 'title' | 'text'
+    variant?: 'title'
 }
 
 

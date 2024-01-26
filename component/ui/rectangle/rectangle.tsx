@@ -2,16 +2,31 @@
 import React from 'react';
 import s from './rectangle.module.scss'
 import {Typography} from "@/component/ui/typography/typography";
+import clsx from 'clsx'
+
+import {useTranslation} from "next-i18next";
 
 type RectangleProps = {
-    variant: string
-    text:string
+    side: 'left'
+    size?: 'bg'
+    bgc?: 'orange'
+    variant?: string
+    text: string
 }
 
-export const Rectangle = () => {
+export const Rectangle = ({variant, bgc, side, size, text}: RectangleProps) => {
+    const {t} = useTranslation()
+
+    const classNames = {
+        root: clsx(s.container,side === 'left' ? s.left : ''),
+        rectangle: clsx(s.rectangle, size === "bg" && s.bg, bgc === 'orange' && s.orange)
+    }
+
     return (
-        <section className={s.rectangle}>
-            <Typography className={s.title}>What we do</Typography>
+        <section className={classNames.root}>
+            <div className={classNames.rectangle}>
+                <Typography  className={s.title}>{t(text)}</Typography>
+            </div>
         </section>
     );
 };

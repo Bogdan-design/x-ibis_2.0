@@ -1,11 +1,9 @@
 'use client'
 import React from 'react';
-import {whatWeDoData} from "@/lid/data";
-import {Card} from "@/component/servises/card/card";
 import {Clients} from "@/component/servises/clients/clients";
-import {Typography} from "@/component/ui/typography/typography";
 import {useTranslation} from "next-i18next";
 import s from './services.module.scss'
+import {Rectangle} from "@/component/ui/rectangle/rectangle";
 
 export const Services = () => {
     const {t} = useTranslation()
@@ -13,16 +11,16 @@ export const Services = () => {
     return (
         <section id={'services'} className={s.services}>
             <Clients/>
-            <Typography variant='title' className={s.title}>{t('What we do')}</Typography>
-            <div className={s.container}>
-                <div className={s.description}>
-                    <div className={s.cards}>
-                        {whatWeDoData.map((s, i) => (
-                            <Card key={i} {...s}/>
-                        ))}
-                    </div>
-                </div>
-            </div>
+            <Rectangle text={'What we do'} bgc={'orange'} side='left'/>
+            {/*<div className={s.container}>*/}
+            {/*    <div className={s.description}>*/}
+            {/*        <div className={s.cards}>*/}
+            {/*            {whatWeDoData.map((s, i) => (*/}
+            {/*                <Card key={i} {...s}/>*/}
+            {/*            ))}*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
         </section>
     );
 };

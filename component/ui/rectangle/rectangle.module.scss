@@ -1,0 +1,33 @@
+
+.container{
+
+  .rectangle {
+    height: 6.6875rem;
+    flex-shrink: 0;
+    border-radius: 6.25rem 0 0 6.25rem;
+    border: 3px solid #E75934;
+
+
+    .title {
+
+      color: #FFF;
+
+      font-size: 3.125rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120%;
+    }
+  }
+}
+
+.left{
+  padding-left: 17%;
+}
+
+.bg{
+  height: 7.9375rem;
+}
+
+.orange{
+  background-color: #E75934;
+}
