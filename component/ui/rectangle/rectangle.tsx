@@ -1,8 +1,8 @@
 'use client'
 import React from 'react';
-import s from './rectangle.module.scss'
 import {Typography} from "@/component/ui/typography/typography";
 import clsx from 'clsx'
+import s from './rectangle.module.scss'
 
 import {useTranslation} from "next-i18next";
 
@@ -18,14 +18,14 @@ export const Rectangle = ({variant, bgc, side, size, text}: RectangleProps) => {
     const {t} = useTranslation()
 
     const classNames = {
-        root: clsx(s.container,side === 'left' ? s.left : ''),
+        main: clsx(s.container, side === 'left' ? s.left : ''),
         rectangle: clsx(s.rectangle, size === "bg" && s.bg, bgc === 'orange' && s.orange)
     }
 
     return (
-        <section className={classNames.root}>
+        <section className={classNames.main}>
             <div className={classNames.rectangle}>
-                <Typography  className={s.title}>{t(text)}</Typography>
+                <Typography className={s.title}>{t(text)}</Typography>
             </div>
         </section>
     );

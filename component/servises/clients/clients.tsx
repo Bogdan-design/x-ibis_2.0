@@ -3,9 +3,9 @@ import React from 'react';
 import nodral from '@/assest/icon/nodral.png'
 import times from '@/assest/icon/tines.png'
 import Image from "next/image";
-import s from './clients.module.scss'
 import {monumentExtended} from "@/fonts/fonts";
 import {useTranslation} from "next-i18next";
+import s from './clients.module.scss'
 
 
 export const Clients = () => {

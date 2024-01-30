@@ -1,26 +1,33 @@
 
-.container {
-  .rectangle {
+  .container {
     display: flex;
-    align-items: center;
-    border-radius: 6.25rem 0 0 6.25rem;
-    border: 3px solid #E75934;
-
-    padding: 34px 53px;
+    justify-content: right;
+    width: 88%;
 
 
-    .title {
-      color: #FFF;
-      font-size: 50px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 120%;
+    .rectangle {
+      display: flex;
+      align-items: center;
+      border-radius: 6.25rem 0 0 6.25rem;
+      border: 3px solid #E75934;
+
+      padding: 34px 53px;
+
+
+      .title {
+        color: #FFF;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+      }
     }
   }
-}
+
+
 
 .left {
-  padding-left: 12%;
+
 }
 
 .bg {
