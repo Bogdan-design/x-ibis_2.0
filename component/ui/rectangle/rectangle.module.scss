@@ -1,8 +1,9 @@
 
   .container {
-    display: flex;
-    justify-content: right;
-    width: 88%;
+    //display: flex;
+    //justify-content: right;
+
+    padding-left: 198px;
 
 
     .rectangle {
@@ -10,7 +11,7 @@
       align-items: center;
       border-radius: 6.25rem 0 0 6.25rem;
       border: 3px solid #E75934;
-
+      width: 100%;
       padding: 34px 53px;
 
 
