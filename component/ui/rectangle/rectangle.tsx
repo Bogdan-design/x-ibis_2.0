@@ -7,7 +7,7 @@ import s from './rectangle.module.scss'
 import {useTranslation} from "next-i18next";
 
 type RectangleProps = {
-    side: 'left'
+    side: 'left' | 'right'
     size?: 'bg'
     bgc?: 'orange'
     variant?: string
@@ -18,8 +18,9 @@ export const Rectangle = ({variant, bgc, side, size, text}: RectangleProps) => {
     const {t} = useTranslation()
 
     const classNames = {
-        main: clsx(s.container, side === 'left' ? s.left : ''),
-        rectangle: clsx(s.rectangle, size === "bg" && s.bg, bgc === 'orange' && s.orange)
+        main: clsx(s.container, side === 'left' ? s.left : s.right),
+        rectangle: clsx(s.rectangle, size === "bg" && s.bg, bgc === 'orange' && s.orange),
+        text:clsx(s.title,bgc !== "orange" ? s.text : '' )
     }
 
     return (
