@@ -6,7 +6,6 @@ import Link from "next/link";
 import {Menu} from "@/component/menu/menu";
 import {useTranslation} from "next-i18next";
 import s from './header.module.scss'
-import {monumentExtended} from "@/fonts/fonts";
 
 export const HeaderPage = () => {
     const {t} = useTranslation()
