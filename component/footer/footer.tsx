@@ -19,17 +19,21 @@ export const Footer = () => {
                 <div className={s.options}>
                     <nav className={s.links}>
                             {links.map(l => (
-                                <Link style={monumentExtended.style} className={s.link} key={l.hash} href={l.hash}>
+                                <Link style={monumentExtended.style}
+                                      className={s.link}
+                                      key={l.hash}
+                                      href={l.hash}>
                                     {t(`${l.name}`)}
                                 </Link>)
                             )}
-                    </nav>
-                    <Link href={'https://www.linkedin.com/company/x-ibis'}>
+                    <Link className={s.linkedin} href={'https://www.linkedin.com/company/x-ibis'}>
                         <Linkedin/>
                     </Link>
-                    <Link href={'/#home'} className={s.button}>
-                        <Arrow className={s.up}/>
-                    </Link>
+                        
+                        <Link href={'/#home'} className={s.button}>
+                            <Arrow className={s.up}/>
+                        </Link>
+                    </nav>
                 </div>
             </div>
         </footer>

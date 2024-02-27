@@ -21,6 +21,7 @@
         margin: 0;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         gap: 48px;
 
         .link {
@@ -31,11 +32,16 @@
           font-weight: 500;
           line-height: 140%;
           &:hover {
-            color: #E75934;
+            color: #514E4E;
           }
 
           &:active {
-            color: #A93719
+            color: #514E4E
+          }
+        }
+        .linkedin{
+          &:hover {
+            stroke: #514E4E;
           }
         }
       }
@@ -43,15 +49,23 @@
       .button {
         cursor: pointer;
         display: flex;
+        width: 40px;
+        height: 40px;
         justify-content: center;
         align-items: center;
         flex-shrink: 0;
+        border: 1px solid #FFFFFF;
+        border-radius: 50%;
+        .up {
+          stroke: #FFFFFF;
+        }
 
         &:hover {
           background-color: #E75934;
+          border-color: #514E4E;
 
           .up {
-            stroke: #FFFFFF;
+            stroke: #514E4E;
           }
         }
         &:active {
@@ -60,10 +74,6 @@
           .up {
             stroke: #FFFFFF;
           }
-        }
-
-        .up {
-          stroke: #E75934;
         }
       }
     }

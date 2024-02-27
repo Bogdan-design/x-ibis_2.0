@@ -10,7 +10,6 @@ import toast from "react-hot-toast";
 import {Typography} from "@/component/ui/typography/typography";
 import {BDO_Grotesk} from "@/fonts/fonts";
 import {useTranslation} from "next-i18next";
-import Frame from "@/assest/icon/frame";
 import {Footer} from "@/component/footer/footer";
 import s from './contact.module.scss'
 

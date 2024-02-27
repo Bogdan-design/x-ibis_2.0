@@ -13,7 +13,7 @@ const SvgComponent = (props: SVGProps<SVGSVGElement>) => (
         </g>
         <defs>
             <clipPath id="a">
-                <path fill="#fff" d="M0 0h24v23.95H0z" />
+                <path d="M0 0h24v23.95H0z" />
             </clipPath>
         </defs>
     </svg>
