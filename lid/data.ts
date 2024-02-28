@@ -29,31 +29,26 @@ export const whatWeDoData = [
     {
         title: 'IT Audit',
         description: 'We enable businesses to fully grasp and enhance their information systems.',
-        icon: createElement(Bubble),
         link: '/audit'
     },
     {
         title: 'Security',
         description: 'Focused on safeguarding your business, we offer complex cyber security solutions.',
-        icon: createElement(ShieldTick),
         link: '/security'
     },
     {
         title: 'Ensuring Reliability infra',
         description: 'Our specialty lies in creating a dependable IT framework for efficient operations.',
-        icon: createElement(Modules),
         link: '/ensuring'
     },
     {
         title: 'IT Administration',
         description: 'Our professional IT administration keeps your tech running smoothly.',
-        icon: createElement(Rocket),
         link: '/administration'
     },
     {
         title: 'Modern Solutions',
         description: 'Specializing in next-level business solutions, we optimize efficiency.',
-        icon: createElement(Around),
         link: '/solution'
     },
 ] as const
