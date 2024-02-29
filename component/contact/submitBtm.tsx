@@ -14,7 +14,6 @@ export const SubmitBtm = ({className, font}: {
     return (
         <Button style={font} className={className} type={'submit'}
                 disabled={pending}
-                fullWidth
         >
             {t('Sent')}
         </Button>

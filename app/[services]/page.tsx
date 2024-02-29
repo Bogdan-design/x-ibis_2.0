@@ -15,7 +15,7 @@ import {Card} from "@/component/servises/card/card";
 function Page({params: {services}}: { params: { services: string } }) {
 
 
-    const {t, ready} = useTranslation(['common'], {bindI18n: 'languageChanged loaded'})
+    const {t} = useTranslation(['common'], {bindI18n: 'languageChanged loaded'})
 
     let dataIndex
 
@@ -39,8 +39,6 @@ function Page({params: {services}}: { params: { services: string } }) {
             return <PageError/>
     }
 
-    if (!ready) return <div>Loading...</div>
-
 
     return <section className={s.main}>
         <div className={s.container}>
@@ -56,10 +54,10 @@ function Page({params: {services}}: { params: { services: string } }) {
             </div>
             <div className={s.options}>
                 <div className={s.list}>
-                    {pagesData[dataIndex].options.map((o, i) => (
-                        // <Content key={i} index={i} page={services} {...o}/>
-                        <Card key={i} title={}/>
-                    ))}
+                    {/*{pagesData[dataIndex].options.map((o, i) => (*/}
+                    {/*    // <Content key={i} index={i} page={services} {...o}/>*/}
+                    {/*    // <Card key={i} title={}/>*/}
+                    {/*))}*/}
                 </div>
             </div>
         </div>
