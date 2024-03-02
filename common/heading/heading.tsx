@@ -10,15 +10,14 @@ export const Heading = ({page}: pageData) => {
 
     const theme:CSSProperties = {
         display: "flex",
-        flexDirection: 'column',
-        alignItems: 'flex-start',
+        alignItems: "center",
         gap: '16px',
     }
 
 
     return (
         <div style={theme}>
-            <Typography>{t(`${page}.pageTitle`)}</Typography>
+            <Typography style={{fontSize: "50px"}}>{t(`${page}.pageTitle`)}</Typography>
             <Typography className={s.description} variant={'text'}>{t(`${page}.pageDescription`)}</Typography>
         </div>
     );

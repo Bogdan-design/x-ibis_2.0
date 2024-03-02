@@ -4,6 +4,7 @@ import {SubmitBtm} from "@/component/contact/submitBtm";
 import Call from '@/assest/icon/call'
 import Location from '@/assest/icon/location'
 import Sms from '@/assest/icon/sms'
+import FrameContacts from '@/assest/icon/frame.contacts'
 import {TextField} from "@mui/material";
 import {sendEmail} from "@/actions/sendEmail";
 import toast from "react-hot-toast";
@@ -15,7 +16,9 @@ import s from './contact.module.scss'
 
 export const Contact = () => {
 
-    const {t} = useTranslation()
+
+
+    const {t} = useTranslation(['common'], {bindI18n: 'languageChanged loaded'})
 
     return (
         <section>
@@ -90,6 +93,7 @@ export const Contact = () => {
                         />
                         <SubmitBtm font={BDO_Grotesk.style} className={s.submit}/>
                     </form>
+                    <FrameContacts />
                 </div>
             </div>
             <Footer/>

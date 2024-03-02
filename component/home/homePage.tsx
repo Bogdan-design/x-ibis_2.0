@@ -5,9 +5,9 @@ import '@/common/local/i18n'
 import {useTranslation} from "next-i18next";
 import {monumentExtended} from "@/fonts/fonts";
 import {Typography} from "@/component/ui/typography/typography";
-import s from './homePage.module.scss'
 import {Header} from "@/component/layout/header/header";
 import HomePageSvg from '@/assest/icon/home.svg'
+import s from './homePage.module.scss'
 
 export const HomePage = () => {
     const {t} = useTranslation()

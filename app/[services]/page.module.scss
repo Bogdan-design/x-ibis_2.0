@@ -1,30 +1,23 @@
 .main {
   display: flex;
   justify-content: center;
-  height: 100vh;
 
   .container {
     max-width: 1440px;
     width: 100%;
-    padding: 140px 165px 90px;
+    padding: 140px 198px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 
     .titleContainer {
       display: flex;
-      max-width: 380px;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 16px;
-
+      align-items: center;
+      gap: 47px;
 
       .link {
         display: flex;
         align-items: center;
-        color: #514E4E;
-        text-decoration: none;
-        gap: 16px;
-        margin-top: 60px;
 
         &:hover {
           .button {
@@ -64,10 +57,12 @@
     }
 
     .options {
-      max-width: 635px;
-      padding: 0 0 0 30px;
-
+      padding-top: 74px;
       .list {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
       }
     }
   }

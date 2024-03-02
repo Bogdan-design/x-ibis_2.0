@@ -1,15 +1,11 @@
 import * as React from "react"
-import { SVGProps, Ref, forwardRef, memo } from "react"
-const SvgComponent = (
-    props: SVGProps<SVGSVGElement>,
-    ref: Ref<SVGSVGElement>
-) => (
+import { SVGProps } from "react"
+const SvgComponent = (props: SVGProps<SVGSVGElement>) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width="373px"
         height="359px"
         fill="none"
-        ref={ref}
         {...props}
     >
         <g clipPath="url(#a)">
@@ -1177,6 +1173,4 @@ const SvgComponent = (
         </defs>
     </svg>
 )
-const ForwardRef = forwardRef(SvgComponent)
-const Memo = memo(ForwardRef)
-export default Memo
+export default SvgComponent
