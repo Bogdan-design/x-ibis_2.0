@@ -18,15 +18,15 @@ export const Rectangle = ({variant, bgc, side, size, text}: RectangleProps) => {
     const {t} = useTranslation()
 
     const classNames = {
-        main: clsx(s.container, side === 'left' ? s.left : s.right),
-        rectangle: clsx(s.rectangle, size === "bg" && s.bg, bgc === 'orange' && s.orange),
-        text:clsx(s.title,bgc !== "orange" ? s.text : '' )
+        main: clsx(s.container, side === 'left' ? s.left : s.right, bgc === 'orange' && s.orange),
+        rectangle: clsx(s.rectangle, size === "bg" && s.bg),
+        text:clsx(s.title,bgc === "orange" ? s.text : '' )
     }
 
     return (
         <section className={classNames.main}>
             <div className={classNames.rectangle}>
-                <Typography className={s.title}>{t(text)}</Typography>
+                <Typography className={classNames.text}>{t(text)}</Typography>
             </div>
         </section>
     );
