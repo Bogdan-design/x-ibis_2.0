@@ -14,21 +14,21 @@ export const Services = () => {
             <div className={s.container}>
                 <Rectangle text={t('What we do')} bgc={'orange'} side='right'/>
                 <div className={s.audit}>
-                    <Rectangle text={t('What we do')} side='left'/>
+                    <Rectangle text={t('IT Audit')} side='left'/>
                     <AuditSvg className={s.image}/>
                     <Typography variant='text'>We enable businesses to fully
                         grasp and enhance their
                         information systems.</Typography>
                 </div>
                 <div className={s.security}>
-                    <Rectangle text={t('What we do')} side='right'/>
+                    <Rectangle text={t('Security')} side='right'/>
                     <AuditSvg className={s.image}/>
                     <Typography variant='text'>We enable businesses to fully
                         grasp and enhance their
                         information systems.</Typography>
                 </div>
                 <div className={s.ensuring}>
-                    <Rectangle text={t('What we do')} side='left'/>
+                    <Rectangle text={t('Ensuring Reliability infra')} side='left'/>
                     <AuditSvg className={s.image}/>
                     <Typography variant='text'>We enable businesses to fully
                         grasp and enhance their
