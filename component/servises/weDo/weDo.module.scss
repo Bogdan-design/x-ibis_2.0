@@ -1,0 +1,48 @@
+.weDo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 37px;
+
+  .weDoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+
+    .weDoTitle {
+      display: flex;
+      justify-content: right;
+      height: 107px;
+      align-items: center;
+      padding: 23px 46px;
+      font-size: 50px;
+      font-weight: bold;
+      line-height: 120%;
+      text-transform: uppercase;
+      position: relative;
+
+      .weDoTitleBg {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 90vw;
+        border-radius: 100px;
+        border: 3px solid #E75934;
+        height: 107px;
+        z-index: -1;
+      }
+    }
+
+    .weDoText {
+      width: 262px;
+      height: 66px;
+      color: #555;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 120%;
+    }
+  }
+
+}

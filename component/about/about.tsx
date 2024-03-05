@@ -3,7 +3,6 @@ import React from 'react';
 import {Button} from "@/component/ui/button";
 import {Typography} from "@/component/ui/typography/typography";
 import {useTranslation} from "next-i18next";
-import {Rectangle} from "@/component/ui/rectangle/rectangle";
 import Rocket from "@/assest/icon/rocket";
 import s from './about.module.scss'
 
@@ -13,10 +12,10 @@ export const About = () => {
     return (
         <section id={'about'} className={s.about}>
             <div className={s.container}>
-                <Rectangle bgc='orange'
-                           text='WE SPECIALIZED IN IT INFRASTRUCTURE AND SECURITY.'
-                           side='left'
-                />
+                {/*<Rectangle bgc='orange'*/}
+                {/*           text='WE SPECIALIZED IN IT INFRASTRUCTURE AND SECURITY.'*/}
+                {/*           side='left'*/}
+                {/*/>*/}
                 <Typography className={s.title}>
                     {t('We specialize')}
                 </Typography>

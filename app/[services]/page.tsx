@@ -6,7 +6,6 @@ import {pagesData} from "@/lid/data";
 import {Heading} from "@/common/heading/heading";
 import {Card} from "@/common/content/card";
 import {PageError} from "@/common/errors/error404";
-import {useTranslation} from "next-i18next";
 import s from './page.module.scss'
 
 
