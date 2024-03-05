@@ -5,6 +5,7 @@ import {Rectangle} from "@/component/ui/rectangle/rectangle";
 import AuditSvg from "@/assest/icon/it.audit";
 import {Typography} from "@/component/ui/typography/typography";
 import s from './services.module.scss'
+import {monumentExtended} from "@/fonts/fonts";
 
 export const Services = () => {
     const {t} = useTranslation()
@@ -12,9 +13,14 @@ export const Services = () => {
     return (
         <section id={'services'} className={s.services}>
             <div className={s.container}>
-                <Rectangle text={t('What we do')} bgc={'orange'} side='right'/>
+                <div style={monumentExtended.style} className={s.title}>
+                    <div className={s.titleBg}></div>
+                    {t('What we do')}</div>
                 <div className={s.audit}>
-                    <Rectangle text={t('IT Audit')} side='left'/>
+                    {/*<Rectangle text={t('IT Audit')} side='left'/>*/}
+                    <div style={monumentExtended.style} className={s.auditTitle}>
+                        <div className={s.auditTitleBg}></div>
+                        {t('IT Audit')}</div>
                     <AuditSvg className={s.image}/>
                     <Typography variant='text'>We enable businesses to fully
                         grasp and enhance their

@@ -7,7 +7,57 @@
     gap: 47px;
     max-width: 1440px;
     width: 100%;
+
     padding: 95px 198px 84px;
+
+    .title{
+      display: flex;
+      height: 127px;
+      align-items: center;
+      padding: 34px 54px;
+      font-size: 50px;
+      font-weight: 400;
+      line-height: 120%;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      position: relative;
+
+      .titleBg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 90vw;
+        height: 127px;
+        border-radius: 100px;
+        background: #E75934;
+        z-index: -1;
+      }
+    }
+    .audit{
+      .auditTitle{
+        display: flex;
+        justify-content: right;
+        height: 107px;
+        align-items: center;
+        padding: 23px 46px;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 120%;
+        text-transform: uppercase;
+        position: relative;
+        .auditTitleBg{
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 90vw;
+          border-radius: 100px;
+          border: 3px solid #E75934;
+          height: 107px;
+          z-index: -1;
+        }
+      }
+    }
   }
 
 }
+
