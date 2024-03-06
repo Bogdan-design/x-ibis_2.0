@@ -13,7 +13,6 @@
 
     .title {
       display: flex;
-      height: 127px;
       align-items: center;
       padding: 34px 54px;
       font-size: 50px;
@@ -28,7 +27,7 @@
         top: 0;
         left: 0;
         width: 90vw;
-        height: 127px;
+        height: 100%;
         border-radius: 100px;
         background: #E75934;
         z-index: -1;
@@ -38,6 +37,20 @@
   }
 }
 
+.weDoText {
+  width: 262px;
+  height: 66px;
+  color: #555;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
 .security {
+  left: 0;
+}
+
+.administration {
   left: 0;
 }

@@ -5,6 +5,7 @@ import {monumentExtended} from "@/fonts/fonts";
 import {WeDo} from "@/component/servises/weDo/weDo";
 import s from './services.module.scss'
 import AuditSvg from "@/assest/icon/it.audit";
+import {Typography} from "@/component/ui/typography/typography";
 
 export const Services = () => {
     const {t} = useTranslation()
@@ -34,32 +35,45 @@ export const Services = () => {
                 >
                     <AuditSvg/>
                 </WeDo>
-                <WeDo
-                    title={'ENSURING RELIABILITY INFRASTRUCTURE'}
-                    text={'We enable businesses ' +
-                        'to fully grasp and enhance ' +
-                        'their information systems.'}
-                >
+                <div className={s.weDo}>
+                    <div className={s.weDoContainer}>
+                        <div style={monumentExtended.style} className={s.weDoTitle}>
+                            <div className={s.titleBg}></div>
+                            {t('ENSURING RELIABILITY INFRASTRUCTURE')}
+                        </div>
+                        <Typography className={s.weDoText} variant='text'>
+                            text={'We enable businesses ' +
+                            'to fully grasp and enhance ' +
+                            'their information systems.'}
+                        </Typography>
+                    </div>
                     <AuditSvg/>
-                </WeDo>
-                <WeDo
-                    right
-                    className={s.weDoTitleBgRight}
-                    title={'IT Administration'}
-                    text={'We enable businesses ' +
-                        'to fully grasp and enhance ' +
-                        'their information systems.'}
-                >
-                    <AuditSvg/>
-                </WeDo>
-                <WeDo
-                    title={'Modern Solutions'}
-                    text={'We enable businesses ' +
-                        'to fully grasp and enhance ' +
-                        'their information systems.'}
-                >
-                    <AuditSvg/>
-                </WeDo>
+                </div>
+                {/*<WeDo*/}
+                {/*    title={'ENSURING RELIABILITY INFRASTRUCTURE'}*/}
+                {/*    text={'We enable businesses ' +*/}
+                {/*        'to fully grasp and enhance ' +*/}
+                {/*        'their information systems.'}*/}
+                {/*>*/}
+                {/*    <AuditSvg/>*/}
+                {/*</WeDo>*/}
+                {/*<WeDo*/}
+                {/*    className={s.administration}*/}
+                {/*    title={'IT Administration'}*/}
+                {/*    text={'We enable businesses ' +*/}
+                {/*        'to fully grasp and enhance ' +*/}
+                {/*        'their information systems.'}*/}
+                {/*>*/}
+                {/*    <AuditSvg/>*/}
+                {/*</WeDo>*/}
+                {/*<WeDo*/}
+                {/*    title={'Modern Solutions'}*/}
+                {/*    text={'We enable businesses ' +*/}
+                {/*        'to fully grasp and enhance ' +*/}
+                {/*        'their information systems.'}*/}
+                {/*>*/}
+                {/*    <AuditSvg/>*/}
+                {/*</WeDo>*/}
 
             </div>
         </section>
