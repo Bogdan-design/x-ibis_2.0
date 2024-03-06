@@ -3,10 +3,10 @@ import React from 'react';
 import {useTranslation} from "next-i18next";
 import {monumentExtended} from "@/fonts/fonts";
 import {WeDo} from "@/component/servises/weDo/weDo";
-import s from './services.module.scss'
 import AuditSvg from "@/assest/icon/it.audit";
 import {Typography} from "@/component/ui/typography/typography";
 import clsx from "clsx";
+import s from './services.module.scss'
 
 export const Services = () => {
     const {t} = useTranslation()
