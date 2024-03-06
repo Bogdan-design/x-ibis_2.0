@@ -6,9 +6,15 @@ import {WeDo} from "@/component/servises/weDo/weDo";
 import s from './services.module.scss'
 import AuditSvg from "@/assest/icon/it.audit";
 import {Typography} from "@/component/ui/typography/typography";
+import clsx from "clsx";
 
 export const Services = () => {
     const {t} = useTranslation()
+
+    const classNames = {
+        right: clsx(s.weDoTitleBg, s.right),
+        left: clsx(s.weDoTitleBg, s.left),
+    }
 
     return (
         <section id={'services'} className={s.services}>
@@ -38,43 +44,45 @@ export const Services = () => {
                 <div className={s.weDo}>
                     <div className={s.weDoContainer}>
                         <div style={monumentExtended.style} className={s.weDoTitle}>
-                            <div className={s.titleBg}></div>
+                            <div className={classNames.left}></div>
                             {t('ENSURING RELIABILITY INFRASTRUCTURE')}
                         </div>
-                        <Typography className={s.weDoText} variant='text'>
-                            text={'We enable businesses ' +
-                            'to fully grasp and enhance ' +
-                            'their information systems.'}
-                        </Typography>
+                        <div className={s.weDoContent}>
+                            <Typography className={s.text} variant='text'>We enable businesses
+                                to fully grasp and enhance their information systems.
+                            </Typography>
+                            <AuditSvg/>
+                        </div>
                     </div>
-                    <AuditSvg/>
                 </div>
-                {/*<WeDo*/}
-                {/*    title={'ENSURING RELIABILITY INFRASTRUCTURE'}*/}
-                {/*    text={'We enable businesses ' +*/}
-                {/*        'to fully grasp and enhance ' +*/}
-                {/*        'their information systems.'}*/}
-                {/*>*/}
-                {/*    <AuditSvg/>*/}
-                {/*</WeDo>*/}
-                {/*<WeDo*/}
-                {/*    className={s.administration}*/}
-                {/*    title={'IT Administration'}*/}
-                {/*    text={'We enable businesses ' +*/}
-                {/*        'to fully grasp and enhance ' +*/}
-                {/*        'their information systems.'}*/}
-                {/*>*/}
-                {/*    <AuditSvg/>*/}
-                {/*</WeDo>*/}
-                {/*<WeDo*/}
-                {/*    title={'Modern Solutions'}*/}
-                {/*    text={'We enable businesses ' +*/}
-                {/*        'to fully grasp and enhance ' +*/}
-                {/*        'their information systems.'}*/}
-                {/*>*/}
-                {/*    <AuditSvg/>*/}
-                {/*</WeDo>*/}
-
+                <div style={{justifyContent: 'right', gap: '15px'}} className={s.weDo}>
+                    <AuditSvg/>
+                    <div style={{alignItems: 'start'}} className={s.weDoContainer}>
+                        <div style={monumentExtended.style} className={s.weDoTitle}>
+                            <div className={classNames.right}></div>
+                            {t('IT Administration')}
+                        </div>
+                        <div style={{paddingLeft: '46px'}}>
+                            <Typography className={s.text} variant='text'>We enable businesses
+                                to fully grasp and enhance their information systems.
+                            </Typography>
+                        </div>
+                    </div>
+                </div>
+                <div className={s.weDo}>
+                    <div style={{alignItems:'start'}} className={s.weDoContainer}>
+                        <div style={monumentExtended.style} className={s.weDoTitle}>
+                            <div className={classNames.left}></div>
+                            {t('Modern Solutions')}
+                        </div>
+                        <div style={{paddingLeft: '46px',width:'100%',justifyContent:'space-between'}} className={s.weDoContent}>
+                            <Typography className={s.text} variant='text'>We enable businesses
+                                to fully grasp and enhance their information systems.
+                            </Typography>
+                            <AuditSvg/>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     );

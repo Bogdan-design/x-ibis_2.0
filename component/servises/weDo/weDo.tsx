@@ -30,9 +30,11 @@ export const WeDo = ({title, text, children,right,className}: PropsType) => {
                     <div className={classNames.root}></div>
                     {t(title)}
                 </div>
-                <Typography className={s.weDoText} variant='text'>
-                    {text}
-                </Typography>
+                <div style={{paddingLeft:'46px'}}>
+                    <Typography className={s.weDoText} variant='text'>
+                        {text}
+                    </Typography>
+                </div>
             </div>
             {!right && children}
         </div>

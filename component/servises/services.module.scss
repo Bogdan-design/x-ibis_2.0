@@ -1,11 +1,12 @@
 .services {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 
   .container {
     display: flex;
     flex-direction: column;
-    gap: 47px;
+    gap: 57px;
     max-width: 1440px;
     width: 100%;
 
@@ -37,7 +38,7 @@
   }
 }
 
-.weDoText {
+.text {
   width: 262px;
   height: 66px;
   color: #555;
@@ -54,3 +55,57 @@
 .administration {
   left: 0;
 }
+
+.left {
+  right: 0;
+}
+
+.right {
+  left: 0;
+}
+
+.weDo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 37px;
+
+  .weDoContainer {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 27px;
+
+    .weDoTitle {
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      padding: 23px 46px;
+      font-size: 50px;
+      font-weight: bold;
+      line-height: 120%;
+      text-transform: uppercase;
+      position: relative;
+
+      .weDoTitleBg {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 90vw;
+        border-radius: 100px;
+        border: 3px solid #E75934;
+        height: 100%;
+        z-index: -1;
+      }
+    }
+    .weDoContent{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 27px;
+    }
+
+  }
+
+}
+
