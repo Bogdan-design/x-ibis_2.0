@@ -24,6 +24,7 @@ export const Certification = () => {
                 </div>
                 <div className={s.images}>
                     <Cisco/>
+                    <Cisco/>
                     <Image src={aws} alt={'aws'}/>
                 </div>
             </div>
