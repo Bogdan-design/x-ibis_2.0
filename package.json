@@ -16,6 +16,7 @@
     "@react-email/components": "^0.0.7",
     "@types/overlayscrollbars": "^1.12.3",
     "clsx": "^2.0.0",
+    "flickity": "^3.0.0",
     "i18next": "^23.6.0",
     "i18next-browser-languagedetector": "^7.1.0",
     "i18next-chained-backend": "^4.5.0",
