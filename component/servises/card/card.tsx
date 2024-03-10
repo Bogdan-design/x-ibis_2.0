@@ -2,12 +2,12 @@
 import React from 'react';
 import {whatWeDoData} from "@/lid/data";
 import Link from "next/link";
-import s from './card.module.scss'
 import {useTranslation} from "next-i18next";
+import s from './card.module.scss'
 
 type ProjectProps = (typeof whatWeDoData)[number]
 
-export const Card = ({icon,link}:ProjectProps) => {
+export const Card = ({link}:ProjectProps) => {
 
     const {t}=useTranslation()
 
@@ -19,7 +19,7 @@ export const Card = ({icon,link}:ProjectProps) => {
 
     return (
         <Link href={link} className={s.card}>
-            {icon}
+            {/*{icon}*/}
             <h3 className={s.title}>{t(`${fideTitle(link)}.title`)}</h3>
             <p className={s.description}>{t(`${fideTitle(link)}.description`)}</p>
         </Link>
