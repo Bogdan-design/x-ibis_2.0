@@ -3,18 +3,20 @@ import React, {ReactNode} from 'react';
 import {monumentExtended} from "@/fonts/fonts";
 import {Typography} from "@/component/ui/typography/typography";
 import {useTranslation} from "next-i18next";
-import s from './weDo.module.scss';
 import clsx from "clsx";
+import s from './weDo.module.scss';
+import Link from "next/link";
 
 type PropsType = {
     right?: boolean
+    link: string
     title: string
     text: string
     className?: string
     children: ReactNode
 }
 
-export const WeDo = ({title, text, children,right,className}: PropsType) => {
+export const WeDo = ({link,title, text, children,right,className}: PropsType) => {
 
     const {t} = useTranslation()
 
@@ -27,7 +29,7 @@ export const WeDo = ({title, text, children,right,className}: PropsType) => {
             {right && children}
             <div className={s.weDoContainer}>
                 <div style={monumentExtended.style} className={s.weDoTitle}>
-                    <div className={classNames.root}></div>
+                    <Link href={link} className={classNames.root}></Link>
                     {t(title)}
                 </div>
                 <div style={{paddingLeft:'46px'}}>

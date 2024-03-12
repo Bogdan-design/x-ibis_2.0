@@ -7,9 +7,14 @@ import AuditSvg from "@/assest/icon/it.audit";
 import {Typography} from "@/component/ui/typography/typography";
 import clsx from "clsx";
 import s from './services.module.scss'
+import Link from "next/link";
 
 export const Services = () => {
     const {t} = useTranslation()
+
+    const linkToService =(link:string)=>{
+        return link.split('/').join('')
+    }
 
     const classNames = {
         right: clsx(s.weDoTitleBg, s.right),
@@ -24,6 +29,7 @@ export const Services = () => {
                     {t('What we do')}
                 </div>
                 <WeDo
+                    link={'audit'}
                     title={'IT Audit'}
                     text={'We enable businesses ' +
                         'to fully grasp and enhance ' +
@@ -32,6 +38,7 @@ export const Services = () => {
                     <AuditSvg/>
                 </WeDo>
                 <WeDo
+                    link='security'
                     right
                     className={s.security}
                     title={'Security'}
@@ -44,7 +51,7 @@ export const Services = () => {
                 <div className={s.weDo}>
                     <div className={s.weDoContainer}>
                         <div style={monumentExtended.style} className={s.weDoTitle}>
-                            <div className={classNames.left}></div>
+                            <Link href='ensuring' className={classNames.left}></Link>
                             {t('ENSURING RELIABILITY INFRASTRUCTURE')}
                         </div>
                         <div className={s.weDoContent}>
@@ -59,7 +66,7 @@ export const Services = () => {
                     <AuditSvg/>
                     <div style={{alignItems: 'start'}} className={s.weDoContainer}>
                         <div style={monumentExtended.style} className={s.weDoTitle}>
-                            <div className={classNames.right}></div>
+                            <Link href='administration' className={classNames.right}></Link>
                             {t('IT Administration')}
                         </div>
                         <div style={{paddingLeft: '46px'}}>
@@ -72,7 +79,7 @@ export const Services = () => {
                 <div className={s.weDo}>
                     <div style={{alignItems:'start'}} className={s.weDoContainer}>
                         <div style={monumentExtended.style} className={s.weDoTitle}>
-                            <div className={classNames.left}></div>
+                            <Link href='solution' className={classNames.left}></Link>
                             {t('Modern Solutions')}
                         </div>
                         <div style={{paddingLeft: '46px',width:'100%',justifyContent:'space-between'}} className={s.weDoContent}>

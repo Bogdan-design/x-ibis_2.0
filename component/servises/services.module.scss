@@ -32,6 +32,7 @@
         border-radius: 100px;
         background: #E75934;
         z-index: -1;
+
       }
     }
 
@@ -62,7 +63,7 @@
 
 .right {
   left: 0;
-}
+ }
 
 .weDo {
   display: flex;
@@ -96,13 +97,18 @@
         border-radius: 100px;
         border: 3px solid #E75934;
         height: 100%;
-        z-index: -1;
+        &:hover{
+          cursor: pointer;
+          background-color: rgba(128, 128, 128, 0.3);
+        }
+
       }
     }
     .weDoContent{
       display: flex;
       flex-wrap: wrap;
       gap: 27px;
+
     }
 
   }
