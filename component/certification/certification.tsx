@@ -5,8 +5,8 @@ import Image from "next/image";
 import {Typography} from "@/component/ui/typography/typography";
 import {useTranslation} from "next-i18next";
 import "./flickity.scss"
-import s from './certification.module.scss'
 import {monumentExtended} from "@/fonts/fonts";
+import s from './certification.module.scss'
 
 export const Certification = () => {
     const {t}=useTranslation()
@@ -27,34 +27,29 @@ export const Certification = () => {
                     </Typography>
                 </div>
                 <div className={s.images}>
-                    {/*<Flickity*/}
-                    {/*    className={'carousel'} // default ''*/}
-                    {/*    elementType={'div'} // default 'div'*/}
-                    {/*    options={flickityOptions} // takes flickity options {}*/}
-                    {/*    disableImagesLoaded={false} // default false*/}
-                    {/*    reloadOnUpdate // default false*/}
-                    {/*    static // default false*/}
-                    {/*>*/}
-                    {/*    <div className="carousel-cell">*/}
-                    {/*        <Image src={aws} alt={'aws'}/>*/}
-                    {/*    </div>*/}
-                    {/*    <div className="carousel-cell">*/}
+                    <div
 
-                    {/*        <Image src={aws} alt={'aws'}/>*/}
-                    {/*    </div>*/}
-                    {/*    <div className="carousel-cell">*/}
+                    >
+                        <div className="carousel-cell">
+                            <Image src={aws} alt={'aws'}/>
+                        </div>
+                        <div className="carousel-cell">
 
-                    {/*        <Image src={aws} alt={'aws'}/>*/}
-                    {/*    </div>*/}
-                    {/*    <div className="carousel-cell">*/}
+                            <Image src={aws} alt={'aws'}/>
+                        </div>
+                        <div className="carousel-cell">
 
-                    {/*        <Image src={aws} alt={'aws'}/>*/}
-                    {/*    </div>*/}
-                    {/*    /!*<Image src={aws} alt={'aws'}/>*!/*/}
-                    {/*    /!*<Image src={aws} alt={'aws'}/>*!/*/}
-                    {/*    /!*<Image src={aws} alt={'aws'}/>*!/*/}
-                    {/*    /!*<Image src={aws} alt={'aws'}/>*!/*/}
-                    {/*</Flickity>*/}
+                            <Image src={aws} alt={'aws'}/>
+                        </div>
+                        <div className="carousel-cell">
+
+                            <Image src={aws} alt={'aws'}/>
+                        </div>
+                        {/*<Image src={aws} alt={'aws'}/>*/}
+                        {/*<Image src={aws} alt={'aws'}/>*/}
+                        {/*<Image src={aws} alt={'aws'}/>*/}
+                        {/*<Image src={aws} alt={'aws'}/>*/}
+                    </div>
                 </div>
             </div>
         </section>
