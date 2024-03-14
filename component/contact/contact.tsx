@@ -18,7 +18,7 @@ export const Contact = () => {
 
 
 
-    const {t} = useTranslation(['common'], {bindI18n: 'languageChanged loaded'})
+    const {t} = useTranslation()
 
     return (
         <section>
