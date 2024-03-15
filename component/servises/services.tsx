@@ -12,10 +12,6 @@ import Link from "next/link";
 export const Services = () => {
     const {t} = useTranslation()
 
-    const linkToService =(link:string)=>{
-        return link.split('/').join('')
-    }
-
     const classNames = {
         right: clsx(s.weDoTitleBg, s.right),
         left: clsx(s.weDoTitleBg, s.left),
@@ -30,10 +26,8 @@ export const Services = () => {
                 </div>
                 <WeDo
                     link={'audit'}
-                    title={'IT Audit'}
-                    text={'We enable businesses ' +
-                        'to fully grasp and enhance ' +
-                        'their information systems.'}
+                    title={t('audit.title')}
+                    text={t('audit.description')}
                 >
                     <AuditSvg/>
                 </WeDo>
@@ -41,10 +35,8 @@ export const Services = () => {
                     link='security'
                     right
                     className={s.security}
-                    title={'Security'}
-                    text={'We enable businesses ' +
-                        'to fully grasp and enhance ' +
-                        'their information systems.'}
+                    title={t('security.title')}
+                    text={t('security.description')}
                 >
                     <AuditSvg/>
                 </WeDo>
@@ -52,11 +44,10 @@ export const Services = () => {
                     <div className={s.weDoContainer}>
                         <div style={monumentExtended.style} className={s.weDoTitle}>
                             <Link href='ensuring' className={classNames.left}></Link>
-                            {t('ENSURING RELIABILITY INFRASTRUCTURE')}
+                            {t('ensuring.title')}
                         </div>
                         <div className={s.weDoContent}>
-                            <Typography className={s.text} variant='text'>We enable businesses
-                                to fully grasp and enhance their information systems.
+                            <Typography className={s.text} variant='text'>{t('ensuring.description')}
                             </Typography>
                             <AuditSvg/>
                         </div>
@@ -67,11 +58,10 @@ export const Services = () => {
                     <div style={{alignItems: 'start'}} className={s.weDoContainer}>
                         <div style={monumentExtended.style} className={s.weDoTitle}>
                             <Link href='administration' className={classNames.right}></Link>
-                            {t('IT Administration')}
+                            {t('administration.title')}
                         </div>
                         <div style={{paddingLeft: '46px'}}>
-                            <Typography className={s.text} variant='text'>We enable businesses
-                                to fully grasp and enhance their information systems.
+                            <Typography className={s.text} variant='text'>{t('administration.description')}
                             </Typography>
                         </div>
                     </div>
@@ -80,11 +70,10 @@ export const Services = () => {
                     <div style={{alignItems:'start'}} className={s.weDoContainer}>
                         <div style={monumentExtended.style} className={s.weDoTitle}>
                             <Link href='solution' className={classNames.left}></Link>
-                            {t('Modern Solutions')}
+                            {t('solution.title')}
                         </div>
                         <div style={{paddingLeft: '46px',width:'100%',justifyContent:'space-between'}} className={s.weDoContent}>
-                            <Typography className={s.text} variant='text'>We enable businesses
-                                to fully grasp and enhance their information systems.
+                            <Typography className={s.text} variant='text'>{t('solution.description')}
                             </Typography>
                             <AuditSvg/>
                         </div>

@@ -1,8 +1,32 @@
 
-.description {
+.heading {
   display: flex;
   align-items: center;
-  width: 262px;
-  height: 66px;
-  flex-shrink: 0;
+  gap: 35px;
+
+  .title {
+    color: #FFF;
+    padding: 23px 46px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 120%;
+    text-transform: uppercase;
+    position: relative;
+
+    .titleBg {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 90vw;
+      border-radius: 100px;
+      background-color: #E75934;
+      height: 100%;
+      z-index: -1;
+
+    }
+  }
+  .description{
+    max-width: 300PX;
+  }
 }

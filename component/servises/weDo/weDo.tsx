@@ -18,8 +18,6 @@ type PropsType = {
 
 export const WeDo = ({link,title, text, children,right,className}: PropsType) => {
 
-    const {t} = useTranslation()
-
     const classNames = {
         root:clsx(s.weDoTitleBg,className)
     }
@@ -30,7 +28,7 @@ export const WeDo = ({link,title, text, children,right,className}: PropsType) =>
             <div className={s.weDoContainer}>
                 <div style={monumentExtended.style} className={s.weDoTitle}>
                     <Link href={link} className={classNames.root}></Link>
-                    {t(title)}
+                    {title}
                 </div>
                 <div style={{paddingLeft:'46px'}}>
                     <Typography className={s.weDoText} variant='text'>

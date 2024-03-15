@@ -1,4 +1,3 @@
-import {AbstractionForPages} from "@/component/layout/image/image";
 import React from "react";
 import {HeaderPage} from "@/component/layout/header/headerPage";
 import {Contact} from "@/component/contact/contact";

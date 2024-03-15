@@ -11,7 +11,6 @@ import s from './page.module.scss'
 
 function Page({params: {services}}: { params: { services: string } }) {
 
-    console.log(services)
 
     // const {t} = useTranslation(['common'], {bindI18n: 'languageChanged loaded'})
 

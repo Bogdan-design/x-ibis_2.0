@@ -1,6 +1,7 @@
-import React, {CSSProperties} from 'react';
+import React from 'react';
 import {useTranslation} from "next-i18next";
 import {Typography} from "@/component/ui/typography/typography";
+import {monumentExtended} from "@/fonts/fonts";
 import s from './heading.module.scss'
 
 type pageData = { page: string }
@@ -8,16 +9,13 @@ type pageData = { page: string }
 export const Heading = ({page}: pageData) => {
     const {t} = useTranslation()
 
-    const theme:CSSProperties = {
-        display: "flex",
-        alignItems: "center",
-        gap: '16px',
-    }
-
 
     return (
-        <div style={theme}>
-            <Typography style={{fontSize: "50px"}}>{t(`${page}.pageTitle`)}</Typography>
+        <div className={s.heading}>
+            <div style={monumentExtended.style} className={s.title}>
+                <div className={s.titleBg}></div>
+                {t(`${page}.pageTitle`)}
+            </div>
             <Typography className={s.description} variant={'text'}>{t(`${page}.pageDescription`)}</Typography>
         </div>
     );

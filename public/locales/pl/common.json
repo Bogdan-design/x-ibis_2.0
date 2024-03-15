@@ -1,8 +1,8 @@
 {
   "Home": "Strona glówna",
   "Services": "Usługi",
-  "About": "O nas",
-  "Contact": "Kontakt",
+  "About us": "O nas",
+  "Contact us": "Kontakt",
   "Home page title": "Sprawimy, że Twoja infrastruktura IT będzie niezawodna, nowoczesna i bezpieczna.",
   "Home page button": "Skontaktuj się",
   "Back to Services": "Powrót do usług",
@@ -22,7 +22,7 @@
   "formMessage": "Wiadomość",
   "Sent": "Wysłane",
   "audit": {
-    "title": "Bezpieczeństwo",
+    "title": "Audyt IT",
     "description": "Skoncentrowani na ochronie Twojego biznesu, oferujemy kompleksowe rozwiązania z zakresu cyberbezpieczeństwa.",
     "pageTitle": "Rewizja IT",
     "pageDescription": "Umożliwiamy firmom pełne zrozumienie i usprawnienie ich systemów informatycznych.",
@@ -58,7 +58,7 @@
     ]
   },
   "security": {
-    "title": "Zapewnienie niezawodności infrastruktury",
+    "title": "Bezpieczeństwo",
     "description": "Nasza specjalność polega na tworzeniu niezawodnej infrastruktury informatycznej dla efektywnych operacji.",
     "pageTitle": "Bezpieczeństwo",
     "pageDescription": "Oferujemy kompleksowe rozwiązania do wykrywania, zapobiegania i reagowania na zagrożenia związane z cyberprzestępczością.",
@@ -98,7 +98,7 @@
     ]
   },
   "ensuring": {
-    "title": "Administracja IT",
+    "title": "Zapewnienie niezawodności infrastruktury",
     "description": "Nasza profesjonalna administracja IT utrzymuje Twoje technologie w doskonałym stanie.",
     "pageTitle": "Zabezpieczenie niezawodności infrastruktury",
     "pageDescription": "Nasza specjalizacja polega na tworzeniu niezawodnej infrastruktury IT dla efektywnych operacji.",
@@ -142,7 +142,7 @@
     ]
   },
   "administration": {
-    "title": "Nowoczesne Rozwiązania",
+    "title": "Administracja IT",
     "description": "Specjalizujemy się w rozwiązaniach biznesowych nowej generacji, optymalizujemy efektywność.",
     "pageTitle": "Administracja IT",
     "pageDescription": "Nasza profesjonalna administracja IT zapewnia płynne działanie Twojej technologii.",

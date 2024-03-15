@@ -13,7 +13,8 @@
     .titleContainer {
       display: flex;
       align-items: center;
-      gap: 47px;
+      gap: 10px;
+
 
       .link {
         display: flex;
@@ -43,14 +44,22 @@
         }
 
         .button {
-          border: 1px solid #E75934;
+          border: 1px solid #fff;
           cursor: pointer;
           display: flex;
           width: 40px;
           height: 40px;
           padding: 8px;
           border-radius: 50%;
-          stroke: #E75934;
+          stroke: #fff;
+          &:hover {
+            background-color: #E75934;
+            border-color: #514E4E;
+
+
+              stroke: #514E4E;
+
+          }
 
         }
       }

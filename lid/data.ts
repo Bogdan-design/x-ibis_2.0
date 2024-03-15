@@ -12,7 +12,7 @@ export const links = [
         hash: "#home",
     },
     {
-        name: "What we du",
+        name: "What we do",
         hash: "#services",
     },
     {
