@@ -1,11 +1,12 @@
 import 'app/globals.scss'
 import type {Metadata} from 'next'
-import {ReactNode} from "react";
+import React, {ReactNode} from "react";
 import {Header} from "@/component/layout/header/header";
 import {Toaster} from "react-hot-toast";
 import {BDO_Grotesk} from "@/fonts/fonts";
 import 'overlayscrollbars/overlayscrollbars.css'
 import {Constants} from "@/common/local/constants";
+import {Contact} from "@/component/contact/contact";
 
 
 export const metadata: Metadata = {

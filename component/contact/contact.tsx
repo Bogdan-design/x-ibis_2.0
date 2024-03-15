@@ -17,7 +17,6 @@ import s from './contact.module.scss'
 export const Contact = () => {
 
 
-
     const {t} = useTranslation()
 
     return (
@@ -25,10 +24,10 @@ export const Contact = () => {
             <div id={'contact'} className={s.contact}>
                 <div className={s.container}>
                     <div className={s.text}>
-                        <Typography>
+                        <Typography className={s.title}>
                             {t('Home page button')}
                         </Typography>
-                        <Typography variant={'text'}>
+                        <Typography className={s.description} variant={'text'}>
                             {t('contact text')}
                         </Typography>
                         <div className={s.ourContact}>
@@ -36,10 +35,12 @@ export const Contact = () => {
                                 <Sms/><a href={'mailto:info@x-ibis.com'}>info@x-ibis.com</a>
                             </div>
                             <div>
-                                <Call/><Typography variant={'text'}>+48 694 670 955</Typography>
+                                <Call/><Typography style={{fontSize: '25px', fontWeight: '500'}} variant={'text'}>+48
+                                694 670 955</Typography>
                             </div>
                             <div>
-                                <Location/><Typography variant={'text'}>Warsaw, Poland</Typography>
+                                <Location/><Typography style={{fontSize: '25px', fontWeight: '500'}} variant={'text'}>Warsaw,
+                                Poland</Typography>
                             </div>
                         </div>
                     </div>
@@ -93,7 +94,11 @@ export const Contact = () => {
                         />
                         <SubmitBtm font={BDO_Grotesk.style} className={s.submit}/>
                     </form>
-                    <FrameContacts />
+                    <div className={s.frame}>
+                        <div className={s.frameSvg}>
+                            <FrameContacts/>
+                        </div>
+                    </div>
                 </div>
             </div>
             <Footer/>

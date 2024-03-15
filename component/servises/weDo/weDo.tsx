@@ -4,8 +4,8 @@ import {monumentExtended} from "@/fonts/fonts";
 import {Typography} from "@/component/ui/typography/typography";
 import {useTranslation} from "next-i18next";
 import clsx from "clsx";
-import s from './weDo.module.scss';
 import Link from "next/link";
+import s from './weDo.module.scss';
 
 type PropsType = {
     right?: boolean
