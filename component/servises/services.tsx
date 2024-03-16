@@ -49,10 +49,12 @@ export const Services = () => {
                         <div className={s.weDoContent}>
                             <Typography className={s.text} variant='text'>{t('ensuring.description')}
                             </Typography>
-                            <video width="249" height="235" autoPlay loop muted>
-                                <source src="@/public/video/cloude.mp4" type="video/mp4"/>
-                                Your browser does not support the video tag.
-                            </video>
+                            <div style={{zIndex:-1, width: "249px", height: "235px", display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <video width="430px" height="420px" autoPlay loop muted style={{ maxWidth: '220%', maxHeight: '220%' }}>
+                                    <source src="/video/server.mp4" type="video/mp4"/>
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
                         </div>
                     </div>
                 </div>
