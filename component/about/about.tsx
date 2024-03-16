@@ -3,7 +3,6 @@ import React from 'react';
 import {Button} from "@/component/ui/button";
 import {Typography} from "@/component/ui/typography/typography";
 import {useTranslation} from "next-i18next";
-import Rocket from "@/assest/icon/rocket";
 import {monumentExtended} from "@/fonts/fonts";
 import s from './about.module.scss'
 
@@ -19,7 +18,20 @@ export const About = () => {
                             <div className={s.aboutTitleBg}></div>
                             {t('We specialize')}
                         </div>
-                        <Rocket/>
+                        <div style={{
+                            zIndex: 0,
+                            width: "400px",
+                            height: "400px",
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center'
+                        }}>
+                            <video width="650px" height="650px" autoPlay loop muted
+                                   style={{maxWidth: '220%', maxHeight: '220%'}}>
+                                <source src="/video/rocket.mp4" type="video/mp4"/>
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
                     </div>
                     <div className={s.description}>
                         <h3 className={s.titleDescription}>
@@ -30,7 +42,7 @@ export const About = () => {
                                 {t('experienced')}
                             </Typography>
                             <Typography variant={'text'}>
-                                {t('collaborate')}
+                            {t('collaborate')}
                             </Typography>
                             <Typography variant={'text'}>
                                 {t('Our team')}
@@ -39,7 +51,7 @@ export const About = () => {
                         <Button as={'a'} href={'#contact'}>{t('Home page button')}</Button>
                     </div>
                 </div>
-                <video width="640" height="360" controls>
+                <video style={{zIndex:'1'}} width="640" height="360" controls>
                     <source src='/video/FULLHDxbis.mp4' type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video>

@@ -8,6 +8,7 @@ import {Typography} from "@/component/ui/typography/typography";
 import clsx from "clsx";
 import s from './services.module.scss'
 import Link from "next/link";
+import Animation from "@/common/animation/animation";
 
 export const Services = () => {
     const {t} = useTranslation()
@@ -29,7 +30,7 @@ export const Services = () => {
                     title={t('audit.title')}
                     text={t('audit.description')}
                 >
-                    <AuditSvg/>
+                    <Animation src="/video/doc.mp4"/>
                 </WeDo>
                 <WeDo
                     link='security'
@@ -38,7 +39,7 @@ export const Services = () => {
                     title={t('security.title')}
                     text={t('security.description')}
                 >
-                    <AuditSvg/>
+                    <Animation src="/video/cloude.mp4"/>
                 </WeDo>
                 <div className={s.weDo}>
                     <div className={s.weDoContainer}>
@@ -49,17 +50,12 @@ export const Services = () => {
                         <div className={s.weDoContent}>
                             <Typography className={s.text} variant='text'>{t('ensuring.description')}
                             </Typography>
-                            <div style={{zIndex:-1, width: "249px", height: "235px", display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                                <video width="430px" height="420px" autoPlay loop muted style={{ maxWidth: '220%', maxHeight: '220%' }}>
-                                    <source src="/video/server.mp4" type="video/mp4"/>
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
+                            <Animation src="/video/server.mp4"/>
                         </div>
                     </div>
                 </div>
                 <div style={{justifyContent: 'right', gap: '15px'}} className={s.weDo}>
-                <AuditSvg/>
+                    <Animation src="/video/keeping.mp4"/>
                     <div style={{alignItems: 'start'}} className={s.weDoContainer}>
                         <div style={monumentExtended.style} className={s.weDoTitle}>
                             <Link href='administration' className={classNames.right}></Link>
@@ -72,15 +68,29 @@ export const Services = () => {
                     </div>
                 </div>
                 <div className={s.weDo}>
-                    <div style={{alignItems:'start'}} className={s.weDoContainer}>
+                    <div style={{alignItems: 'start'}} className={s.weDoContainer}>
                         <div style={monumentExtended.style} className={s.weDoTitle}>
                             <Link href='solution' className={classNames.left}></Link>
                             {t('solution.title')}
                         </div>
-                        <div style={{paddingLeft: '46px',width:'100%',justifyContent:'space-between'}} className={s.weDoContent}>
+                        <div style={{paddingLeft: '46px', width: '80%', justifyContent: 'space-between'}}
+                             className={s.weDoContent}>
                             <Typography className={s.text} variant='text'>{t('solution.description')}
                             </Typography>
-                            <AuditSvg/>
+                            <div style={{
+                                zIndex: -10,
+                                width: "249px",
+                                height: "235px",
+                                display: 'flex',
+                                justifyContent: 'center',
+                                alignItems: 'center'
+                            }}>
+                                <video width="530px" height="520px" autoPlay loop muted
+                                       style={{maxWidth: '240%', maxHeight: '240%'}}>
+                                    <source src="/video/screen.mp4" type="video/mp4"/>
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
                         </div>
                     </div>
                 </div>

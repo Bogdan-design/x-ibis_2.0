@@ -28,11 +28,21 @@ export const HomePage = () => {
                                 className={s.title}>{t('Home page title')}</Typography>
                     <Button as={'a'} variant={'link'} href={'/#contact'}>{t('Home page button')}</Button>
                 </div>
-                {/*<div>*/}
-                {/*    <h1>Your Next.js Page</h1>*/}
-                {/*    <GifPlayer src="@/public/video/backwhite.gif" alt="Your GIF"/>*/}
-                {/*</div>*/}
-                <HomePageSvg className={s.image}/>
+                <div style={{
+                    marginTop:'120px',
+                    zIndex: 0,
+                    width: "249px",
+                    height: "235px",
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center'
+                }}>
+                    <video width="850px" height="850px" autoPlay loop muted
+                           style={{maxWidth: '350%', maxHeight: '350%'}}>
+                        <source src="/video/backwhite.mp4" type="video/mp4"/>
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
             </div>
         </section>
     );

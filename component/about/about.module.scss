@@ -11,7 +11,7 @@
     align-items: center;
     max-width: 1440px;
     width: 100%;
-    gap: 76px;
+    gap: 50px;
 
     .content {
       display: flex;
@@ -48,6 +48,7 @@
         }
       }
       .description {
+        z-index: 1;
         max-width: 509px;
         display: flex;
         flex-direction: column;
