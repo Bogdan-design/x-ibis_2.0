@@ -49,12 +49,15 @@ export const Services = () => {
                         <div className={s.weDoContent}>
                             <Typography className={s.text} variant='text'>{t('ensuring.description')}
                             </Typography>
-                            <AuditSvg/>
+                            <video width="249" height="235" autoPlay loop muted>
+                                <source src="@/public/video/cloude.mp4" type="video/mp4"/>
+                                Your browser does not support the video tag.
+                            </video>
                         </div>
                     </div>
                 </div>
                 <div style={{justifyContent: 'right', gap: '15px'}} className={s.weDo}>
-                    <AuditSvg/>
+                <AuditSvg/>
                     <div style={{alignItems: 'start'}} className={s.weDoContainer}>
                         <div style={monumentExtended.style} className={s.weDoTitle}>
                             <Link href='administration' className={classNames.right}></Link>
