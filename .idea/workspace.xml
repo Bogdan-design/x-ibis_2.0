@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="location">
-      <change afterPath="$PROJECT_DIR$/component/certification/carousel/carousel.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component/certification/carousel/carousel.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/about/about.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/about/about.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/about/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/about/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/certification/certification.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/certification/certification.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/heading/heading.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/common/heading/heading.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/servises/services.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/servises/services.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/servises/services.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/servises/services.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/servises/weDo/weDo.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/servises/weDo/weDo.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/servises/weDo/weDo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/servises/weDo/weDo.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,15 +259,8 @@
       <workItem from="1710576229471" duration="6811000" />
       <workItem from="1710585773055" duration="38000" />
       <workItem from="1710593732847" duration="9800000" />
-      <workItem from="1710667727210" duration="632000" />
-    </task>
-    <task id="LOCAL-00050" summary="rectangle component">
-      <option name="closed" value="true" />
-      <created>1706656680679</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1706656680680</updated>
+      <workItem from="1710667727210" duration="2893000" />
+      <workItem from="1710715623155" duration="365000" />
     </task>
     <task id="LOCAL-00051" summary="rectangle component">
       <option name="closed" value="true" />
@@ -655,7 +646,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710597173174</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="location">
+      <option name="closed" value="true" />
+      <created>1710669567389</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1710669567389</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -2,7 +2,6 @@
 import React, {ReactNode} from 'react';
 import {monumentExtended} from "@/fonts/fonts";
 import {Typography} from "@/component/ui/typography/typography";
-import {useTranslation} from "next-i18next";
 import clsx from "clsx";
 import Link from "next/link";
 import s from './weDo.module.scss';
