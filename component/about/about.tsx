@@ -20,13 +20,14 @@ export const About = () => {
                         </div>
                         <div style={{
                             zIndex: 0,
+                            marginTop:'-70px',
                             width: "400px",
                             height: "400px",
                             display: 'flex',
                             justifyContent: 'center',
                             alignItems: 'center'
                         }}>
-                            <video width="650px" height="650px" autoPlay loop muted
+                            <video width="550px" height="550px" autoPlay loop muted
                                    style={{maxWidth: '220%', maxHeight: '220%'}}>
                                 <source src="/video/rocket.mp4" type="video/mp4"/>
                                 Your browser does not support the video tag.
@@ -51,7 +52,7 @@ export const About = () => {
                         <Button as={'a'} href={'#contact'}>{t('Home page button')}</Button>
                     </div>
                 </div>
-                <video style={{zIndex:'1'}} width="640" height="360" controls>
+                <video style={{zIndex:'1'}} width="728" height="520" controls>
                     <source src='/video/FULLHDxbis.mp4' type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video>

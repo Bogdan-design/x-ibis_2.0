@@ -1,19 +1,28 @@
 'use client'
 import React from 'react';
 import aws from '@/assest/icon/aws.png'
-import Image from "next/image";
 import {Typography} from "@/component/ui/typography/typography";
 import {useTranslation} from "next-i18next";
 import "./flickity.scss"
 import {monumentExtended} from "@/fonts/fonts";
+import Carousel from "@/component/certification/carousel/carousel";
 import s from './certification.module.scss'
 
 export const Certification = () => {
-    const {t}=useTranslation()
+    const {t} = useTranslation()
 
-    const flickityOptions = {
-        initialIndex: 2
+    interface Image {
+        src: string;
+        alt: string;
     }
+
+    const images: Image[] = [
+        {src: aws.src, alt: 'AWS'},
+        {src: aws.src, alt: 'AWS'},
+        {src: aws.src, alt: 'AWS'},
+        {src: aws.src, alt: 'AWS'},
+    ];
+
 
     return (
         <section className={s.certification}>
@@ -26,31 +35,10 @@ export const Certification = () => {
                         {t('boasts expertise')}
                     </Typography>
                 </div>
-                <div className={s.images}>
-                    <div
-
-                    >
-                        <div className="carousel-cell">
-                            <Image src={aws} alt={'aws'}/>
-                        </div>
-                        <div className="carousel-cell">
-
-                            <Image src={aws} alt={'aws'}/>
-                        </div>
-                        <div className="carousel-cell">
-
-                            <Image src={aws} alt={'aws'}/>
-                        </div>
-                        <div className="carousel-cell">
-
-                            <Image src={aws} alt={'aws'}/>
-                        </div>
-                        {/*<Image src={aws} alt={'aws'}/>*/}
-                        {/*<Image src={aws} alt={'aws'}/>*/}
-                        {/*<Image src={aws} alt={'aws'}/>*/}
-                        {/*<Image src={aws} alt={'aws'}/>*/}
-                    </div>
-                </div>
+                <Carousel images={images}/>
+                {/*<div className={s.images}><div>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
             </div>
         </section>
     );
