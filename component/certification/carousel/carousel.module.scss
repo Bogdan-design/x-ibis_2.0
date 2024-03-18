@@ -1,6 +1,9 @@
 .carousel {
+  width: 100%;
+  margin: 0 50px;
   display: flex;
-  background: #EEE;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .carousel-cell {

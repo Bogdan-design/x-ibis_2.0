@@ -1,6 +1,8 @@
 'use client'
 import React from 'react';
 import aws from '@/assest/icon/aws.png'
+import synology from '@/assest/icon/synology.png'
+import apple from '@/assest/icon/apple.png'
 import {Typography} from "@/component/ui/typography/typography";
 import {useTranslation} from "next-i18next";
 import "./flickity.scss"
@@ -18,9 +20,8 @@ export const Certification = () => {
 
     const images: Image[] = [
         {src: aws.src, alt: 'AWS'},
-        {src: aws.src, alt: 'AWS'},
-        {src: aws.src, alt: 'AWS'},
-        {src: aws.src, alt: 'AWS'},
+        {src: synology.src, alt: 'Synology'},
+        {src: apple.src, alt: 'Apple'},
     ];
 
 
@@ -36,9 +37,6 @@ export const Certification = () => {
                     </Typography>
                 </div>
                 <Carousel images={images}/>
-                {/*<div className={s.images}><div>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
             </div>
         </section>
     );

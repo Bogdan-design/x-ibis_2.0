@@ -1,8 +1,7 @@
-
-import React, { useRef, useEffect } from 'react';
-import Flickity from 'flickity';
+import React from 'react';
 import 'flickity/css/flickity.css';
-import aws from '@/assest/icon/aws.png'
+import Image from 'next/image';
+import Cisco from '@/assest/icon/cisco';
 import s from './carousel.module.scss'
 
 interface Image {
@@ -14,16 +13,17 @@ interface CarouselProps {
     images: Image[];
 }
 
-const Carousel: React.FC<CarouselProps> = ({ images }) => {
+const Carousel: React.FC<CarouselProps> = ({images}) => {
 
 
     return (
         <div className={s.carousel} data-flickity='{ "groupCells": true }'>
             {images.map((image, index) => (
                 <div key={index} className={s.carouselCell}>
-                    <img src={image.src} alt={image.alt} />
+                    <img src={image.src} alt={image.alt}/>
                 </div>
             ))}
+            <Cisco/>
         </div>
     );
 };
