@@ -6,18 +6,11 @@ import {useTranslation} from "next-i18next";
 import {monumentExtended} from "@/fonts/fonts";
 import {Typography} from "@/component/ui/typography/typography";
 import {Header} from "@/component/layout/header/header";
-import gif from '@/public/video/backwhite.gif'
-import HomePageSvg from '@/assest/icon/home.svg'
 import s from './homePage.module.scss'
 
 export const HomePage = () => {
     const {t} = useTranslation()
 
-    const GifPlayer = ({ src, alt }:{src:string,alt:string}) => {
-        return (
-            <img src={src} alt={alt} />
-        );
-    };
 
     return (
         <section id='home' className={s.homePage}>

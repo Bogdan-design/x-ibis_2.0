@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="location">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assest/icon/cisco.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assest/icon/cisco.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/certification/carousel/carousel.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/certification/carousel/carousel.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/certification/carousel/carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/certification/carousel/carousel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/certification/certification.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/certification/certification.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/icon/cisco.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/home/homePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/home/homePage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,15 +258,7 @@
       <workItem from="1710593732847" duration="9800000" />
       <workItem from="1710667727210" duration="2893000" />
       <workItem from="1710715623155" duration="982000" />
-      <workItem from="1710761412405" duration="4018000" />
-    </task>
-    <task id="LOCAL-00052" summary="rectangle component">
-      <option name="closed" value="true" />
-      <created>1706994405713</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1706994405713</updated>
+      <workItem from="1710761412405" duration="5678000" />
     </task>
     <task id="LOCAL-00053" summary="rectangle component">
       <option name="closed" value="true" />
@@ -654,7 +644,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710717120748</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="location">
+      <option name="closed" value="true" />
+      <created>1710768162767</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1710768162767</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
