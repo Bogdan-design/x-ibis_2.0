@@ -1,5 +1,6 @@
 .header {
   display: flex;
+
   justify-content: center;
   //height: 80px;
   background: transparent;
@@ -12,6 +13,7 @@
     width: 100%;
     padding: 46px 198px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 
@@ -19,6 +21,7 @@
 
   .options {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 48px;
 
