@@ -28,17 +28,6 @@ export const Header = () => {
         };
     }, []);
 
-    // useEffect(() => {
-    //     if (isMobile) {
-    //         // Track the event when the screen switches to the mobile version
-    //         // Example: send event to Google Analytics
-    //         // Replace 'ga' with your analytics library or method
-    //         // ga('send', 'event', 'Screen', 'Switched to Mobile Version');
-    //         console.log('Switched to Mobile Version');
-    //     }
-    // }, [isMobile]);
-
-
     return (
         <header className={s.header}>
             <div className={s.container}>

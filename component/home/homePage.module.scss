@@ -37,19 +37,34 @@
       }
     }
   }
-    .image{
-      position: absolute;
-      right: 200px;
-      top: 210px;
-    }
+
+  .image {
+    position: absolute;
+    right: 200px;
+    top: 210px;
+  }
 
 }
 
-@media screen and (max-width:768px){
-  .container{
-    padding: 0 31px;
+@media screen and (max-width: 768px) {
+  .homePage {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      padding: 0 31px;
+
+      .description .title {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+      }
+    }
+
+
+
+    .container video {
+      //display: none;
+    }
   }
- .container video{
-   display: none;
- }
 }

@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="location">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/component/home/homePage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/home/homePage.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/component/home/homePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/home/homePage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/component/layout/header/header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/layout/header/header.module.scss" afterDir="false" />
@@ -267,15 +264,9 @@
       <workItem from="1710975080318" duration="42000" />
       <workItem from="1711020204768" duration="4681000" />
       <workItem from="1711101915957" duration="2743000" />
-      <workItem from="1711199879880" duration="13570000" />
-    </task>
-    <task id="LOCAL-00056" summary="rectangle component">
-      <option name="closed" value="true" />
-      <created>1707341771861</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1707341771862</updated>
+      <workItem from="1711199879880" duration="13911000" />
+      <workItem from="1711230220464" duration="1888000" />
+      <workItem from="1711233868971" duration="1539000" />
     </task>
     <task id="LOCAL-00057" summary="rectangle component">
       <option name="closed" value="true" />
@@ -661,7 +652,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711114560687</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="location">
+      <option name="closed" value="true" />
+      <created>1711221243154</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1711221243155</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -713,6 +712,11 @@
           <url>file://$PROJECT_DIR$/component/contact/contact.tsx</url>
           <line>100</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/component/home/homePage.tsx</url>
+          <line>35</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
