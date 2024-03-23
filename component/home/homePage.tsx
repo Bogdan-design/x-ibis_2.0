@@ -5,7 +5,6 @@ import '@/common/local/i18n'
 import {useTranslation} from "next-i18next";
 import {monumentExtended} from "@/fonts/fonts";
 import {Typography} from "@/component/ui/typography/typography";
-import {Header} from "@/component/layout/header/header";
 import s from './homePage.module.scss'
 
 export const HomePage = () => {
@@ -14,7 +13,6 @@ export const HomePage = () => {
 
     return (
         <section id='home' className={s.homePage}>
-            <Header/>
             <div className={s.container}>
                 <div className={s.description}>
                     <Typography as={'h1'} style={monumentExtended.style}
@@ -22,7 +20,7 @@ export const HomePage = () => {
                     <Button as={'a'} variant={'link'} href={'/#contact'}>{t('Home page button')}</Button>
                 </div>
                 <div style={{
-                    marginTop:'120px',
+                    marginTop: '120px',
                     zIndex: 0,
                     width: "249px",
                     height: "235px",
