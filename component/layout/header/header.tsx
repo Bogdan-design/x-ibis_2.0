@@ -15,13 +15,12 @@ export const Header = () => {
     const [isMobile, setIsMobile] = useState(false);
 
 
-    console.log(isMobile)
 
     useEffect(() => {
 
         const handleDevice = () => {
-            // setIsMobile(/Android|Iphone/i.test(navigator.userAgent))
-            setIsMobile(navigator.maxTouchPoints>0)
+            setIsMobile(/Android|Iphone/i.test(navigator.userAgent))
+            // setIsMobile(navigator.maxTouchPoints>0)
         }
         handleDevice()
 

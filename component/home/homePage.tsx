@@ -12,20 +12,25 @@ export const HomePage = () => {
 
     const [isMobile, setIsMobile] = useState(false);
 
-    console.log(isMobile)
 
     useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth <= 768); // Adjust threshold as needed
-        };
 
-        handleResize();
-
-        window.addEventListener('resize', handleResize);
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
+        const handleDevice = () => {
+            setIsMobile(/Android|Iphone/i.test(navigator.userAgent))
+            // setIsMobile(navigator.maxTouchPoints>0)
+        }
+        handleDevice()
+        // const handleResize = () => {
+        //     setIsMobile(window.innerWidth <= 768); // Adjust threshold as needed
+        // };
+        //
+        // handleResize();
+        //
+        // window.addEventListener('resize', handleResize);
+        //
+        // return () => {
+        //     window.removeEventListener('resize', handleResize);
+        // };
     }, []);
 
 

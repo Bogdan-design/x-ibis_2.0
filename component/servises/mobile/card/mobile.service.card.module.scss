@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 39px;
+  border: 2px solid #E75934;
+  max-width: 310px;
+  padding: 15px 38px;
+  text-decoration: none;
+  .title{
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 36px */
+  }
+  .description{
+    text-align: center;
+    color: #555;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+  }
+}
