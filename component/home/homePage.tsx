@@ -12,6 +12,8 @@ export const HomePage = () => {
 
     const [isMobile, setIsMobile] = useState(false);
 
+    console.log(isMobile)
+
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth <= 768); // Adjust threshold as needed

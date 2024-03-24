@@ -6,26 +6,25 @@ import Link from "next/link";
 import {Menu} from "@/component/menu/menu";
 import {useTranslation} from "next-i18next";
 import {monumentExtended} from "@/fonts/fonts";
+import {Swiper, SwiperSlide} from "swiper/react";
 import 'swiper/css';
 import s from './header.module.scss'
-import {Swiper, SwiperSlide} from "swiper/react";
 
 export const Header = () => {
     const {t} = useTranslation()
     const [isMobile, setIsMobile] = useState(false);
 
+
+    console.log(isMobile)
+
     useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth <= 768); // Adjust threshold as needed
-        };
 
-        handleResize();
+        const handleDevice = () => {
+            // setIsMobile(/Android|Iphone/i.test(navigator.userAgent))
+            setIsMobile(navigator.maxTouchPoints>0)
+        }
+        handleDevice()
 
-        window.addEventListener('resize', handleResize);
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
     }, []);
 
     return (
@@ -45,17 +44,17 @@ export const Header = () => {
                                 <div className={s.links}>
                                     {links.slice(1).map((l) => (
                                         <SwiperSlide key={l.hash}>
-                                            <Link  style={monumentExtended.style} className={s.link}
+                                            <Link style={monumentExtended.style} className={s.link}
                                                   href={`/${l.hash}`}>{t(l.name)}</Link>
                                         </SwiperSlide>
                                     ))}
                                 </div>
                             </nav>
-                        <SwiperSlide style={{top: "6px"}}>
-                            <div style={{display: "flex"}}>
-                                <Menu/>
-                            </div>
-                        </SwiperSlide>
+                            <SwiperSlide style={{top: "6px"}}>
+                                <div style={{display: "flex"}}>
+                                    <Menu/>
+                                </div>
+                            </SwiperSlide>
                         </div>
                     </Swiper> :
                     <div className={s.options}>
