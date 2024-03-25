@@ -6,11 +6,11 @@ import Image from "next/image";
 import {monumentExtended} from "@/fonts/fonts";
 import {useTranslation} from "next-i18next";
 import {Swiper, SwiperSlide} from "swiper/react";
+import {Navigation} from "swiper/modules";
+import {useMobileContext} from "@/app/context/mobile.context";
 import 'swiper/css';
 import 'swiper/css/bundle';
 import s from './clients.module.scss'
-import {Navigation} from "swiper/modules";
-import {useMobileContext} from "@/app/context/mobile.context";
 
 
 export const Clients = () => {

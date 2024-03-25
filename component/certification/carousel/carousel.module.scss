@@ -4,27 +4,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  --swiper-navigation-size: 44px;
+  --swiper-navigation-color:#333;
+  --swiper-navigation-sides-offset: 0px;
 }
 
-.carousel-cell {
-  width: 28%;
-  height: 200px;
-  margin-right: 10px;
-  background: #8C8;
-  border-radius: 5px;
-  counter-increment: carousel-cell;
-}
-
-.carousel-cell.is-selected {
-  background: #ED2;
-}
-
-/* cell number */
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(carousel-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
+@media screen and (max-width: 768px) {
+  .carousel{
+    --swiper-navigation-size: 20px;
+  }
 }
