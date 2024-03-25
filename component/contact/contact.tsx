@@ -12,12 +12,16 @@ import {Typography} from "@/component/ui/typography/typography";
 import {BDO_Grotesk} from "@/fonts/fonts";
 import {useTranslation} from "next-i18next";
 import {Footer} from "@/component/footer/footer";
+import Animation from "@/common/animation/animation"
 import s from './contact.module.scss'
+import {useMobileContext} from "@/app/context/mobile.context";
 
 export const Contact = () => {
 
 
     const {t} = useTranslation()
+
+    const {isMobile}= useMobileContext()
 
     return (
         <section>
@@ -95,8 +99,19 @@ export const Contact = () => {
                         <SubmitBtm font={BDO_Grotesk.style} className={s.submit}/>
                     </form>
                     <div className={s.frame}>
-                        <div className={s.frameSvg}>
-                            <FrameContacts/>
+                        <div style={{
+                            zIndex: 0,
+                            width: "249px",
+                            height: "235px",
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center'
+                        }}>
+                            <video width={isMobile ? '243x' : "530px"} height={isMobile ? '243x' : "520px"} autoPlay loop muted
+                                   style={{maxWidth: '240%', maxHeight: '240%'}}>
+                                <source src="/video/contact.mp4" type="video/mp4"/>
+                                Your browser does not support the video tag.
+                            </video>
                         </div>
                     </div>
                 </div>
