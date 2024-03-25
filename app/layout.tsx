@@ -5,6 +5,7 @@ import {Toaster} from "react-hot-toast";
 import {BDO_Grotesk} from "@/fonts/fonts";
 import 'overlayscrollbars/overlayscrollbars.css'
 import {Constants} from "@/common/local/constants";
+import {MobileContextProvider} from "@/app/context/mobile.context";
 
 
 export const metadata: Metadata = {
@@ -17,10 +18,10 @@ export default function RootLayout({children}: { children: ReactNode }) {
     return (
         <html lang={Constants.EN}>
         <body className={`${BDO_Grotesk.className}`}>
-        <div>
+        <MobileContextProvider>
             {children}
             <Toaster position='bottom-center'/>
-        </div>
+        </MobileContextProvider>
         </body>
         </html>
     )

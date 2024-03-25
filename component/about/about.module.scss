@@ -83,3 +83,25 @@
     }
   }
 }
+
+@media screen and (max-width: 768px){
+  .about .container {
+    padding: 20px 31px;
+    .content{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 38px;
+      text-align: center;
+      .description{
+        align-items: center;
+      }
+    }
+  }
+
+ .rocket {
+   video {
+     display: none;
+   }
+ }
+}

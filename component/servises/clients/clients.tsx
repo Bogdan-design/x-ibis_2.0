@@ -1,5 +1,5 @@
 'use client'
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import nodral from '@/assest/icon/nodral.png'
 import times from '@/assest/icon/tines.png'
 import Image from "next/image";
@@ -7,28 +7,16 @@ import {monumentExtended} from "@/fonts/fonts";
 import {useTranslation} from "next-i18next";
 import {Swiper, SwiperSlide} from "swiper/react";
 import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import 'swiper/css/bundle';
 import s from './clients.module.scss'
-import {A11y, EffectFlip, Keyboard, Navigation, Pagination, Scrollbar} from "swiper/modules";
+import {Navigation} from "swiper/modules";
+import {useMobileContext} from "@/app/context/mobile.context";
 
 
 export const Clients = () => {
 
     const {t} = useTranslation()
-    const [isMobile, setIsMobile] = useState(false);
-
-
-    useEffect(() => {
-
-        const handleDevice = () => {
-            setIsMobile(/Android|Iphone/i.test(navigator.userAgent))
-            // setIsMobile(navigator.maxTouchPoints>0)
-        }
-        handleDevice()
-
-    }, []);
+   const {isMobile}= useMobileContext()
 
 
     return (
@@ -36,11 +24,9 @@ export const Clients = () => {
             <div className={s.container}>
                 {isMobile ?
                     <Swiper
-                        modules={[Navigation, Pagination, Scrollbar, A11y]}
-
+                        modules={[Navigation]}
                         slidesPerView={1}
                         navigation
-
                     >
                         <SwiperSlide>
                             <div className={s.description}>
@@ -59,7 +45,8 @@ export const Clients = () => {
                         <SwiperSlide>
                             <Image src={nodral} width={'192'} height={'36'} alt={'nodral'}/>
                         </SwiperSlide>
-                    </Swiper> :
+                    </Swiper>
+                    :
 
                     <>
                         <div className={s.description}>

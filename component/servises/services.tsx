@@ -1,5 +1,5 @@
 'use client'
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {useTranslation} from "next-i18next";
 import {monumentExtended} from "@/fonts/fonts";
 import {WeDo} from "@/component/servises/weDo/weDo";
@@ -8,23 +8,13 @@ import clsx from "clsx";
 import Link from "next/link";
 import Animation from "@/common/animation/animation";
 import {ServicesMobile} from "@/component/servises/mobile/services.mobile";
+import {useMobileContext} from "@/app/context/mobile.context";
 import s from './services.module.scss'
 
 export const Services = () => {
     const {t} = useTranslation()
 
-    const [isMobile, setIsMobile] = useState(false);
-
-
-    useEffect(() => {
-
-        const handleDevice = () => {
-            setIsMobile(/Android|Iphone/i.test(navigator.userAgent))
-            // setIsMobile(navigator.maxTouchPoints>0)
-        }
-        handleDevice()
-
-    }, []);
+    const {isMobile}= useMobileContext()
 
     const classNames = {
         right: clsx(s.weDoTitleBg, s.right),

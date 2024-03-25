@@ -5,9 +5,11 @@ import {Typography} from "@/component/ui/typography/typography";
 import {useTranslation} from "next-i18next";
 import {monumentExtended} from "@/fonts/fonts";
 import s from './about.module.scss'
+import {useMobileContext} from "@/app/context/mobile.context";
 
 export const About = () => {
     const {t} = useTranslation()
+    const {isMobile}= useMobileContext()
 
     return (
         <section id={'about'} className={s.about}>
@@ -23,9 +25,9 @@ export const About = () => {
                             marginTop:'-70px',
                             width: "400px",
                             height: "400px",
-                            display: 'flex',
+                            display: isMobile ? 'none': 'flex',
                             justifyContent: 'center',
-                            alignItems: 'center'
+                            alignItems: 'center',
                         }}>
                             <video width="550px" height="550px" autoPlay loop muted
                                    style={{maxWidth: '220%', maxHeight: '220%'}}>
@@ -52,7 +54,7 @@ export const About = () => {
                         <Button as={'a'} href={'#contact'}>{t('Home page button')}</Button>
                     </div>
                 </div>
-                <video style={{zIndex:'1'}} width="728" height="520" controls>
+                <video style={{zIndex:'1'}} width={isMobile ? '367px' : '728px'} height={isMobile ? '262px' : '520px'} controls>
                     <source src='/video/FULLHDxbis.mp4' type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video>

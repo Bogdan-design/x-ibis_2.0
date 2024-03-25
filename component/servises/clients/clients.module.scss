@@ -58,15 +58,21 @@
   }
 }
 
+
+
+
+
 @media screen and (max-width: 768px){
   .clients {
     height: 115px;
     align-items: center;
+    --swiper-navigation-size: 20px;
+    --swiper-navigation-color:#333;
+    --swiper-navigation-sides-offset: 0px;
+
     .container{
       padding: 0px 31px;
-      .description{
 
-      }
     }
   }
 }

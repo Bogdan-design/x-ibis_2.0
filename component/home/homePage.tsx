@@ -1,37 +1,17 @@
 'use client'
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {Button} from "@/component/ui/button";
 import '@/common/local/i18n'
 import {useTranslation} from "next-i18next";
 import {monumentExtended} from "@/fonts/fonts";
 import {Typography} from "@/component/ui/typography/typography";
+import {useMobileContext} from "@/app/context/mobile.context";
 import s from './homePage.module.scss'
 
 export const HomePage = () => {
     const {t} = useTranslation()
 
-    const [isMobile, setIsMobile] = useState(false);
-
-
-    useEffect(() => {
-
-        const handleDevice = () => {
-            setIsMobile(/Android|Iphone/i.test(navigator.userAgent))
-            // setIsMobile(navigator.maxTouchPoints>0)
-        }
-        handleDevice()
-        // const handleResize = () => {
-        //     setIsMobile(window.innerWidth <= 768); // Adjust threshold as needed
-        // };
-        //
-        // handleResize();
-        //
-        // window.addEventListener('resize', handleResize);
-        //
-        // return () => {
-        //     window.removeEventListener('resize', handleResize);
-        // };
-    }, []);
+    const {isMobile}= useMobileContext()
 
 
     return (

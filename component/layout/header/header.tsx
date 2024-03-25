@@ -1,5 +1,5 @@
 'use client'
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import Logo from '@/assest/icon/logo'
 import {links} from "@/lid/data";
 import Link from "next/link";
@@ -7,24 +7,13 @@ import {Menu} from "@/component/menu/menu";
 import {useTranslation} from "next-i18next";
 import {monumentExtended} from "@/fonts/fonts";
 import {Swiper, SwiperSlide} from "swiper/react";
+import {useMobileContext} from "@/app/context/mobile.context";
 import 'swiper/css';
 import s from './header.module.scss'
 
 export const Header = () => {
     const {t} = useTranslation()
-    const [isMobile, setIsMobile] = useState(false);
-
-
-
-    useEffect(() => {
-
-        const handleDevice = () => {
-            setIsMobile(/Android|Iphone/i.test(navigator.userAgent))
-            // setIsMobile(navigator.maxTouchPoints>0)
-        }
-        handleDevice()
-
-    }, []);
+    const {isMobile}= useMobileContext()
 
     return (
         <header className={s.header}>
