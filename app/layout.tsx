@@ -5,7 +5,7 @@ import {Toaster} from "react-hot-toast";
 import {BDO_Grotesk} from "@/fonts/fonts";
 import 'overlayscrollbars/overlayscrollbars.css'
 import {Constants} from "@/common/local/constants";
-import {MobileContextProvider} from "@/app/context/mobile.context";
+import {MobileContextProvider} from "@/context/mobile.context";
 
 
 export const metadata: Metadata = {

@@ -5,7 +5,7 @@ import {Typography} from "@/component/ui/typography/typography";
 import {useTranslation} from "next-i18next";
 import {monumentExtended} from "@/fonts/fonts";
 import s from './about.module.scss'
-import {useMobileContext} from "@/app/context/mobile.context";
+import {useMobileContext} from "@/context/mobile.context";
 
 export const About = () => {
     const {t} = useTranslation()

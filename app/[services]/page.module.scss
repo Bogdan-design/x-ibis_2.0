@@ -77,3 +77,14 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .main .container{
+    padding: 31px;
+    .titleContainer{
+      .link{
+        display: none;
+      }
+    }
+  }
+}
+

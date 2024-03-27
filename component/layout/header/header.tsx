@@ -7,7 +7,7 @@ import {Menu} from "@/component/menu/menu";
 import {useTranslation} from "next-i18next";
 import {monumentExtended} from "@/fonts/fonts";
 import {Swiper, SwiperSlide} from "swiper/react";
-import {useMobileContext} from "@/app/context/mobile.context";
+import {useMobileContext} from "@/context/mobile.context";
 import 'swiper/css';
 import s from './header.module.scss'
 

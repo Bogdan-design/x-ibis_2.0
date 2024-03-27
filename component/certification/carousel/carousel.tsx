@@ -5,7 +5,7 @@ import Cisco from '@/assest/icon/cisco';
 import s from './carousel.module.scss'
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Navigation} from "swiper/modules";
-import {useMobileContext} from "@/app/context/mobile.context";
+import {useMobileContext} from "@/context/mobile.context";
 
 interface Image {
     src: string;
@@ -24,7 +24,6 @@ const Carousel: React.FC<CarouselProps> = ({images}) => {
     return (
         <Swiper className={s.carousel}
                 modules={[Navigation]}
-                spaceBetween={20}
                 slidesPerView={isMobile ? 3 : 4}
                 navigation
         >

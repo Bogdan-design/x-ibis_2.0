@@ -5,7 +5,7 @@ import '@/common/local/i18n'
 import {useTranslation} from "next-i18next";
 import {monumentExtended} from "@/fonts/fonts";
 import {Typography} from "@/component/ui/typography/typography";
-import {useMobileContext} from "@/app/context/mobile.context";
+import {useMobileContext} from "@/context/mobile.context";
 import s from './homePage.module.scss'
 
 export const HomePage = () => {

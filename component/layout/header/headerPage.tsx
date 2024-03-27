@@ -7,8 +7,8 @@ import {Menu} from "@/component/menu/menu";
 import {useTranslation} from "next-i18next";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {monumentExtended} from "@/fonts/fonts";
-import {useMobileContext} from "@/app/context/mobile.context";
-import s from './header.module.scss'
+import {useMobileContext} from "@/context/mobile.context";
+import s from './headerPage.module.scss'
 
 export const HeaderPage = () => {
     const {t} = useTranslation()

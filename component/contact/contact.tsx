@@ -14,7 +14,7 @@ import {useTranslation} from "next-i18next";
 import {Footer} from "@/component/footer/footer";
 import Animation from "@/common/animation/animation"
 import s from './contact.module.scss'
-import {useMobileContext} from "@/app/context/mobile.context";
+import {useMobileContext} from "@/context/mobile.context";
 
 export const Contact = () => {
 
@@ -100,6 +100,7 @@ export const Contact = () => {
                     </form>
                     <div className={s.frame}>
                         <div style={{
+                            zIndex:0,
                             width: "249px",
                             height: "235px",
                             display: 'flex',

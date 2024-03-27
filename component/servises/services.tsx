@@ -8,7 +8,7 @@ import clsx from "clsx";
 import Link from "next/link";
 import Animation from "@/common/animation/animation";
 import {ServicesMobile} from "@/component/servises/mobile/services.mobile";
-import {useMobileContext} from "@/app/context/mobile.context";
+import {useMobileContext} from "@/context/mobile.context";
 import s from './services.module.scss'
 
 export const Services = () => {

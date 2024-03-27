@@ -12,8 +12,6 @@ import s from './page.module.scss'
 function Page({params: {services}}: { params: { services: string } }) {
 
 
-    // const {t} = useTranslation(['common'], {bindI18n: 'languageChanged loaded'})
-
     let dataIndex
 
     switch (services) {
