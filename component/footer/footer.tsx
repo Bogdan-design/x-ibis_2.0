@@ -10,26 +10,25 @@ import {monumentExtended} from "@/fonts/fonts";
 import s from './footer.module.scss'
 
 export const Footer = () => {
-    const {t}=useTranslation()
+    const {t} = useTranslation()
 
     return (
         <footer className={s.footer}>
             <div className={s.container}>
-                <Logo />
+                <Logo/>
                 <div className={s.options}>
                     <nav className={s.links}>
-                            {links.map(l => (
-                                <Link style={monumentExtended.style}
-                                      className={s.link}
-                                      key={l.hash}
-                                      href={l.hash}>
-                                    {t(`${l.name}`)}
-                                </Link>)
-                            )}
-                    <Link className={s.linkedin} href={'https://www.linkedin.com/company/x-ibis'}>
-                        <Linkedin/>
-                    </Link>
-                        
+                        {links.map(l => (
+                            <Link style={monumentExtended.style}
+                                  className={s.link}
+                                  key={l.hash}
+                                  href={l.hash}>
+                                {t(`${l.name}`)}
+                            </Link>)
+                        )}
+                        <Link className={s.linkedin} href={'https://www.linkedin.com/company/x-ibis'}>
+                            <Linkedin/>
+                        </Link>
                         <Link href={'/#home'} className={s.button}>
                             <Arrow className={s.up}/>
                         </Link>

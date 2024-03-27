@@ -100,7 +100,6 @@ export const Contact = () => {
                     </form>
                     <div className={s.frame}>
                         <div style={{
-                            zIndex: 0,
                             width: "249px",
                             height: "235px",
                             display: 'flex',
