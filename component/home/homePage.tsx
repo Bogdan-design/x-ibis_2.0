@@ -11,7 +11,7 @@ import s from './homePage.module.scss'
 export const HomePage = () => {
     const {t} = useTranslation()
 
-    const {isMobile}= useMobileContext()
+    const {isMobile} = useMobileContext()
 
 
     return (
@@ -20,10 +20,13 @@ export const HomePage = () => {
                 <div className={s.description}>
                     <Typography as={'h1'} style={monumentExtended.style}
                                 className={s.title}>{t('Home page title')}</Typography>
-                    {!isMobile && <Button as={'a'} variant={'link'} href={'/#contact'}>{t('Home page button')}</Button>}
+                    {!isMobile &&
+                        <Button as={'a'} variant={'link'} href={'/#contact'}>
+                            {t('Home page button')}
+                        </Button>}
                 </div>
                 <div style={{
-                    marginTop: '120px',
+                    marginTop: isMobile ? '40px' : '120px',
                     zIndex: 0,
                     width: "249px",
                     height: "235px",
@@ -32,8 +35,8 @@ export const HomePage = () => {
                     alignItems: 'center'
                 }}>
                     {isMobile ?
-                        <video width="300px" height="270px" autoPlay loop muted
-                               style={{maxWidth: '350%', maxHeight: '350%'}}>
+                        <video width="400px" height="370px" autoPlay loop muted
+                               style={{maxWidth: '450%', maxHeight: '450%'}}>
                             <source src="/video/backwhite.mp4" type="video/mp4"/>
                             Your browser does not support the video tag.
                         </video>
@@ -46,7 +49,7 @@ export const HomePage = () => {
                         </video>
                     }
                 </div>
-                {isMobile && <div  style={{zIndex: '1'}}>
+                {isMobile && <div style={{zIndex: '1', paddingTop:'30px'}}>
 
                     <Button as={'a'} variant={'link'}
                             href={'/#contact'}>{t('Home page button')}</Button>

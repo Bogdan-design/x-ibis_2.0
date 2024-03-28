@@ -16,7 +16,7 @@
   gap: 10px;
 
   color: #FFFFFF;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   text-decoration: none;
   font-style: normal;
@@ -52,4 +52,11 @@
 
 .fullWidth {
   width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .link,
+  .primary {
+    font-size: 16px;
+  }
 }

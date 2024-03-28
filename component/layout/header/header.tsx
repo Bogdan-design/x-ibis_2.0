@@ -24,9 +24,7 @@ export const Header = () => {
                 {isMobile ? <Swiper
                         spaceBetween={20}
                         slidesPerView={2.2}
-
                     >
-
                         <div className={s.options}>
                             <nav>
                                 <div className={s.links}>
