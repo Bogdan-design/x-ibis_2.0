@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="location">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/home/homePage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/home/homePage.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/home/homePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/home/homePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/layout/header/header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/layout/header/header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/layout/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/layout/header/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/ui/button/button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/ui/button/button.module.scss" afterDir="false" />
-    </list>
+    <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="mobile homePage" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -275,15 +268,7 @@
       <workItem from="1711460861416" duration="4326000" />
       <workItem from="1711490722234" duration="41000" />
       <workItem from="1711543534925" duration="7633000" />
-      <workItem from="1711611006674" duration="4262000" />
-    </task>
-    <task id="LOCAL-00064" summary="rectangle component">
-      <option name="closed" value="true" />
-      <created>1708083541423</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1708083541424</updated>
+      <workItem from="1711611006674" duration="4494000" />
     </task>
     <task id="LOCAL-00065" summary="rectangle component">
       <option name="closed" value="true" />
@@ -669,7 +654,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711551152554</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="mobile homePage">
+      <option name="closed" value="true" />
+      <created>1711615548588</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1711615548588</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -707,7 +700,8 @@
     <MESSAGE value="section about" />
     <MESSAGE value="pages contacts" />
     <MESSAGE value="location" />
-    <option name="LAST_COMMIT_MESSAGE" value="location" />
+    <MESSAGE value="mobile homePage" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile homePage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
