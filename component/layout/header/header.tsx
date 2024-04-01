@@ -13,7 +13,7 @@ import s from './header.module.scss'
 
 export const Header = () => {
     const {t} = useTranslation()
-    const {isMobile}= useMobileContext()
+    const {isMobile} = useMobileContext()
 
     return (
         <header className={s.header}>
@@ -21,28 +21,43 @@ export const Header = () => {
                 <Link href={'/'}>
                     <Logo/>
                 </Link>
-                {isMobile ? <Swiper
-                        spaceBetween={20}
-                        slidesPerView={2.2}
-                    >
-                        <div className={s.options}>
-                            <nav>
-                                <div className={s.links}>
-                                    {links.slice(1).map((l) => (
-                                        <SwiperSlide key={l.hash}>
-                                            <Link style={monumentExtended.style} className={s.link}
-                                                  href={`/${l.hash}`}>{t(l.name)}</Link>
-                                        </SwiperSlide>
-                                    ))}
-                                </div>
-                            </nav>
-                            <SwiperSlide style={{top: "6px"}}>
-                                <div style={{display: "flex"}}>
-                                    <Menu/>
-                                </div>
-                            </SwiperSlide>
-                        </div>
-                    </Swiper> :
+                {isMobile ?
+                    <div style={{
+                      left:"-185px",
+                        position:'relative',
+                        height:'40px'
+                    }}>
+                        <Swiper className={s.swiper}
+                                spaceBetween={20}
+                                slidesPerView={2.3}
+
+                        >
+                            <div className={s.options}>
+                                <nav>
+                                    <div className={s.links}>
+                                        {links.slice(1).map((l) => (
+                                            <SwiperSlide style={{
+                                                border: "1px solid #E75934",
+                                                borderRadius: "200px",
+                                                padding: '6px 10px',
+                                                display: 'flex',
+                                                justifyContent: 'center'
+                                            }} key={l.hash}>
+                                                <Link style={monumentExtended.style} className={s.link}
+                                                      href={`/${l.hash}`}>{t(l.name)}</Link>
+                                            </SwiperSlide>
+                                        ))}
+                                    </div>
+                                </nav>
+                                <SwiperSlide style={{top: "6px"}}>
+                                    <div style={{display: "flex"}}>
+                                        <Menu/>
+                                    </div>
+                                </SwiperSlide>
+                            </div>
+                        </Swiper>
+                    </div>
+                    :
                     <div className={s.options}>
                         <nav>
                             <div className={s.links}>
