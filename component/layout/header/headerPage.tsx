@@ -12,7 +12,7 @@ import s from './headerPage.module.scss'
 
 export const HeaderPage = () => {
     const {t} = useTranslation()
-    const {isMobile}= useMobileContext()
+    const {isMobile} = useMobileContext()
 
     return (
         <header className={s.header}>
@@ -57,22 +57,7 @@ export const HeaderPage = () => {
                     </div>
                 }
             </div>
-                {/*<div className={s.container}>*/}
-                {/*    <Link href={'/'}>*/}
-                {/*        <Logo/>*/}
-                {/*    </Link>*/}
-                {/*    <div className={s.options}>*/}
-                {/*        <nav>*/}
-                {/*            <div className={s.links}>*/}
-                {/*                {links.map((l) => (*/}
-                {/*                    <Link className={s.link} key={l.hash} href={`/${l.hash}`}>{t(`${l.name}`)}</Link>*/}
-                {/*                ))}*/}
-                {/*            </div>*/}
-                {/*        </nav>*/}
-                {/*        <Menu/>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
         </header>
-);
+    );
 };
 

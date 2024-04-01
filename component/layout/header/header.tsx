@@ -1,5 +1,5 @@
 'use client'
-import React from 'react';
+import React, {Fragment} from 'react';
 import Logo from '@/assest/icon/logo'
 import {links} from "@/lid/data";
 import Link from "next/link";
@@ -22,40 +22,42 @@ export const Header = () => {
                     <Logo/>
                 </Link>
                 {isMobile ?
-                    <div style={{
-                      left:"-180px",
-                        position:'relative',
-                        height:'40px'
-                    }}>
-                        <Swiper className={s.swiper}
-                                spaceBetween={20}
-                                slidesPerView={2.3}
+                    <div style={{width:'100%'}}>
+                        <div style={{
+                            display: 'flex',
+                            position: 'relative',
+                            height: '40px'
+                        }}>
+                            <Swiper className={s.swiper}
+                                    spaceBetween={20}
+                                    slidesPerView={2.3}
 
-                        >
-                            <div className={s.options}>
-                                <nav>
-                                    <div className={s.links}>
-                                        {links.slice(1).map((l) => (
-                                            <SwiperSlide style={{
-                                                border: "1px solid #E75934",
-                                                borderRadius: "200px",
-                                                padding: '6px 10px',
-                                                display: 'flex',
-                                                justifyContent: 'center'
-                                            }} key={l.hash}>
-                                                <Link style={monumentExtended.style} className={s.link}
-                                                      href={`/${l.hash}`}>{t(l.name)}</Link>
-                                            </SwiperSlide>
-                                        ))}
-                                    </div>
-                                </nav>
-                                <SwiperSlide style={{top: "6px"}}>
-                                    <div style={{display: "flex"}}>
-                                        <Menu/>
-                                    </div>
-                                </SwiperSlide>
-                            </div>
-                        </Swiper>
+                            >
+                                <div className={s.options}>
+                                    <nav>
+                                        <div className={s.links}>
+                                            {links.slice(1).map((l) => (
+                                                <SwiperSlide style={{
+                                                    border: "1px solid #E75934",
+                                                    borderRadius: "200px",
+                                                    padding: '6px 10px',
+                                                    display: 'flex',
+                                                    justifyContent: 'center'
+                                                }} key={l.hash}>
+                                                    <Link style={monumentExtended.style} className={s.link}
+                                                          href={`/${l.hash}`}>{t(l.name)}</Link>
+                                                </SwiperSlide>
+                                            ))}
+                                        </div>
+                                    </nav>
+                                    <SwiperSlide style={{top: "6px"}}>
+                                        <div style={{display: "flex"}}>
+                                            <Menu/>
+                                        </div>
+                                    </SwiperSlide>
+                                </div>
+                            </Swiper>
+                        </div>
                     </div>
                     :
                     <div className={s.options}>
