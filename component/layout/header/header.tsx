@@ -23,7 +23,7 @@ export const Header = () => {
                 </Link>
                 {isMobile ?
                     <div style={{
-                      left:"-185px",
+                      left:"-180px",
                         position:'relative',
                         height:'40px'
                     }}>
