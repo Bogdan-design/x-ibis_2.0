@@ -1,27 +1,9 @@
-.header {
-  display: flex;
-  justify-content: center;
-  background: transparent;
-
-  .container {
-    max-width: 1440px;
-    width: 100%;
-    padding: 46px 198px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 19px;
-  }
-
-
-}
-
 .options {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 48px;
+  z-index: 1;
 
   .links {
     display: flex;
@@ -52,14 +34,10 @@
 }
 
 @media screen and (max-width: 768px) {
-  .header .container {
-    flex-direction: column;
-    justify-content: center;
-    padding: 30px 31px;
-    .swiper{
-      position: absolute;
-      width: 107vw;
-    }
+
+  .swiper {
+    position: absolute;
+    width: 107vw;
   }
 
   .link {

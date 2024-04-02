@@ -5,9 +5,9 @@ import {links} from "@/lid/data";
 import Link from "next/link";
 import {Menu} from "@/component/menu/menu";
 import {useTranslation} from "next-i18next";
-import {Swiper, SwiperSlide} from "swiper/react";
 import {monumentExtended} from "@/fonts/fonts";
 import {useMobileContext} from "@/context/mobile.context";
+import SwiperHeader from "@/component/layout/header/swiperHeader/swiperHeader";
 import s from './headerPage.module.scss'
 
 export const HeaderPage = () => {
@@ -20,30 +20,8 @@ export const HeaderPage = () => {
                 <Link href={'/'}>
                     <Logo/>
                 </Link>
-                {isMobile ? <Swiper
-                        spaceBetween={20}
-                        slidesPerView={2.2}
-
-                    >
-
-                        <div className={s.options}>
-                            <nav>
-                                <div className={s.links}>
-                                    {links.map((l) => (
-                                        <SwiperSlide key={l.hash}>
-                                            <Link style={monumentExtended.style} className={s.link}
-                                                  href={`/${l.hash}`}>{t(l.name)}</Link>
-                                        </SwiperSlide>
-                                    ))}
-                                </div>
-                            </nav>
-                            <SwiperSlide style={{top: "6px"}}>
-                                <div style={{display: "flex"}}>
-                                    <Menu/>
-                                </div>
-                            </SwiperSlide>
-                        </div>
-                    </Swiper> :
+                {isMobile ? <SwiperHeader t={t} slice={0}/>
+                    :
                     <div className={s.options}>
                         <nav>
                             <div className={s.links}>

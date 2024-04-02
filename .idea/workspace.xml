@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="mobile homePage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/layout/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/layout/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/layout/header/swiperHeader/swiperHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/layout/header/swiperHeader/swiperHeader.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,34 +50,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "F:/It-incubator/portfolio_2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "ts.external.directory.path": "F:\\It-incubator\\x-ibis_2.0\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/It-incubator/x-ibis_2.0/component/layout/header/swiperHeader&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;F:\\It-incubator\\x-ibis_2.0\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\It-incubator\x-ibis_2.0\component\layout\header\swiperHeader" />
       <recent name="F:\It-incubator\x-ibis_2.0\component\layout\header" />
       <recent name="F:\It-incubator\x-ibis_2.0\component\servises\mobile" />
       <recent name="F:\It-incubator\x-ibis_2.0\component\servises\weDo" />
       <recent name="G:\It-incubator\x-ibis\pablic" />
-      <recent name="G:\It-incubator\x-ibis\public\locales\pl" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\It-incubator\x-ibis_2.0" />
@@ -273,39 +275,8 @@
       <workItem from="1711611006674" duration="4494000" />
       <workItem from="1711631957782" duration="668000" />
       <workItem from="1711828182825" duration="1095000" />
-      <workItem from="1711969998420" duration="723000" />
-    </task>
-    <task id="LOCAL-00067" summary="rectangle component">
-      <option name="closed" value="true" />
-      <created>1708376374794</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1708376374795</updated>
-    </task>
-    <task id="LOCAL-00068" summary="rectangle component">
-      <option name="closed" value="true" />
-      <created>1708451485657</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1708451485658</updated>
-    </task>
-    <task id="LOCAL-00069" summary="rectangle component">
-      <option name="closed" value="true" />
-      <created>1708546863539</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1708546863539</updated>
-    </task>
-    <task id="LOCAL-00070" summary="rectangle component">
-      <option name="closed" value="true" />
-      <created>1708638819460</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1708638819460</updated>
+      <workItem from="1711969998420" duration="9489000" />
+      <workItem from="1712047436140" duration="1807000" />
     </task>
     <task id="LOCAL-00071" summary="rectangle component">
       <option name="closed" value="true" />
@@ -667,7 +638,39 @@
       <option name="project" value="LOCAL" />
       <updated>1711832826615</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="mobile homePage">
+      <option name="closed" value="true" />
+      <created>1711976505688</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1711976505689</updated>
+    </task>
+    <task id="LOCAL-00117" summary="mobile homePage">
+      <option name="closed" value="true" />
+      <created>1711977050683</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1711977050683</updated>
+    </task>
+    <task id="LOCAL-00118" summary="mobile homePage">
+      <option name="closed" value="true" />
+      <created>1711977486330</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1711977486330</updated>
+    </task>
+    <task id="LOCAL-00119" summary="mobile homePage">
+      <option name="closed" value="true" />
+      <created>1711980078389</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1711980078389</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
