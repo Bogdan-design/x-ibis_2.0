@@ -9,6 +9,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
+
   }
 
   *,
@@ -19,7 +20,13 @@
 
 
 
-
+  .swiper-wrapper {
+    align-items: center;
+  }
+  .swiper-backface-hidden .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
 
   body {
     margin: 0;

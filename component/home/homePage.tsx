@@ -32,7 +32,8 @@ export const HomePage = () => {
                     height: "235px",
                     display: 'flex',
                     justifyContent: 'center',
-                    alignItems: 'center'
+                    alignItems: 'center',
+
                 }}>
                     {isMobile ?
                         <video width="400px" height="370px" autoPlay loop muted

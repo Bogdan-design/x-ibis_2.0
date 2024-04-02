@@ -63,26 +63,35 @@
 }
 
 
+.swiper-wrapper {
+  align-items: center;
+}
+
+.swiper-backface-hidden .swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 768px) {
   .clients {
-    height: 115px;
     align-items: center;
     --swiper-navigation-size: 20px;
     --swiper-navigation-color: #333;
     --swiper-navigation-sides-offset: 0px;
 
     .container {
-      padding: 0 31px;
+      padding: 35px 31px;
 
       .description {
-        background-color: red;
         display: flex;
         justify-content: center;
+        align-items: center;
+
         .quantity {
         }
-        .text{
-          width: 162px;
 
+        .text {
+          width: 162px;
         }
 
       }

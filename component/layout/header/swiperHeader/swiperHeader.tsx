@@ -29,8 +29,6 @@ const SwiperHeader = ({t,slice}:{t:(text:string)=>string,slice:number}) => {
                                         border: "1px solid #E75934",
                                         borderRadius: "200px",
                                         padding: '6px 10px',
-                                        display: 'flex',
-                                        justifyContent: 'center'
                                     }} key={l.hash}>
                                         <Link style={monumentExtended.style} className={s.link}
                                               href={`/${l.hash}`}>{t(l.name)}</Link>
@@ -38,10 +36,10 @@ const SwiperHeader = ({t,slice}:{t:(text:string)=>string,slice:number}) => {
                                 ))}
                             </div>
                         </nav>
-                        <SwiperSlide style={{top: "6px"}}>
-                            <div style={{display: "flex"}}>
+                        <SwiperSlide>
+
                                 <Menu/>
-                            </div>
+
                         </SwiperSlide>
                     </div>
                 </Swiper>
