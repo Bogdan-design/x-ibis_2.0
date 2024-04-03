@@ -5,13 +5,16 @@ import synology from '@/assest/icon/synology.png'
 import apple from '@/assest/icon/apple.png'
 import {Typography} from "@/component/ui/typography/typography";
 import {useTranslation} from "next-i18next";
-import "./flickity.scss"
 import {monumentExtended} from "@/fonts/fonts";
 import Carousel from "@/component/certification/carousel/carousel";
+import "./flickity.scss"
 import s from './certification.module.scss'
+import {useMobileContext} from "@/context/mobile.context";
+import {fontSize} from "@mui/system";
 
 export const Certification = () => {
     const {t} = useTranslation()
+    const {isMobile} = useMobileContext()
 
     interface Image {
         src: string;
@@ -32,7 +35,9 @@ export const Certification = () => {
                     <div style={monumentExtended.style} className={s.title}>
                         {t('employees')}
                     </div>
-                    <Typography variant={'text'}>
+                    <Typography style={{
+                        fontSize: isMobile ? '16px' : "18px"
+                    }}  variant={'text'}>
                         {t('boasts expertise')}
                     </Typography>
                 </div>

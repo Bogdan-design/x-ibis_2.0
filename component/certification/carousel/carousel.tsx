@@ -18,7 +18,7 @@ interface CarouselProps {
 
 const Carousel: React.FC<CarouselProps> = ({images}) => {
 
-    const {isMobile}= useMobileContext()
+    const {isMobile} = useMobileContext()
 
 
     return (
@@ -29,15 +29,15 @@ const Carousel: React.FC<CarouselProps> = ({images}) => {
         >
             {images.map((image, index) => (
                 <SwiperSlide key={index} className={s.carouselCell}>
-                    <img style={{
-                        width: isMobile ? '69px' : '122px',
-                        height: isMobile ? '77px' : '138px',
-                    }} src={image.src} alt={image.alt}/>
+                    <Image
+                        width={isMobile ? 69 : 122}
+                        height={isMobile ? 77 : 138}
+                        src={image.src} alt={image.alt}
+                    />
                 </SwiperSlide>
             ))}
             <SwiperSlide>
-
-            <Cisco/>
+                <Cisco/>
             </SwiperSlide>
         </Swiper>
     );

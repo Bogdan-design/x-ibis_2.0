@@ -40,13 +40,16 @@
 @media screen and (max-width: 768px) {
   .certification .container{
     padding: 31px;
+    gap: 40px;
     .text{
       max-width: 366px;
+      gap: 40px;
       .title{
+        padding: 19px;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 120%; /* 19.2px */
+        line-height: 120%;
       }
     }
   }
