@@ -4,7 +4,6 @@ import {SubmitBtm} from "@/component/contact/submitBtm";
 import Call from '@/assest/icon/call'
 import Location from '@/assest/icon/location'
 import Sms from '@/assest/icon/sms'
-import FrameContacts from '@/assest/icon/frame.contacts'
 import {TextField} from "@mui/material";
 import {sendEmail} from "@/actions/sendEmail";
 import toast from "react-hot-toast";
@@ -12,9 +11,8 @@ import {Typography} from "@/component/ui/typography/typography";
 import {BDO_Grotesk} from "@/fonts/fonts";
 import {useTranslation} from "next-i18next";
 import {Footer} from "@/component/footer/footer";
-import Animation from "@/common/animation/animation"
-import s from './contact.module.scss'
 import {useMobileContext} from "@/context/mobile.context";
+import s from './contact.module.scss'
 
 export const Contact = () => {
 
@@ -36,14 +34,14 @@ export const Contact = () => {
                         </Typography>
                         <div className={s.ourContact}>
                             <div>
-                                <Sms/><a href={'mailto:info@x-ibis.com'}>info@x-ibis.com</a>
+                                <Sms/><a style={{fontSize: isMobile ? '16px' : '25px', fontWeight: '500'}} href={'mailto:info@x-ibis.com'}>info@x-ibis.com</a>
                             </div>
                             <div>
-                                <Call/><Typography style={{fontSize: '25px', fontWeight: '500'}} variant={'text'}>+48
+                                <Call/><Typography style={{fontSize: isMobile ? '16px' : '25px', fontWeight: '500'}} variant={'text'}>+48
                                 694 670 955</Typography>
                             </div>
                             <div>
-                                <Location/><Typography style={{fontSize: '25px', fontWeight: '500'}} variant={'text'}>Warsaw,
+                                <Location/><Typography style={{fontSize: isMobile ? '16px' : '25px', fontWeight: '500'}} variant={'text'}>Warsaw,
                                 Poland</Typography>
                             </div>
                         </div>

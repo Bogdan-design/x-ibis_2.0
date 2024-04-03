@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="mobile homePage">
+    <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="mobile certification">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/certification/carousel/carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/certification/carousel/carousel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/certification/certification.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/certification/certification.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/certification/certification.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/certification/certification.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/contact/contact.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/contact/contact.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/contact/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/contact/contact.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,15 +277,7 @@
       <workItem from="1711828182825" duration="1095000" />
       <workItem from="1711969998420" duration="9489000" />
       <workItem from="1712047436140" duration="1807000" />
-      <workItem from="1712135973137" duration="4371000" />
-    </task>
-    <task id="LOCAL-00071" summary="rectangle component">
-      <option name="closed" value="true" />
-      <created>1708771665279</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1708771665279</updated>
+      <workItem from="1712135973137" duration="6417000" />
     </task>
     <task id="LOCAL-00072" summary="rectangle component">
       <option name="closed" value="true" />
@@ -672,7 +663,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711980078389</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="mobile certification">
+      <option name="closed" value="true" />
+      <created>1712146710275</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1712146710276</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -711,7 +710,8 @@
     <MESSAGE value="pages contacts" />
     <MESSAGE value="location" />
     <MESSAGE value="mobile homePage" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile homePage" />
+    <MESSAGE value="mobile certification" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile certification" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
