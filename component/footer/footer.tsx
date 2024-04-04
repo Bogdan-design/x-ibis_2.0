@@ -9,7 +9,7 @@ import Linkedin from "@/assest/icon/linkedin";
 import {monumentExtended} from "@/fonts/fonts";
 import s from './footer.module.scss'
 
-export const Footer = () => {
+export const Footer = ({}) => {
     const {t} = useTranslation()
 
     return (
