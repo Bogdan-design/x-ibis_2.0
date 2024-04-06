@@ -9,7 +9,7 @@ import Linkedin from "@/assest/icon/linkedin";
 import {monumentExtended} from "@/fonts/fonts";
 import s from './footer.module.scss'
 
-export const Footer = ({}) => {
+export const Footer = () => {
     const {t} = useTranslation()
 
     return (
@@ -26,7 +26,10 @@ export const Footer = ({}) => {
                                 {t(`${l.name}`)}
                             </Link>)
                         )}
-                        <Link className={s.linkedin} href={'https://www.linkedin.com/company/x-ibis'}>
+                        <Link
+                            className={s.linkedin}
+                            href={'https://www.linkedin.com/company/x-ibis'}
+                        >
                             <Linkedin/>
                         </Link>
                         <Link href={'/#home'} className={s.button}>

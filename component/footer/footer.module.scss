@@ -87,12 +87,13 @@
   .footer{
     height: 100%;
     .container{
-      //padding: 31px;
+
       flex-direction: column;
       .options{
         margin-top: 31px;
         flex-direction: column;
         .links{
+          width: 80vw;
           flex-direction: column;
         }
       }
