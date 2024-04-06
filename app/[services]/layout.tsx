@@ -11,7 +11,6 @@ export default function PagesLayout({
         <HeaderPage/>
         {children}
         <Contact/>
-
     </section>
 }
 

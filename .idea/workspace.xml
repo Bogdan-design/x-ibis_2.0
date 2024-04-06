@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="mobile contact">
+    <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="mobile services">
+      <change afterPath="$PROJECT_DIR$/assest/icon/whiteLogo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/footer/footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/footer/footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[services]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[services]/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[services]/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/[services]/page.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/icon/wite.logo.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/component/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/footer/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/servises/mobile/services.mobile.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/servises/mobile/services.mobile.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/layout/header/headerPage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/layout/header/headerPage.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,15 +289,7 @@
       <workItem from="1712135973137" duration="7479000" />
       <workItem from="1712260918856" duration="1166000" />
       <workItem from="1712388911413" duration="805000" />
-      <workItem from="1712395321059" duration="3103000" />
-    </task>
-    <task id="LOCAL-00074" summary="footer">
-      <option name="closed" value="true" />
-      <created>1708959080013</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1708959080014</updated>
+      <workItem from="1712395321059" duration="5094000" />
     </task>
     <task id="LOCAL-00075" summary="footer">
       <option name="closed" value="true" />
@@ -680,7 +675,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712261020564</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="mobile services">
+      <option name="closed" value="true" />
+      <created>1712405856358</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1712405856359</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -721,7 +724,8 @@
     <MESSAGE value="mobile homePage" />
     <MESSAGE value="mobile certification" />
     <MESSAGE value="mobile contact" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile contact" />
+    <MESSAGE value="mobile services" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile services" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

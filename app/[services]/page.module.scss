@@ -79,11 +79,14 @@
 
 @media screen and (max-width: 768px) {
   .main .container{
-    padding: 31px;
+    padding: 0 31px 31px;
     .titleContainer{
       .link{
         display: none;
       }
+    }
+    .options{
+      padding-top: 25px;
     }
   }
 }

@@ -1,5 +1,5 @@
 'use client'
-import Logo from "@/assest/icon/wite.logo";
+import Logo from "@/assest/icon/whiteLogo";
 import {links} from "@/lid/data";
 import Link from "next/link";
 import Arrow from "@/assest/icon/arrow";
