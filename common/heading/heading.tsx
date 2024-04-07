@@ -5,18 +5,22 @@ import {monumentExtended} from "@/fonts/fonts";
 import {useMobileContext} from "@/context/mobile.context";
 import Back from "@/assest/icon/back";
 import Link from "next/link";
+import clsx from "clsx";
 import s from './heading.module.scss'
 
-type pageData = { page: string }
+type pageData = { page: string, t:(text: string) => string }
 
-export const Heading = ({page}: pageData) => {
-    const {t} = useTranslation()
+export const Heading = ({page,t}: pageData) => {
 
     const {isMobile} = useMobileContext()
 
+    const classNames={
+        title: clsx(page==='audit' || 'security' ? s.title : s.title,s.titleSm)
+    }
+
     return (
         <div className={s.heading}>
-            <div style={monumentExtended.style} className={s.title}>
+            <div style={monumentExtended.style} className={classNames.title}>
                 <div className={s.titleBg}></div>
                 {isMobile &&
                     <Link href={'/#[services]'} className={s.link}>

@@ -6,10 +6,15 @@ import {pagesData} from "@/lid/data";
 import {Heading} from "@/common/heading/heading";
 import {Card} from "@/common/content/card";
 import {PageError} from "@/common/errors/error404";
+import {useTranslation} from "next-i18next";
+import {useEffect } from "react";
 import s from './page.module.scss'
 
 
 function Page({params: {services}}: { params: { services: string } }) {
+
+    const { t,i18n } = useTranslation();
+
 
 
     let dataIndex
@@ -41,12 +46,12 @@ function Page({params: {services}}: { params: { services: string } }) {
                 <Link href={'/#[services]'} className={s.link}>
                     <Back className={s.button}/>
                 </Link>
-                <Heading {...pagesData[dataIndex]} page={services}/>
+                <Heading {...pagesData[dataIndex]} t={t} page={services}/>
             </div>
             <div className={s.options}>
                 <div className={s.list}>
                     {pagesData[dataIndex].options.map((o, i) => (
-                        <Card key={i} index={i} page={services} {...o}/>
+                        <Card key={i} index={i} t={t} page={services} {...o}/>
                     ))}
                 </div>
             </div>

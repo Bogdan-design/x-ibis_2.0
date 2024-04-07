@@ -17,7 +17,7 @@
       top: 0;
       right: 0;
       width: 100vw;
-      border-radius: 100px;
+      border-radius:0 100px 100px 0;
       background-color: #E75934;
       height: 100%;
       z-index: -1;
@@ -42,8 +42,13 @@
       gap: 20px;
 
     }
+    .titleSm{
+      font-size: 22px;
+    }
   }
 }
+
+
 
 .link {
   display: flex;

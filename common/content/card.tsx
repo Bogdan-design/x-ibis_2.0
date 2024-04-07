@@ -1,13 +1,11 @@
 import React from 'react';
 import {pagesData} from "@/lid/data";
-import {useTranslation} from "next-i18next";
 import {Typography} from "@/component/ui/typography/typography";
 import s from './content.module.scss'
 
-type pageData = (typeof pagesData)[number]['options'][number] & { index: number } & { page: string }
+type pageData = (typeof pagesData)[number]['options'][number] & { index: number } & { page: string } & { t: (text: string) => string }
 
-export const Card = ({index, page}: pageData) => {
-    const {t} = useTranslation()
+export const Card = ({index, page,t}: pageData) => {
 
 
     return (
