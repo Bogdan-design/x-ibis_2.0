@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="mobile services">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[services]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[services]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/content/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/common/content/card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/heading/heading.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/common/heading/heading.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/heading/heading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/common/heading/heading.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +29,12 @@
     &quot;assignee&quot;: &quot;Bogdan-design&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Bogdan-design/x-ibis_2.0.git",
-    "accountId": "d2890ec4-ea22-4f3e-ade4-8476f891ce3c"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Bogdan-design/x-ibis_2.0.git&quot;,
+    &quot;accountId&quot;: &quot;d2890ec4-ea22-4f3e-ade4-8476f891ce3c&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -67,7 +63,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.editor",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "ts.external.directory.path": "F:\\It-incubator\\x-ibis_2.0\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -288,6 +284,7 @@
       <workItem from="1712260918856" duration="1166000" />
       <workItem from="1712388911413" duration="805000" />
       <workItem from="1712395321059" duration="9602000" />
+      <workItem from="1712579922689" duration="342000" />
     </task>
     <task id="LOCAL-00076" summary="footer">
       <option name="closed" value="true" />

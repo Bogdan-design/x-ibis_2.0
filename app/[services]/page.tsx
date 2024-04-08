@@ -13,7 +13,7 @@ import s from './page.module.scss'
 
 function Page({params: {services}}: { params: { services: string } }) {
 
-    const { t,i18n } = useTranslation();
+    const { t } = useTranslation();
 
 
 
