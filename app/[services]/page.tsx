@@ -7,7 +7,6 @@ import {Heading} from "@/common/heading/heading";
 import {Card} from "@/common/content/card";
 import {PageError} from "@/common/errors/error404";
 import {useTranslation} from "next-i18next";
-import {useEffect } from "react";
 import s from './page.module.scss'
 
 
