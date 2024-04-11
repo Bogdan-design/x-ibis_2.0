@@ -15,7 +15,6 @@ function Page({params: {services}}: { params: { services: string } }) {
     const { t } = useTranslation();
 
 
-
     let dataIndex
 
     switch (services) {
