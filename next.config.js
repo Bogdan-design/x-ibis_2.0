@@ -8,7 +8,7 @@ const { esmExternals = false, tsconfigPath } =
 
 const nextConfig = {
 
-    output: 'export',
+
 
     webpack(config) {
         // Grab the existing rule that handles SVG imports
