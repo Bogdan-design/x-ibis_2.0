@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="mobile services">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
     &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;F:\\It-incubator\\x-ibis_2.0\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -295,15 +294,9 @@
       <workItem from="1713082692295" duration="4975000" />
       <workItem from="1713171090068" duration="5350000" />
       <workItem from="1713187501572" duration="633000" />
-      <workItem from="1713188334401" duration="7413000" />
-    </task>
-    <task id="LOCAL-00082" summary="section services">
-      <option name="closed" value="true" />
-      <created>1709661010212</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1709661010212</updated>
+      <workItem from="1713188334401" duration="10426000" />
+      <workItem from="1713261922614" duration="6000" />
+      <workItem from="1713264791448" duration="13549000" />
     </task>
     <task id="LOCAL-00083" summary="section services">
       <option name="closed" value="true" />
@@ -689,7 +682,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713087483469</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="mobile services">
+      <option name="closed" value="true" />
+      <created>1713217067773</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1713217067774</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
