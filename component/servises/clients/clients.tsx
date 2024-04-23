@@ -40,7 +40,7 @@ export const Clients = () => {
                                    height={'60'}/>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <Image src={times} alt={'times'} width={'126'} height={'36'}/>
+                            <Image src={'https://tinesrail.com/wp-content/uploads/2021/04/Tines-logo-1.png'} alt={'times'} width={'126'} height={'36'}/>
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image src={nodral} width={'192'} height={'36'} alt={'nodral'}/>
