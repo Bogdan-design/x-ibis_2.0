@@ -40,14 +40,13 @@ export const Clients = () => {
                                    height={'60'}/>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <Image src={'https://tinesrail.com/wp-content/uploads/2021/04/Tines-logo-1.png'} alt={'times'} width={'126'} height={'36'}/>
+                            <Image src={times} alt={'times'} width={'126'} height={'36'}/>
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image src={nodral} width={'192'} height={'36'} alt={'nodral'}/>
                         </SwiperSlide>
                     </Swiper>
                     :
-
                     <>
                         <div className={s.description}>
                             <p style={monumentExtended.style} className={s.quantity}>20+</p>
@@ -56,8 +55,10 @@ export const Clients = () => {
                         <Image src={'https://galeinvest.pl/wp-content/themes/newgale/images/logo.svg'}
                                style={{backgroundColor: 'none'}} alt={'gala-invest'} width={'163'}
                                height={'60'}/>
-                        <Image src={times} alt={'times'} width={'126'} height={'36'}/>
-                        <Image src={nodral} width={'192'} height={'36'} alt={'nodral'}/>
+                        <Image src={times}
+                               alt={'times'} width={'126'} height={'36'}/>
+                        <Image src={nodral}
+                               width={'192'} height={'36'} alt={'nodral'}/>
                     </>
                 }
             </div>
