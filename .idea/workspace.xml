@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="mobile services">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/servises/clients/clients.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/servises/clients/clients.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,14 +306,8 @@
       <workItem from="1713561203083" duration="382000" />
       <workItem from="1713822452239" duration="52000" />
       <workItem from="1713908523656" duration="1764000" />
-    </task>
-    <task id="LOCAL-00087" summary="section about">
-      <option name="closed" value="true" />
-      <created>1710017225416</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1710017225416</updated>
+      <workItem from="1714253370069" duration="496000" />
+      <workItem from="1714858170094" duration="40000" />
     </task>
     <task id="LOCAL-00088" summary="section about">
       <option name="closed" value="true" />
@@ -700,7 +693,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713909232689</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="mobile services">
+      <option name="closed" value="true" />
+      <created>1714253605913</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1714253605913</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

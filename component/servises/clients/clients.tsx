@@ -43,7 +43,7 @@ export const Clients = () => {
                             <Image src={times} alt={'times'} width={'126'} height={'36'}/>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <Image src={nodral} width={'192'} height={'36'} alt={'nodral'}/>
+                            <Image src={nodral} width={'191'} height={'36'} alt={'nodral'}/>
                         </SwiperSlide>
                     </Swiper>
                     :
