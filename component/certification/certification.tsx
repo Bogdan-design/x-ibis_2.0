@@ -2,7 +2,6 @@
 import React from 'react';
 import aws from '@/assest/icon/aws.png'
 import synology from '@/assest/icon/synology.png'
-import apple from '@/assest/icon/apple.png'
 import {Typography} from "@/component/ui/typography/typography";
 import {useTranslation} from "next-i18next";
 import {monumentExtended} from "@/fonts/fonts";
@@ -23,7 +22,6 @@ export const Certification = () => {
     const images: Image[] = [
         {src: aws.src, alt: 'AWS'},
         {src: synology.src, alt: 'Synology'},
-        {src: apple.src, alt: 'Apple'},
     ];
 
 
