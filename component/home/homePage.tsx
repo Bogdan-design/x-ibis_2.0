@@ -36,7 +36,7 @@ export const HomePage = () => {
 
                 }}>
                     {isMobile ?
-                        <video width="400px" height="370px" autoPlay loop muted
+                        <video width="400px" height="370px" playsInline autoPlay loop muted
                                style={{maxWidth: '450%', maxHeight: '450%'}}>
                             <source src="/video/backwhite.mp4" type="video/mp4"/>
                             Your browser does not support the video tag.
@@ -52,8 +52,11 @@ export const HomePage = () => {
                 </div>
                 {isMobile && <div style={{zIndex: '1', paddingTop:'30px'}}>
 
-                    <Button as={'a'} variant={'link'}
-                            href={'/#contact'}>{t('Home page button')}</Button>
+                    <Button as={'a'}
+                            variant={'link'}
+                            href={'/#contact'}>
+                        {t('Home page button')}
+                    </Button>
                 </div>
                 }
             </div>

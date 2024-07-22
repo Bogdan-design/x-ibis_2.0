@@ -1,7 +1,6 @@
 'use client'
 import React from 'react';
-import nodral from '@/assest/icon/nodral.png'
-import times from '@/assest/icon/tines.png'
+import Nodral from '@/assest/icon/nodral'
 import Image from "next/image";
 import {monumentExtended} from "@/fonts/fonts";
 import {useTranslation} from "next-i18next";
@@ -16,7 +15,7 @@ import s from './clients.module.scss'
 export const Clients = () => {
 
     const {t} = useTranslation()
-   const {isMobile}= useMobileContext()
+    const {isMobile} = useMobileContext()
 
 
     return (
@@ -40,13 +39,15 @@ export const Clients = () => {
                                    height={'60'}/>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <Image src={times} alt={'times'} width={'126'} height={'36'}/>
+                            <img src='/icons/tines.png'
+                                 width={'192'} height={'36'} alt={'tines'}/>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <Image src={nodral} width={'191'} height={'36'} alt={'nodral'}/>
+                            <Nodral/>
                         </SwiperSlide>
                     </Swiper>
                     :
+
                     <>
                         <div className={s.description}>
                             <p style={monumentExtended.style} className={s.quantity}>20+</p>
@@ -55,10 +56,10 @@ export const Clients = () => {
                         <Image src={'https://galeinvest.pl/wp-content/themes/newgale/images/logo.svg'}
                                style={{backgroundColor: 'none'}} alt={'gala-invest'} width={'163'}
                                height={'60'}/>
-                        <Image src={times}
-                               alt={'times'} width={'126'} height={'36'}/>
-                        <Image src={nodral}
-                               width={'192'} height={'36'} alt={'nodral'}/>
+                        <img src='/icons/tines.png'
+                             width={'192'} height={'36'} alt={'tines'}/>
+                        <Nodral/>
+
                     </>
                 }
             </div>

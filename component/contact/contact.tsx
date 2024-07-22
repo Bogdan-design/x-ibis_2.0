@@ -105,7 +105,7 @@ export const Contact = () => {
                             justifyContent: 'center',
                             alignItems: 'center'
                         }}>
-                            <video width={isMobile ? '243x' : "530px"} height={isMobile ? '243x' : "520px"} autoPlay loop muted
+                            <video width={isMobile ? '243x' : "530px"} height={isMobile ? '243x' : "520px"} playsInline autoPlay loop muted
                                    style={{maxWidth: '240%', maxHeight: '240%'}}>
                                 <source src="/video/contact.mp4" type="video/mp4"/>
                                 Your browser does not support the video tag.

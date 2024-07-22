@@ -1,9 +1,9 @@
 import React from 'react';
 import {whatWeDoData} from "@/lid/data";
 import {MobileServiceCard} from "./card/mobile.service.card";
-import s from './services.mobile.module.scss'
 import {monumentExtended} from "@/fonts/fonts";
 import {useTranslation} from "next-i18next";
+import s from './services.mobile.module.scss'
 
 export const ServicesMobile = () => {
 

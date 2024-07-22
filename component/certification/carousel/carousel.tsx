@@ -2,10 +2,10 @@ import React from 'react';
 import 'flickity/css/flickity.css';
 import Image from 'next/image';
 import Cisco from '@/assest/icon/cisco';
-import s from './carousel.module.scss'
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Navigation} from "swiper/modules";
 import {useMobileContext} from "@/context/mobile.context";
+import s from './carousel.module.scss'
 
 interface Image {
     src: string;
@@ -29,15 +29,26 @@ const Carousel: React.FC<CarouselProps> = ({images}) => {
         >
             {images.map((image, index) => (
                 <SwiperSlide key={index} className={s.carouselCell}>
-                    <Image
+                    <img
                         width={isMobile ? 69 : 122}
                         height={isMobile ? 77 : 138}
                         src={image.src} alt={image.alt}
                     />
                 </SwiperSlide>
             ))}
-            <SwiperSlide>
-                <Cisco/>
+            <SwiperSlide style={{display:'flex',alignItems:'center'}}>
+                <img
+                    width={isMobile ? 69 : 165}
+                    height={isMobile ? 45 : 77}
+                    src='/icons/apple.png'
+                />
+            </SwiperSlide>
+            <SwiperSlide style={{display:'flex',alignItems:'center'}}>
+                <img
+                    width={isMobile ? 69 : 147}
+                    height={isMobile ? 77 : 77}
+                    src='/icons/cisco.png'
+                />
             </SwiperSlide>
         </Swiper>
     );

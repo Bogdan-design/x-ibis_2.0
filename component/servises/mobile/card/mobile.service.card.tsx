@@ -27,7 +27,7 @@ export const MobileServiceCard = ({link,video}:ProjectProps) => {
                 justifyContent: 'center',
                 alignItems: 'center'
             }}>
-                <video width="330px" height="320px" autoPlay loop muted
+                <video width="330px" height="320px" playsInline autoPlay loop muted
                        style={{maxWidth: '200%', maxHeight: '200%'}}>
                     <source src={video} type="video/mp4"/>
                     Your browser does not support the video tag.

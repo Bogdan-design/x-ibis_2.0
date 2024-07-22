@@ -34,8 +34,7 @@
         height: 100%;
         &:hover{
           cursor: pointer;
-          background-color: #FAFAFA;
-          z-index: -1;
+          background-color: rgba(128, 128, 128, 0.09);
         }
       }
     }
@@ -48,8 +47,6 @@
       font-style: normal;
       font-weight: 500;
       line-height: 120%;
-
-
     }
   }
 

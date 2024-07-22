@@ -98,8 +98,7 @@
         height: 100%;
         &:hover{
           cursor: pointer;
-          background-color: #FAFAFA;
-          z-index: -1;
+          background-color: rgba(128, 128, 128, 0.09);
         }
 
       }

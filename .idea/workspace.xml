@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="mobile services">
+      <change afterPath="$PROJECT_DIR$/assest/icon/c399333201281fe3af66a73239330f48.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/icon/nodral.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/icon/tines.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/icon/tines.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/cisco.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/about/about.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/about/about.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/about/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/about/about.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/certification/carousel/carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/certification/carousel/carousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/certification/certification.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/certification/certification.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/contact/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/contact/contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/home/homePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/home/homePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/servises/clients/clients.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/servises/clients/clients.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/servises/mobile/card/mobile.service.card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/servises/mobile/card/mobile.service.card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/servises/mobile/services.mobile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/servises/mobile/services.mobile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/servises/services.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/servises/services.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/servises/weDo/weDo.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/servises/weDo/weDo.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +58,21 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2Wqf7w7UqAQytmngVtDZhls58xZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/It-incubator/x-ibis_2.0/component/layout/header/swiperHeader&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/It-incubator/x-ibis_2.0&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
@@ -308,14 +328,13 @@
       <workItem from="1713908523656" duration="1764000" />
       <workItem from="1714253370069" duration="496000" />
       <workItem from="1714858170094" duration="40000" />
-    </task>
-    <task id="LOCAL-00088" summary="section about">
-      <option name="closed" value="true" />
-      <created>1710084776748</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1710084776748</updated>
+      <workItem from="1714858221387" duration="931000" />
+      <workItem from="1714936660256" duration="247000" />
+      <workItem from="1716449907487" duration="3175000" />
+      <workItem from="1716469670431" duration="8829000" />
+      <workItem from="1721075807402" duration="14000" />
+      <workItem from="1721657113403" duration="1565000" />
+      <workItem from="1721680034624" duration="4120000" />
     </task>
     <task id="LOCAL-00089" summary="section about">
       <option name="closed" value="true" />
@@ -701,7 +720,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714253605913</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="mobile services">
+      <option name="closed" value="true" />
+      <created>1714859155287</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1714859155288</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,6 +746,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="issue with svg" />
     <MESSAGE value="data for pages" />
     <MESSAGE value="drop down menu" />

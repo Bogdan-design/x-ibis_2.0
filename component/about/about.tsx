@@ -29,7 +29,7 @@ export const About = () => {
                             justifyContent: 'center',
                             alignItems: 'center',
                         }}>
-                            <video width="550px" height="550px" autoPlay loop muted
+                            <video width="550px" height="550px" playsInline autoPlay loop muted
                                    style={{maxWidth: '220%', maxHeight: '220%'}}>
                                 <source src="/video/rocket.mp4" type="video/mp4"/>
                                 Your browser does not support the video tag.
