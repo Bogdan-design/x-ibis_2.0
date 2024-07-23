@@ -8,7 +8,7 @@
   "Back to Services": "Back to Services",
   "have been": "Have Been Serviced By Our Company",
   "What we do": "What we do",
-  "We specialize": "We specialize in IT infrastructure and security.",
+  "We specialize": "Our mission",
   "Our mission": "Our mission to develop and uphold cutting-edge tech solutions, ensuring reliability, efficiency, and protection.",
   "experienced": "We're an experienced IT infrastructure and security firm, driven by innovation since day one.",
   "collaborate": "We collaborate closely with our clients, crafting personalized solutions that align perfectly with their goals and needs.",
@@ -98,7 +98,7 @@
     ]
   },
   "ensuring": {
-    "title": "Ensuring Reliability infrastructure",
+    "title": "Infrastructure",
     "description": "Our specialty lies in creating a dependable IT framework for efficient operations.",
     "pageTitle": "Ensuring Reliability Infrastructure",
     "pageDescription": "Our specialty lies in creating a dependable IT framework for efficient operations.",
@@ -142,7 +142,7 @@
     ]
   },
   "administration": {
-    "title": "IT Administration",
+    "title": "IT Support",
     "description": "Our professional IT administration keeps your tech running smoothly.",
     "pageTitle": "IT Administration",
     "pageDescription": "Our professional IT administration keeps your tech running smoothly.",
@@ -182,7 +182,7 @@
     ]
   },
   "solution": {
-    "title": "Modern Solutions",
+    "title": "Innovative Solutions",
     "description": "Specializing in next-level business solutions, we optimize efficiency.",
     "pageTitle": "Modern Solutions",
     "pageDescription": "Specializing in next-level business solutions, we optimize efficiency.",

@@ -22,21 +22,27 @@ export const WeDo = ({link,title, text, children,right,className}: PropsType) =>
     }
 
     return (
-        <div className={s.weDo}>
-            {right && children}
-            <div className={s.weDoContainer}>
-                <div style={monumentExtended.style} className={s.weDoTitle}>
-                    <Link href={link} className={classNames.root}></Link>
-                    {title}
+        <div>
+            <Link href={link} style={{textDecoration: 'none', color: 'inherit'}}>
+                <div className={s.weDo}>
+                    {right && children}
+                    <div className={s.weDoContainer}>
+                        <div style={monumentExtended.style} className={s.weDoTitle}>
+                            <Link href={link} className={classNames.root}></Link>
+                            {title}
+                        </div>
+                        <div style={{paddingLeft: '46px'}}>
+                            <Typography className={s.weDoText} variant='text'>
+                                {text}
+                            </Typography>
+                        </div>
+                    </div>
+                    {!right && children}
                 </div>
-                <div style={{paddingLeft:'46px'}}>
-                    <Typography className={s.weDoText} variant='text'>
-                        {text}
-                    </Typography>
-                </div>
-            </div>
-            {!right && children}
+            </Link>
         </div>
+
+
     );
 };
 

@@ -38,6 +38,17 @@ export const Footer = () => {
                     </nav>
                 </div>
             </div>
+            <div className={s.nip}>
+                <div>
+                    <div>Numer KRS 0001068680</div>
+                    <div>Regon 526909832</div>
+                    <div>NIP 5242989158</div>
+                    <div>x-ibis sp.z o.o.</div>
+                </div>
+                <div>
+2024 X-IBIS SP.Z O.O. Wszystkie prawa zastrzeżone.
+                </div>
+            </div>
         </footer>
     );
 };
