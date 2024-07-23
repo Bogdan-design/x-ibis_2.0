@@ -15,34 +15,30 @@ type PropsType = {
     children: ReactNode
 }
 
-export const WeDo = ({link,title, text, children,right,className}: PropsType) => {
+export const WeDo = ({link, title, text, children, right, className}: PropsType) => {
 
     const classNames = {
-        root:clsx(s.weDoTitleBg,className)
+        root: clsx(s.weDoTitleBg, className)
     }
 
     return (
-        <div>
-            <Link href={link} style={{textDecoration: 'none', color: 'inherit'}}>
-                <div className={s.weDo}>
-                    {right && children}
-                    <div className={s.weDoContainer}>
-                        <div style={monumentExtended.style} className={s.weDoTitle}>
-                            <Link href={link} className={classNames.root}></Link>
-                            {title}
-                        </div>
-                        <div style={{paddingLeft: '46px'}}>
-                            <Typography className={s.weDoText} variant='text'>
-                                {text}
-                            </Typography>
-                        </div>
+        <Link href={link} style={{textDecoration: 'none', color: 'inherit'}}>
+            <div className={s.weDo}>
+                {right && children}
+                <div className={s.weDoContainer}>
+                    <div style={monumentExtended.style} className={s.weDoTitle}>
+                        <span className={classNames.root}></span>
+                        {title}
                     </div>
-                    {!right && children}
+                    <div style={{paddingLeft: '46px'}}>
+                        <Typography className={s.weDoText} variant='text'>
+                            {text}
+                        </Typography>
+                    </div>
                 </div>
-            </Link>
-        </div>
-
-
+                {!right && children}
+            </div>
+        </Link>
     );
 };
 

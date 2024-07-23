@@ -76,6 +76,20 @@
     flex-direction: column;
     align-items: center;
     gap: 27px;
+    cursor: pointer;
+    &:hover{
+      .weDoTitleBg{
+        background-color: #E75934;
+        z-index: -1;
+      }
+      .weDoTitle{
+        color: #FFFFFF;
+      }
+      .text{
+        color: #E75934;
+      }
+    }
+
 
     .weDoTitle {
       display: flex;
@@ -98,7 +112,6 @@
         height: 100%;
         &:hover{
           cursor: pointer;
-          background-color: rgba(128, 128, 128, 0.09);
         }
 
       }
@@ -109,6 +122,8 @@
       gap: 27px;
 
     }
+
+
 
   }
 

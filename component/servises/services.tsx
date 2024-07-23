@@ -14,7 +14,7 @@ import s from './services.module.scss'
 export const Services = () => {
     const {t} = useTranslation()
 
-    const {isMobile}= useMobileContext()
+    const {isMobile} = useMobileContext()
 
     const classNames = {
         right: clsx(s.weDoTitleBg, s.right),
@@ -51,7 +51,7 @@ export const Services = () => {
                         <div className={s.weDo}>
                             <div className={s.weDoContainer}>
                                 <div style={monumentExtended.style} className={s.weDoTitle}>
-                                    <Link href='ensuring' className={classNames.left}></Link>
+                                    <Link href={'ensuring'} className={classNames.left}></Link>
                                     {t('ensuring.title')}
                                 </div>
                                 <div className={s.weDoContent}>
@@ -61,11 +61,19 @@ export const Services = () => {
                                 </div>
                             </div>
                         </div>
-                        <div style={{justifyContent: 'right', gap: '15px'}} className={s.weDo}>
+                        <Link
+                            href={'administration'}
+                            style={{
+                                justifyContent: 'right',
+                                gap: '15px',
+                                textDecoration: 'none',
+                                color: 'inherit'
+                            }}
+                            className={s.weDo}>
                             <Animation src="/video/keeping.mp4"/>
                             <div style={{alignItems: 'start'}} className={s.weDoContainer}>
                                 <div style={monumentExtended.style} className={s.weDoTitle}>
-                                    <Link href='administration' className={classNames.right}></Link>
+                                    <span className={classNames.right}></span>
                                     {t('administration.title')}
                                 </div>
                                 <div style={{paddingLeft: '46px'}}>
@@ -73,31 +81,18 @@ export const Services = () => {
                                     </Typography>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                         <div className={s.weDo}>
                             <div style={{alignItems: 'start'}} className={s.weDoContainer}>
                                 <div style={monumentExtended.style} className={s.weDoTitle}>
-                                    <Link href='solution' className={classNames.left}></Link>
+                                    <Link href={'solution'} className={classNames.left}></Link>
                                     {t('solution.title')}
                                 </div>
                                 <div style={{paddingLeft: '46px', width: '80%', justifyContent: 'space-between'}}
                                      className={s.weDoContent}>
                                     <Typography className={s.text} variant='text'>{t('solution.description')}
                                     </Typography>
-                                    <div style={{
-                                        zIndex: -10,
-                                        width: "249px",
-                                        height: "235px",
-                                        display: 'flex',
-                                        justifyContent: 'center',
-                                        alignItems: 'center'
-                                    }}>
-                                        <video width="530px" height="520px" autoPlay loop muted
-                                               style={{maxWidth: '240%', maxHeight: '240%'}}>
-                                            <source src="/video/screen.mp4" type="video/mp4"/>
-                                            Your browser does not support the video tag.
-                                        </video>
-                                    </div>
+                                    <Animation width={'530px'} height={'520px'} src="/video/screen.mp4"/>
                                 </div>
                             </div>
                         </div>

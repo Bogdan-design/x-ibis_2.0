@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Animation = ({ src }: { src: string }) => {
+const Animation = ({ src,width = "430px",height = "420px" }: { src: string,width?:string,height?:string }) => {
     return (
         <div style={{
             zIndex: -10,
@@ -10,7 +10,7 @@ const Animation = ({ src }: { src: string }) => {
             justifyContent: 'center',
             alignItems: 'center'
         }}>
-            <video width="430px" height="420px" autoPlay loop muted style={{maxWidth: '220%', maxHeight: '220%'}}>
+            <video width={width} height={height} autoPlay loop muted style={{maxWidth: '220%', maxHeight: '220%'}}>
                 <source src={src} type="video/mp4"/>
                 Your browser does not support the video tag.
             </video>
