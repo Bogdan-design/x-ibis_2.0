@@ -48,10 +48,11 @@ export const Services = () => {
                         >
                             <Animation src="/video/cloud.mp4"/>
                         </WeDo>
+                        <Link href={'ensuring'} style={{textDecoration: 'none', color: 'inherit'}}>
                         <div className={s.weDo}>
                             <div className={s.weDoContainer}>
                                 <div style={monumentExtended.style} className={s.weDoTitle}>
-                                    <Link href={'ensuring'} className={classNames.left}></Link>
+                                    <span className={classNames.left}></span>
                                     {t('ensuring.title')}
                                 </div>
                                 <div className={s.weDoContent}>
@@ -61,6 +62,7 @@ export const Services = () => {
                                 </div>
                             </div>
                         </div>
+                        </Link>
                         <Link
                             href={'administration'}
                             style={{
@@ -82,20 +84,22 @@ export const Services = () => {
                                 </div>
                             </div>
                         </Link>
-                        <div className={s.weDo}>
-                            <div style={{alignItems: 'start'}} className={s.weDoContainer}>
-                                <div style={monumentExtended.style} className={s.weDoTitle}>
-                                    <Link href={'solution'} className={classNames.left}></Link>
-                                    {t('solution.title')}
-                                </div>
-                                <div style={{paddingLeft: '46px', width: '80%', justifyContent: 'space-between'}}
-                                     className={s.weDoContent}>
-                                    <Typography className={s.text} variant='text'>{t('solution.description')}
-                                    </Typography>
-                                    <Animation width={'530px'} height={'520px'} src="/video/screen.mp4"/>
+                        <Link href={'solution'} style={{textDecoration: 'none', color: 'inherit'}}>
+                            <div className={s.weDo}>
+                                <div style={{alignItems: 'start'}} className={s.weDoContainer}>
+                                    <div style={monumentExtended.style} className={s.weDoTitle}>
+                                        <span className={classNames.left}></span>
+                                        {t('solution.title')}
+                                    </div>
+                                    <div style={{paddingLeft: '46px', width: '80%', justifyContent: 'space-between'}}
+                                         className={s.weDoContent}>
+                                        <Typography className={s.text} variant='text'>{t('solution.description')}
+                                        </Typography>
+                                        <Animation width={'530px'} height={'520px'} src="/video/screen.mp4"/>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                 </div>
             }
