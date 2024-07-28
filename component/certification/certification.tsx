@@ -2,7 +2,6 @@
 import React from 'react';
 import aws from '@/assest/icon/aws.png'
 import synology from '@/assest/icon/synology.png'
-import {Typography} from "@/component/ui/typography/typography";
 import {useTranslation} from "next-i18next";
 import {monumentExtended} from "@/fonts/fonts";
 import Carousel from "@/component/certification/carousel/carousel";
@@ -32,11 +31,11 @@ export const Certification = () => {
                     <div style={monumentExtended.style} className={s.title}>
                         {t('employees')}
                     </div>
-                    <Typography style={{
-                        fontSize: isMobile ? '16px' : "18px"
-                    }}  variant={'text'}>
-                        {t('boasts expertise')}
-                    </Typography>
+                    {/*<Typography style={{*/}
+                    {/*    fontSize: isMobile ? '16px' : "18px"*/}
+                    {/*}}  variant={'text'}>*/}
+                    {/*    {t('boasts expertise')}*/}
+                    {/*</Typography>*/}
                 </div>
                 <Carousel images={images}/>
             </div>
