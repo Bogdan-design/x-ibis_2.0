@@ -17,7 +17,9 @@ export const Footer = () => {
     return (
         <footer className={s.footer}>
             <div className={s.container}>
-                <Logo/>
+                <Link href={'/'}>
+                    <Logo/>
+                </Link>
                 <div className={s.options}>
                     <nav className={s.links}>
                         {links.map(l => (
