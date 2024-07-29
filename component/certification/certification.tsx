@@ -31,11 +31,6 @@ export const Certification = () => {
                     <div style={monumentExtended.style} className={s.title}>
                         {t('employees')}
                     </div>
-                    {/*<Typography style={{*/}
-                    {/*    fontSize: isMobile ? '16px' : "18px"*/}
-                    {/*}}  variant={'text'}>*/}
-                    {/*    {t('boasts expertise')}*/}
-                    {/*</Typography>*/}
                 </div>
                 <Carousel images={images}/>
             </div>

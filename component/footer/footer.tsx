@@ -48,7 +48,7 @@ export const Footer = () => {
                     <div>REGON <p>526909832</p></div>
                     <div>X-IBIS sp.z o.o.</div>
                     <div>
-                        2024 X-IBIS SP.Z O.O. Wszystkie prawa zastrzeżone.
+                        2024 X-IBIS SP.Z O.O.<p>{t('rights')}</p>
                     </div>
                     <Link href={'/#home'} className={s.button}>
                         <Arrow className={s.up}/>
@@ -84,7 +84,7 @@ export const Footer = () => {
                         </div>
                     </div>
                     <div>
-                        2024 X-IBIS SP.Z O.O. Wszystkie prawa zastrzeżone.
+                        2024 X-IBIS SP.Z O.O. <span>{t('rights')}</span>
                     </div>
                 </div>
             }

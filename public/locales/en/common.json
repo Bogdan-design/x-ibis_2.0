@@ -6,7 +6,7 @@
   "Home page title": "We will make your IT infrastructure reliable, modern and secure",
   "Home page button": "Get in Touch",
   "Back to Services": "Back to Services",
-  "have been": "Have Been Serviced By Our Company",
+  "have been": "OUR CLIENTS:",
   "What we do": "What we do",
   "We specialize": "Our mission",
   "Our mission": "Our mission to develop and uphold cutting-edge tech solutions, ensuring reliability, efficiency, and protection.",
@@ -21,6 +21,7 @@
   "formPhone": "Phone",
   "formMessage": "Message",
   "Sent": "Sent",
+  "rights": "All rights reserved.",
   "audit": {
     "title": "IT Audit",
     "description": "We enable busineses to fully grasp and enhance their information systems.",

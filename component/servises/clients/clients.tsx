@@ -21,18 +21,16 @@ export const Clients = () => {
     return (
         <section className={s.clients}>
             <div className={s.container}>
+                {isMobile && <div className={s.description}>
+                    <p style={monumentExtended.style} className={s.quantity}>{t('have been')}</p>
+                </div>}
                 {isMobile ?
+
                     <Swiper
                         modules={[Navigation]}
                         slidesPerView={1}
                         navigation
                     >
-                        <SwiperSlide>
-                            <div className={s.description}>
-                                <p style={monumentExtended.style} className={s.quantity}>OUR CLIENTS:</p>
-                                {/*<p className={s.text}>{t('have been')}</p>*/}
-                            </div>
-                        </SwiperSlide>
                         <SwiperSlide>
                             <Image src={'https://galeinvest.pl/wp-content/themes/newgale/images/logo.svg'}
                                    style={{backgroundColor: 'none'}} alt={'gala-invest'} width={'163'}
@@ -46,12 +44,13 @@ export const Clients = () => {
                             <Nodral/>
                         </SwiperSlide>
                     </Swiper>
+
+
                     :
 
                     <>
                         <div className={s.description}>
-                            <p style={monumentExtended.style} className={s.quantity}>OUR CLIENTS:</p>
-                            {/*<p className={s.text}>{t('have been')}</p>*/}
+                            <p style={monumentExtended.style} className={s.quantity}>{t('have been')}</p>
                         </div>
                         <Image src={'https://galeinvest.pl/wp-content/themes/newgale/images/logo.svg'}
                                style={{backgroundColor: 'none'}} alt={'gala-invest'} width={'163'}
