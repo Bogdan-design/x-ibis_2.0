@@ -74,7 +74,7 @@
 
 @media screen and (max-width: 768px) {
   .clients {
-    align-items: center;
+    //align-items: center;
     --swiper-navigation-size: 20px;
     --swiper-navigation-color: #333;
     --swiper-navigation-sides-offset: 0px;
@@ -82,6 +82,7 @@
     .container {
       padding: 35px 31px;
       justify-content: center;
+      align-items: center;
 
       .description {
         display: flex;

@@ -7,8 +7,8 @@ import React from "react";
 import {useTranslation} from "next-i18next";
 import Linkedin from "@/assest/icon/linkedin";
 import {monumentExtended} from "@/fonts/fonts";
-import s from './footer.module.scss'
 import {useMobileContext} from "@/context/mobile.context";
+import s from './footer.module.scss'
 
 export const Footer = () => {
     const {t} = useTranslation()
@@ -17,8 +17,9 @@ export const Footer = () => {
     return (
         <footer className={s.footer}>
             <div className={s.container}>
-                <Link href={'/'}>
+                <Link  href={'/'}>
                     <Logo/>
+
                 </Link>
                 <div className={s.options}>
                     <nav className={s.links}>

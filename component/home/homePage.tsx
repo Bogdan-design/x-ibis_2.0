@@ -50,7 +50,7 @@ export const HomePage = () => {
                         </video>
                     }
                 </div>
-                {isMobile && <div style={{zIndex: '1', paddingTop:'30px'}}>
+                {isMobile && <div style={{zIndex: '1'}}>
 
                     <Button as={'a'}
                             variant={'link'}
