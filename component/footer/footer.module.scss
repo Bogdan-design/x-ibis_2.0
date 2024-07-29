@@ -2,8 +2,22 @@
   display: flex;
   align-items: center;
   background: #E75934;
-  //height: 153px;
+  padding-bottom: 40px;
   flex-direction: column;
+
+  .nip {
+    color: #FFFFFF;
+    max-width: 1440px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 0px 198px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
 
 
   .container {
@@ -11,7 +25,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 28px 198px;
+    padding: 45px 198px;
     align-items: center;
 
 
@@ -35,6 +49,7 @@
           font-size: 16px;
           font-weight: 500;
           line-height: 140%;
+
           &:hover {
             color: #514E4E;
           }
@@ -43,7 +58,8 @@
             color: #514E4E
           }
         }
-        .linkedin{
+
+        .linkedin {
           &:hover {
             stroke: #514E4E;
           }
@@ -60,6 +76,7 @@
         flex-shrink: 0;
         border: 1px solid #FFFFFF;
         border-radius: 50%;
+
         .up {
           stroke: #FFFFFF;
         }
@@ -72,9 +89,11 @@
             stroke: #514E4E;
           }
         }
+
         &:active {
           background-color: #A93719;
           border: 1px solid #A93719;
+
           .up {
             stroke: #FFFFFF;
           }
@@ -85,15 +104,18 @@
 }
 
 @media screen and (max-width: 768px) {
-  .footer{
+  .footer {
     height: 100%;
-    .container{
+
+    .container {
 
       flex-direction: column;
-      .options{
+
+      .options {
         margin-top: 31px;
         flex-direction: column;
-        .links{
+
+        .links {
           width: 80vw;
           flex-direction: column;
         }

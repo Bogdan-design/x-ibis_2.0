@@ -39,14 +39,18 @@ export const Footer = () => {
                 </div>
             </div>
             <div className={s.nip}>
-                <div>
-                    <div>Numer KRS 0001068680</div>
-                    <div>Regon 526909832</div>
-                    <div>NIP 5242989158</div>
-                    <div>x-ibis sp.z o.o.</div>
+                <div style={{display: 'flex', maxWidth: '385px',width:'100%',justifyContent: 'space-between',height:'90px'}}>
+                    <div style={{display: "flex", flexDirection: 'column', width: '100px',justifyContent: 'space-between'}}>
+                        <div>Numer KRS 0001068680</div>
+                        <div>NIP 5242989158</div>
+                    </div>
+                    <div style={{display: "flex", flexDirection: 'column', width: '100px',justifyContent: 'space-between'}}>
+                        <div>Regon 526909832</div>
+                        <div>x-ibis sp.z o.o.</div>
+                    </div>
                 </div>
                 <div>
-2024 X-IBIS SP.Z O.O. Wszystkie prawa zastrzeżone.
+                    2024 X-IBIS SP.Z O.O. Wszystkie prawa zastrzeżone.
                 </div>
             </div>
         </footer>
