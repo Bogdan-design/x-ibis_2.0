@@ -8,9 +8,11 @@ import {useTranslation} from "next-i18next";
 import Linkedin from "@/assest/icon/linkedin";
 import {monumentExtended} from "@/fonts/fonts";
 import s from './footer.module.scss'
+import {useMobileContext} from "@/context/mobile.context";
 
 export const Footer = () => {
     const {t} = useTranslation()
+    const {isMobile}= useMobileContext()
 
     return (
         <footer className={s.footer}>
@@ -32,27 +34,60 @@ export const Footer = () => {
                         >
                             <Linkedin/>
                         </Link>
-                        <Link href={'/#home'} className={s.button}>
+                        {!isMobile && <Link href={'/#home'} className={s.button}>
                             <Arrow className={s.up}/>
-                        </Link>
+                        </Link>}
                     </nav>
                 </div>
             </div>
-            <div className={s.nip}>
-                <div style={{display: 'flex', maxWidth: '385px',width:'100%',justifyContent: 'space-between',height:'90px'}}>
-                    <div style={{display: "flex", flexDirection: 'column', width: '100px',justifyContent: 'space-between'}}>
-                        <div>Numer KRS 0001068680</div>
-                        <div>NIP 5242989158</div>
+
+            {isMobile ?
+                <div className={s.nip}>
+                    <div>Numer KRS <p>0001068680</p></div>
+                    <div>NIP <p>5242989158</p></div>
+                    <div>REGON <p>526909832</p></div>
+                    <div>X-IBIS sp.z o.o.</div>
+                    <div>
+                        2024 X-IBIS SP.Z O.O. Wszystkie prawa zastrzeżone.
                     </div>
-                    <div style={{display: "flex", flexDirection: 'column', width: '100px',justifyContent: 'space-between'}}>
-                        <div>Regon 526909832</div>
-                        <div>x-ibis sp.z o.o.</div>
+                    <Link href={'/#home'} className={s.button}>
+                        <Arrow className={s.up}/>
+                    </Link>
+
+                </div>
+                :
+                <div className={s.nip}>
+                    <div style={{
+                        display: 'flex',
+                        maxWidth: '385px',
+                        width: '100%',
+                        justifyContent: 'space-between',
+                        height: '90px'
+                    }}>
+                        <div style={{
+                            display: "flex",
+                            flexDirection: 'column',
+                            width: '100px',
+                            justifyContent: 'space-between'
+                        }}>
+                            <div>Numer KRS 0001068680</div>
+                            <div>NIP 5242989158</div>
+                        </div>
+                        <div style={{
+                            display: "flex",
+                            flexDirection: 'column',
+                            width: '100px',
+                            justifyContent: 'space-between'
+                        }}>
+                            <div>Regon 526909832</div>
+                            <div>x-ibis sp.z o.o.</div>
+                        </div>
+                    </div>
+                    <div>
+                        2024 X-IBIS SP.Z O.O. Wszystkie prawa zastrzeżone.
                     </div>
                 </div>
-                <div>
-                    2024 X-IBIS SP.Z O.O. Wszystkie prawa zastrzeżone.
-                </div>
-            </div>
+            }
         </footer>
     );
 };

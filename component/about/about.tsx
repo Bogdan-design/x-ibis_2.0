@@ -44,12 +44,6 @@ export const About = () => {
                             <Typography variant={"text"}>
                                 {t('experienced')}
                             </Typography>
-                            {/*<Typography variant={'text'}>*/}
-                            {/*{t('collaborate')}*/}
-                            {/*</Typography>*/}
-                            {/*<Typography variant={'text'}>*/}
-                            {/*    {t('Our team')}*/}
-                            {/*</Typography>*/}
                         </div>
                         <Button as={'a'} href={'#contact'}>{t('Home page button')}</Button>
                     </div>
