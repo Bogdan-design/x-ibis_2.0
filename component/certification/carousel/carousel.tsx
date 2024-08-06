@@ -1,10 +1,9 @@
 import React from 'react';
-import 'flickity/css/flickity.css';
 import Image from 'next/image';
-import Cisco from '@/assest/icon/cisco';
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Navigation} from "swiper/modules";
 import {useMobileContext} from "@/context/mobile.context";
+import 'flickity/css/flickity.css';
 import s from './carousel.module.scss'
 
 interface Image {
