@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="mobile services">
+      <change afterPath="$PROJECT_DIR$/app/landing/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/landing/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assest/icon/whiteLogo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assest/icon/whiteLogo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/footer/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/home/homePage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/home/homePage.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/home/homePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/home/homePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/servises/clients/clients.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/servises/clients/clients.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
