@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="mobile services">
-      <change afterPath="$PROJECT_DIR$/app/landing/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/landing/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/landing/[pages]/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/landing/[pages]/page.modules.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/landing/[pages]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/landing/more/more.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/landing/more/more.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/landing/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/heading/heading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/common/heading/heading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/local/i18n.ts" beforeDir="false" afterPath="$PROJECT_DIR$/common/local/i18n.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/landingHeager/landingHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/landingHeager/landingHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lid/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lid/data.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +90,11 @@
       <recent name="G:\It-incubator\x-ibis\pablic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\It-incubator\x-ibis_2.0\common" />
       <recent name="F:\It-incubator\x-ibis_2.0" />
       <recent name="G:\It-incubator\x-ibis" />
       <recent name="G:\It-incubator\x-ibis\common\local" />
       <recent name="G:\It-incubator\x-ibis\lid\constants" />
-      <recent name="G:\It-incubator\x-ibis\app" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -330,22 +338,6 @@
       <workItem from="1722199593313" duration="10000" />
       <workItem from="1722239676765" duration="17283000" />
       <workItem from="1722278231833" duration="2681000" />
-    </task>
-    <task id="LOCAL-00099" summary="location">
-      <option name="closed" value="true" />
-      <created>1710669567389</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1710669567389</updated>
-    </task>
-    <task id="LOCAL-00100" summary="location">
-      <option name="closed" value="true" />
-      <created>1710717120748</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1710717120748</updated>
     </task>
     <task id="LOCAL-00101" summary="location">
       <option name="closed" value="true" />
@@ -723,7 +715,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722256062456</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="mobile services">
+      <option name="closed" value="true" />
+      <created>1722963451473</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1722963451474</updated>
+    </task>
+    <task id="LOCAL-00149" summary="mobile services">
+      <option name="closed" value="true" />
+      <created>1722964463977</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1722964463977</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -765,6 +773,7 @@
     <MESSAGE value="mobile homePage" />
     <MESSAGE value="mobile certification" />
     <MESSAGE value="mobile contact" />
+    <MESSAGE value="main landing page" />
     <MESSAGE value="mobile services" />
     <option name="LAST_COMMIT_MESSAGE" value="mobile services" />
   </component>

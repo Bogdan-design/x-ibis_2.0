@@ -2,10 +2,10 @@
 import React from 'react';
 import {useTranslation} from "next-i18next";
 import {useMobileContext} from "@/context/mobile.context";
-import s from './landingPage.module.scss'
 import {Typography} from "@/component/ui/typography/typography";
 import {monumentExtended} from "@/fonts/fonts";
 import {Button} from "@/component/ui/button";
+import s from './landingPage.module.scss'
 
 
 

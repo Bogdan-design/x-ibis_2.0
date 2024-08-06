@@ -1,5 +1,4 @@
 import React from 'react';
-import {useTranslation} from "next-i18next";
 import {Typography} from "@/component/ui/typography/typography";
 import {monumentExtended} from "@/fonts/fonts";
 import {useMobileContext} from "@/context/mobile.context";
@@ -8,9 +7,9 @@ import Link from "next/link";
 import clsx from "clsx";
 import s from './heading.module.scss'
 
-type pageData = { page: string, t:(text: string) => string }
+type pageData = { page: string, t:(text: string) => string,landing?:boolean}
 
-export const Heading = ({page,t}: pageData) => {
+export const Heading = ({page,t,landing}: pageData) => {
 
     const {isMobile} = useMobileContext()
 
@@ -29,7 +28,7 @@ export const Heading = ({page,t}: pageData) => {
                 }
                 {t(`${page}.pageTitle`)}
             </div>
-            <Typography className={s.description} variant={'text'}>{t(`${page}.pageDescription`)}</Typography>
+            {!landing && <Typography className={s.description} variant={'text'}>{t(`${page}.pageDescription`)}</Typography>}
         </div>
     );
 };

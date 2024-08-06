@@ -19,16 +19,15 @@ const resources ={
     }
 }
 
-// String(localStorage.getItem('i18nextLng')) ||
 
 i18n
-    .use(LanguageDetector)
+    // .use(LanguageDetector)
     .use(initReactI18next)
     .init({
         resources,
         fallbackLng:Constants.EN,
         interpolation: {
-            escapeValue: false // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape
+            escapeValue: false
         }
     });
 
