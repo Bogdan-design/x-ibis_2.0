@@ -6,12 +6,10 @@ import {useTranslation} from "next-i18next";
 import {monumentExtended} from "@/fonts/fonts";
 import Carousel from "@/component/certification/carousel/carousel";
 import "./flickity.scss"
-import {useMobileContext} from "@/context/mobile.context";
 import s from './certification.module.scss'
 
 export const Certification = () => {
     const {t} = useTranslation()
-    const {isMobile} = useMobileContext()
 
     interface Image {
         src: string;
