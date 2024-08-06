@@ -4,6 +4,7 @@ import en from '@/public/locales/en/common.json'
 import de from '@/public/locales/de/common.json'
 import pl from '@/public/locales/pl/common.json'
 import {Constants} from "@/common/local/constants";
+import LanguageDetector from 'i18next-browser-languagedetector';
 
 
 const resources ={
@@ -21,6 +22,7 @@ const resources ={
 // String(localStorage.getItem('i18nextLng')) ||
 
 i18n
+    .use(LanguageDetector)
     .use(initReactI18next)
     .init({
         resources,
