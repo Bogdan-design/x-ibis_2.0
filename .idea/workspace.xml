@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="landingHeader component">
-      <change afterPath="$PROJECT_DIR$/component/landing/blocks/blocksCard/blocksCard.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component/landing/blocks/blocksCard/blocksCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/landing/description/description.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/landing/[pages]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/[pages]/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/landing/[pages]/page.modules.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/blocks/blocks.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/landing/[pages]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/[pages]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/landing/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/landing/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/blocks/blocks.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/landing/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/heading/heading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/common/heading/heading.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/landing/more/more.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/more/more.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/blocks/blocks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/blocks/blocks.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -339,15 +332,8 @@
       <workItem from="1722199593313" duration="10000" />
       <workItem from="1722239676765" duration="17283000" />
       <workItem from="1722278231833" duration="2681000" />
-      <workItem from="1723029907684" duration="9465000" />
-    </task>
-    <task id="LOCAL-00103" summary="location">
-      <option name="closed" value="true" />
-      <created>1711030948710</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1711030948710</updated>
+      <workItem from="1723029907684" duration="10811000" />
+      <workItem from="1723056860544" duration="1227000" />
     </task>
     <task id="LOCAL-00104" summary="location">
       <option name="closed" value="true" />
@@ -733,7 +719,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723030064234</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="landingHeader component">
+      <option name="closed" value="true" />
+      <created>1723042340097</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1723042340097</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

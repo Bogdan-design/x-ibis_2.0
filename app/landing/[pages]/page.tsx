@@ -46,9 +46,9 @@ function Page({params: {pages}}: { params: { pages: string } }) {
 
     return <section >
         <Heading {...landingPagesData[dataIndex]} landing t={t} page={pages}/>
-        <Typography className={s.description} variant={'text'}>{t(`${pages}.pageDescription`)}</Typography>
-        <Heading {...landingPagesData[dataIndex]} landing t={t} page={pages}/>
-        <More/>
+        <Typography className={s.description}>Lorem ipsum dolor sit, consectetur adipiscing</Typography>
+        <Blocks/>
+        <Heading landing t={t}>more</Heading>
         <Blocks/>
 
         {/*<div className={s.container}>*/}
