@@ -46,7 +46,8 @@ function Page({params: {pages}}: { params: { pages: string } }) {
     return <section >
         <Heading {...landingPagesData[dataIndex]} landing t={t} page={pages}/>
         <Typography className={s.description} variant={'text'}>{t(`${pages}.pageDescription`)}</Typography>
-        <More dataIndex={dataIndex}  services={pages}/>
+        <Heading {...landingPagesData[dataIndex]} landing t={t} page={pages}/>
+        {/*<More dataIndex={dataIndex}  services={pages}/>*/}
 
         {/*<div className={s.container}>*/}
         {/*    <div className={s.titleContainer}>*/}

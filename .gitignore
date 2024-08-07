@@ -19,6 +19,9 @@
 .DS_Store
 *.pem
 
+# WS
+workspace.xml
+
 # debug
 npm-debug.log*
 yarn-debug.log*
