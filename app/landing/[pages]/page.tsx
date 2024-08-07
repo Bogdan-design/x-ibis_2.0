@@ -5,8 +5,9 @@ import {useTranslation} from "next-i18next";
 import {landingPagesData} from "@/lid/data";
 import {Heading} from "@/common/heading/heading";
 import {More} from "@/component/landing/more/more";
-import s from "@/common/heading/heading.module.scss";
 import {Typography} from "@/component/ui/typography/typography";
+import {Blocks} from "@/component/landing/blocks/blocks";
+import s from "@/common/heading/heading.module.scss";
 
 
 function Page({params: {pages}}: { params: { pages: string } }) {
@@ -47,7 +48,8 @@ function Page({params: {pages}}: { params: { pages: string } }) {
         <Heading {...landingPagesData[dataIndex]} landing t={t} page={pages}/>
         <Typography className={s.description} variant={'text'}>{t(`${pages}.pageDescription`)}</Typography>
         <Heading {...landingPagesData[dataIndex]} landing t={t} page={pages}/>
-        {/*<More dataIndex={dataIndex}  services={pages}/>*/}
+        <More/>
+        <Blocks/>
 
         {/*<div className={s.container}>*/}
         {/*    <div className={s.titleContainer}>*/}

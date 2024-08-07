@@ -4,8 +4,8 @@ import {About} from "@/component/about/about";
 import {Certification} from "@/component/certification/certification";
 import {Contact} from "@/component/contact/contact";
 import {Clients} from "@/component/servises/clients/clients";
-import React from "react";
 import {Header} from "@/component/layout/header/header";
+import React from "react";
 
 export default function Home() {
     return (

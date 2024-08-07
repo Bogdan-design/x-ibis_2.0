@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {HeaderPage} from "@/component/layout/header/headerPage";
 
 export default function LandingLayout({

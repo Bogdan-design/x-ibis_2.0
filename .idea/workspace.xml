@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="mobile services">
-      <change afterPath="$PROJECT_DIR$/app/landing/[pages]/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/landing/[pages]/page.modules.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/landing/[pages]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component/landing/more/more.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component/landing/more/more.tsx" afterDir="false" />
+    <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="landingHeader component">
+      <change afterPath="$PROJECT_DIR$/component/landing/blocks/blocksCard/blocksCard.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/landing/blocks/blocksCard/blocksCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/landing/[pages]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/[pages]/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/landing/[pages]/page.modules.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/blocks/blocks.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/landing/[pages]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/[pages]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/landing/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/landing/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/blocks/blocks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/landing/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/heading/heading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/common/heading/heading.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/local/i18n.ts" beforeDir="false" afterPath="$PROJECT_DIR$/common/local/i18n.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/landing/landingHeager/landingHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/landingHeager/landingHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lid/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lid/data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/more/more.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/more/more.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -338,22 +339,7 @@
       <workItem from="1722199593313" duration="10000" />
       <workItem from="1722239676765" duration="17283000" />
       <workItem from="1722278231833" duration="2681000" />
-    </task>
-    <task id="LOCAL-00101" summary="location">
-      <option name="closed" value="true" />
-      <created>1710768162767</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1710768162767</updated>
-    </task>
-    <task id="LOCAL-00102" summary="location">
-      <option name="closed" value="true" />
-      <created>1710975106621</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1710975106621</updated>
+      <workItem from="1723029907684" duration="9465000" />
     </task>
     <task id="LOCAL-00103" summary="location">
       <option name="closed" value="true" />
@@ -731,7 +717,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722964463977</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="landingHeader component">
+      <option name="closed" value="true" />
+      <created>1722969828280</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1722969828280</updated>
+    </task>
+    <task id="LOCAL-00151" summary="landingHeader component">
+      <option name="closed" value="true" />
+      <created>1723030064233</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1723030064234</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -750,7 +752,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="issue with svg" />
     <MESSAGE value="data for pages" />
     <MESSAGE value="drop down menu" />
     <MESSAGE value="implemented dynamic routes" />
@@ -775,7 +776,8 @@
     <MESSAGE value="mobile contact" />
     <MESSAGE value="main landing page" />
     <MESSAGE value="mobile services" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile services" />
+    <MESSAGE value="landingHeader component" />
+    <option name="LAST_COMMIT_MESSAGE" value="landingHeader component" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

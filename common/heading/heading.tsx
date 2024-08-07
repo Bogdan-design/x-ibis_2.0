@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {ReactNode} from 'react';
 import {Typography} from "@/component/ui/typography/typography";
 import {monumentExtended} from "@/fonts/fonts";
 import {useMobileContext} from "@/context/mobile.context";
@@ -7,9 +7,14 @@ import Link from "next/link";
 import clsx from "clsx";
 import s from './heading.module.scss'
 
-type pageData = { page: string, t:(text: string) => string,landing?:boolean}
+type pageData = {
+    page?: string,
+    t:(text: string) => string,
+    landing?:boolean
+    children?: ReactNode
+}
 
-export const Heading = ({page,t,landing}: pageData) => {
+export const Heading = ({page,t,landing,children}: pageData) => {
 
     const {isMobile} = useMobileContext()
 
@@ -26,7 +31,7 @@ export const Heading = ({page,t,landing}: pageData) => {
                         <Back className={s.button}/>
                     </Link>
                 }
-                {t(`${page}.pageTitle`)}
+                {children ? children : t(`${page}.pageTitle`)}
             </div>
             {!landing && <Typography className={s.description} variant={'text'}>{t(`${page}.pageDescription`)}</Typography>}
         </div>
