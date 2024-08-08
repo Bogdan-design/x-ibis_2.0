@@ -18,7 +18,6 @@ export const Blocks = () => {
                         <BlocksCard key={index} {...option} />
                     ))}
                 </div>
-
             </div>
         </div>
     );

@@ -5,13 +5,13 @@ import {useTranslation} from "next-i18next";
 import {landingPagesData} from "@/lid/data";
 import {Heading} from "@/common/heading/heading";
 import {Typography} from "@/component/ui/typography/typography";
+import {LandingCard} from "@/component/landing/landingCard/landingCard";
 import s from "./page.module.scss";
-import {LandingCards} from "@/component/landing/landingCards/landingCards";
 
 
 function Page({params: {pages}}: { params: { pages: string } }) {
 
-    const { t } = useTranslation();
+    const {t} = useTranslation();
 
 
     let dataIndex
@@ -47,26 +47,17 @@ function Page({params: {pages}}: { params: { pages: string } }) {
         <div className={s.landingPageContainer}>
             <Heading {...landingPagesData[dataIndex]} landing t={t} page={pages}/>
             <Typography className={s.description}>Lorem ipsum dolor sit, consectetur adipiscing</Typography>
-            <LandingCards/>
+            <div className={s.landingPageCardsContainer}>
+                <div className={s.landingPageCards}>
+                    {...landingPagesData[dataIndex].options.map((o, i) => (
+                        <React.Fragment key={i}>
+                            <LandingCard {...o}/>
+                        </React.Fragment>
+                    ))}
+
+                </div>
+            </div>
         </div>
-
-
-        {/*<div className={s.container}>*/}
-        {/*    <div className={s.titleContainer}>*/}
-        {/*        <Link href={'landing/#[pages]'} className={s.link}>*/}
-        {/*            <Back className={s.button}/>*/}
-        {/*        </Link>*/}
-        {/*        <Heading {...pagesData[dataIndex]} t={t} page={pages}/>*/}
-        {/*    </div>*/}
-        {/*    <div className={s.options}>*/}
-        {/*        <div className={s.list}>*/}
-        {/*            {pagesData[dataIndex].options.map((o, i) => (*/}
-        {/*                <Card key={i} index={i} t={t} page={pages} {...o}/>*/}
-        {/*            ))}*/}
-        {/*        </div>*/}
-        {/*    </div>*/}
-        {/*</div>*/}
-
     </section>
 }
 
