@@ -1,27 +1,25 @@
-.landingPage{
+.landingPage {
   display: flex;
   align-items: center;
   justify-content: center;
+
   .landingPageContainer {
     display: flex;
     flex-direction: column;
     max-width: 1440px;
     width: 100%;
     padding: 0 198px;
-    .description{
+
+    .description {
       text-align: center;
     }
 
-    .landingPageCardsContainer{
+    .landingPageCardsContainer {
       display: flex;
+      width: 100%;
 
-      justify-content: center;
-      .landingPageCards{
-      display: flex;
-        justify-content: space-between;
-        //width: 100%;
     }
-    }
+
   }
 }
 

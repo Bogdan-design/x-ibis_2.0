@@ -5,7 +5,9 @@ import {useMobileContext} from "@/context/mobile.context";
 import {Typography} from "@/component/ui/typography/typography";
 import {monumentExtended} from "@/fonts/fonts";
 import {Button} from "@/component/ui/button";
+import landingImage from '@/assest/icon/homePageLanding.png'
 import s from './landingPage.module.scss'
+import Image from "next/image";
 
 
 
@@ -26,6 +28,7 @@ export const LandingHeader = () => {
                             {t('Home page button')}
                         </Button>}
                 </div>
+                <Image src={landingImage} width={'279'} height={'252'} alt={'landingImage'}/>
                 {/*<div style={{*/}
                 {/*    marginTop: isMobile ? '40px' : '120px',*/}
                 {/*    zIndex: 0,*/}

@@ -46,16 +46,16 @@ function Page({params: {pages}}: { params: { pages: string } }) {
     return <section className={s.landingPage}>
         <div className={s.landingPageContainer}>
             <Heading {...landingPagesData[dataIndex]} landing t={t} page={pages}/>
-            <Typography className={s.description}>Lorem ipsum dolor sit, consectetur adipiscing</Typography>
-            <div className={s.landingPageCardsContainer}>
-                <div className={s.landingPageCards}>
+            <Typography className={s.description}>{landingPagesData[dataIndex]['pageDescription']}</Typography>
+            <div style={dataIndex === 2 && 4 ? {justifyContent:'center'} : {justifyContent:'space-between'} } className={s.landingPageCardsContainer}>
+
                     {...landingPagesData[dataIndex].options.map((o, i) => (
                         <React.Fragment key={i}>
                             <LandingCard {...o}/>
                         </React.Fragment>
                     ))}
 
-                </div>
+
             </div>
         </div>
     </section>

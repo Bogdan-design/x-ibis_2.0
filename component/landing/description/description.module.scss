@@ -1,0 +1,13 @@
+.descriptionContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .descriptionBox{
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    padding: 54px 198px;
+    width: 100%;
+    gap:53px;
+  }
+}
