@@ -1,0 +1,28 @@
+.blocks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .blocksContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    padding: 120px 198px;
+    width: 100%;
+    gap: 90px;
+
+
+
+  .blocksCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+
+
+  }
+  }
+
+}
+

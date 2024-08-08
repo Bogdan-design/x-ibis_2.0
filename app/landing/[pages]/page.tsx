@@ -4,10 +4,9 @@ import {PageError} from "@/common/errors/error404";
 import {useTranslation} from "next-i18next";
 import {landingPagesData} from "@/lid/data";
 import {Heading} from "@/common/heading/heading";
-import {More} from "@/component/landing/more/more";
 import {Typography} from "@/component/ui/typography/typography";
-import {Blocks} from "@/component/landing/blocks/blocks";
-import s from "@/common/heading/heading.module.scss";
+import s from "./page.module.scss";
+import {LandingCards} from "@/component/landing/landingCards/landingCards";
 
 
 function Page({params: {pages}}: { params: { pages: string } }) {
@@ -44,12 +43,13 @@ function Page({params: {pages}}: { params: { pages: string } }) {
     }
 
 
-    return <section >
-        <Heading {...landingPagesData[dataIndex]} landing t={t} page={pages}/>
-        <Typography className={s.description}>Lorem ipsum dolor sit, consectetur adipiscing</Typography>
-        <Blocks/>
-        <Heading landing t={t}>more</Heading>
-        <Blocks/>
+    return <section className={s.landingPage}>
+        <div className={s.landingPageContainer}>
+            <Heading {...landingPagesData[dataIndex]} landing t={t} page={pages}/>
+            <Typography className={s.description}>Lorem ipsum dolor sit, consectetur adipiscing</Typography>
+            <LandingCards/>
+        </div>
+
 
         {/*<div className={s.container}>*/}
         {/*    <div className={s.titleContainer}>*/}

@@ -1,3 +1,11 @@
+import {createElement} from "react";
+import Build from '@/assest/icon/build'
+import Virtual from '@/assest/icon/virtual'
+import Storage from '@/assest/icon/storage'
+import Support from '@/assest/icon/support'
+import DevOps from '@/assest/icon/devops'
+import Staff from '@/assest/icon/staff'
+import Ai from '@/assest/icon/ai'
 
 export const links = [
     {
@@ -256,39 +264,39 @@ export const landingPagesData = [
         options:
             [
                 {
-                    title: 'Infrastructure Analysis',
-                    description: 'Assess the current state of the IT infrastructure, including hardware, software, network topology, and cloud resources.'
+                    title: 'Build Infrastructure',
+                    icon: createElement(Build)
                 },
                 {
-                    title: 'Security and Vulnerabilities',
-                    description: 'Conduct a vulnerability scan, as well as an analysis of security systems including authentication, authorization, encryption, and data protection.'
+                    title: 'Virtual Machine',
+                    icon: createElement(Virtual)
                 },
                 {
-                    title: 'Regulatory Compliance',
-                    description: 'Ensure that the company is compliant with relevant industry regulations and data security standards (e.g. GDPR, HIPAA) depending on the business area.'
+                    title: 'Storage S3',
+                    icon: createElement(Storage)
                 },
                 {
-                    title: 'Backup and Recovery',
-                    description: 'Evaluate data backup strategies and recovery plans to ensure systems can be recovered in the event of failures.'
+                    title: 'IT Support Services',
+                    icon: createElement(Support)
                 },
                 {
-                    title: 'Network Infrastructure',
-                    description: 'Analyze network architecture, performance, segmentation, traffic management and security.'
+                    title: 'DevOps and CI/CD Services',
+                    icon: createElement(DevOps)
                 },
                 {
-                    title: 'Processes and Performance',
-                    description: 'Examine business processes and their alignment with IT systems, identify bottlenecks and suggest improvements to optimize performance.'
+                    title: 'IT Staff Leasing',
+                    icon: createElement(Staff)
                 },
                 {
-                    title: 'Resource Management',
-                    description: 'Analyze the use of IT resources such as servers, data storage, software licenses to optimize costs.'
+                    title: 'AI Implementation and Training Services',
+                    icon: createElement(Ai)
                 },
 
             ]as const
     },
     {
-        pageTitle: 'Security',
-        pageDescription: 'We offer comprehensive solutions to detect, prevent and respond to cyber threats. ',
+        pageTitle: 'Virtual Machine',
+        pageDescription: 'Lorem ipsum dolor sit consectetur adipiscing',
         options:
             [
                 {
@@ -446,3 +454,42 @@ export const landingPagesData = [
     },
 
 ] as const
+
+export const landingPageDateOptions = [
+    {
+        title: 'Build Infrastructure',
+        icon: createElement(Build),
+        page:'build'
+    },
+    {
+        title: 'Virtual Machine',
+        icon: createElement(Virtual),
+        page:'virtual'
+    },
+    {
+        title: 'Storage S3',
+        icon: createElement(Storage),
+        page:'storage'
+    },
+    {
+        title: 'IT Support Services',
+        icon: createElement(Support),
+        page:'support'
+    },
+    {
+        title: 'DevOps and CI/CD Services',
+        icon: createElement(DevOps),
+        page:'devops'
+    },
+    {
+        title: 'IT Staff Leasing',
+        icon: createElement(Staff),
+        page:'staff'
+    },
+    {
+        title: 'AI Implementation and Training Services',
+        icon: createElement(Ai),
+        page:'ai'
+    },
+
+]as const
