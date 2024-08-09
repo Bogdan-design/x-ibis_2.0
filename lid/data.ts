@@ -6,6 +6,8 @@ import Support from '@/assest/icon/support'
 import DevOps from '@/assest/icon/devops'
 import Staff from '@/assest/icon/staff'
 import Ai from '@/assest/icon/ai'
+import {StaffText} from "@/component/landing/texts/staffText/staffText";
+import {AiTextCard} from "@/component/landing/texts/aiText/aiText";
 
 export const links = [
     {
@@ -348,8 +350,8 @@ export const landingPagesData = [
             ]as const
     },
     {
-        pageTitle: 'Modern Solutions',
-        pageDescription: 'Specializing in next-level business solutions, we optimize efficiency.',
+        pageTitle: 'DevOps and CI/CD Services',
+        pageDescription: 'Enhancing Development and Deployment Efficiency',
         options:
             [
                 {
@@ -358,40 +360,42 @@ export const landingPagesData = [
                     price:'',
                     volume:''
                 },
+            ] as const
+    },
+    {
+        pageTitle: 'IT Staff Leasing',
+        pageDescription: createElement(StaffText),
+        options:
+            [
                 {
-                    title: 'Artificial Intelligence and Data Analytics',
-                    description: 'Apply AI and data analytics to gain valuable insights from large volumes of information, automate processes, and predict trends.',
-                    price:'',
-                    volume:''
+                    title: 'Basic',
+                    description: '3 days a week no substitutions',
+                    price:'2,500 Euros',
+                    volume:'/month'
                 },
                 {
-                    title: 'Internet of Things (IoT)',
-                    description: 'Integrate devices and sensors to collect real-time data to optimize production, manage resources, and improve [services].',
-                    price:'',
-                    volume:''
+                    title: 'Advanced',
+                    description: '5 days a week substitute during leave or sick leave (L4)',
+                    price:'4,500 Euros',
+                    volume:'/month'
                 },
                 {
-                    title: 'Cybersecurity and Data Protection',
-                    description: 'Implement advanced solutions to ensure data and network security, including threat detection and attack prevention mechanisms.',
-                    price:'',
-                    volume:''
+                    title: 'Professional',
+                    description: '4 specialists 5 days a week without substitutes managerial supervision',
+                    price:'from 8,000 Euros',
+                    volume:'/month'
                 },
+            ] as const
+    },
+    {
+        pageTitle: 'AI Implementation and Training Services',
+        pageDescription: 'We offer comprehensive services for implementing and training your employees in the use of artificial intelligence (AI) technologies.',
+        options:
+            [
                 {
-                    title: 'Process Automation:',
-                    description: 'Automate repetitive tasks and business processes using robotic process automation (RPA) to improve efficiency and reduce the risk of errors.',
-                    price:'',
-                    volume:''
-                },
-                {
-                    title: 'Flexible Working Models',
-                    description: 'Implement remote work solutions, providing flexibility for employees and increasing productivity.',
-                    price:'',
-                    volume:''
-                },
-                {
-                    title: 'Mobile Applications and User Experience',
-                    description: 'Develop mobile applications and user interfaces that provide ease of use and personalized experiences for customers.',
-                    price:'',
+                    title: 'DevOps and CI/CD',
+                    description: createElement(AiTextCard),
+                    price:'from 2,500 Euros',
                     volume:''
                 },
             ] as const

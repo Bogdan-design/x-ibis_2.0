@@ -7,6 +7,7 @@ import {Heading} from "@/common/heading/heading";
 import {Typography} from "@/component/ui/typography/typography";
 import {LandingCard} from "@/component/landing/landingCard/landingCard";
 import s from "./page.module.scss";
+import SupportText from "@/component/landing/texts/supportText/supportText";
 
 
 function Page({params: {pages}}: { params: { pages: string } }) {
@@ -42,21 +43,27 @@ function Page({params: {pages}}: { params: { pages: string } }) {
             return <PageError/>
     }
 
+    const styleForPages  =
+            dataIndex ===  2 ? {justifyContent: 'center'} :
+                dataIndex ===  4 ? {justifyContent: 'center'} :
+                    dataIndex ===  6 ? {justifyContent: 'center'} : {justifyContent: 'space-between'}
+
+
 
     return <section className={s.landingPage}>
         <div className={s.landingPageContainer}>
             <Heading {...landingPagesData[dataIndex]} landing t={t} page={pages}/>
             <Typography className={s.description}>{landingPagesData[dataIndex]['pageDescription']}</Typography>
-            <div style={dataIndex === 2 && 4 ? {justifyContent:'center'} : {justifyContent:'space-between'} } className={s.landingPageCardsContainer}>
+            <div style={styleForPages}
+                 className={s.landingPageCardsContainer}>
 
-                    {...landingPagesData[dataIndex].options.map((o, i) => (
-                        <React.Fragment key={i}>
-                            <LandingCard {...o}/>
-                        </React.Fragment>
-                    ))}
-
-
+                {...landingPagesData[dataIndex].options.map((o, i) => (
+                    <React.Fragment key={i}>
+                        <LandingCard {...o}/>
+                    </React.Fragment>
+                ))}
             </div>
+            {dataIndex === 3 && <SupportText/>}
         </div>
     </section>
 }

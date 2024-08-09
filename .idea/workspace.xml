@@ -4,17 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="landingHeader component">
-      <change afterPath="$PROJECT_DIR$/component/landing/description/description.module.scss" afterDir="false" />
+    <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="Description component">
+      <change afterPath="$PROJECT_DIR$/component/landing/texts/aiText/aiText.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/landing/texts/aiText/aiText.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/landing/texts/devopsText/devopsText.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/landing/texts/devopsText/devopsText.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/landing/texts/staffText/staffText.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/landing/texts/staffText/staffText.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/landing/texts/supportText/supportText.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/landing/texts/supportText/supportText.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/landing/[pages]/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/[pages]/page.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/landing/[pages]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/[pages]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/landing/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assest/icon/HomePageLanding.png" beforeDir="false" afterPath="$PROJECT_DIR$/assest/icon/homePageLanding.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/component/landing/blocks/blocks.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/blocks/blocks.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/landing/blocks/blocks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/blocks/blocks.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/component/landing/description/description.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/description/description.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/landing/landingHeager/landingHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/landingHeager/landingHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lid/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lid/data.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,42 +62,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/It-incubator/portfolio_2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;F:\\It-incubator\\x-ibis_2.0\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "F:/It-incubator/x-ibis_2.0/component/landing/texts/aiText",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "F:\\It-incubator\\x-ibis_2.0\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\It-incubator\x-ibis_2.0\component\landing\texts\aiText" />
+      <recent name="F:\It-incubator\x-ibis_2.0\component\landing\texts" />
+      <recent name="F:\It-incubator\x-ibis_2.0\component\landing\texts\devopsText" />
       <recent name="F:\It-incubator\x-ibis_2.0\component\layout\header\swiperHeader" />
       <recent name="F:\It-incubator\x-ibis_2.0\component\layout\header" />
-      <recent name="F:\It-incubator\x-ibis_2.0\component\servises\mobile" />
-      <recent name="F:\It-incubator\x-ibis_2.0\component\servises\weDo" />
-      <recent name="G:\It-incubator\x-ibis\pablic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\It-incubator\x-ibis_2.0\component\landing\texts\staffText" />
+      <recent name="F:\It-incubator\x-ibis_2.0\component\landing\texts\supportText" />
       <recent name="F:\It-incubator\x-ibis_2.0\common" />
       <recent name="F:\It-incubator\x-ibis_2.0" />
       <recent name="G:\It-incubator\x-ibis" />
-      <recent name="G:\It-incubator\x-ibis\common\local" />
-      <recent name="G:\It-incubator\x-ibis\lid\constants" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -341,15 +345,9 @@
       <workItem from="1723056860544" duration="4253000" />
       <workItem from="1723063888000" duration="4223000" />
       <workItem from="1723086702121" duration="23800000" />
-      <workItem from="1723145612972" duration="3355000" />
-    </task>
-    <task id="LOCAL-00107" summary="location">
-      <option name="closed" value="true" />
-      <created>1711271703571</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1711271703572</updated>
+      <workItem from="1723145612972" duration="4602000" />
+      <workItem from="1723198345656" duration="1673000" />
+      <workItem from="1723233486873" duration="4243000" />
     </task>
     <task id="LOCAL-00108" summary="location">
       <option name="closed" value="true" />
@@ -735,7 +733,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723130809588</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="Description component">
+      <option name="closed" value="true" />
+      <created>1723150736698</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1723150736698</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -754,7 +760,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="data for pages" />
     <MESSAGE value="drop down menu" />
     <MESSAGE value="implemented dynamic routes" />
     <MESSAGE value="implemented flow for contacts form" />
@@ -779,7 +784,8 @@
     <MESSAGE value="main landing page" />
     <MESSAGE value="mobile services" />
     <MESSAGE value="landingHeader component" />
-    <option name="LAST_COMMIT_MESSAGE" value="landingHeader component" />
+    <MESSAGE value="Description component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Description component" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
