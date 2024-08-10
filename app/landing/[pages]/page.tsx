@@ -6,8 +6,8 @@ import {landingPagesData} from "@/lid/data";
 import {Heading} from "@/common/heading/heading";
 import {Typography} from "@/component/ui/typography/typography";
 import {LandingCard} from "@/component/landing/landingCard/landingCard";
-import s from "./page.module.scss";
 import SupportText from "@/component/landing/texts/supportText/supportText";
+import s from "./page.module.scss";
 
 
 function Page({params: {pages}}: { params: { pages: string } }) {
@@ -43,11 +43,10 @@ function Page({params: {pages}}: { params: { pages: string } }) {
             return <PageError/>
     }
 
-    const styleForPages  =
-            dataIndex ===  2 ? {justifyContent: 'center'} :
-                dataIndex ===  4 ? {justifyContent: 'center'} :
-                    dataIndex ===  6 ? {justifyContent: 'center'} : {justifyContent: 'space-between'}
-
+    const styleForPages =
+        dataIndex === 2 ? {justifyContent: 'center'} :
+            dataIndex === 4 ? {justifyContent: 'center'} :
+                dataIndex === 6 ? {justifyContent: 'center'} : {justifyContent: 'space-between'}
 
 
     return <section className={s.landingPage}>

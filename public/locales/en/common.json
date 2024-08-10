@@ -185,7 +185,7 @@
   "solution": {
     "title": "Innovative Solutions",
     "description": "Specializing in next-level business solutions, we optimize efficiency.",
-    "pageTitle": "Modern Solutions",
+    "pageTitle": "Innovative Solutions",
     "pageDescription": "Specializing in next-level business solutions, we optimize efficiency.",
     "options": [
       {
@@ -217,6 +217,36 @@
         "description": "Develop mobile applications and user interfaces that provide ease of use and personalized experiences for customers."
       }
     ]
+  },
+  "landingHome": "",
+  "landingDescription": "",
+  "more": "more",
+  "build": {
+    "pageTitle": "Build Infrastructure",
+    "pageDescription": "Lorem ipsum dolor sit, consectetur adipiscing"
+  },
+  "virtual": {
+    "pageTitle": "Virtual Machine",
+    "pageDescription": "Lorem ipsum dolor sit, consectetur adipiscing"
+  },
+  "storage": {
+    "pageTitle": "Storage S3",
+    "pageDescription": "Lorem ipsum dolor sit, consectetur adipiscing"
+  },
+  "support": {
+    "pageTitle": "IT Support Services",
+    "pageDescription": "Lorem ipsum dolor sit, consectetur adipiscing"
+  },
+  "devops": {
+    "pageTitle": "DevOps and CI/CD Services",
+    "pageDescription": "Enhancing Development and Deployment Efficiency"
+  },
+  "staff": {
+    "pageTitle": "IT Staff Leasing",
+    "pageDescription": ""
+  },
+  "ai": {
+    "pageTitle": "AI Implementation and Training Services",
+    "pageDescription": "We offer comprehensive services for implementing and training your employees in the use of artificial intelligence (AI) technologies."
   }
-
 }

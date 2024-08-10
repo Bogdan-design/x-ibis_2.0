@@ -11,7 +11,7 @@ export const Blocks = ({landing}:{landing?:boolean}) => {
     return (
         <div className={s.blocks}>
             <div className={s.blocksContainer}>
-                {!landing && <Heading landing t={t}>more</Heading>}
+                {!landing && <Heading landing t={t}>{t('more')}</Heading>}
                 <div className={s.blocksCards}>
                     {landingPageDateOptions.map((option, index) => (
                         <BlocksCard key={index} {...option} />

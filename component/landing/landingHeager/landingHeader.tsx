@@ -10,11 +10,11 @@ import s from './landingPage.module.scss'
 import Image from "next/image";
 
 
-
 export const LandingHeader = () => {
     const {t} = useTranslation()
 
     const {isMobile} = useMobileContext()
+
 
 
     return (
