@@ -6,6 +6,7 @@ import {BDO_Grotesk} from "@/fonts/fonts";
 import 'overlayscrollbars/overlayscrollbars.css'
 import {Constants} from "@/common/local/constants";
 import {MobileContextProvider} from "@/context/mobile.context";
+import I18nProvider from "@/app/I18nProvider";
 
 
 export const metadata: Metadata = {
@@ -18,10 +19,12 @@ export default function RootLayout({children}: { children: ReactNode }) {
     return (
         <html lang={Constants.EN}>
         <body className={`${BDO_Grotesk.className}`}>
-        <MobileContextProvider>
-            {children}
-            <Toaster position='bottom-center'/>
-        </MobileContextProvider>
+        <I18nProvider>
+            <MobileContextProvider>
+                {children}
+                <Toaster position='bottom-center'/>
+            </MobileContextProvider>
+        </I18nProvider>
         </body>
         </html>
     )
