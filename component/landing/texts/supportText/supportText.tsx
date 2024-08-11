@@ -4,42 +4,50 @@ import s from './supportText.module.scss'
 export const SupportText = () => {
     return (
         <div className={s.supportsText}>
-            <div>Replacement and Repair of Equipment:
+            Replacement and Repair of Equipment:
+            <div>
                 <li>Ensuring timely replacement and repair of faulty equipment.</li>
                 <li>Diagnosing issues and promptly resolving them.</li>
             </div>
-            <div>Operating Systems Support:
+            Operating Systems Support:
+            <div>
                 <li>Windows: Installation, configuration, and support of various Windows versions.</li>
                 <li>Linux: Support for various Linux distributions, including Ubuntu, CentOS, Red Hat.</li>
                 <li>MacOS: Maintenance and support for Apple devices.</li>
             </div>
-            <div>Hardware Support:
+            Hardware Support:
+            <div>
                 <li>Servers: Installation, configuration, and maintenance of servers.</li>
                 <li>Printers: Diagnosis and repair of printers, managing print jobs.</li>
                 <li>Video Monitoring: Setup and maintenance of video surveillance systems.</li>
                 <li>Video Conference Rooms: Installation and support of video conferencing equipment.</li>
                 <li>Telephony: Configuration and support of corporate telephony systems.</li>
             </div>
-            <div>Cloud Storage:
+            Cloud Storage:
+            <div>
                 <li>AWS: Management and support of Amazon Web Services.</li>
                 <li>Microsoft Azure: Setup and support of solutions on Microsoft Azure platform.</li>
                 <li>Google Cloud Platform: Implementation and maintenance of Google Cloud services.</li>
             </div>
-            <div>Office Software Support:
+            Office Software Support:
+            <div>
                 <li>MS Office: Installation and support of Microsoft Office applications.</li>
                 <li>Office 365: Management of subscriptions and support for Office 365 cloud services.</li>
             </div>
-            <div>CRM and ERP Systems:
+            CRM and ERP Systems:
+            <div>
                 <li>Implementation, configuration, and support of Customer Relationship Management (CRM) and Enterprise
                     Resource</li>
                 <li>Planning (ERP) systems.</li>
             </div>
-            <div>Security Solutions:
+            Security Solutions:
+            <div>
                 <li>Antivirus Software: Installation and updating of antivirus programs.</li>
                 <li>Firewalls: Configuration and management of firewalls to protect against external threats.</li>
                 <li>VPN: Setup of Virtual Private Networks for secure remote access.</li>
             </div>
-            <div>Network Protocols and Services:
+            Network Protocols and Services:
+            <div>
                 <li>TCP/IP: Configuration and management of protocols for data transmission.</li>
                 <li> DNS: Domain name management and DNS server setup.</li>
                 <li>DHCP: Automatic IP address distribution via DHCP servers.</li>
