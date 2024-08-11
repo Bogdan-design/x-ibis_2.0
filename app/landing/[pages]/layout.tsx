@@ -10,6 +10,5 @@ export default function PagesLayout({
     return <section>
         {children}
         <Blocks/>
-        <Footer/>
     </section>
 }

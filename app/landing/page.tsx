@@ -12,9 +12,6 @@ export default function LandingPage() {
             <LandingHeader/>
             <Description/>
             <Blocks landing/>
-            <About/>
-            <Certification/>
-            <Contact/>
         </section>
     )
 }

@@ -4,32 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="implement local wrap">
-      <change afterPath="$PROJECT_DIR$/common/mixins/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component/landing/texts/buildText/buildText.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component/landing/texts/buildText/buildText.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component/landing/texts/landingHomePageText/landingHomePageText.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component/landing/texts/landingHomePageText/landingHomePageText.tsx" afterDir="false" />
+    <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="BuildText component">
+      <change afterPath="$PROJECT_DIR$/component/landing/texts/buildText/buildTextBasic.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/landing/texts/storageText/storageText.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/landing/texts/storageText/storageText.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/I18nProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/common/local/I18nProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[services]/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/[services]/page.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/landing/[pages]/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/[pages]/page.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/landing/[pages]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/[pages]/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/landing/[pages]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/[pages]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assest/icon/ai.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assest/icon/ai.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assest/icon/build.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assest/icon/build.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assest/icon/devops.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assest/icon/devops.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assest/icon/support.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assest/icon/support.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assest/icon/virtual.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assest/icon/virtual.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/certification/carousel/carousel.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/certification/carousel/carousel.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/landing/blocks/blocksCard/blocksCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/blocks/blocksCard/blocksCard.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/landing/blocks/blocksCard/blocksCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/blocks/blocksCard/blocksCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/landing/description/description.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/description/description.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/landing/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/landing/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/component/landing/landingCard/landingCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/landingCard/landingCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/component/landing/landingCard/landingCards.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/landingCard/landingCards.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/landing/landingHeager/landingHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/landingHeager/landingHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/landing/landingHeager/landingPage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/landingHeager/landingHeader.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/texts/aiText/aiText.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/texts/aiText/aiText.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/texts/aiText/aiText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/texts/aiText/aiText.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/texts/buildText/buildText.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/texts/devopsText/devopsText.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/texts/devopsText/devopsText.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/texts/devopsText/devopsText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/texts/devopsText/devopsText.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/texts/staffText/staffText.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/texts/staffText/staffText.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/texts/staffText/staffText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/texts/staffText/staffText.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/texts/supportText/supportText.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/texts/supportText/supportText.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/texts/supportText/supportText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/texts/supportText/supportText.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lid/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lid/data.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/locales/en/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/common.json" afterDir="false" />
     </list>
@@ -82,7 +76,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "F:/It-incubator/x-ibis_2.0/component/landing/texts/buildText",
+    "last_opened_file_path": "F:/It-incubator/x-ibis_2.0/component/landing/texts/storageText",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
@@ -99,11 +93,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\It-incubator\x-ibis_2.0\component\landing\texts\storageText" />
       <recent name="F:\It-incubator\x-ibis_2.0\component\landing\texts\buildText" />
       <recent name="F:\It-incubator\x-ibis_2.0\component\landing\texts\landingHomePageText" />
       <recent name="F:\It-incubator\x-ibis_2.0\component\landing\texts\aiText" />
       <recent name="F:\It-incubator\x-ibis_2.0\component\landing\texts" />
-      <recent name="F:\It-incubator\x-ibis_2.0\component\landing\texts\devopsText" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\It-incubator\x-ibis_2.0\common\local" />
@@ -363,15 +357,7 @@
       <workItem from="1723233486873" duration="5259000" />
       <workItem from="1723283475803" duration="8990000" />
       <workItem from="1723306403140" duration="21471000" />
-      <workItem from="1723352639614" duration="1449000" />
-    </task>
-    <task id="LOCAL-00111" summary="location">
-      <option name="closed" value="true" />
-      <created>1711545084695</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1711545084696</updated>
+      <workItem from="1723352639614" duration="20472000" />
     </task>
     <task id="LOCAL-00112" summary="location">
       <option name="closed" value="true" />
@@ -757,7 +743,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723291718235</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="BuildText component">
+      <option name="closed" value="true" />
+      <created>1723354390730</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1723354390730</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -776,7 +770,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="implemented dynamic routes" />
     <MESSAGE value="implemented flow for contacts form" />
     <MESSAGE value="implemented localization" />
     <MESSAGE value="implemented fonts" />
@@ -801,7 +794,8 @@
     <MESSAGE value="landingHeader component" />
     <MESSAGE value="Description component" />
     <MESSAGE value="implement local wrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement local wrap" />
+    <MESSAGE value="BuildText component" />
+    <option name="LAST_COMMIT_MESSAGE" value="BuildText component" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -810,6 +804,12 @@
           <url>file://$PROJECT_DIR$/assest/icon/bubble.tsx</url>
           <line>2</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/component/landing/texts/supportText/supportText.tsx</url>
+          <line>53</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

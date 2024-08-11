@@ -1,0 +1,17 @@
+.staffTextContainer {
+  color: #555;
+  font-size: 18px;
+  line-height: 120%;
+  span,h2{
+    color: #555;
+    font-weight: bold;
+  }
+}
+
+.staffCardsText{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 20px;
+
+}

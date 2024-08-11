@@ -6,9 +6,25 @@ import Support from '@/assest/icon/support'
 import DevOps from '@/assest/icon/devops'
 import Staff from '@/assest/icon/staff'
 import Ai from '@/assest/icon/ai'
-import {StaffText} from "@/component/landing/texts/staffText/staffText";
+import {
+    StaffCardsTextAdvanced,
+    StaffCardsTextBasic,
+    StaffCardsTextProfessional,
+    StaffText
+} from "@/component/landing/texts/staffText/staffText";
 import {AiTextCard} from "@/component/landing/texts/aiText/aiText";
-import {BuildText} from "@/component/landing/texts/buildText/buildText";
+import {
+    BuildTextAdvanced,
+    BuildTextBasic,
+    BuildTextProfessional
+} from "@/component/landing/texts/buildText/buildTextBasic";
+import {StorageText} from "@/component/landing/texts/storageText/storageText";
+import {
+    SupportTextAdvanced,
+    SupportTextBasic,
+    SupportTextProfessional
+} from "@/component/landing/texts/supportText/supportText";
+import {DevopsCardsText} from "@/component/landing/texts/devopsText/devopsText";
 
 export const links = [
     {
@@ -268,19 +284,19 @@ export const landingPagesData = [
             [
                 {
                     title: 'Basic',
-                    description: createElement(BuildText),
+                    description: createElement(BuildTextBasic),
                     price:'6,500 Euros',
                     volume:'Employees: Up to 11'
                 },
                 {
                     title: 'Advanced',
-                    description:'Extended Consulting and Audit: Detailed audit of IT infrastructure. Development of a modernization plan and implementation of new technologies. Extended Network Equipment and Configuration: Supply and installation of advanced network devices (high-performance routers, managed switches). Configuration of network segmentation and VLAN. Extended Virtualization and Server Equipment: Implementation of cluster solutions for virtualization. Configuration of disaster recovery and high availability systems. Software and Integration: Installation and configuration of specialized business software (CRM, ERP). Integration of existing systems with new solutions. Cloud Services and Hybrid Solutions: Configuration of hybrid cloud solutions (combination of on-premises and cloud resources). Implementation of cloud services for storage and processing of big data. Advanced Management and Monitoring Systems: Implementation of configuration management solutions (e.g., Ansible, Puppet). Configuration of proactive monitoring and analytics systems. Enhanced Cybersecurity: Implementation of intrusion detection and prevention systems (IDS/IPS). Conducting regular penetration tests and security audits. Premium Support and Maintenance: Extended technical support with a higher SLA level. Remote monitoring and management services. Advanced Documentation and Training: Preparation of detailed technical documentation and manuals. Conducting specialized training and seminars for employees.',
+                    description:createElement(BuildTextAdvanced),
                     price:'10,000 Euros',
                     volume:'Employees: Up to 30'
                 },
                 {
                     title: 'Professional',
-                    description:'Deep Consulting and Strategic Planning: Development of long-term IT strategy and digital transformation plan. Conducting research and forecasting technological trends. High-Performance Network Equipment and Configuration: Implementation of high-performance network solutions (10GbE, 40GbE). Configuration of advanced network technologies (SD-WAN, MPLS). Advanced Virtualization and Cloud Infrastructure: Implementation of enterprise cloud solutions (Private Cloud, Hybrid Cloud). Configuration of containerization and orchestration (Docker, Kubernetes). Comprehensive Software and Integration: Implementation and configuration of enterprise systems (BI, Big Data). Integration of various systems and platforms to improve business processes. Corporate-Level Cloud Solutions: Implementation and management of corporate cloud platforms. Development and deployment of scalable cloud applications. Professional Management and Monitoring Systems: Implementation of comprehensive IT management systems (ITSM, ITIL). Configuration of automated solutions for infrastructure management and monitoring. Advanced Cybersecurity: Implementation of comprehensive information security solutions (SIEM, SOC). Conducting specialized cybersecurity training for IT staff. VIP Support and Maintenance: Personalized VIP support with dedicated engineers. Continuous monitoring and proactive maintenance. Comprehensive Documentation and Training: Development of detailed technical documentation and training materials. Organization of corporate academies and certification programs for employees.',
+                    description:createElement(BuildTextProfessional),
                     price:'30,000 Euros',
                     volume:'Employees: Up to 100'
                 },
@@ -319,7 +335,7 @@ export const landingPagesData = [
             [
                 {
                     title:'',
-                    description: 'ï0,025€ GB/month ïFree-of-charge data transfer – traffic and requests are not charged ïWe don’t limit the size of storage',
+                    description:createElement(StorageText),
                     price:'',
                     volume:''
                 },
@@ -332,19 +348,19 @@ export const landingPagesData = [
             [
                 {
                     title: 'Basic',
-                    description: 'Support from 9 a.m. to 5 p.m Call response time — up to 30 seconds Email response time — up to 15 minutes Handling of typical IT requests Configuration of approved software Security',
+                    description: createElement(SupportTextBasic),
                     price:'2,500 Euros',
                     volume:'Employees: Up to 11'
                 },
                 {
                     title: 'Advanced',
-                    description: 'Support from 9 a.m. to 5 p.m + weekend Call response time — up to 30 seconds Email response time — up to 15 minutes Handling of atypical IT requests Configuration and installation of approved software Monitoring of important services Security',
+                    description: createElement(SupportTextAdvanced),
                     price:'4,500 Euros',
                     volume:'Employees: Up to 50'
                 },
                 {
                     title: 'Professional',
-                    description: '',
+                    description: createElement(SupportTextProfessional),
                     price:'from 8,000 Euros',
                     volume:'Employees: Up to 130'
                 },
@@ -357,7 +373,7 @@ export const landingPagesData = [
             [
                 {
                     title: 'Cloud Technologies',
-                    description: 'Leverage cloud platforms for flexibility and scalability, allowing you to quickly deploy and scale applications and resources.',
+                    description:createElement(DevopsCardsText),
                     price:'',
                     volume:''
                 },
@@ -370,19 +386,19 @@ export const landingPagesData = [
             [
                 {
                     title: 'Basic',
-                    description: '3 days a week no substitutions',
+                    description: createElement(StaffCardsTextBasic),
                     price:'2,500 Euros',
                     volume:'/month'
                 },
                 {
                     title: 'Advanced',
-                    description: '5 days a week substitute during leave or sick leave (L4)',
+                    description: createElement(StaffCardsTextAdvanced),
                     price:'4,500 Euros',
                     volume:'/month'
                 },
                 {
                     title: 'Professional',
-                    description: '4 specialists 5 days a week without substitutes managerial supervision',
+                    description: createElement(StaffCardsTextProfessional),
                     price:'from 8,000 Euros',
                     volume:'/month'
                 },

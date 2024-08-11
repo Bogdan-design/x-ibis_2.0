@@ -1,6 +1,10 @@
 import React from 'react';
 
 import {HeaderPage} from "@/component/layout/header/headerPage";
+import {About} from "@/component/about/about";
+import {Certification} from "@/component/certification/certification";
+import {Contact} from "@/component/contact/contact";
+import {Footer} from "@/component/footer/footer";
 
 export default function LandingLayout({
                                         children,
@@ -10,5 +14,8 @@ export default function LandingLayout({
     return <section >
         <HeaderPage/>
         {children}
+        <About/>
+        <Certification/>
+        <Contact/>
     </section>
 }

@@ -6,10 +6,12 @@ import {landingPagesData} from "@/lid/data";
 import {Heading} from "@/common/heading/heading";
 import {Typography} from "@/component/ui/typography/typography";
 import {LandingCard} from "@/component/landing/landingCard/landingCard";
-import SupportText from "@/component/landing/texts/supportText/supportText";
+import {SupportText} from "@/component/landing/texts/supportText/supportText";
 import Link from "next/link";
 import Back from "@/assest/icon/back";
 import s from "./page.module.scss";
+import {DevopsText} from "@/component/landing/texts/devopsText/devopsText";
+import {StaffText} from "@/component/landing/texts/staffText/staffText";
 
 
 function Page({params: {pages}}: { params: { pages: string } }) {
@@ -59,10 +61,11 @@ function Page({params: {pages}}: { params: { pages: string } }) {
                 </Link>
                 <Heading {...landingPagesData[dataIndex]} landing t={t} page={pages}/>
             </div>
-
+            {dataIndex === 5 && <StaffText/>}
             <Typography variant={'title'} className={s.description}>
                 {t(`${pages}.pageDescription`)}
             </Typography>
+            {dataIndex === 4 && <Typography variant={'text'}>{t(`${pages}.pageText`)}</Typography>}
             <div style={styleForPages}
                  className={s.landingPageCardsContainer}>
                 {...landingPagesData[dataIndex].options.map((o, i) => (
@@ -72,6 +75,7 @@ function Page({params: {pages}}: { params: { pages: string } }) {
                 ))}
             </div>
             {dataIndex === 3 && <SupportText/>}
+            {dataIndex === 4 && <DevopsText/>}
         </div>
     </section>
 }
