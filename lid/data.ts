@@ -36,6 +36,10 @@ export const links = [
         hash: "#services",
     },
     {
+        name: "Offers",
+        hash: "landing",
+    },
+    {
         name: "About us",
         hash: "#about",
     },
@@ -44,6 +48,7 @@ export const links = [
         hash: "#contact",
     },
 ] as const
+
 
 export const whatWeDoData = [
     {

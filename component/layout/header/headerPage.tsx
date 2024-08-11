@@ -25,7 +25,7 @@ export const HeaderPage = () => {
                     <div className={s.options}>
                         <nav>
                             <div className={s.links}>
-                                {links.map((l) => (
+                                {links.slice(1).map((l) => (
                                     <Link style={monumentExtended.style} className={s.link} key={l.hash}
                                           href={`/${l.hash}`}>{t(l.name)}</Link>
                                 ))}
