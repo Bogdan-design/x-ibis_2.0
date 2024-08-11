@@ -1,4 +1,4 @@
-.blocksCard {
+.blockCard {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -11,8 +11,47 @@
   border: 3px solid #C4C4C4;
   padding: 22px 18px;
   gap: 10px;
+
+  &:hover {
+    border: 3px solid #E75934;
+    background-color: #E75934;
+    .blockTitle {
+      color: #FFFFFF;
+    }
+    .blockIcon{
+      path{
+        fill: #FFFFFF;
+      }
+    }
+
+    .LandingButton {
+      background-color: #FFFFFF;
+
+      .buttonText {
+        color: #E75934;
+      }
+    }
+
+
+
+  }
+
+  .blockTitle {
+    font-weight: 600;
+  }
+  .blockIcon{
+    path{
+      fill: #E75934;
+    }
+  }
+
+  .LandingButton {
+    line-height: 40%;
+
+    .buttonText {
+
+      color: #fff;
+    }
+  }
 }
 
-.LandingButton {
-  line-height: 40%;
-}

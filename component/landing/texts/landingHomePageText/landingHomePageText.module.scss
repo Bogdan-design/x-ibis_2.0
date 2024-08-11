@@ -1,0 +1,11 @@
+.landingHomePageText{
+  display:flex;
+  flex-direction: column;
+  gap: 18px;
+  .landingDescription{
+
+    font-size: 23px;
+    text-align: justify;
+    flex-shrink: 0;
+  }
+}

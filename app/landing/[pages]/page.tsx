@@ -7,6 +7,8 @@ import {Heading} from "@/common/heading/heading";
 import {Typography} from "@/component/ui/typography/typography";
 import {LandingCard} from "@/component/landing/landingCard/landingCard";
 import SupportText from "@/component/landing/texts/supportText/supportText";
+import Link from "next/link";
+import Back from "@/assest/icon/back";
 import s from "./page.module.scss";
 
 
@@ -51,14 +53,21 @@ function Page({params: {pages}}: { params: { pages: string } }) {
 
     return <section className={s.landingPage}>
         <div className={s.landingPageContainer}>
-            <Heading {...landingPagesData[dataIndex]} landing t={t} page={pages}/>
-            <Typography className={s.description}>{landingPagesData[dataIndex]['pageDescription']}</Typography>
+            <div className={s.titleContainer}>
+                <Link href={'/landing'} className={s.link}>
+                    <Back className={s.button}/>
+                </Link>
+                <Heading {...landingPagesData[dataIndex]} landing t={t} page={pages}/>
+            </div>
+
+            <Typography variant={'title'} className={s.description}>
+                {t(`${pages}.pageDescription`)}
+            </Typography>
             <div style={styleForPages}
                  className={s.landingPageCardsContainer}>
-
                 {...landingPagesData[dataIndex].options.map((o, i) => (
                     <React.Fragment key={i}>
-                        <LandingCard {...o}/>
+                        <LandingCard index={i} t={t} pages={pages} {...o}/>
                     </React.Fragment>
                 ))}
             </div>

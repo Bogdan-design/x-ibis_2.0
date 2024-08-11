@@ -1,23 +1,47 @@
 .landingCard {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   text-align: center;
-  width: 318px;
   min-height: 255px;
   border-radius: 40px;
+  gap: 30px;
 
 
   border: 3px solid #C4C4C4;
   padding: 22px 18px;
 
-  .description {
+  &:hover {
+    border: 3px solid #E75934;
+    background-color: #E75934;
+
+    .landingCardTitle,
+    .landingCardDescription,
+    .landingCardPrice,
+    .landingCardVolume {
+      color: #FFFFFF;
+    }
+
+    .LandingButton {
+      background-color: #FFFFFF;
+      color: #E75934;
+
+    }
+
 
   }
 
+  .landingCardTitle {
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .landingCardDescription {
+    width: 300px;
+  }
+
   .LandingButton {
-    line-height: 40%;
   }
 }
 

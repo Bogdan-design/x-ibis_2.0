@@ -6,8 +6,8 @@ import {Typography} from "@/component/ui/typography/typography";
 import {monumentExtended} from "@/fonts/fonts";
 import {Button} from "@/component/ui/button";
 import landingImage from '@/assest/icon/homePageLanding.png'
-import s from './landingPage.module.scss'
 import Image from "next/image";
+import s from 'component/landing/landingHeager/landingHeader.module.scss'
 
 
 export const LandingHeader = () => {
@@ -22,7 +22,7 @@ export const LandingHeader = () => {
             <div className={s.container}>
                 <div className={s.description}>
                     <Typography as={'h1'} style={monumentExtended.style}
-                                className={s.title}>{t('Home page title')}</Typography>
+                                className={s.title}>{t('landingHome')}</Typography>
                     {!isMobile &&
                         <Button as={'a'} variant={'link'} href={'/#contact'}>
                             {t('Home page button')}

@@ -6,7 +6,7 @@ import {BDO_Grotesk} from "@/fonts/fonts";
 import 'overlayscrollbars/overlayscrollbars.css'
 import {Constants} from "@/common/local/constants";
 import {MobileContextProvider} from "@/context/mobile.context";
-import I18nProvider from "@/app/I18nProvider";
+import I18nProvider from "@/common/local/I18nProvider";
 
 
 export const metadata: Metadata = {

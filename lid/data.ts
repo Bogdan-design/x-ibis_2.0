@@ -8,6 +8,7 @@ import Staff from '@/assest/icon/staff'
 import Ai from '@/assest/icon/ai'
 import {StaffText} from "@/component/landing/texts/staffText/staffText";
 import {AiTextCard} from "@/component/landing/texts/aiText/aiText";
+import {BuildText} from "@/component/landing/texts/buildText/buildText";
 
 export const links = [
     {
@@ -266,8 +267,8 @@ export const landingPagesData = [
         options:
             [
                 {
-                    title: 'Build Infrastructure',
-                    description: 'Consulting and Audit of Current Infrastructure: Assessment of the current state of IT infrastructure. Recommendations for improvement and optimization. Network Equipment and Configuration: Supply and installation of basic network devices (routers, switches, access points). Configuration of local area network (LAN). Ensuring basic network security (firewalls, VPN). Server Equipment and Virtualization: Supply and installation of server equipment. Implementation of a basic virtualization platform (e.g., VMware, Hyper-V). Configuration of file servers and storage systems. Software and Licensing: Installation of operating systems (Windows, Linux, MacOS). Licensing of basic software (office applications, antivirus solutions). Installation and configuration of business software (CRM, ERP, etc.). Cloud Services: Implementation and configuration of basic cloud services (e.g., Microsoft 365, Google Workspace, AWS, Azure). Organizing data backup to the cloud. Management and Monitoring Systems: Implementation of infrastructure monitoring systems (e.g., Zabbix, Nagios). Configuration of basic management and administration systems. Cybersecurity: Installation and configuration of basic protection tools (antivirus, anti-spam filters). Conducting initial training on cybersecurity basics for employees. Support and Maintenance: Organization of a technical support service (Help Desk). Provision of basic technical support and maintenance (service contracts, SLA). Documentation and Training: Preparation of technical documentation for installed equipment and software. Conducting basic training for the customer\'s IT staff.',
+                    title: 'Basic',
+                    description: createElement(BuildText),
                     price:'6,500 Euros',
                     volume:'Employees: Up to 11'
                 },
