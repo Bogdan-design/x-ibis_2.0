@@ -4,19 +4,22 @@
   align-items: center;
   text-align: center;
   min-height: 255px;
+  min-width: 352px;
   border-radius: 40px;
   gap: 30px;
-
+  color: #555555;
 
   border: 3px solid #C4C4C4;
-  padding: 38px 18px;
+  padding: 38px 0;
+
+
 
   &:hover {
     border: 3px solid #E75934;
     background-color: #E75934;
 
     .landingCardTitle,
-    .landingCardDescription,
+    .landingCardDescription li,
     .landingCardPrice,
     .landingCardVolume {
       color: #FFFFFF;
@@ -25,10 +28,12 @@
     .LandingButton {
       background-color: #FFFFFF;
       color: #E75934;
-
     }
 
-
+    .landingCardDescription h2 {
+      text-decoration: underline #FFFFFF;
+      color: #FFFFFF;
+    }
   }
 
   .landingCardTitle {
@@ -37,9 +42,8 @@
     text-transform: uppercase;
   }
 
-  .landingCardDescription {
+  .landingCardDescription li {
     font-size: 16px;
-    width: 300px;
   }
 
   .landingCardPrice {
@@ -48,11 +52,9 @@
     font-size: 23px;
     color: #E75934;
   }
-  .landingCardVolume{
-    color: #E75934;
-  }
 
-  .LandingButton {
+  .landingCardVolume {
+    color: #E75934;
   }
 }
 

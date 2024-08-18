@@ -9,9 +9,9 @@ import {LandingCard} from "@/component/landing/landingCard/landingCard";
 import {SupportText} from "@/component/landing/texts/supportText/supportText";
 import Link from "next/link";
 import Back from "@/assest/icon/back";
-import s from "./page.module.scss";
 import {DevopsText} from "@/component/landing/texts/devopsText/devopsText";
 import {StaffText} from "@/component/landing/texts/staffText/staffText";
+import s from "./page.module.scss";
 
 
 function Page({params: {pages}}: { params: { pages: string } }) {

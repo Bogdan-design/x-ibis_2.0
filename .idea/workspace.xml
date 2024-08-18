@@ -4,10 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="add to header link offer">
+    <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="refactor">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/x-ibis_2.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/icon/design.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/landing/texts/buildText/buttonShowMore/buttonShowMore.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/landing/texts/buildText/buttonShowMore/buttonShowMore.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/serviceBuild.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/landing/texts/supportText/supportText.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/texts/supportText/supportText.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/landing/texts/supportText/supportText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/texts/supportText/supportText.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/landing/[pages]/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/[pages]/page.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/landing/[pages]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/[pages]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/blocks/blocksCard/blocksCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/blocks/blocksCard/blocksCard.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/landingCard/landingCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/landingCard/landingCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/landingCard/landingCards.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/landingCard/landingCards.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/texts/buildText/buildTextBasic.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/texts/buildText/buildTextBasic.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lid/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lid/data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +67,13 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/It-incubator/x-ibis_2.0/component/landing/texts/storageText&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/FullStack/next-pizza&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
@@ -75,18 +90,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\It-incubator\x-ibis_2.0\component\landing\texts\buildText\buttonShowMore" />
       <recent name="F:\It-incubator\x-ibis_2.0\component\landing\texts\storageText" />
       <recent name="F:\It-incubator\x-ibis_2.0\component\landing\texts\buildText" />
       <recent name="F:\It-incubator\x-ibis_2.0\component\landing\texts\landingHomePageText" />
       <recent name="F:\It-incubator\x-ibis_2.0\component\landing\texts\aiText" />
-      <recent name="F:\It-incubator\x-ibis_2.0\component\landing\texts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\It-incubator\x-ibis_2.0" />
       <recent name="F:\It-incubator\x-ibis_2.0\common\local" />
       <recent name="F:\It-incubator\x-ibis_2.0\component\landing\texts\staffText" />
       <recent name="F:\It-incubator\x-ibis_2.0\component\landing\texts\supportText" />
       <recent name="F:\It-incubator\x-ibis_2.0\common" />
-      <recent name="F:\It-incubator\x-ibis_2.0" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -131,7 +146,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-WS-241.14494.235" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.342" />
       </set>
     </attachedChunks>
   </component>
@@ -340,15 +355,13 @@
       <workItem from="1723283475803" duration="8990000" />
       <workItem from="1723306403140" duration="21471000" />
       <workItem from="1723352639614" duration="21708000" />
-      <workItem from="1723404921651" duration="2891000" />
-    </task>
-    <task id="LOCAL-00114" summary="mobile homePage">
-      <option name="closed" value="true" />
-      <created>1711632017180</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1711632017180</updated>
+      <workItem from="1723404921651" duration="3189000" />
+      <workItem from="1723408428071" duration="561000" />
+      <workItem from="1723454986014" duration="25000" />
+      <workItem from="1723662835542" duration="45000" />
+      <workItem from="1723704602071" duration="923000" />
+      <workItem from="1723961371638" duration="22890000" />
+      <workItem from="1724003526375" duration="5625000" />
     </task>
     <task id="LOCAL-00115" summary="mobile homePage">
       <option name="closed" value="true" />
@@ -734,7 +747,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723407280758</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1723408352728</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1723408352728</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -758,7 +779,6 @@
     <MESSAGE value="refactor main layout" />
     <MESSAGE value="translation main page" />
     <MESSAGE value="finish" />
-    <MESSAGE value="refactor" />
     <MESSAGE value="header" />
     <MESSAGE value="rectangle component" />
     <MESSAGE value="footer" />
@@ -778,7 +798,8 @@
     <MESSAGE value="BuildText component" />
     <MESSAGE value="finished" />
     <MESSAGE value="add to header link offer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add to header link offer" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

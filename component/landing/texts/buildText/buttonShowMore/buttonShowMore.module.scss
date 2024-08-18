@@ -1,0 +1,10 @@
+.buttonShowMoreContainer{
+  display: flex;
+  justify-content: center;
+  .buttonShowMore{
+    border: none;
+    background: none;
+    color: #555;
+    text-decoration: underline;
+  }
+}

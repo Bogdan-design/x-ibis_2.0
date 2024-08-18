@@ -6,6 +6,7 @@ import Support from '@/assest/icon/support'
 import DevOps from '@/assest/icon/devops'
 import Staff from '@/assest/icon/staff'
 import Ai from '@/assest/icon/ai'
+import Design from '@/assest/icon/design'
 import {
     StaffCardsTextAdvanced,
     StaffCardsTextBasic,
@@ -459,6 +460,11 @@ export const landingPageDateOptions = [
     {
         title: 'AI Implementation and Training Services',
         icon: createElement(Ai),
+        page:'ai'
+    },
+    {
+        title: 'Graphic Design Services',
+        icon: createElement(Design),
         page:'ai'
     },
 

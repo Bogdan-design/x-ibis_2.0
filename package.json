@@ -36,7 +36,8 @@
     "resend": "^1.1.0",
     "sass": "^1.69.3",
     "svg-sprite-loader": "^6.0.11",
-    "swiper": "^11.0.7"
+    "swiper": "^11.0.7",
+    "zustand": "^4.5.5"
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",

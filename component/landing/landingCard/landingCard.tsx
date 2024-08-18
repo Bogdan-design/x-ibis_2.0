@@ -10,20 +10,25 @@ type LandingCardsOptionsProps = (typeof landingPagesData)[number]['options'][num
 
 export const LandingCard = ({index, title, description, price, volume, t, pages}: LandingCardsOptionsProps) => {
 
-    const style = pages === 'devops' ? {width:'870px'} :  pages === 'ai' ? {width:'592px'} : {width:'300px'}
+
+
+    const style = pages === 'devops' ? {width: '870px'} : pages === 'ai' ? {width: '592px'} : {width: '300px'}
+
+
 
     return (
         <div className={s.landingCard}>
             {title && <Typography className={s.landingCardTitle} variant={'title'}>
                 {t(`${pages}.options.${index}.title`)}
             </Typography>}
-            <Typography style={style} variant={'text'} className={s.landingCardDescription}>{description}</Typography>
+            <div style={style} className={s.landingCardDescription}>{description}</div>
+
             {price && <Typography variant={'title'}
                                   className={s.landingCardPrice}>{t(`${pages}.options.${index}.price`)}</Typography>}
             {volume && <Typography variant={'text'}
                                    className={s.landingCardVolume}>{t(`${pages}.options.${index}.volume`)}</Typography>}
             <div>
-                <Button className={s.LandingButton}>{t('buy')}</Button>
+                <Button className={s.LandingButton}>{t('Offer')}</Button>
             </div>
         </div>
     );
