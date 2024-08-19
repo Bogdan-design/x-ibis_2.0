@@ -1,21 +1,26 @@
 import React from 'react';
 import s from './supportText.module.scss'
+import {Typography} from "@/component/ui/typography/typography";
 
 export const SupportText = () => {
     return (
         <div className={s.supportsText}>
-            Replacement and Repair of Equipment:
+            <Typography variant={'title'}>Replacement and Repair of Equipment:</Typography>
+
+
             <div>
                 <li>Ensuring timely replacement and repair of faulty equipment.</li>
                 <li>Diagnosing issues and promptly resolving them.</li>
             </div>
-            Operating Systems Support:
+            <Typography variant={'title'}>Operating Systems Support:</Typography>
+
             <div>
                 <li>Windows: Installation, configuration, and support of various Windows versions.</li>
                 <li>Linux: Support for various Linux distributions, including Ubuntu, CentOS, Red Hat.</li>
                 <li>MacOS: Maintenance and support for Apple devices.</li>
             </div>
-            Hardware Support:
+            <Typography variant={'title'}>Hardware Support:</Typography>
+
             <div>
                 <li>Servers: Installation, configuration, and maintenance of servers.</li>
                 <li>Printers: Diagnosis and repair of printers, managing print jobs.</li>
@@ -23,30 +28,30 @@ export const SupportText = () => {
                 <li>Video Conference Rooms: Installation and support of video conferencing equipment.</li>
                 <li>Telephony: Configuration and support of corporate telephony systems.</li>
             </div>
-            Cloud Storage:
+            <Typography variant={'title'}>Cloud Storage:</Typography>
             <div>
                 <li>AWS: Management and support of Amazon Web Services.</li>
                 <li>Microsoft Azure: Setup and support of solutions on Microsoft Azure platform.</li>
                 <li>Google Cloud Platform: Implementation and maintenance of Google Cloud services.</li>
             </div>
-            Office Software Support:
+            <Typography variant={'title'}>Office Software Support:</Typography>
             <div>
                 <li>MS Office: Installation and support of Microsoft Office applications.</li>
                 <li>Office 365: Management of subscriptions and support for Office 365 cloud services.</li>
             </div>
-            CRM and ERP Systems:
+            <Typography variant={'title'}>CRM and ERP Systems:</Typography>
             <div>
                 <li>Implementation, configuration, and support of Customer Relationship Management (CRM) and Enterprise
                     Resource</li>
                 <li>Planning (ERP) systems.</li>
             </div>
-            Security Solutions:
+            <Typography variant={'title'}>Security Solutions:</Typography>
             <div>
                 <li>Antivirus Software: Installation and updating of antivirus programs.</li>
                 <li>Firewalls: Configuration and management of firewalls to protect against external threats.</li>
                 <li>VPN: Setup of Virtual Private Networks for secure remote access.</li>
             </div>
-            Network Protocols and Services:
+            <Typography variant={'title'}>Network Protocols and Services:</Typography>
             <div>
                 <li>TCP/IP: Configuration and management of protocols for data transmission.</li>
                 <li> DNS: Domain name management and DNS server setup.</li>

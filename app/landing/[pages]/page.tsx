@@ -1,5 +1,5 @@
 'use client'
-import React from "react";
+import React, {CSSProperties} from "react";
 import {PageError} from "@/common/errors/error404";
 import {useTranslation} from "next-i18next";
 import {landingPagesData} from "@/lid/data";
@@ -43,14 +43,23 @@ function Page({params: {pages}}: { params: { pages: string } }) {
         case 'ai':
             dataIndex = 6;
             break;
+        case 'design':
+            dataIndex = 7;
+            break;
         default:
             return <PageError/>
     }
 
-    const styleForPages =
+    const stylePageDescription : CSSProperties = pages === 'ai' ?
+        {fontSize: '27px'} : pages === 'design' ?
+            {fontSize: '27px'} : {}
+
+
+    const styleForPages : CSSProperties =
         dataIndex === 2 ? {justifyContent: 'center'} :
             dataIndex === 4 ? {justifyContent: 'center'} :
-                dataIndex === 6 ? {justifyContent: 'center'} : {justifyContent: 'space-between'}
+                dataIndex === 6 ? {justifyContent: 'center'} :
+                    dataIndex === 7 ? {flexDirection: 'column',justifyContent: 'center',gap:'54px',alignItems:'center'} : {justifyContent: 'space-between'}
 
 
     return <section className={s.landingPage}>
@@ -62,7 +71,7 @@ function Page({params: {pages}}: { params: { pages: string } }) {
                 <Heading {...landingPagesData[dataIndex]} landing t={t} page={pages}/>
             </div>
             {dataIndex === 5 && <StaffText/>}
-            <Typography variant={'title'} className={s.description}>
+            <Typography style={stylePageDescription} variant={'title'} className={s.description}>
                 {t(`${pages}.pageDescription`)}
             </Typography>
             {dataIndex === 4 && <Typography variant={'text'}>{t(`${pages}.pageText`)}</Typography>}

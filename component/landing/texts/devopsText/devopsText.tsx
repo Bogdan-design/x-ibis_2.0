@@ -1,11 +1,12 @@
 import React from 'react';
+import {Typography} from "@/component/ui/typography/typography";
 import s from './devopsText.module.scss'
 
 export const DevopsCardsText = () => {
     return (
         <div className={s.devopsCardsText} style={{textAlign: 'start'}}>
             <ol>
-                <li>Process Audit and Optimization:</li>
+                <Typography as={'li'} variant={'title'}>Process Audit and Optimization:</Typography>
             </ol>
             <ul>
                 <li>Analysis of current development and deployment processes.</li>
@@ -13,7 +14,7 @@ export const DevopsCardsText = () => {
                 <li>Recommendations for optimization and implementation of DevOps best practices.</li>
             </ul>
             <ol>
-                <li value={'2'}>Transition from Monolith to Microservices:</li>
+                <Typography as={'li'} variant={'title'} value={'2'}>Transition from Monolith to Microservices:</Typography>
             </ol>
             <ul>
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
@@ -23,7 +24,7 @@ export const DevopsCardsText = () => {
                 </li>
             </ul>
             <ol>
-                <li value={'3'}>CI/CD Automation:</li>
+                <Typography as={'li'} variant={'title'} value={'3'}>CI/CD Automation:</Typography>
             </ol>
             <ul>
                 <li>Implementation of flexible and convenient code development and delivery processes (CI/CD).</li>
@@ -32,7 +33,7 @@ export const DevopsCardsText = () => {
                 <li>Conducting integration tests and deployment.</li>
             </ul>
             <ol>
-                <li value={'4'}>Monitoring and Logging:</li>
+                <Typography as={'li'} variant={'title'} value={'4'}>Monitoring and Logging:</Typography>
             </ol>
             <ul>
                 <li>Setting up logging and monitoring of key infrastructure and application metrics.</li>
@@ -48,7 +49,7 @@ export const DevopsCardsText = () => {
 export const DevopsText = () => {
     return (
         <div className={s.devopsText}>
-            <p>Why Choose Us?</p>
+            <Typography as={'p'} variant={'title'}>Why Choose Us?</Typography>
             <p>Deep Expertise: Our team has significant experience in DevOps and CI/CD, allowing us to offer
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
                 solutions tailored to your business's unique needs.</p>

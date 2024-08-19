@@ -26,6 +26,12 @@ import {
     SupportTextProfessional
 } from "@/component/landing/texts/supportText/supportText";
 import {DevopsCardsText} from "@/component/landing/texts/devopsText/devopsText";
+import {
+    VirtualTextAdvanced,
+    VirtualTextBasic,
+    VirtualTextProfessional
+} from "@/component/landing/texts/virtualText/virtual.text";
+import {ADS, Branding, PrintMaterials, SocialMedia, WebDesign} from "@/component/landing/texts/designText/designText";
 
 export const links = [
     {
@@ -316,19 +322,19 @@ export const landingPagesData = [
             [
                 {
                     title: 'Basic',
-                    description: '1vCPU / 1GB RAM / 10GB SSD',
+                    description: createElement(VirtualTextBasic),
                     price:'4.50 Euros',
                     volume:'/month'
                 },
                 {
                     title: 'Advanced',
-                    description: '2VCPU / 8GB RAM / 80GB SSD',
+                    description: createElement(VirtualTextAdvanced),
                     price:'79.00 Euros',
                     volume:'/month'
                 },
                 {
                     title: 'Professional',
-                    description: '14VCPU / 94GB RAM / 100GB SSD',
+                    description: createElement(VirtualTextProfessional),
                     price:'550.00 Euros',
                     volume:'/month'
                 },
@@ -423,6 +429,43 @@ export const landingPagesData = [
                 },
             ] as const
     },
+    {
+        pageTitle: 'Graphic Design Services',
+        pageDescription: 'We provide expert design services that help your brand stand out, from online presence to impactful promotional materials.',
+        options:
+            [
+                {
+                    title: 'Social Media Content Creation',
+                    description: createElement(SocialMedia),
+                    price:'from 1,500 Euros',
+                    volume:'/month'
+                },
+                {
+                    title: 'Print Materials',
+                    description: createElement(PrintMaterials),
+                    price:'from 300 Euros',
+                    volume:''
+                },
+                {
+                    title: 'Branding',
+                    description: createElement(Branding),
+                    price:'from 1,000 Euros',
+                    volume:''
+                },
+                {
+                    title: 'ADS',
+                    description: createElement(ADS),
+                    price:'from 300 Euros',
+                    volume:''
+                },
+                {
+                    title: 'Web Design',
+                    description: createElement(WebDesign),
+                    price:'from 3,000 Euros',
+                    volume:''
+                },
+            ] as const
+    },
 
 ] as const
 
@@ -465,7 +508,7 @@ export const landingPageDateOptions = [
     {
         title: 'Graphic Design Services',
         icon: createElement(Design),
-        page:'ai'
+        page:'design'
     },
 
 ]as const

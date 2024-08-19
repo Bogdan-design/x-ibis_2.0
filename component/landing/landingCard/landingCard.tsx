@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {CSSProperties} from 'react';
 import {Typography} from "@/component/ui/typography/typography";
 import {Button} from "@/component/ui/button";
 import {landingPagesData} from "@/lid/data";
@@ -11,8 +11,10 @@ type LandingCardsOptionsProps = (typeof landingPagesData)[number]['options'][num
 export const LandingCard = ({index, title, description, price, volume, t, pages}: LandingCardsOptionsProps) => {
 
 
-
-    const style = pages === 'devops' ? {width: '870px'} : pages === 'ai' ? {width: '592px'} : {width: '300px'}
+    const style : CSSProperties = pages === 'devops' ?
+        {width: '870px'} : pages === 'ai' ?
+            {width: '592px'} : pages === 'design' ?
+                {width: ''} : {width: '300px'}
 
 
 
