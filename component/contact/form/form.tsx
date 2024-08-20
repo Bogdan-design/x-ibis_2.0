@@ -13,7 +13,7 @@ type Props = {
 export const Form: React.FC<Props> = ({modal}) => {
     const {t} = useTranslation()
     return (
-        <form className={s.form} action={async (formData) => {
+        <form className={modal ? s.modalForm : s.form} action={async (formData) => {
             const {error} = await sendEmail(formData)
             if (error) {
                 toast.error(error)

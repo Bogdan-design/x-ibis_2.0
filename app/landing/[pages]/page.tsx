@@ -1,5 +1,5 @@
 'use client'
-import React, {CSSProperties} from "react";
+import React, {CSSProperties, useState} from "react";
 import {PageError} from "@/common/errors/error404";
 import {useTranslation} from "next-i18next";
 import {landingPageDateOptions, landingPagesData} from "@/lid/data";
@@ -18,6 +18,12 @@ import {Modal} from "@/common/modal/modal";
 function Page({params: {pages}}: { params: { pages: (typeof landingPageDateOptions)[number]['page'] }} ) {
 
     const {t} = useTranslation();
+
+    const [open, setOpen] =useState<boolean>(true);
+
+    const onOpenModal = () =>{
+        setOpen(false)
+    }
 
 
     let dataIndex
@@ -64,7 +70,7 @@ function Page({params: {pages}}: { params: { pages: (typeof landingPageDateOptio
 
 
     return <section className={s.landingPage}>
-        <Modal/>
+        {open && <Modal onOpenModal={onOpenModal}/>}
         <div className={s.landingPageContainer}>
             <div className={s.titleContainer}>
                 <Link href={'/landing'} className={s.link}>

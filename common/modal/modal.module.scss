@@ -8,11 +8,11 @@
   position: fixed;
   inset: 0;
   z-index: 10;
+
   .modalContainer{
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     border: 2px solid #E75934;
     border-radius: 32px;
@@ -21,7 +21,19 @@
     max-height: 604px;
     height: 100%;
     width: 100%;
+    position: relative;
 
+    .iconButtonClose{
+      width: 16px;
+      height: 16px;
+      background: none;
+      border: none;
+      top: 30px;
+      right: 30px;
+      position: absolute;
+      cursor: pointer;
+
+    }
 
     .modalTitle {
       color: #333;
