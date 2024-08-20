@@ -6,18 +6,32 @@ import {SubmitBtm} from "@/component/contact/submitBtm";
 import {BDO_Grotesk} from "@/fonts/fonts";
 import {useTranslation} from "next-i18next";
 import s from "./form.module.scss";
+import {useSubjectStore} from "@/store/subject";
+import {ChangeEventHandler} from "react";
 
 type Props = {
     modal?: boolean
+    isModalOpen?:(open:boolean)=>void;
 };
-export const Form: React.FC<Props> = ({modal}) => {
+export const Form: React.FC<Props> = ({modal,isModalOpen}) => {
     const {t} = useTranslation()
+    const subject = useSubjectStore(state => state.subject)
+    const setSubject = useSubjectStore(state => state.setSubject)
+
+
+    const onValueChange=(e:any)=>{
+        setSubject(e.target.value);
+    }
+
     return (
         <form className={modal ? s.modalForm : s.form} action={async (formData) => {
             const {error} = await sendEmail(formData)
             if (error) {
                 toast.error(error)
+            } else if(isModalOpen) {
+                isModalOpen(false)
             }
+
             return toast.success('Email send successfully')
         }}
         >
@@ -56,6 +70,8 @@ export const Form: React.FC<Props> = ({modal}) => {
                                   label={t('formSubject')}
                                   type='phone'
                                   placeholder={t('formSubject')}
+                                  value={subject}
+                                  onChange={onValueChange}
                                   variant="standard"
                                   fullWidth
             />}
@@ -67,7 +83,7 @@ export const Form: React.FC<Props> = ({modal}) => {
                        placeholder={t('formMessage')}
                        rows={4}
                        variant="standard"
-                       required
+                       required = {!modal}
                        fullWidth
             />
             <SubmitBtm font={BDO_Grotesk.style} className={s.submit}/>

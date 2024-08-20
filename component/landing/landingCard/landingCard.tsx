@@ -3,19 +3,37 @@ import {Typography} from "@/component/ui/typography/typography";
 import {Button} from "@/component/ui/button";
 import {landingPagesData} from "@/lid/data";
 import s from './landingCards.module.scss'
+import {useSubjectStore} from "@/store/subject";
 
-type LandingCardsOptionsProps = (typeof landingPagesData)[number]['options'][number] &
-    { t: (text: string) => string } &
-    { pages: string } & { index: number }
+type LandingCardsOptionsProps = (typeof landingPagesData)[number]['options'][number] & {
+    pages: string
+    index: number
+    t: (text: string) => string
+    isModalOpen: (open: boolean) => void
+}
+export const LandingCard = ({
+                                index,
+                                title,
+                                description,
+                                price,
+                                volume,
+                                t,
+                                pages,
+                                isModalOpen
+                            }: LandingCardsOptionsProps) => {
 
-export const LandingCard = ({index, title, description, price, volume, t, pages}: LandingCardsOptionsProps) => {
+    const setSubject = useSubjectStore(state => state.setSubject)
 
 
-    const style : CSSProperties = pages === 'devops' ?
+    const onClickHandler = () => {
+        isModalOpen(true)
+        setSubject(t(`${pages}.pageTitle`) + ' ' + title)
+    }
+
+    const style: CSSProperties = pages === 'devops' ?
         {width: '870px'} : pages === 'ai' ?
             {width: '592px'} : pages === 'design' ?
                 {width: ''} : {width: '300px'}
-
 
 
     return (
@@ -30,7 +48,7 @@ export const LandingCard = ({index, title, description, price, volume, t, pages}
             {volume && <Typography variant={'text'}
                                    className={s.landingCardVolume}>{t(`${pages}.options.${index}.volume`)}</Typography>}
             <div>
-                <Button className={s.LandingButton}>{t('Offer')}</Button>
+                <Button className={s.LandingButton} onClick={onClickHandler}>{t('Offer')}</Button>
             </div>
         </div>
     );

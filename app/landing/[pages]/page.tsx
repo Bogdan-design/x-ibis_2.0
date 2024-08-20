@@ -19,10 +19,10 @@ function Page({params: {pages}}: { params: { pages: (typeof landingPageDateOptio
 
     const {t} = useTranslation();
 
-    const [open, setOpen] =useState<boolean>(true);
+    const [openModal, setOpenModal] =useState<boolean>(false);
 
-    const onOpenModal = () =>{
-        setOpen(false)
+    const isModalOpen = (open:boolean) =>{
+        setOpenModal(open)
     }
 
 
@@ -70,7 +70,7 @@ function Page({params: {pages}}: { params: { pages: (typeof landingPageDateOptio
 
 
     return <section className={s.landingPage}>
-        {open && <Modal onOpenModal={onOpenModal}/>}
+        {openModal && <Modal isModalOpen={isModalOpen}/>}
         <div className={s.landingPageContainer}>
             <div className={s.titleContainer}>
                 <Link href={'/landing'} className={s.link}>
@@ -87,7 +87,7 @@ function Page({params: {pages}}: { params: { pages: (typeof landingPageDateOptio
                  className={s.landingPageCardsContainer}>
                 {...landingPagesData[dataIndex].options.map((o, i) => (
                     <React.Fragment key={i}>
-                        <LandingCard index={i} t={t} pages={pages} {...o}/>
+                        <LandingCard index={i} t={t} pages={pages} isModalOpen={isModalOpen} {...o}/>
                     </React.Fragment>
                 ))}
             </div>
