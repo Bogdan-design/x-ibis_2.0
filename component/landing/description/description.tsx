@@ -12,7 +12,7 @@ export const Description = () => {
 
         <section className={s.descriptionContainer}>
             <div className={s.descriptionBox}>
-                <Heading landing t={t} page={'landingTitle'}/>
+                <Heading landing t={t} page={'landingMain'}/>
                 <Typography className={s.description} variant={'text'}>
                     <LandingHomePageText t={t}/>
                 </Typography>

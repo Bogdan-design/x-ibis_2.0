@@ -20,7 +20,7 @@
       width: 100%;
       gap: 47px;
 
-      .title{
+      .title {
         font-size: 50px;
         font-style: normal;
         font-weight: 400;
@@ -28,7 +28,8 @@
         text-transform: uppercase;
 
       }
-      .description{
+
+      .description {
         color: #555;
 
         font-size: 25px;
@@ -43,11 +44,13 @@
         display: flex;
         flex-direction: column;
         gap: 60px;
+
         div {
           display: flex;
           align-items: center;
           margin: 0;
           gap: 25px;
+
           a {
             color: #555;
 
@@ -61,39 +64,35 @@
       }
     }
 
-    .form {
-      display: flex;
-      max-width: 415px;
-      width: 100%;
-      flex-direction: column;
-      align-items: center;
-      div{
 
-        height: 74px;
-      }
-      .submit{
-        margin-top: 32px;
-      }
-    }
-    .frame{
-      display: flex;
-      width: 100%;
-      height: 300px;
-      justify-content: center;
-
-    }
   }
 }
 
+
+
+.frame {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+
+}
+
+.modalForm {
+
+}
+
 @media screen and (max-width: 768px) {
-  .contact .container{
+  .contact .container {
     padding: 31px;
-    .text{
-      .title{
+
+    .text {
+      .title {
         font-size: 30px;
         text-align: center;
       }
-      .description{
+
+      .description {
         font-size: 16px;
         text-align: center;
       }
@@ -102,7 +101,8 @@
         margin-top: 0;
         gap: 20px;
         align-items: center;
-        div{
+
+        div {
           gap: 15px;
         }
       }

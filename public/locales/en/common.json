@@ -220,11 +220,12 @@
     ]
   },
   "landingHome": "Offers",
-  "landingTitle": {
-    "pageTitle": "What we offer"
+  "landingMain": {
+    "pageTitle": "What we offer",
+    "pageDescription": "In a rapidly evolving world of modern technology that demands innovative solutions, our company provides a wide range of IT services to help your business reach new heights. We combine experience, professionalism, and cutting-edge technologies to deliver the best solutions tailored to your unique needs. Our offerings include everything necessary for the successful implementation and support of IT projects of any complexity.",
+    "pageBlocksTitle": "Below you will find more detailed information about each of our offerings:"
   },
-  "landingDescription": "In a rapidly evolving world of modern technology that demands innovative solutions, our company provides a wide range of IT services to help your business reach new heights. We combine experience, professionalism, and cutting-edge technologies to deliver the best solutions tailored to your unique needs. Our offerings include everything necessary for the successful implementation and support of IT projects of any complexity.",
-  "landingBlocksTitle": "Below you will find more detailed information about each of our offerings:",
+  "formSubject": "Subject",
   "more": "more",
   "buttonBlock": "Offer",
   "buy": "Buy",
@@ -234,19 +235,161 @@
     "options": [
       {
         "title": "Basic",
-        "description": "Consulting and Audit of Current Infrastructure: Assessment of the current state of IT infrastructure. Recommendations for improvement and optimization. Network Equipment and Configuration: Supply and installation of basic network devices (routers, switches, access points). Configuration of local area network (LAN). Ensuring basic network security (firewalls, VPN). Server Equipment and Virtualization: Supply and installation of server equipment. Implementation of a basic virtualization platform (e.g., VMware, Hyper-V). Configuration of file servers and storage systems. Software and Licensing: Installation of operating systems (Windows, Linux, MacOS). Licensing of basic software (office applications, antivirus solutions). Installation and configuration of business software (CRM, ERP, etc.). Cloud Services: Implementation and configuration of basic cloud services (e.g., Microsoft 365, Google Workspace, AWS, Azure). Organizing data backup to the cloud. Management and Monitoring Systems: Implementation of infrastructure monitoring systems (e.g., Zabbix, Nagios). Configuration of basic management and administration systems. Cybersecurity: Installation and configuration of basic protection tools (antivirus, anti-spam filters). Conducting initial training on cybersecurity basics for employees. Support and Maintenance: Organization of a technical support service (Help Desk). Provision of basic technical support and maintenance (service contracts, SLA). Documentation and Training: Preparation of technical documentation for installed equipment and software. Conducting basic training for the customers IT staff.",
+        "description": [
+          {
+            "optionTitle": "Consulting and Audit of Current Infrastructure:",
+            "option_1": "Assessment of the current state of IT infrastructure.",
+            "option_2": "Recommendations for improvement and optimization."
+          },
+          {
+            "optionTitle": "Network Equipment and Configuration:",
+            "option_1": "Supply and installation of basic network devices (routers, switches, access points).",
+            "option_2": "Configuration of local area network (LAN).",
+            "option_3": "Ensuring basic network security (firewalls, VPN)."
+          },
+          {
+            "optionTitle": "Server Equipment and Virtualization:",
+            "option_1": "Supply and installation of server equipment.",
+            "option_2": "Implementation of a basic virtualization platform (e.g., VMware, Hyper-V).",
+            "option_3": "Configuration of file servers and storage systems."
+          },
+          {
+            "optionTitle": "Software and Licensing:",
+            "option_1": "Installation of operating systems (Windows, Linux, MacOS).",
+            "option_2_1": "Licensing of basic software (office",
+            "option_2_2": "applications, antivirus solutions).",
+            "option_3": "Installation and configuration of business software (CRM, ERP, etc.)."
+          },
+          {
+            "optionTitle": "Cloud Services:",
+            "option_1": "Implementation and configuration of basic cloud services (e.g., Microsoft 365, Google Workspace, AWS, Azure).",
+            "option_2": "Organizing data backup to the cloud."
+          },
+          {
+            "optionTitle": "Management and Monitoring Systems:",
+            "option_1": "Implementation of infrastructure monitoring systems (e.g., Zabbix, Nagios).",
+            "option_2": "Configuration of basic management and administration systems."
+          },
+          {
+            "optionTitle": "Cybersecurity",
+            "option_1": "Installation and configuration of basic protection tools (antivirus, anti-spam filters).",
+            "option_2": "Conducting initial training on cybersecurity basics for employees."
+          },
+          {
+            "optionTitle": "Support and Maintenance:",
+            "option_1": "Organization of a technical support service (Help Desk).",
+            "option_2": "Provision of basic technical support and maintenance (service contracts, SLA)."
+          },
+          {
+            "optionTitle": "Documentation and Training:",
+            "option_1": "Preparation of technical documentation for installed equipment and software.",
+            "option_2": "Conducting basic training for the customer's IT staff."
+          }
+        ],
         "price": "6,500 Euros",
         "volume": "Employees: Up to 11"
       },
       {
         "title": "Advanced",
-        "description": "Extended Consulting and Audit: Detailed audit of IT infrastructure. Development of a modernization plan and implementation of new technologies. Extended Network Equipment and Configuration: Supply and installation of advanced network devices (high-performance routers, managed switches). Configuration of network segmentation and VLAN. Extended Virtualization and Server Equipment: Implementation of cluster solutions for virtualization. Configuration of disaster recovery and high availability systems. Software and Integration: Installation and configuration of specialized business software (CRM, ERP). Integration of existing systems with new solutions. Cloud Services and Hybrid Solutions: Configuration of hybrid cloud solutions (combination of on-premises and cloud resources). Implementation of cloud services for storage and processing of big data. Advanced Management and Monitoring Systems: Implementation of configuration management solutions (e.g., Ansible, Puppet). Configuration of proactive monitoring and analytics systems. Enhanced Cybersecurity: Implementation of intrusion detection and prevention systems (IDS/IPS). Conducting regular penetration tests and security audits. Premium Support and Maintenance: Extended technical support with a higher SLA level. Remote monitoring and management services. Advanced Documentation and Training: Preparation of detailed technical documentation and manuals. Conducting specialized training and seminars for employees.",
+        "description": [
+          {
+            "optionTitle": "Extended Consulting and Audit:",
+            "option_1": "Detailed audit of IT infrastructure.",
+            "option_2": "Development of a modernization plan and implementation of new technologies."
+          },
+          {
+            "optionTitle": "Extended Network Equipment and Configuration:",
+            "option_1": "Supply and installation of advanced network devices (high-performance routers, managed switches).",
+            "option_2": "Configuration of network segmentation and VLAN."
+          },
+          {
+            "optionTitle": "Extended Virtualization and Server Equipment:",
+            "option_1": "Implementation of cluster solutions for virtualization.",
+            "option_2": "Configuration of disaster recovery and high availability systems."
+          },
+          {
+            "optionTitle": "Software and Integration:",
+            "option_1": "Installation and configuration of specialized business software (CRM, ERP).",
+            "option_2": "Integration of existing systems with new solutions."
+          },
+          {
+            "optionTitle": "Cloud Services and Hybrid Solutions:",
+            "option_1": "Configuration of hybrid cloud solutions (combination of on-premises and cloud resources).",
+            "option_2": "Implementation of cloud services for storage and processing of big data."
+          },
+          {
+            "optionTitle": "Advanced Management and Monitoring Systems:",
+            "option_1": "Implementation of configuration management solutions (e.g., Ansible, Puppet).",
+            "option_2": "Configuration of proactive monitoring and analytics systems."
+          },
+          {
+            "optionTitle": "Enhanced Cybersecurity:",
+            "option_1": "Implementation of intrusion detection and prevention systems (IDS/IPS).",
+            "option_2": "Conducting regular penetration tests and security audits."
+          },
+          {
+            "optionTitle": "Premium Support and Maintenance:",
+            "option_1": "Extended technical support with a higher SLA level.",
+            "option_2": "Remote monitoring and management services."
+          },
+          {
+            "optionTitle": "Advanced Documentation and Training:",
+            "option_1": "Preparation of detailed technical documentation and manuals.",
+            "option_2": "Conducting specialized training and seminars for employees."
+          }
+        ],
         "price": "10,000 Euros",
         "volume": "Employees: Up to 30"
       },
       {
         "title": "Professional",
-        "description": "Deep Consulting and Strategic Planning: Development of long-term IT strategy and digital transformation plan. Conducting research and forecasting technological trends. High-Performance Network Equipment and Configuration: Implementation of high-performance network solutions (10GbE, 40GbE). Configuration of advanced network technologies (SD-WAN, MPLS). Advanced Virtualization and Cloud Infrastructure: Implementation of enterprise cloud solutions (Private Cloud, Hybrid Cloud). Configuration of containerization and orchestration (Docker, Kubernetes). Comprehensive Software and Integration: Implementation and configuration of enterprise systems (BI, Big Data). Integration of various systems and platforms to improve business processes. Corporate-Level Cloud Solutions: Implementation and management of corporate cloud platforms. Development and deployment of scalable cloud applications. Professional Management and Monitoring Systems: Implementation of comprehensive IT management systems (ITSM, ITIL). Configuration of automated solutions for infrastructure management and monitoring. Advanced Cybersecurity: Implementation of comprehensive information security solutions (SIEM, SOC). Conducting specialized cybersecurity training for IT staff. VIP Support and Maintenance: Personalized VIP support with dedicated engineers. Continuous monitoring and proactive maintenance. Comprehensive Documentation and Training: Development of detailed technical documentation and training materials. Organization of corporate academies and certification programs for employees.",
+        "description": [
+          {
+            "optionTitle": "Deep Consulting and Strategic Planning:",
+            "option_1": "Development of long-term IT strategy and digital transformation plan.",
+            "option_2": "Conducting research and forecasting technological trends."
+          },
+          {
+            "optionTitle": "High-Performance Network Equipment and Configuration:",
+            "option_1": "Implementation of high-performance network solutions (10GbE, 40GbE).",
+            "option_2": "Configuration of advanced network technologies (SD-WAN, MPLS)."
+          },
+          {
+            "optionTitle": "Advanced Virtualization and Cloud Infrastructure:",
+            "option_1": "Implementation of enterprise cloud solutions (Private Cloud, Hybrid Cloud).",
+            "option_2": "Configuration of containerization and orchestration (Docker, Kubernetes)."
+          },
+          {
+            "optionTitle": "Comprehensive Software and Integration:",
+            "option_1": "Implementation and configuration of enterprise systems (BI, Big Data).",
+            "option_2": "Integration of various systems and platforms to improve business processes."
+          },
+          {
+            "optionTitle": "Corporate-Level Cloud Solutions:",
+            "option_1": "Implementation and management of corporate cloud platforms.",
+            "option_2": "Development and deployment of scalable cloud applications."
+          },
+          {
+            "optionTitle": "Professional Management and Monitoring Systems:",
+            "option_1": "Implementation of comprehensive IT management systems (ITSM, ITIL).",
+            "option_2": "Configuration of automated solutions for infrastructure management and monitoring."
+          },
+          {
+            "optionTitle": "Advanced Cybersecurity:",
+            "option_1": "Implementation of comprehensive information security solutions (SIEM, SOC).",
+            "option_2": "Conducting specialized cybersecurity training for IT staff."
+          },
+          {
+            "optionTitle": "VIP Support and Maintenance:",
+            "option_1": "Personalized VIP support with dedicated engineers.",
+            "option_2": "Continuous monitoring and proactive maintenance."
+          },
+          {
+            "optionTitle": "Comprehensive Documentation and Training:",
+            "option_1": "Development of detailed technical documentation and training materials.",
+            "option_2": "Organization of corporate academies and certification programs for employees."
+          }
+        ],
         "price": "30,000 Euros",
         "volume": "Employees: Up to 100"
       }
@@ -279,10 +422,11 @@
   "storage": {
     "pageTitle": "Storage S3",
     "pageDescription": "Secure data storage S3 for your business — scale without limits.",
-    "options": [
-      {
-      }
-    ]
+    "options": {
+      "option_1": "0,025€ GB/month",
+      "option_2": "Free-of-charge data transfer – traffic and requests are not charged",
+      "option_3": "We don’t limit the size of storage"
+    }
   },
   "support": {
     "pageTitle": "IT Support Services",
@@ -290,21 +434,94 @@
     "options": [
       {
         "title": "Basic",
-        "description": "",
+        "description": {
+          "option_1": "Support from 9 a.m. to 5 p.m",
+          "option_2": "Call response time — up to 30 seconds",
+          "option_3": "Email response time — up to 15 minutes",
+          "option_4": "Handling of typical IT requests",
+          "option_5": "Configuration of approved software",
+          "option_6": "Security"
+        },
         "price": "2,500 Euros",
         "volume": "Employees: Up to 11"
       },
       {
         "title": "Advanced",
-        "description": "",
+        "description": {
+          "option_1": "Support from 9 a.m. to 5 p.m + weekend",
+          "option_2": "Call response time — up to 30 seconds",
+          "option_3": "Email response time — up to 15 minutes",
+          "option_4": "Handling of atypical IT requests",
+          "option_5": "Configuration and installation of approved software",
+          "option_6": "Monitoring of important services",
+          "option_7": "Security"
+        },
         "price": "4,500 Euros",
         "volume": "Employees: Up to 50"
       },
       {
         "title": "Professional",
-        "description": "",
+        "description": {
+          "option_1": "Support 24/7 + weekend",
+          "option_2": "Call response time — up to 30 seconds",
+          "option_3": "Email response time — up to 15 minutes",
+          "option_4": "Maintenance of non-typical IT requests",
+          "option_5": "Configuration and installation of approved software",
+          "option_6": "Round-the-clock monitoring of important services and applications",
+          "option_7": "High security"
+        },
         "price": "from 8,000 Euros",
         "volume": "Employees: Up to 130"
+      }
+    ],
+    "text": [
+      {
+        "title": "Replacement and Repair of Equipment:",
+        "option_1": "Ensuring timely replacement and repair of faulty equipment.",
+        "option_2": "Diagnosing issues and promptly resolving them."
+      },
+      {
+        "title": "Operating Systems Support:",
+        "option_1": "Windows: Installation, configuration, and support of various Windows versions.",
+        "option_2": "Linux: Support for various Linux distributions, including Ubuntu, CentOS, Red Hat.",
+        "option_3": "MacOS: Maintenance and support for Apple devices."
+      },
+      {
+        "title": "Hardware Support:",
+        "option_1": "Servers: Installation, configuration, and maintenance of servers.",
+        "option_2": "Printers: Diagnosis and repair of printers, managing print jobs.",
+        "option_3": "Video Monitoring: Setup and maintenance of video surveillance systems.",
+        "option_4": "Video Conference Rooms: Installation and support of video conferencing equipment.",
+        "option_5": "Telephony: Configuration and support of corporate telephony systems."
+      },
+      {
+        "title": "Cloud Storage:",
+        "option_1": "AWS: Management and support of Amazon Web Services.",
+        "option_2": "Microsoft Azure: Setup and support of solutions on Microsoft Azure platform.",
+        "option_3": "Google Cloud Platform: Implementation and maintenance of Google Cloud services."
+      },
+      {
+        "title": "Office Software Support:",
+        "option_1": "MS Office: Installation and support of Microsoft Office applications.",
+        "option_2": "Office 365: Management of subscriptions and support for Office 365 cloud services."
+      },
+      {
+        "title": "CRM and ERP Systems:",
+        "option_1": "Implementation, configuration, and support of Customer Relationship Management (CRM) and Enterprise Resource",
+        "option_2": "Planning (ERP) systems."
+      },
+      {
+        "title": "Security Solutions:",
+        "option_1": "Antivirus Software: Installation and updating of antivirus programs.",
+        "option_2": "Firewalls: Configuration and management of firewalls to protect against external threats.",
+        "option_3": "VPN: Setup of Virtual Private Networks for secure remote access."
+      },
+      {
+        "title": "Network Protocols and Services:",
+        "option_1": "TCP/IP: Configuration and management of protocols for data transmission.",
+        "option_2": "DNS: Domain name management and DNS server setup.",
+        "option_3": "DHCP: Automatic IP address distribution via DHCP servers.",
+        "option_4": "Network Monitoring and Management: Use of tools for performance monitoring and network management."
       }
     ]
   },
@@ -315,11 +532,43 @@
     "options": [
       {
         "title": "Cloud Technologies",
-        "description": "",
+        "description": [
+          {
+            "title": "Process Audit and Optimization:",
+            "option_1": "Analysis of current development and deployment processes.",
+            "option_2": "Evaluation of used tools and identification of bottlenecks.",
+            "option_3": "Recommendations for optimization and implementation of DevOps best practices."
+          },
+          {
+            "title": "Transition from Monolith to Microservices:",
+            "option_1": "Joint analysis of your application's structure.",
+            "option_2": "Examination of interactions with databases, file systems, and integrations.",
+            "option_3": "Development of an optimal plan for transitioning from a monolithic to a microservices architecture."
+          },
+          {
+            "title": "CI/CD Automation:",
+            "option_1": "Implementation of flexible and convenient code development and delivery processes (CI/CD).",
+            "option_2": "Automation of code analysis and unit tests.",
+            "option_3": "Building Docker images, deploying test environments, performing migrations, and populating databases.",
+            "option_4": "Conducting integration tests and deployment."
+          },
+          {
+            "title": "Monitoring and Logging:",
+            "option_1": "Setting up logging and monitoring of key infrastructure and application metrics.",
+            "option_2": "Tracking business metrics to identify potential issues.",
+            "option_3": "Detecting situations where servers are technically working correctly, but issues arise that impact business processes."
+          }
+        ],
         "price": "",
         "volume": ""
       }
-    ]
+    ],
+    "text": {
+      "title": "Why Choose Us?",
+      "option_1": "Deep Expertise: Our team has significant experience in DevOps and CI/CD, allowing us to offer solutions tailored to your business's unique needs.",
+      "option_2": "Personalized Approach: We consider the specific features of your company and develop customized solutions to achieve maximum efficiency.",
+      "option_3": "Continuous Support: We provide round-the-clock support and are ready to respond promptly to any inquiries or issues."
+    }
   },
   "staff": {
     "pageTitle": "IT Staff Leasing",
@@ -327,21 +576,57 @@
     "options": [
       {
         "title": "Basic",
-        "description": "3 days a week no substitutions",
+        "description": {
+          "option_1": "3 days a week",
+          "option_2": "no substitutions"
+        },
         "price": "2,500 Euros",
         "volume": "/month"
       },
       {
         "title": "Advanced",
-        "description": "5 days a week substitute during leave or sick leave (L4)",
+        "description": {
+          "option_1": "5 days a week",
+          "option_2": "substitute during leave or sick leave (L4)"
+        },
         "price": "4,500 Euros",
         "volume": "/month"
       },
       {
         "title": "Professional",
-        "description": "4 specialists 5 days a week without substitutes managerial supervision",
+        "description": {
+          "option_1": "4 specialists",
+          "option_2": "5 days a week",
+          "option_3": "without substitutes",
+          "option_4": "managerial supervision"
+        },
         "price": "from 8,000 Euros",
         "volume": "/month"
+      }
+    ],
+    "text": [
+      {
+        "title": "Allow us to find the right IT specialist for you:"
+      },
+      {
+        "title": "Developer:",
+        "option_1": "Expertise in popular programming languages (Python, Java, avaScript, C#, Ruby, etc.)."
+      },
+      {
+        "title": "Service Desk:",
+        "option_1": "Qualified customer support at all levels."
+      },
+      {
+        "title": "Application Support:",
+        "option_1": "Support and maintenance of your applications and systems."
+      },
+      {
+        "title": "DevOps:",
+        "option_1": "Optimization of development and deployment processes using modern tools (Docker, Kubernetes, Jenkins, Ansible, Terraform, etc.)."
+      },
+      {
+        "title": "Web Designer:",
+        "option_1": "Creative and responsive web design tailored to your needs."
       }
     ]
   },
@@ -351,7 +636,24 @@
     "options": [
       {
         "title": "DevOps and CI/CD",
-        "description": "3 days a week no substitutions",
+        "description": [
+          {
+            "title": "Needs and Opportunities Analysis:",
+            "option": "Assessing current business processes and identifying the best AI solutions for your company"
+          },
+          {
+            "title": "AI Solutions Implementation:",
+            "option": "Integrating advanced AI tools and technologies into your work environment."
+          },
+          {
+            "title": "Employee Training:",
+            "option": "Conducting training sessions and workshops to educate your staff on the basics and advanced methods of AI usage."
+          },
+          {
+            "title": "Support and Maintenance:",
+            "option": "Installation and configuration of business software (CRM, ERP, etc.)."
+          }
+        ],
         "price": "from 2,500 Euros",
         "volume": ""
       }
@@ -365,7 +667,8 @@
         "title": "Social Media Content Creation",
         "description": [
           {
-            "paragraph_1": "We specialize in creating compelling content for social media platforms, tailored to enhance your brand’s online presence. Our services include the creation of engaging posts, eye-catching Instagram Stories, and the overall visual curation of your profile.",
+            "paragraph_1": "We specialize in creating compelling content for social media platforms, tailored to enhance your brand’s online presence. Our services include the creation of engaging ",
+            "paragraph_1_1": "posts, eye-catching Instagram Stories, and the overall visual curation of your profile.",
             "paragraph_2": "By crafting content that resonates with your target audience, we help you maintain an active and visually appealing social media presence, driving engagement and fostering brand loyalty."
           }
         ],
@@ -376,7 +679,9 @@
         "title": "Print Materials",
         "description": [
           {
-            "paragraph_1": "We offer comprehensive design services for all your company’s printed materials. Whether you need brochures, business cards, magazines, or any other type of print collateral, our team is dedicated to delivering high-quality designs that reflect your brand identity.",
+            "paragraph_1": "We offer comprehensive design services for all your company’s printed materials. Whether you need",
+            "paragraph_1_1": "brochures, business cards, magazines, or any other type of print collateral",
+            "paragraph_1_2": "our team is dedicated to delivering high-quality designs that reflect your brand identity.",
             "paragraph_2": "Our attention to detail ensures that every piece we create is not only visually appealing but also effective in communicating your message."
           }
         ],
@@ -387,7 +692,9 @@
         "title": "Branding",
         "description": [
           {
-            "paragraph_1": "Our branding services are designed to establish and strengthen your company’s identity. We work closely with you to create unique logos, select a harmonious color palette, choose appropriate fonts, and develop graphic elements that align with your brand’s vision.",
+            "paragraph_1": "Our branding services are designed to establish and strengthen your",
+            "paragraph_1_1": "company’s identity.",
+            "paragraph_1_2": "We work closely with you to create unique logos, select a harmonious color palette, choose appropriate fonts, and develop graphic elements that align with your brand’s vision.",
             "paragraph_2": "Our goal is to create a cohesive and memorable brand image that resonates with your target audience and sets you apart from the competition."
           }
         ],
@@ -398,7 +705,9 @@
         "title": "ADS",
         "description": [
           {
-            "paragraph_1": "We specialize in creating eye-catching and effective promotional materials to elevate your brand’s visibility. From designing ads for Google Ads and banners for your website to developing animations that showcase your products, our team is committed to delivering promotional content that drives results.",
+            "paragraph_1": "We specialize in creating eye-catching and effective promotional materials to elevate your brand’s visibility. From designing",
+            "paragraph_1_1": "ads for Google Ads and banners for your website to developing animations that showcase your products",
+            "paragraph_1_2": ", our team is committed to delivering promotional content that drives results.",
             "paragraph_2": "We focus on combining aesthetics with strategy to ensure your promotional efforts are impactful and aligned with your business goals."
           }
         ],
@@ -409,7 +718,9 @@
         "title": "Web Design",
         "description": [
           {
-            "paragraph_1": "We offer a complete range of website design and development services, tailored to meet the unique needs of your business. Our approach to web design goes beyond just creating a visually appealing site; we focus on user experience, functionality, and ensuring your website effectively communicates your brand's message.",
+            "paragraph_1": "We offer a complete range of",
+            "paragraph_1_1": "website design and development services",
+            "paragraph_1_2": ", tailored to meet the unique needs of your business. Our approach to web design goes beyond just creating a visually appealing site; we focus on user experience, functionality, and ensuring your website effectively communicates your brand's message.",
             "paragraph_2": "From the initial concept to the final launch, we work closely with you to develop a site that is not only beautiful but also responsive, easy to navigate, and optimized for search engines. Our goal is to create a digital platform that enhances your online presence, engages visitors, and drives conversions."
           }
         ],
@@ -417,5 +728,31 @@
         "volume": ""
       }
     ]
+  },
+  "blockCard": {
+    "build": {
+      "title": "Build Infrastructure"
+    },
+    "virtual": {
+      "title": "Virtual Machine"
+    },
+    "storage": {
+      "title": "Storage S3"
+    },
+    "support": {
+      "title": "IT Support Services"
+    },
+    "devops": {
+      "title": "DevOps and CI/CD Services"
+    },
+    "staff": {
+      "title": "IT Staff Leasing"
+    },
+    "ai": {
+      "title": "AI Implementation and Training Services"
+    },
+    "design": {
+      "title": "Graphic Design Services"
+    }
   }
 }

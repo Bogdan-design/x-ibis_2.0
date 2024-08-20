@@ -23,7 +23,7 @@ export const Footer = () => {
                 </Link>
                 <div className={s.options}>
                     <nav className={s.links}>
-                        {links.map(l => (
+                        {links.slice(1).map(l => (
                             <Link style={monumentExtended.style}
                                   className={s.link}
                                   key={l.hash}

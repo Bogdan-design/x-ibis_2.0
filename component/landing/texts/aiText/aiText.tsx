@@ -1,44 +1,44 @@
 import React from 'react';
 import s from './aiText.module.scss'
 import {Typography} from "@/component/ui/typography/typography";
+import {useTranslation} from "next-i18next";
 
 export const AiTextCard = () => {
+    const {t}=useTranslation();
     return (
         <div style={{textAlign: 'start'}} className={s.aiTextCard}>
             <div>
                 <ol>
-                    <Typography as={'li'} variant={'title'}>Needs and Opportunities Analysis:</Typography>
+                    <Typography as={'li'} variant={'title'}>{t('ai.options.0.description.0.title')}</Typography>
                 </ol>
                 <ul>
-                    <li>Assessing current business processes and identifying the best AI solutions for your company.
+                    <li>{t('ai.options.0.description.0.option')}
                     </li>
                 </ul>
             </div>
             <div>
                 <ol>
-                    <Typography as={'li'} variant={'title'} value={'2'}>AI Solutions Implementation:</Typography>
+                    <Typography as={'li'} variant={'title'} value={'2'}>{t('ai.options.0.description.1.title')}</Typography>
                 </ol>
                 <ul>
-                    <li>Integrating advanced AI tools and technologies into your work environment.</li>
+                    <li>{t('ai.options.0.description.1.option')}</li>
                 </ul>
             </div>
             <div>
                 <ol>
-                    <Typography as={'li'} variant={'title'} value={'3'}>Employee Training:</Typography>
+                    <Typography as={'li'} variant={'title'} value={'3'}>{t('ai.options.0.description.2.title')}</Typography>
                 </ol>
                 <ul>
-                    <li>Conducting training sessions and workshops to educate your staff on the basics and advanced
-                        methods
-                        of AI usage.
+                    <li>{t('ai.options.0.description.2.option')}
                     </li>
                 </ul>
             </div>
             <div>
                 <ol>
-                    <Typography as={'li'} variant={'title'} value={'4'}>Support and Maintenance:</Typography>
+                    <Typography as={'li'} variant={'title'} value={'4'}>{t('ai.options.0.description.3.title')}</Typography>
                 </ol>
                 <ul>
-                    <li>Installation and configuration of business software (CRM, ERP, etc.).</li>
+                    <li>{t('ai.options.0.description.3.option')}</li>
                 </ul>
             </div>
         </div>

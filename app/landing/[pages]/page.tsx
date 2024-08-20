@@ -2,7 +2,7 @@
 import React, {CSSProperties} from "react";
 import {PageError} from "@/common/errors/error404";
 import {useTranslation} from "next-i18next";
-import {landingPagesData} from "@/lid/data";
+import {landingPageDateOptions, landingPagesData} from "@/lid/data";
 import {Heading} from "@/common/heading/heading";
 import {Typography} from "@/component/ui/typography/typography";
 import {LandingCard} from "@/component/landing/landingCard/landingCard";
@@ -12,9 +12,10 @@ import Back from "@/assest/icon/back";
 import {DevopsText} from "@/component/landing/texts/devopsText/devopsText";
 import {StaffText} from "@/component/landing/texts/staffText/staffText";
 import s from "./page.module.scss";
+import {Modal} from "@/common/modal/modal";
 
 
-function Page({params: {pages}}: { params: { pages: string } }) {
+function Page({params: {pages}}: { params: { pages: (typeof landingPageDateOptions)[number]['page'] }} ) {
 
     const {t} = useTranslation();
 
@@ -63,6 +64,7 @@ function Page({params: {pages}}: { params: { pages: string } }) {
 
 
     return <section className={s.landingPage}>
+        <Modal/>
         <div className={s.landingPageContainer}>
             <div className={s.titleContainer}>
                 <Link href={'/landing'} className={s.link}>

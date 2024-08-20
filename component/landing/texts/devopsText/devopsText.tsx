@@ -1,63 +1,58 @@
 import React from 'react';
 import {Typography} from "@/component/ui/typography/typography";
 import s from './devopsText.module.scss'
+import {useTranslation} from "next-i18next";
 
 export const DevopsCardsText = () => {
+    const {t} = useTranslation();
     return (
         <div className={s.devopsCardsText} style={{textAlign: 'start'}}>
             <ol>
-                <Typography as={'li'} variant={'title'}>Process Audit and Optimization:</Typography>
+                <Typography as={'li'} variant={'title'}>{t('devops.options.0.description.0.title')}</Typography>
             </ol>
             <ul>
-                <li>Analysis of current development and deployment processes.</li>
-                <li>Evaluation of used tools and identification of bottlenecks.</li>
-                <li>Recommendations for optimization and implementation of DevOps best practices.</li>
+                <li>{t('devops.options.0.description.0.option_1')}</li>
+                <li>{t('devops.options.0.description.0.option_2')}</li>
+                <li>{t('devops.options.0.description.0.option_3')}</li>
             </ul>
             <ol>
-                <Typography as={'li'} variant={'title'} value={'2'}>Transition from Monolith to Microservices:</Typography>
+                <Typography as={'li'} variant={'title'} value={'2'}>{t('devops.options.0.description.1.title')}</Typography>
             </ol>
             <ul>
-                {/* eslint-disable-next-line react/no-unescaped-entities */}
-                <li>Joint analysis of your application's structure.</li>
-                <li>Examination of interactions with databases, file systems, and integrations.</li>
-                <li>Development of an optimal plan for transitioning from a monolithic to a microservices architecture.
-                </li>
+                <li>{t('devops.options.0.description.1.option_1')}</li>
+                <li>{t('devops.options.0.description.1.option_2')}</li>
+                <li>{t('devops.options.0.description.1.option_3')}</li>
             </ul>
             <ol>
-                <Typography as={'li'} variant={'title'} value={'3'}>CI/CD Automation:</Typography>
+                <Typography as={'li'} variant={'title'} value={'3'}>{t('devops.options.0.description.2.title')}</Typography>
             </ol>
             <ul>
-                <li>Implementation of flexible and convenient code development and delivery processes (CI/CD).</li>
-                <li>Automation of code analysis and unit tests.</li>
-                <li>Building Docker images, deploying test environments, performing migrations, and populating databases.</li>
-                <li>Conducting integration tests and deployment.</li>
+                <li>{t('devops.options.0.description.2.option_1')}</li>
+                <li>{t('devops.options.0.description.2.option_2')}</li>
+                <li>{t('devops.options.0.description.2.option_3')}</li>
+                <li>{t('devops.options.0.description.2.option_3')}</li>
             </ul>
             <ol>
-                <Typography as={'li'} variant={'title'} value={'4'}>Monitoring and Logging:</Typography>
+                <Typography as={'li'} variant={'title'} value={'4'}>{t('devops.options.0.description.3.title')}</Typography>
             </ol>
             <ul>
-                <li>Setting up logging and monitoring of key infrastructure and application metrics.</li>
-                <li>Tracking business metrics to identify potential issues.</li>
-                <li>Detecting situations where servers are technically working correctly, but issues arise that impact business processes.</li>
+                <li>{t('devops.options.0.description.3.option_1')}</li>
+                <li>{t('devops.options.0.description.3.option_2')}</li>
+                <li>{t('devops.options.0.description.3.option_3')}</li>
             </ul>
-
         </div>
 
     );
 };
 
 export const DevopsText = () => {
+    const {t} = useTranslation();
     return (
         <div className={s.devopsText}>
-            <Typography as={'p'} variant={'title'}>Why Choose Us?</Typography>
-            <p>Deep Expertise: Our team has significant experience in DevOps and CI/CD, allowing us to offer
-                {/* eslint-disable-next-line react/no-unescaped-entities */}
-                solutions tailored to your business's unique needs.</p>
-            <p>Personalized Approach: We consider the specific features of your company and develop
-                customized solutions to achieve maximum efficiency.</p>
-            <p>Continuous Support: We provide round-the-clock support and are ready
-                to respond promptly to any inquiries or issues.
-            </p>
+            <Typography as={'p'} variant={'title'}>{t('devops.text.title')}</Typography>
+            <p>{t('devops.text.option_1')}</p>
+            <p>{t('devops.text.option_2')}</p>
+            <p>{t('devops.text.option_3')}</p>
         </div>
     );
 };

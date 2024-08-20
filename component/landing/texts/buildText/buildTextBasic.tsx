@@ -2,87 +2,91 @@ import React from 'react';
 import {ButtonShowMore} from "@/component/landing/texts/buildText/buttonShowMore/buttonShowMore";
 import {useServiceBuildStore} from "@/store/serviceBuild";
 import {Typography} from "@/component/ui/typography/typography";
+import {useTranslation} from "next-i18next";
 
 
 export const BuildTextBasic = () => {
+
     const show =useServiceBuildStore(state => state.show)
+
+    const {t}= useTranslation();
+
     return (
         <div style={{textAlign: 'start'}}>
             <ol>
-                <Typography as={'li'} variant={'title'}>Consulting and Audit of Current Infrastructure:</Typography>
+                <Typography as={'li'} variant={'title'}>{t('build.options.0.description.0.optionTitle')}</Typography>
             </ol>
             <ul>
-                <li>Assessment of the current state of IT infrastructure.</li>
-                <li>Recommendations for improvement and optimization.</li>
+                <li>{t('build.options.0.description.0.option_1')}</li>
+                <li>{t('build.options.0.description.0.option_2')}</li>
             </ul>
             <ol>
-                <Typography as={'li'} variant={'title'} value={'2'}>Network Equipment and Configuration:</Typography>
+                <Typography as={'li'} variant={'title'} value={'2'}>{t('build.options.0.description.1.optionTitle')}</Typography>
             </ol>
             <ul>
-                <li>Supply and installation of basic network devices (routers, switches, access points).</li>
-                <li>Configuration of local area network (LAN).</li>
-                <li>Ensuring basic network security (firewalls, VPN).</li>
+                <li>{t('build.options.0.description.1.option_1')}</li>
+                <li>{t('build.options.0.description.1.option_2')}</li>
+                <li>{t('build.options.0.description.1.option_3')}</li>
             </ul>
             <ol>
-                <Typography as={'li'} variant={'title'} value={'3'}>Server Equipment and Virtualization:</Typography>
+                <Typography as={'li'} variant={'title'} value={'3'}>{t('build.options.0.description.2.optionTitle')}</Typography>
             </ol>
             <ul>
-                <li>Supply and installation of server equipment.</li>
-                <li>Implementation of a basic virtualization platform (e.g., VMware, Hyper-V).</li>
-                <li>Configuration of file servers and storage systems.</li>
+                <li>{t('build.options.0.description.2.option_1')}</li>
+                <li>{t('build.options.0.description.2.option_2')}</li>
+                <li>{t('build.options.0.description.2.option_3')}</li>
             </ul>
             <ol>
-                <Typography as={'li'} variant={'title'} value={'4'}>Software and Licensing:</Typography>
+                <Typography as={'li'} variant={'title'} value={'4'}>{t('build.options.0.description.3.optionTitle')}</Typography>
 
             </ol>
             <ul>
-                <li>Installation of operating systems (Windows, Linux, MacOS).</li>
-                <li>Licensing of basic software (office {show &&<span>applications, antivirus solutions).</span>}</li>
-                {show && <li>Installation and configuration of business software (CRM, ERP, etc.).</li>}
+                <li>{t('build.options.0.description.3.option_1')}</li>
+                <li>{t('build.options.0.description.3.option_2_1')} {show &&<span>{t('build.options.0.description.3.option_2_2')}</span>}</li>
+                {show && <li>{t('build.options.0.description.3.option_3')}</li>}
             </ul>
             {show && <>
 
                 <ol>
-                    <Typography as={'li'} variant={'title'} value={'5'}>Cloud Services:</Typography>
+                    <Typography as={'li'} variant={'title'} value={'5'}>{t('build.options.0.description.4.optionTitle')}</Typography>
                 </ol>
                 <ul>
-                    <li>Implementation and configuration of basic cloud services (e.g., Microsoft 365, Google Workspace,
-                        AWS, Azure).
+                    <li>{t('build.options.0.description.4.option_1')}
                     </li>
-                    <li>Organizing data backup to the cloud.</li>
+                    <li>{t('build.options.0.description.4.option_2')}</li>
                 </ul>
                 <ol>
-                    <Typography as={'li'} variant={'title'} value={'6'}>Management and Monitoring Systems:</Typography>
+                    <Typography as={'li'} variant={'title'} value={'6'}>{t('build.options.0.description.5.optionTitle')}</Typography>
                 </ol>
                 <ul>
-                    <li>Implementation of infrastructure monitoring systems (e.g., Zabbix, Nagios).
+                    <li>{t('build.options.0.description.5.option_1')}
                     </li>
-                    <li>Configuration of basic management and administration systems.</li>
+                    <li>{t('build.options.0.description.5.option_2')}</li>
                 </ul>
                 <ol>
-                    <Typography as={'li'} variant={'title'} value={'7'}>Cybersecurity:</Typography>
+                    <Typography as={'li'} variant={'title'} value={'7'}>{t('build.options.0.description.6.optionTitle')}</Typography>
                 </ol>
                 <ul>
-                    <li>Installation and configuration of basic protection tools (antivirus, anti-spam filters).
+                    <li>{t('build.options.0.description.6.option_1')}
                     </li>
-                    <li>Conducting initial training on cybersecurity basics for employees.</li>
+                    <li>{t('build.options.0.description.6.option_2')}</li>
                 </ul>
                 <ol>
-                    <Typography as={'li'} variant={'title'} value={'8'}>Cybersecurity:</Typography>
+                    <Typography as={'li'} variant={'title'} value={'8'}>{t('build.options.0.description.7.optionTitle')}</Typography>
                 </ol>
                 <ul>
-                    <li>Organization of a technical support service (Help Desk).
+                    <li>{t('build.options.0.description.7.option_1')}
                     </li>
-                    <li>Provision of basic technical support and maintenance (service contracts, SLA).</li>
+                    <li>{t('build.options.0.description.7.option_2')}</li>
                 </ul>
                 <ol>
-                    <Typography as={'li'} variant={'title'} value={'9'}>Cybersecurity:</Typography>
+                    <Typography as={'li'} variant={'title'} value={'9'}>{t('build.options.0.description.8.optionTitle')}</Typography>
                 </ol>
                 <ul>
-                    <li>Preparation of technical documentation for installed equipment and software.
+                    <li>{t('build.options.0.description.8.option_1')}
                     </li>
                     {/* eslint-disable-next-line react/no-unescaped-entities */}
-                    <li>Conducting basic training for the customer's IT staff.</li>
+                    <li>{t('build.options.0.description.8.option_2')}</li>
                 </ul>
             </>}
             <ButtonShowMore show={show}/>
@@ -92,79 +96,82 @@ export const BuildTextBasic = () => {
 };
 export const BuildTextAdvanced = () => {
     const show =useServiceBuildStore(state => state.show)
+
+    const {t}= useTranslation();
+
     return (
         <div style={{textAlign: 'start'}}>
             <ol>
-                <Typography as={'li'} variant={'title'}>Extended Consulting and Audit:</Typography>
+                <Typography as={'li'} variant={'title'}>{t('build.options.1.description.0.optionTitle')}</Typography>
 
             </ol>
             <ul>
-                <li>Detailed audit of IT infrastructure.</li>
-                <li>Development of a modernization plan and implementation of new technologies.</li>
+                <li>{t('build.options.1.description.0.option_1')}</li>
+                <li>{t('build.options.1.description.0.option_2')}</li>
             </ul>
             <ol>
-                <Typography as={'li'} variant={'title'} value={'2'}>Extended Network Equipment and Configuration:</Typography>
+                <Typography as={'li'} variant={'title'} value={'2'}>{t('build.options.1.description.1.optionTitle')}</Typography>
             </ol>
             <ul>
-                <li>Supply and installation of advanced network devices (high-performance routers, managed switches).
+                <li>{t('build.options.1.description.1.option_1')}
                 </li>
-                <li>Configuration of network segmentation and VLAN.</li>
+                <li>{t('build.options.1.description.1.option_2')}</li>
             </ul>
             <ol>
-                <Typography as={'li'} variant={'title'} value={'3'}>Extended Virtualization and Server Equipment:</Typography>
+                <Typography as={'li'} variant={'title'} value={'3'}>{t('build.options.1.description.2.optionTitle')}</Typography>
             </ol>
             <ul>
-                <li>Implementation of cluster solutions for virtualization.</li>
-                <li>Configuration of disaster recovery and high availability systems.</li>
+                <li>{t('build.options.1.description.1.option_1')}</li>
+                <li>{t('build.options.1.description.1.option_2')}</li>
             </ul>
             <ol>
-                <Typography as={'li'} variant={'title'} value={'4'}>Software and Integration:</Typography>
+                <Typography as={'li'} variant={'title'} value={'4'}>{t('build.options.1.description.3.optionTitle')}</Typography>
             </ol>
             <ul>
-                <li>Installation and configuration of specialized business software (CRM, ERP).</li>
-                <li>Integration of existing systems with new solutions.</li>
+                <li>{t('build.options.1.description.3.option_1')}</li>
+                <li>{t('build.options.1.description.3.option_2')}</li>
             </ul>
             {show && <>
 
                 <ol>
-                    <Typography as={'li'} variant={'title'} value={'5'}>Cloud Services and Hybrid Solutions:</Typography>
+                    <Typography as={'li'} variant={'title'} value={'5'}>{t('build.options.1.description.4.optionTitle')}</Typography>
                 </ol>
                 <ul>
-                    <li>Configuration of hybrid cloud solutions (combination of on-premises and cloud resources).
+                    <li>{t('build.options.1.description.4.option_1')}
                     </li>
-                    <li>Implementation of cloud services for storage and processing of big data.</li>
+                    <li>{t('build.options.1.description.4.option_2')}</li>
                 </ul>
                 <ol>
-                    <Typography as={'li'} variant={'title'} value={'6'}>Advanced Management and Monitoring Systems:</Typography>
+                    <Typography as={'li'} variant={'title'} value={'6'}>{t('build.options.1.description.5.optionTitle')}</Typography>
                 </ol>
                 <ul>
-                    <li>Implementation of configuration management solutions (e.g., Ansible, Puppet).
+                    <li>{t('build.options.1.description.5.option_1')}
                     </li>
-                    <li>Configuration of proactive monitoring and analytics systems.</li>
+                    <li>{t('build.options.1.description.5.option_2')}</li>
                 </ul>
                 <ol>
-                    <Typography as={'li'} variant={'title'} value={'7'}>Enhanced Cybersecurity:</Typography>
+                    <Typography as={'li'} variant={'title'} value={'7'}>{t('build.options.1.description.6.optionTitle')}</Typography>
                 </ol>
                 <ul>
-                    <li>Implementation of intrusion detection and prevention systems (IDS/IPS).
+                    <li>{t('build.options.1.description.6.option_1')}
                     </li>
-                    <li>Conducting regular penetration tests and security audits.</li>
+                    <li>{t('build.options.1.description.6.option_2')}</li>
                 </ul>
                 <ol>
-                    <Typography as={'li'} variant={'title'} value={'8'}>Premium Support and Maintenance:</Typography>
+                    <Typography as={'li'} variant={'title'} value={'8'}>{t('build.options.1.description.7.optionTitle')}</Typography>
                 </ol>
                 <ul>
-                    <li>Extended technical support with a higher SLA level.
+                    <li>{t('build.options.1.description.7.option_1')}
                     </li>
-                    <li>Remote monitoring and management services.</li>
+                    <li>{t('build.options.1.description.7.option_2')}</li>
                 </ul>
                 <ol>
-                    <Typography as={'li'} variant={'title'} value={'9'}>Advanced Documentation and Training:</Typography>
+                    <Typography as={'li'} variant={'title'} value={'9'}>{t('build.options.1.description.8.optionTitle')}</Typography>
                 </ol>
                 <ul>
-                    <li>Preparation of detailed technical documentation and manuals.
+                    <li>{t('build.options.1.description.8.option_1')}
                     </li>
-                    <li>Conducting specialized training and seminars for employees.</li>
+                    <li>{t('build.options.1.description.8.option_2')}</li>
                 </ul>
             </>}
             <ButtonShowMore show={show}/>
@@ -174,76 +181,77 @@ export const BuildTextAdvanced = () => {
 };
 export const BuildTextProfessional = () => {
     const show =useServiceBuildStore(state => state.show)
+    const {t}= useTranslation();
     return (
         <div style={{textAlign: 'start'}}>
             <ol>
-                <Typography as={'li'} variant={'title'}>Deep Consulting and Strategic Planning:</Typography>
+                <Typography as={'li'} variant={'title'}>{t('build.options.2.description.0.optionTitle')}</Typography>
             </ol>
             <ul>
-                <li>Development of long-term IT strategy and digital transformation plan.</li>
-                <li>Conducting research and forecasting technological trends.</li>
+                <li>{t('build.options.2.description.0.option_1')}</li>
+                <li>{t('build.options.2.description.0.option_2')}</li>
             </ul>
             <ol>
-                <Typography as={'li'} variant={'title'} value={'2'}>High-Performance Network Equipment and Configuration:</Typography>
+                <Typography as={'li'} variant={'title'} value={'2'}>{t('build.options.2.description.1.optionTitle')}</Typography>
             </ol>
             <ul>
-                <li>Implementation of high-performance network solutions (10GbE, 40GbE).</li>
-                <li>Configuration of advanced network technologies (SD-WAN, MPLS).</li>
+                <li>{t('build.options.2.description.1.option_1')}</li>
+                <li>{t('build.options.2.description.1.option_2')}</li>
             </ul>
             <ol>
-                <Typography as={'li'} variant={'title'} value={'3'}>Advanced Virtualization and Cloud Infrastructure:</Typography>
+                <Typography as={'li'} variant={'title'} value={'3'}>{t('build.options.2.description.2.optionTitle')}</Typography>
             </ol>
             <ul>
-                <li>Implementation of enterprise cloud solutions (Private Cloud, Hybrid Cloud).</li>
-                <li>Configuration of containerization and orchestration (Docker, Kubernetes).</li>
+                <li>{t('build.options.2.description.2.option_1')}</li>
+                <li>{t('build.options.2.description.2.option_2')}</li>
             </ul>
             <ol>
-                <Typography as={'li'} variant={'title'} value={'4'}>Comprehensive Software and Integration:</Typography>
+                <Typography as={'li'} variant={'title'} value={'4'}>{t('build.options.2.description.3.optionTitle')}</Typography>
             </ol>
             <ul>
-                <li>Implementation and configuration of enterprise systems (BI, Big Data).</li>
-                {show &&<li>Integration of various systems and platforms to improve business processes.</li>}
+                <li>{t('build.options.2.description.3.option_1')}</li>
+                {show &&<li>{t('build.options.2.description.3.option_2')}</li>}
             </ul>
             {show && <>
                 <ol>
-                    <Typography as={'li'} variant={'title'} value={'5'}>Corporate-Level Cloud Solutions:</Typography>
+                    <Typography as={'li'} variant={'title'} value={'5'}>{t('build.options.2.description.4.optionTitle')}</Typography>
                 </ol>
                 <ul>
-                    <li>Implementation and management of corporate cloud platforms.
+                    <li>{t('build.options.2.description.4.option_1')}
                     </li>
-                    <li>Development and deployment of scalable cloud applications.</li>
+                    <li>{t('build.options.2.description.4.option_2')}</li>
                 </ul>
                 <ol>
-                    <Typography as={'li'} variant={'title'} value={'6'}>Professional Management and Monitoring Systems:</Typography>
+                    <Typography as={'li'} variant={'title'} value={'6'}>{t('build.options.2.description.5.optionTitle')}</Typography>
                 </ol>
                 <ul>
-                    <li>Implementation of comprehensive IT management systems (ITSM, ITIL).
+                    <li>{t('build.options.2.description.5.option_1')}
                     </li>
-                    <li>Configuration of automated solutions for infrastructure management and monitoring.</li>
+                    <li>{t('build.options.2.description.5.option_2')}</li>
                 </ul>
                 <ol>
-                    <Typography as={'li'} variant={'title'} value={'7'}>Advanced Cybersecurity:</Typography>
+                    <Typography as={'li'} variant={'title'} value={'7'}>{t('build.options.2.description.6.optionTitle')}</Typography>
                 </ol>
                 <ul>
-                    <li>Implementation of comprehensive information security solutions (SIEM, SOC).
+                    <li>{t('build.options.2.description.6.option_1')}
                     </li>
-                    <li>Conducting specialized cybersecurity training for IT staff.</li>
+                    <li>{t('build.options.2.description.6.option_2')}</li>
                 </ul>
                 <ol>
-                    <Typography as={'li'} variant={'title'} value={'8'}>VIP Support and Maintenance:</Typography>
+                    <Typography as={'li'} variant={'title'} value={'8'}>{t('build.options.2.description.7.optionTitle')}</Typography>
                 </ol>
                 <ul>
-                    <li>Personalized VIP support with dedicated engineers.
+                    <li>{t('build.options.2.description.7.option_1')}
                     </li>
-                    <li>Continuous monitoring and proactive maintenance.</li>
+                    <li>{t('build.options.2.description.7.option_2')}</li>
                 </ul>
                 <ol>
-                    <Typography as={'li'} variant={'title'} value={'9'}>Comprehensive Documentation and Training:</Typography>
+                    <Typography as={'li'} variant={'title'} value={'9'}>{t('build.options.2.description.8.optionTitle')}</Typography>
                 </ol>
                 <ul>
-                    <li>Development of detailed technical documentation and training materials.
+                    <li>{t('build.options.2.description.8.option_1')}
                     </li>
-                    <li>Organization of corporate academies and certification programs for employees.</li>
+                    <li>{t('build.options.2.description.8.option_2')}</li>
                 </ul>
 
             </>

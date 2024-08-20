@@ -1,36 +1,30 @@
 import React from 'react';
 import s from './staffText.module.scss'
 import {Typography} from "@/component/ui/typography/typography";
+import {useTranslation} from "next-i18next";
 
 export const StaffText = () => {
+    const {t}= useTranslation();
     return (
         <div className={s.staffTextContainer}>
-            <Typography variant={'title'}>Allow us to find the right IT specialist for you:</Typography>
+            <Typography variant={'title'}>{t('staff.text.0.title')}</Typography>
             <br/>
 
             <div>
-                <Typography as={'span'}>Developer:</Typography>Expertise in popular programming languages (Python, Java,
-                JavaScript, C#, Ruby,
-                etc.).
+                <Typography as={'span'}>{t('staff.text.1.title')}</Typography>{t('staff.text.1.option_1')}
             </div>
             <div>
 
-                <Typography as={'span'}>Service Desk:</Typography> Qualified customer support at all levels.
+                <Typography as={'span'}>{t('staff.text.2.title')}</Typography>{t('staff.text.2.option_1')}
             </div>
             <div>
-                <Typography as={'span'}>Application Support:</Typography> Support and maintenance of your applications
-                and
-                systems.
+                <Typography as={'span'}>{t('staff.text.3.title')}</Typography>{t('staff.text.3.option_1')}
             </div>
             <div>
-                <Typography as={'span'}>DevOps:</Typography> Optimization of development and deployment processes using
-                modern tools (Docker,
-                Kubernetes,
-                Jenkins, Ansible, Terraform, etc.).
+                <Typography as={'span'}>{t('staff.text.4.title')}</Typography>{t('staff.text.4.option_1')}
             </div>
             <div>
-                <Typography as={'span'}>Web Designer:</Typography> Creative and responsive web design tailored to your
-                needs.
+                <Typography as={'span'}>{t('staff.text.5.title')}</Typography>{t('staff.text.5.option_1')}
             </div>
 
         </div>
@@ -38,30 +32,33 @@ export const StaffText = () => {
 };
 
 export const StaffCardsTextBasic=()=>{
+    const {t}= useTranslation();
     return(
         <ul className={s.staffCardsText}>
-            <li>3 days a week</li>
-            <li>no substitutions</li>
+            <li>{t('staff.options.0.description.option_1')}</li>
+            <li>{t('staff.options.0.description.option_2')}</li>
         </ul>
     )
 }
 
 export const StaffCardsTextAdvanced=()=>{
+    const {t}= useTranslation();
     return(
         <ul className={s.staffCardsText}>
-            <li>5 days a week</li>
-            <li>substitute during leave or sick leave (L4)</li>
+            <li>{t('staff.options.1.description.option_1')}</li>
+            <li>{t('staff.options.1.description.option_2')}</li>
         </ul>
     )
 }
 
 export const StaffCardsTextProfessional=()=>{
+    const {t}= useTranslation();
     return(
         <ul className={s.staffCardsText}>
-            <li>4 specialists</li>
-            <li>5 days a week</li>
-            <li>without substitutes</li>
-            <li>managerial supervision</li>
+            <li>{t('staff.options.2.description.option_1')}</li>
+            <li>{t('staff.options.2.description.option_2')}</li>
+            <li>{t('staff.options.2.description.option_3')}</li>
+            <li>{t('staff.options.2.description.option_4')}</li>
         </ul>
     )
 }

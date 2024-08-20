@@ -11,7 +11,7 @@ export const BlocksCard = ({title, icon,page}: landingPageDateOptions) => {
     const {t} = useTranslation();
     return (
         <div className={s.blockCard}>
-            <Typography className={s.blockTitle} variant={'title'}>{title}</Typography>
+            <Typography className={s.blockTitle} variant={'title'}>{t(`blockCard.${page}.title`)}</Typography>
             <div className={s.blockIcon}>
                 {icon}
             </div>
