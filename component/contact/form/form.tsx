@@ -5,9 +5,8 @@ import {TextField} from "@mui/material";
 import {SubmitBtm} from "@/component/contact/submitBtm";
 import {BDO_Grotesk} from "@/fonts/fonts";
 import {useTranslation} from "next-i18next";
-import s from "./form.module.scss";
 import {useSubjectStore} from "@/store/subject";
-import {ChangeEventHandler} from "react";
+import s from "./form.module.scss";
 
 type Props = {
     modal?: boolean
@@ -64,7 +63,7 @@ export const Form: React.FC<Props> = ({modal,isModalOpen}) => {
                        variant="standard"
                        fullWidth
             />
-            {modal &&  <TextField name='modal'
+            {modal &&  <TextField name='senderSubject'
 
                                   id='modal'
                                   label={t('formSubject')}

@@ -16,6 +16,7 @@ export const sendEmail = async (formData: FormData) => {
     const message = formData.get('senderMessage')
     const email = formData.get('senderEmail')
     const phone = formData.get('senderPhone')
+    const subject =formData.get('senderSubject')
 
 //simple server-side-validation
     if (!validateString(message, 5000)) {
@@ -45,6 +46,7 @@ let data
                 message:message as string,
                 senderEmail:email as string,
                 phone:phone as string,
+                subject:subject as string
             })
 
         });

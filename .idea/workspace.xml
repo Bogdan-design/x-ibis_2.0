@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="modal form">
-      <change afterPath="$PROJECT_DIR$/store/subject.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/modal/modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/common/modal/modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/landing/landingCard/landingCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/landingCard/landingCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/sendEmail.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/sendEmail.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/contact/form/form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/contact/form/form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email/form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/email/form.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/It-incubator/x-ibis_2.0/component/contact/form&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/It-incubator/Friday/it-incubator-todolist-ts-20&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
@@ -356,15 +356,8 @@
       <workItem from="1724134549833" duration="6436000" />
       <workItem from="1724147372663" duration="2480000" />
       <workItem from="1724158318460" duration="6396000" />
-      <workItem from="1724174060563" duration="2607000" />
-    </task>
-    <task id="LOCAL-00119" summary="mobile homePage">
-      <option name="closed" value="true" />
-      <created>1711980078389</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1711980078389</updated>
+      <workItem from="1724174060563" duration="11739000" />
+      <workItem from="1724221725757" duration="1194000" />
     </task>
     <task id="LOCAL-00120" summary="mobile certification">
       <option name="closed" value="true" />
@@ -750,7 +743,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724165603115</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="modal form">
+      <option name="closed" value="true" />
+      <created>1724186577144</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1724186577144</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

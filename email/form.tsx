@@ -16,9 +16,10 @@ type ContactFormEmailPropsType={
     message:string
     senderEmail:string
     phone:string
+    subject?:string
 }
 
-export const ContactFormEmail : FC<ContactFormEmailPropsType> = ({message,senderEmail,phone}) => {
+export const ContactFormEmail : FC<ContactFormEmailPropsType> = ({message,senderEmail,phone,subject}) => {
     return<Html>
         <Head/>
         <Preview>New message from your X-IBIS site</Preview>
@@ -29,6 +30,7 @@ export const ContactFormEmail : FC<ContactFormEmailPropsType> = ({message,sender
                         <Heading className='leading-tight'>
                             You received the following message from the contact form
                         </Heading>
+                        {subject && <div><Text>{subject}</Text><Hr/></div>}
                         <Text>{message}</Text>
                         <Hr/>
                         <Text>
