@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="modal form">
+    <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="create subject form">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/sendEmail.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/sendEmail.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/contact/form/form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/contact/form/form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email/form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/email/form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/landing/[pages]/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/[pages]/page.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/landing/[pages]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/[pages]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/modal/modal.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/common/modal/modal.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/modal/modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/common/modal/modal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/layout/header/headerPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/layout/header/headerPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/It-incubator/Friday/it-incubator-todolist-ts-20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/It-incubator/cards&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
@@ -134,7 +136,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.342" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.426" />
       </set>
     </attachedChunks>
   </component>
@@ -357,15 +359,10 @@
       <workItem from="1724147372663" duration="2480000" />
       <workItem from="1724158318460" duration="6396000" />
       <workItem from="1724174060563" duration="11739000" />
-      <workItem from="1724221725757" duration="1194000" />
-    </task>
-    <task id="LOCAL-00120" summary="mobile certification">
-      <option name="closed" value="true" />
-      <created>1712146710275</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1712146710276</updated>
+      <workItem from="1724221725757" duration="2384000" />
+      <workItem from="1724229262009" duration="9125000" />
+      <workItem from="1724304724414" duration="7204000" />
+      <workItem from="1724333485553" duration="3754000" />
     </task>
     <task id="LOCAL-00121" summary="mobile contact">
       <option name="closed" value="true" />
@@ -751,7 +748,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724186577144</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="create subject form">
+      <option name="closed" value="true" />
+      <created>1724223470836</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1724223470836</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -770,7 +775,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="translation main page" />
     <MESSAGE value="finish" />
     <MESSAGE value="header" />
     <MESSAGE value="rectangle component" />
@@ -795,7 +799,8 @@
     <MESSAGE value="new content page build" />
     <MESSAGE value="design page" />
     <MESSAGE value="modal form" />
-    <option name="LAST_COMMIT_MESSAGE" value="modal form" />
+    <MESSAGE value="create subject form" />
+    <option name="LAST_COMMIT_MESSAGE" value="create subject form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -20,7 +20,7 @@ export const HeaderPage = () => {
                 <Link href={'/'}>
                     <Logo/>
                 </Link>
-                {isMobile ? <SwiperHeader t={t} slice={0}/>
+                {isMobile ? <SwiperHeader t={t} slice={1}/>
                     :
                     <div className={s.options}>
                         <nav>

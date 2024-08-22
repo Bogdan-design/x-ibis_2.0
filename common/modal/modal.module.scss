@@ -1,49 +1,51 @@
-.modal{
+.modal {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:  rgba(0, 0, 0, 0.20);
+  background-color: rgba(0, 0, 0, 0.20);
   height: 100vh;
   width: 100vw;
   position: fixed;
   inset: 0;
   z-index: 10;
 
-  .modalContainer{
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid #E75934;
-    border-radius: 32px;
-    padding: 60px 120px;
-    max-width: 850px;
-    max-height: 604px;
-    height: 100%;
-    width: 100%;
-    position: relative;
 
-    .iconButtonClose{
-      width: 16px;
-      height: 16px;
-      background: none;
-      border: none;
-      top: 30px;
-      right: 30px;
-      position: absolute;
-      cursor: pointer;
+}
 
-    }
+.modalContainer {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #E75934;
+  border-radius: 32px;
+  padding: 60px 120px;
+  max-width: 850px;
+  max-height: 604px;
+  z-index: 101;
+}
 
-    .modalTitle {
-      color: #333;
-      font-size: 35px;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
 
-    .modalForm{
+.iconButtonClose {
+  width: 16px;
+  height: 16px;
+  background: none;
+  border: none;
+  top: 30px;
+  right: 30px;
+  position: absolute;
+  cursor: pointer;
 
-    }
-  }
+}
+
+.modalTitle {
+  color: #333;
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.activeContent {
+  transform: scale(1);
+
 }

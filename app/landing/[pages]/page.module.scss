@@ -1,4 +1,5 @@
 @import '@/common/mixins/mixins';
+
 .landingPage {
   display: flex;
   align-items: center;
@@ -10,7 +11,8 @@
     max-width: 1440px;
     width: 100%;
     padding: 0 174px 80px 174px;
-    gap:60px;
+    gap: 60px;
+
     .titleContainer {
       @include titleContainer();
     }
@@ -32,3 +34,14 @@
 }
 
 
+@media screen and (max-width: 768px) {
+  .landingPage {
+    .landingPageContainer {
+      padding: 0 31px 31px;
+
+      .description {
+        font-size: 17px;
+      }
+    }
+  }
+}

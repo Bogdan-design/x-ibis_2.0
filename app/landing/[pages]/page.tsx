@@ -11,17 +11,20 @@ import Link from "next/link";
 import Back from "@/assest/icon/back";
 import {DevopsText} from "@/component/landing/texts/devopsText/devopsText";
 import {StaffText} from "@/component/landing/texts/staffText/staffText";
-import s from "./page.module.scss";
 import {Modal} from "@/common/modal/modal";
+import {useMobileContext} from "@/context/mobile.context";
+import s from "./page.module.scss";
 
 
-function Page({params: {pages}}: { params: { pages: (typeof landingPageDateOptions)[number]['page'] }} ) {
+function Page({params: {pages}}: { params: { pages: (typeof landingPageDateOptions)[number]['page'] } }) {
 
     const {t} = useTranslation();
 
-    const [openModal, setOpenModal] =useState<boolean>(false);
+    const {isMobile} = useMobileContext()
 
-    const isModalOpen = (open:boolean) =>{
+    const [openModal, setOpenModal] = useState<boolean>(false);
+
+    const isModalOpen = (open: boolean) => {
         setOpenModal(open)
     }
 
@@ -57,20 +60,25 @@ function Page({params: {pages}}: { params: { pages: (typeof landingPageDateOptio
             return <PageError/>
     }
 
-    const stylePageDescription : CSSProperties = pages === 'ai' ?
-        {fontSize: '27px'} : pages === 'design' ?
+    const stylePageDescription: CSSProperties = pages === 'ai' && !isMobile ?
+        {fontSize: '27px'} : pages === 'design' && !isMobile ?
             {fontSize: '27px'} : {}
 
 
-    const styleForPages : CSSProperties =
+    const styleForPages: CSSProperties =
         dataIndex === 2 ? {justifyContent: 'center'} :
             dataIndex === 4 ? {justifyContent: 'center'} :
                 dataIndex === 6 ? {justifyContent: 'center'} :
-                    dataIndex === 7 ? {flexDirection: 'column',justifyContent: 'center',gap:'54px',alignItems:'center'} : {justifyContent: 'space-between'}
+                    dataIndex === 7 ? {
+                        flexDirection: 'column',
+                        justifyContent: 'center',
+                        gap: '54px',
+                        alignItems: 'center'
+                    } : {justifyContent: 'space-between'}
 
 
     return <section className={s.landingPage}>
-        {openModal && <Modal isModalOpen={isModalOpen}/>}
+        {openModal && <Modal openModal={openModal} isModalOpen={isModalOpen}/>}
         <div className={s.landingPageContainer}>
             <div className={s.titleContainer}>
                 <Link href={'/landing'} className={s.link}>
