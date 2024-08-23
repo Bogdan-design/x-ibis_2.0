@@ -26,14 +26,18 @@ export const Heading = ({page,t,landing,children}: pageData) => {
         <div className={s.heading}>
             <div style={monumentExtended.style} className={classNames.title}>
                 <div className={s.titleBg}></div>
-                {isMobile &&
+                {isMobile && !landing &&
                     <Link href={'/#[services]'} className={s.link}>
                         <Back className={s.button}/>
                     </Link>
                 }
                 {children ? children : t(`${page}.pageTitle`)}
             </div>
-            {!landing && <Typography className={s.description} variant={'text'}>{t(`${page}.pageDescription`)}</Typography>}
+            {!landing &&
+                <Typography className={s.description}
+                            variant={'text'}>
+                    {t(`${page}.pageDescription`)}
+                </Typography>}
         </div>
     );
 };

@@ -35,13 +35,12 @@
 
 
 @media screen and (max-width: 768px) {
-  .landingPage {
-    .landingPageContainer {
-      padding: 0 31px 31px;
+  .landingPage .landingPageContainer {
+      padding: 0 0 31px 31px;
 
       .description {
         font-size: 17px;
       }
     }
-  }
+
 }

@@ -58,3 +58,11 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .landingCard{
+    min-width: 320px;
+    width: 100%;
+    gap: 20px;
+  }
+
+}

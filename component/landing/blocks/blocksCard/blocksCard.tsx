@@ -7,7 +7,7 @@ import s from './blocksCard.module.scss'
 
 type landingPageDateOptions = (typeof landingPageDateOptions)[number]
 
-export const BlocksCard = ({title, icon,page}: landingPageDateOptions) => {
+export const BlocksCard = ({icon,page}: landingPageDateOptions) => {
     const {t} = useTranslation();
     return (
         <div className={s.blockCard}>

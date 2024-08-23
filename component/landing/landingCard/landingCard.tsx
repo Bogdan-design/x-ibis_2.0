@@ -2,8 +2,8 @@ import React, {CSSProperties} from 'react';
 import {Typography} from "@/component/ui/typography/typography";
 import {Button} from "@/component/ui/button";
 import {landingPagesData} from "@/lid/data";
-import s from './landingCards.module.scss'
 import {useSubjectStore} from "@/store/subject";
+import s from './landingCards.module.scss'
 
 type LandingCardsOptionsProps = (typeof landingPagesData)[number]['options'][number] & {
     pages: string

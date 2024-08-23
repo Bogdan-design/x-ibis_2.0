@@ -7,7 +7,7 @@ import {monumentExtended} from "@/fonts/fonts";
 import {Button} from "@/component/ui/button";
 import landingImage from '@/assest/icon/homePageLanding.png'
 import Image from "next/image";
-import s from 'component/landing/landingHeager/landingHeader.module.scss'
+import s from './landingHeader.module.scss'
 
 
 export const LandingHeader = () => {

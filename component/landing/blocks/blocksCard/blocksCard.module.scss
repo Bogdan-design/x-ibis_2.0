@@ -4,7 +4,8 @@
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  width: 318px;
+  max-width: 318px;
+  width: 100%;
   min-height: 272px;
   border-radius: 40px;
 
@@ -52,6 +53,11 @@
 
       color: #fff;
     }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .blockCard {
   }
 }
 

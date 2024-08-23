@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="create subject form">
+    <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="mobile design page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[services]/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/[services]/page.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/landing/[pages]/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/[pages]/page.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/landing/[pages]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/[pages]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/modal/modal.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/common/modal/modal.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/modal/modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/common/modal/modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/layout/header/headerPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/layout/header/headerPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/heading/heading.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/common/heading/heading.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/heading/heading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/common/heading/heading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/about/about.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/about/about.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/blocks/blocks.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/blocks/blocks.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/blocks/blocksCard/blocksCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/blocks/blocksCard/blocksCard.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/blocks/blocksCard/blocksCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/blocks/blocksCard/blocksCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/description/description.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/description/description.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/landingCard/landingCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/landingCard/landingCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/landingCard/landingCards.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/landingCard/landingCards.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/landingHeager/landingHeader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/landingHeager/landingHeader.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/landingHeager/landingHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/landingHeager/landingHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/texts/landingHomePageText/landingHomePageText.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/texts/landingHomePageText/landingHomePageText.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -363,14 +373,8 @@
       <workItem from="1724229262009" duration="9125000" />
       <workItem from="1724304724414" duration="7204000" />
       <workItem from="1724333485553" duration="3754000" />
-    </task>
-    <task id="LOCAL-00121" summary="mobile contact">
-      <option name="closed" value="true" />
-      <created>1712148979556</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1712148979556</updated>
+      <workItem from="1724357128855" duration="3576000" />
+      <workItem from="1724398365184" duration="14386000" />
     </task>
     <task id="LOCAL-00122" summary="mobile contact">
       <option name="closed" value="true" />
@@ -756,7 +760,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724223470836</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="mobile design page">
+      <option name="closed" value="true" />
+      <created>1724357181784</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1724357181784</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -775,7 +787,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="finish" />
     <MESSAGE value="header" />
     <MESSAGE value="rectangle component" />
     <MESSAGE value="footer" />
@@ -800,7 +811,8 @@
     <MESSAGE value="design page" />
     <MESSAGE value="modal form" />
     <MESSAGE value="create subject form" />
-    <option name="LAST_COMMIT_MESSAGE" value="create subject form" />
+    <MESSAGE value="mobile design page" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile design page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -11,3 +11,14 @@
     gap:53px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .descriptionContainer{
+    .descriptionBox{
+      padding: 31px;
+      .description{
+      }
+
+    }
+  }
+}

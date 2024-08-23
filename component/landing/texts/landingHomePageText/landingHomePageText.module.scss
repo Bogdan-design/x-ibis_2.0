@@ -9,3 +9,12 @@
     flex-shrink: 0;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .landingHomePageText {
+    .landingDescription {
+      text-align: center;
+      font-size:18px;
+    }
+  }
+}

@@ -13,6 +13,9 @@ import {DevopsText} from "@/component/landing/texts/devopsText/devopsText";
 import {StaffText} from "@/component/landing/texts/staffText/staffText";
 import {Modal} from "@/common/modal/modal";
 import {useMobileContext} from "@/context/mobile.context";
+import {Swiper, SwiperSlide} from "swiper/react";
+import {Pagination} from "swiper/modules";
+import 'swiper/css/bundle';
 import s from "./page.module.scss";
 
 
@@ -91,19 +94,33 @@ function Page({params: {pages}}: { params: { pages: (typeof landingPageDateOptio
                 {t(`${pages}.pageDescription`)}
             </Typography>
             {dataIndex === 4 && <Typography variant={'text'}>{t(`${pages}.pageText`)}</Typography>}
-            <div style={styleForPages}
-                 className={s.landingPageCardsContainer}>
-                {...landingPagesData[dataIndex].options.map((o, i) => (
-                    <React.Fragment key={i}>
-                        <LandingCard index={i} t={t} pages={pages} isModalOpen={isModalOpen} {...o}/>
-                    </React.Fragment>
-                ))}
-            </div>
+            {!isMobile ?
+                <div style={styleForPages}
+                     className={s.landingPageCardsContainer}>
+                    {...landingPagesData[dataIndex].options.map((o, i) => (
+                        <React.Fragment key={i}>
+                            <LandingCard index={i} t={t} pages={pages} isModalOpen={isModalOpen} {...o}/>
+                        </React.Fragment>
+                    ))}
+                </div> :
+                <Swiper className={s.landingPageCardsContainer}
+                        modules={[Pagination]}
+                    spaceBetween={14}
+                    slidesPerView={1.1}>
+                    <div style={styleForPages} >
+                        {...landingPagesData[dataIndex].options.map((o, i) => (
+                            <SwiperSlide key={i}>
+                                <LandingCard index={i} t={t} pages={pages} isModalOpen={isModalOpen} {...o}/>
+                            </SwiperSlide>
+                        ))}
+                    </div>
+                </Swiper>}
+
             {dataIndex === 3 && <SupportText/>}
             {dataIndex === 4 && <DevopsText/>}
-        </div>
-    </section>
-}
+                </div>
+                </section>
+            }
 
 
 export default Page
