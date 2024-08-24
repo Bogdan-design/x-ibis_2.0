@@ -1,5 +1,5 @@
 'use client'
-import {useState} from 'react';
+import {useCallback, useState} from 'react';
 import Global from "@/assest/icon/global";
 import i18next from "i18next";
 import {Constants} from "@/common/local/constants";
@@ -7,6 +7,7 @@ import s from './menu.module.scss'
 
 export const Menu = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [local,setLocal]=useState<string>(Constants.EN);
 
 
     const toggleDropdown = () => {
@@ -14,15 +15,16 @@ export const Menu = () => {
     };
 
 
-    const onLocalHandler =(newLocal: Constants) => {
+    const onLocalHandler = useCallback((newLocal: Constants) => {
         try {
             i18next.changeLanguage(newLocal);
             localStorage.setItem('i18nextLng',newLocal)
+            setLocal(newLocal)
             setIsOpen(!isOpen);
         } catch (error) {
             console.error("Error changing language:", error);
         }
-    }
+    },[local])
 
 
     return (

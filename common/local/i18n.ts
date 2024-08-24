@@ -8,7 +8,7 @@ import HttpApi from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
 
-const resources ={
+const resources :{[key:string]:{translation: typeof en | typeof de | typeof pl}} =  {
     [Constants.EN]: {
         translation: en
     },
@@ -22,9 +22,9 @@ const resources ={
 
 
 i18n
-    // .use(LanguageDetector)
     .use(HttpApi)
     .use(initReactI18next)
+    .use(LanguageDetector)
     .init({
         resources,
         fallbackLng:Constants.EN,

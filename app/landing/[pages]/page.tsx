@@ -105,9 +105,10 @@ function Page({params: {pages}}: { params: { pages: (typeof landingPageDateOptio
                 </div> :
                 <Swiper className={s.landingPageCardsContainer}
                         modules={[Pagination]}
-                    spaceBetween={14}
-                    slidesPerView={1.1}>
-                    <div style={styleForPages} >
+                        pagination={true}
+                        spaceBetween={14}
+                        slidesPerView={1.1}>
+                    <div style={styleForPages}>
                         {...landingPagesData[dataIndex].options.map((o, i) => (
                             <SwiperSlide key={i}>
                                 <LandingCard index={i} t={t} pages={pages} isModalOpen={isModalOpen} {...o}/>
@@ -118,9 +119,9 @@ function Page({params: {pages}}: { params: { pages: (typeof landingPageDateOptio
 
             {dataIndex === 3 && <SupportText/>}
             {dataIndex === 4 && <DevopsText/>}
-                </div>
-                </section>
-            }
+        </div>
+    </section>
+}
 
 
 export default Page

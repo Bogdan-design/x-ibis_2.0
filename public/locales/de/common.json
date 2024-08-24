@@ -217,5 +217,540 @@
         "description": "Entwickeln Sie mobile Anwendungen und Benutzeroberflächen, die Benutzerfreundlichkeit und personalisierte Erlebnisse für Kunden bieten."
       }
     ]
+  },
+  "landingHome": "Angebote",
+  "landingMain": {
+    "pageTitle": "Was wir anbieten",
+    "pageDescription": "In einer sich schnell entwickelnden Welt moderner Technologien, die innovative Lösungen erfordern, bietet unser Unternehmen ein breites Spektrum an IT-Dienstleistungen, um Ihrem Unternehmen zu neuen Höhen zu verhelfen. Wir kombinieren Erfahrung, Professionalität und modernste Technologien, um die besten Lösungen zu liefern, die auf Ihre individuellen Bedürfnisse zugeschnitten sind. Unser Angebot umfasst alles, was für die erfolgreiche Umsetzung und Unterstützung von IT-Projekten jeglicher Komplexität erforderlich ist.",
+    "pageBlocksTitle": "Nachfolgend finden Sie detailliertere Informationen zu jedem unserer Angebote:"
+  },
+  "formSubject": "Betreff",
+  "more": "mehr",
+  "buttonBlock": "Angebot",
+  "buy": "Kaufen",
+  "build": {
+    "pageTitle": "Infrastruktur aufbauen",
+    "pageDescription": "Bauen Sie eine erfolgreiche Zukunft für Ihr Unternehmen mit unserer zuverlässigen Infrastruktur auf",
+    "options": [
+      {
+        "title": "Basis",
+        "description": [
+          {
+            "optionTitle": "Beratung und Audit der aktuellen Infrastruktur:",
+            "option_1": "Bewertung des aktuellen Zustands der IT-Infrastruktur.",
+            "option_2": "Empfehlungen zur Verbesserung und Optimierung."
+          },
+          {
+            "optionTitle": "Netzwerkgeräte und Konfiguration:",
+            "option_1": "Lieferung und Installation grundlegender Netzwerkgeräte (Router, Switches, Zugangspunkte).",
+            "option_2": "Konfiguration des lokalen LAN-Netzwerks.",
+            "option_3": "Bereitstellung grundlegender Netzwerksicherheit (Firewalls, VPN)."
+          },
+          {
+            "optionTitle": "Serverhardware und Virtualisierung:",
+            "option_1": "Lieferung und Installation von Serverhardware.",
+            "option_2": "Implementierung einer grundlegenden Virtualisierungsplattform (z.B. VMware, Hyper-V).",
+            "option_3": "Konfiguration von Dateiservern und Speicherlösungen."
+          },
+          {
+            "optionTitle": "Software und Lizenzierung:",
+            "option_1": "Installation von Betriebssystemen (Windows, Linux, MacOS).",
+            "option_2_1": "Lizenzierung grundlegender Software (Office-",
+            "option_2_2": "Anwendungen, Antivirenlösungen).",
+            "option_3": "Installation und Konfiguration von Unternehmenssoftware (CRM, ERP usw.)."
+          },
+          {
+            "optionTitle": "Cloud-Dienste:",
+            "option_1": "Implementierung und Konfiguration grundlegender Cloud-Dienste (z.B. Microsoft 365, Google Workspace, AWS, Azure).",
+            "option_2": "Organisation von Cloud-Backups."
+          },
+          {
+            "optionTitle": "Management- und Überwachungssysteme:",
+            "option_1": "Implementierung von Infrastrukturüberwachungssystemen (z.B. Zabbix, Nagios).",
+            "option_2": "Konfiguration grundlegender Management- und Verwaltungssysteme."
+          },
+          {
+            "optionTitle": "Cybersicherheit:",
+            "option_1": "Installation und Konfiguration grundlegender Sicherheitswerkzeuge (Antivirus, Spamfilter).",
+            "option_2": "Durchführung eines ersten Trainings zu grundlegender Cybersicherheit für Mitarbeiter."
+          },
+          {
+            "optionTitle": "Support und Wartung:",
+            "option_1": "Organisation eines technischen Supports (Help Desk).",
+            "option_2": "Bereitstellung grundlegenden technischen Supports und Wartung (Serviceverträge, SLA)."
+          },
+          {
+            "optionTitle": "Dokumentation und Schulung:",
+            "option_1": "Erstellung technischer Dokumentationen für installierte Hardware und Software.",
+            "option_2": "Durchführung grundlegender Schulungen für das IT-Personal des Kunden."
+          }
+        ],
+        "price": "6 500 Euro",
+        "volume": "Mitarbeiter: Bis zu 11"
+      },
+      {
+        "title": "Erweitert",
+        "description": [
+          {
+            "optionTitle": "Erweiterte Beratung und Audit:",
+            "option_1": "Detailliertes Audit der IT-Infrastruktur.",
+            "option_2": "Erarbeitung eines Modernisierungsplans und der Einführung neuer Technologien."
+          },
+          {
+            "optionTitle": "Erweiterte Netzwerkgeräte und Konfiguration:",
+            "option_1": "Lieferung und Installation fortschrittlicher Netzwerkgeräte (Hochleistungsrouter, verwaltete Switches).",
+            "option_2": "Konfiguration von Netzwerksegmentierung und VLAN."
+          },
+          {
+            "optionTitle": "Erweiterte Virtualisierung und Serverhardware:",
+            "option_1": "Implementierung von Clusterlösungen für die Virtualisierung.",
+            "option_2": "Konfiguration von Datenwiederherstellungssystemen und Hochverfügbarkeit."
+          },
+          {
+            "optionTitle": "Software und Integration:",
+            "option_1": "Installation und Konfiguration spezialisierter Unternehmenssoftware (CRM, ERP).",
+            "option_2": "Integration bestehender Systeme mit neuen Lösungen."
+          },
+          {
+            "optionTitle": "Cloud-Dienste und hybride Lösungen:",
+            "option_1": "Konfiguration hybrider Cloud-Lösungen (Kombination lokaler und Cloud-Ressourcen).",
+            "option_2": "Implementierung von Cloud-Diensten zur Speicherung und Verarbeitung großer Datenmengen."
+          },
+          {
+            "optionTitle": "Erweiterte Management- und Überwachungssysteme:",
+            "option_1": "Implementierung von Konfigurationsmanagementlösungen (z.B. Ansible, Puppet).",
+            "option_2": "Konfiguration proaktiver Überwachungs- und Analysesysteme."
+          },
+          {
+            "optionTitle": "Erweiterte Cybersicherheit:",
+            "option_1": "Implementierung von Einbruchserkennungs- und Präventionssystemen (IDS/IPS).",
+            "option_2": "Regelmäßige Durchführung von Penetrationstests und Sicherheitsaudits."
+          },
+          {
+            "optionTitle": "Premium-Support und -Wartung:",
+            "option_1": "Erweiterter technischer Support mit höherem SLA-Level.",
+            "option_2": "Fernüberwachungs- und Verwaltungsdienste."
+          },
+          {
+            "optionTitle": "Erweiterte Dokumentation und Schulung:",
+            "option_1": "Erstellung detaillierter technischer Dokumentationen und Handbücher.",
+            "option_2": "Durchführung spezialisierter Schulungen und Seminare für Mitarbeiter."
+          }
+        ],
+        "price": "10 000 Euro",
+        "volume": "Mitarbeiter: Bis zu 30"
+      },
+      {
+        "title": "Professionell",
+        "description": [
+          {
+            "optionTitle": "Tiefgehende Beratung und strategische Planung:",
+            "option_1": "Entwicklung einer langfristigen IT-Strategie und eines digitalen Transformationsplans.",
+            "option_2": "Durchführung von Forschung und Trendprognosen in der Technologie."
+          },
+          {
+            "optionTitle": "Hochleistungsfähige Netzwerkgeräte und Konfiguration:",
+            "option_1": "Implementierung leistungsstarker Netzwerklösungen (10GbE, 40GbE).",
+            "option_2": "Konfiguration fortschrittlicher Netzwerktechnologien (SD-WAN, MPLS)."
+          },
+          {
+            "optionTitle": "Erweiterte Virtualisierung und Cloud-Infrastruktur:",
+            "option_1": "Implementierung von Unternehmens-Cloud-Lösungen (Private Cloud, Hybrid Cloud).",
+            "option_2": "Konfiguration von Containerisierung und Orchestrierung (Docker, Kubernetes)."
+          },
+          {
+            "optionTitle": "Umfassende Software und Integration:",
+            "option_1": "Implementierung komplexer Unternehmensverwaltungssysteme (ERP, CRM).",
+            "option_2": "Integration bestehender Systeme mit externen Diensten und Lösungen."
+          },
+          {
+            "optionTitle": "Globale Cloud-Dienste und Multi-Cloud-Lösungen:",
+            "option_1": "Verwaltung von Cloud-Umgebungen in mehreren Regionen.",
+            "option_2": "Integration und Verwaltung mehrerer öffentlicher und privater Clouds."
+          },
+          {
+            "optionTitle": "Erweiterte IT-Management-Systeme und DevOps:",
+            "option_1": "Implementierung umfassender Infrastrukturautomatisierungslösungen (CI/CD).",
+            "option_2": "Konfiguration und Verwaltung komplexer DevOps-Umgebungen."
+          },
+          {
+            "optionTitle": "Erweiterte Cybersicherheit und Compliance:",
+            "option_1": "Implementierung fortschrittlicher Bedrohungsschutzsysteme (SIEM, SOAR).",
+            "option_2": "Compliance-Management nach Vorschriften und Regularien (GDPR, HIPAA)."
+          },
+          {
+            "optionTitle": "Enterprise-Support und Wartung:",
+            "option_1": "Erweiterter Support mit erstklassigen Serviceverträgen (Premium SLA).",
+            "option_2": "Management und Wartung komplexer Unternehmenssysteme."
+          },
+          {
+            "optionTitle": "Schulung und Entwicklung:",
+            "option_1": "Organisation von Fortgeschrittenenschulungen und Zertifizierungen für IT-Teams.",
+            "option_2": "Durchführung von Workshops und Seminaren zu den neuesten Technologien."
+          }
+        ],
+        "price": "15 000 Euro",
+        "volume": "Mitarbeiter: Über 30"
+      }
+    ]
+  },
+  "virtual": {
+    "pageTitle": "Virtuelle Maschine",
+    "pageDescription": "Erstellen und verwalten Sie virtuelle Maschinen mit maximaler Effizienz jetzt",
+    "options": [
+      {
+        "title": "Basic",
+        "description": "1vCPU / 1GB RAM / 10GB SSD",
+        "price": "4,50 Euro",
+        "volume": "/Monat"
+      },
+      {
+        "title": "Erweitert",
+        "description": "2vCPU / 8GB RAM / 80GB SSD",
+        "price": "79,00 Euro",
+        "volume": "/Monat"
+      },
+      {
+        "title": "Professionell",
+        "description": "14vCPU / 94GB RAM / 100GB SSD",
+        "price": "550,00 Euro",
+        "volume": "/Monat"
+      }
+    ]
+  },
+  "storage": {
+    "pageTitle": "Speicher S3",
+    "pageDescription": "Sichere Datenspeicherung S3 für Ihr Unternehmen – skalieren Sie ohne Grenzen.",
+    "options": {
+      "option_1": "0,025€ GB/Monat",
+      "option_2": "Kostenloser Datentransfer – Verkehr und Anfragen werden nicht berechnet",
+      "option_3": "Wir begrenzen die Speicherkapazität nicht"
+    }
+  },
+  "support": {
+    "pageTitle": "IT-Support-Dienste",
+    "pageDescription": "Professioneller IT-Support — Zuverlässigkeit und Sicherheit für Ihr Unternehmen.",
+    "options": [
+      {
+        "title": "Basis",
+        "description": {
+          "option_1": "Support von 9:00 bis 17:00 Uhr",
+          "option_2": "Reaktionszeit auf Anrufe — bis zu 30 Sekunden",
+          "option_3": "Reaktionszeit auf E-Mails — bis zu 15 Minuten",
+          "option_4": "Bearbeitung typischer IT-Anfragen",
+          "option_5": "Konfiguration genehmigter Software",
+          "option_6": "Sicherheit"
+        },
+        "price": "2.500 Euro",
+        "volume": "Mitarbeiter: bis zu 11"
+      },
+      {
+        "title": "Erweitert",
+        "description": {
+          "option_1": "Support von 9:00 bis 17:00 Uhr + Wochenenden",
+          "option_2": "Reaktionszeit auf Anrufe — bis zu 30 Sekunden",
+          "option_3": "Reaktionszeit auf E-Mails — bis zu 15 Minuten",
+          "option_4": "Bearbeitung atypischer IT-Anfragen",
+          "option_5": "Konfiguration und Installation genehmigter Software",
+          "option_6": "Überwachung wichtiger Dienste",
+          "option_7": "Sicherheit"
+        },
+        "price": "4.500 Euro",
+        "volume": "Mitarbeiter: bis zu 50"
+      },
+      {
+        "title": "Professionell",
+        "description": {
+          "option_1": "Support 24/7 + Wochenenden",
+          "option_2": "Reaktionszeit auf Anrufe — bis zu 30 Sekunden",
+          "option_3": "Reaktionszeit auf E-Mails — bis zu 15 Minuten",
+          "option_4": "Wartung atypischer IT-Anfragen",
+          "option_5": "Konfiguration und Installation genehmigter Software",
+          "option_6": "Rund-um-die-Uhr-Überwachung wichtiger Dienste und Anwendungen",
+          "option_7": "Hohe Sicherheit"
+        },
+        "price": "ab 8.000 Euro",
+        "volume": "Mitarbeiter: bis zu 130"
+      }
+    ],
+    "text": [
+      {
+        "title": "Austausch und Reparatur von Geräten:",
+        "option_1": "Sicherstellung des zeitgerechten Austauschs und der Reparatur defekter Geräte.",
+        "option_2": "Diagnose von Problemen und deren zügige Behebung."
+      },
+      {
+        "title": "Unterstützung von Betriebssystemen:",
+        "option_1": "Windows: Installation, Konfiguration und Support verschiedener Windows-Versionen.",
+        "option_2": "Linux: Unterstützung für verschiedene Linux-Distributionen, einschließlich Ubuntu, CentOS, Red Hat.",
+        "option_3": "MacOS: Wartung und Support für Apple-Geräte."
+      },
+      {
+        "title": "Hardware-Support:",
+        "option_1": "Server: Installation, Konfiguration und Wartung von Servern.",
+        "option_2": "Drucker: Diagnose und Reparatur von Druckern, Verwaltung von Druckaufträgen.",
+        "option_3": "Videoüberwachung: Einrichtung und Wartung von Videoüberwachungssystemen.",
+        "option_4": "Videokonferenzräume: Installation und Support von Videokonferenzsystemen.",
+        "option_5": "Telekommunikation: Konfiguration und Support von Unternehmens-Telefonsystemen."
+      },
+      {
+        "title": "Cloud-Speicher:",
+        "option_1": "AWS: Verwaltung und Support von Amazon Web Services.",
+        "option_2": "Microsoft Azure: Einrichtung und Support von Lösungen auf der Microsoft Azure-Plattform.",
+        "option_3": "Google Cloud Platform: Implementierung und Wartung von Google Cloud-Diensten."
+      },
+      {
+        "title": "Bürosoftware-Support:",
+        "option_1": "MS Office: Installation und Support von Microsoft Office-Anwendungen.",
+        "option_2": "Office 365: Verwaltung von Abonnements und Support für Office 365-Cloud-Dienste."
+      },
+      {
+        "title": "CRM- und ERP-Systeme:",
+        "option_1": "Implementierung, Konfiguration und Support von Customer Relationship Management (CRM) und Enterprise Resource Planning (ERP)-Systemen."
+      },
+      {
+        "title": "Sicherheitslösungen:",
+        "option_1": "Antivirus-Software: Installation und Aktualisierung von Antivirenprogrammen.",
+        "option_2": "Firewalls: Konfiguration und Verwaltung von Firewalls zum Schutz vor externen Bedrohungen.",
+        "option_3": "VPN: Einrichtung von Virtual Private Networks für sicheren Fernzugriff."
+      },
+      {
+        "title": "Netzwerkprotokolle und -dienste:",
+        "option_1": "TCP/IP: Konfiguration und Verwaltung von Protokollen für die Datenübertragung.",
+        "option_2": "DNS: Verwaltung von Domainnamen und Konfiguration von DNS-Servern.",
+        "option_3": "DHCP: Automatische IP-Adresszuweisung über DHCP-Server.",
+        "option_4": "Netzwerküberwachung und -management: Nutzung von Tools zur Leistungsüberwachung und Netzwerkverwaltung."
+      }
+    ]
+  },
+  "devops": {
+    "pageTitle": "DevOps- und CI/CD-Dienste",
+    "pageDescription": "Steigerung der Entwicklungs- und Bereitstellungseffizienz",
+    "pageText": "Wir helfen Entwicklungsteams dabei, fortschrittliche DevOps-Praktiken und -Werkzeuge zu implementieren. Wir führen eine Prüfung der bestehenden Ansätze, technologischen Prozesse, Entwicklungstools, Tests, Bereitstellung und Infrastrukturverwaltung durch. Wir identifizieren Schwachstellen und schlagen Wege zur Behebung vor. Wir richten ein einfaches, bequemes und effektives System von Grund auf neu ein.",
+    "options": [
+      {
+        "title": "Cloud-Technologien",
+        "description": [
+          {
+            "title": "Prozessprüfung und -optimierung:",
+            "option_1": "Analyse der aktuellen Entwicklungs- und Bereitstellungsprozesse.",
+            "option_2": "Bewertung der verwendeten Werkzeuge und Identifizierung von Engpässen.",
+            "option_3": "Empfehlungen zur Optimierung und Implementierung von DevOps-Best Practices."
+          },
+          {
+            "title": "Übergang von Monolithen zu Mikroservices:",
+            "option_1": "Gemeinsame Analyse der Struktur Ihrer Anwendung.",
+            "option_2": "Untersuchung der Interaktionen mit Datenbanken, Dateisystemen und Integrationen.",
+            "option_3": "Entwicklung eines optimalen Plans für den Übergang von einer monolithischen zu einer Mikroservice-Architektur."
+          },
+          {
+            "title": "CI/CD-Automatisierung:",
+            "option_1": "Implementierung flexibler und bequemer Code-Entwicklungs- und Bereitstellungsprozesse (CI/CD).",
+            "option_2": "Automatisierung der Codeanalyse und Unit-Tests.",
+            "option_3": "Erstellung von Docker-Images, Bereitstellung von Testumgebungen, Durchführung von Migrationen und Befüllung von Datenbanken.",
+            "option_4": "Durchführung von Integrationstests und Bereitstellungen."
+          },
+          {
+            "title": "Überwachung und Protokollierung:",
+            "option_1": "Einrichtung von Protokollierung und Überwachung wichtiger Infrastruktur- und Anwendungsmetriken.",
+            "option_2": "Verfolgung von Geschäftszahlen zur Identifizierung potenzieller Probleme.",
+            "option_3": "Erkennung von Situationen, in denen Server technisch korrekt arbeiten, aber Probleme auftreten, die die Geschäftsprozesse beeinträchtigen."
+          }
+        ],
+        "price": "",
+        "volume": ""
+      }
+    ],
+    "text": {
+      "title": "Warum Wir Wählen?",
+      "option_1": "Tiefgehende Expertise: Unser Team verfügt über umfassende Erfahrung in DevOps und CI/CD, wodurch wir Lösungen anbieten können, die auf die einzigartigen Bedürfnisse Ihres Unternehmens zugeschnitten sind.",
+      "option_2": "Personalisierter Ansatz: Wir berücksichtigen die spezifischen Merkmale Ihres Unternehmens und entwickeln maßgeschneiderte Lösungen zur Erreichung maximaler Effizienz.",
+      "option_3": "Ständige Unterstützung: Wir bieten rund um die Uhr Unterstützung und sind bereit, schnell auf Anfragen oder Probleme zu reagieren."
+    }
+  },
+  "staff": {
+    "pageTitle": "IT-Personalverleih",
+    "pageDescription": "Flexible IT-Personallösungen, die den Bedürfnissen Ihres Unternehmens entsprechen.",
+    "options": [
+      {
+        "title": "Basic",
+        "description": {
+          "option_1": "3 Tage pro Woche",
+          "option_2": "Keine Vertretungen"
+        },
+        "price": "2.500 Euro",
+        "volume": "/Monat"
+      },
+      {
+        "title": "Erweitert",
+        "description": {
+          "option_1": "5 Tage pro Woche",
+          "option_2": "Vertretung bei Urlaub oder Krankheit (L4)"
+        },
+        "price": "4.500 Euro",
+        "volume": "/Monat"
+      },
+      {
+        "title": "Professionell",
+        "description": {
+          "option_1": "4 Spezialisten",
+          "option_2": "5 Tage pro Woche",
+          "option_3": "Ohne Vertretungen",
+          "option_4": "Manageriale Aufsicht"
+        },
+        "price": "ab 8.000 Euro",
+        "volume": "/Monat"
+      }
+    ],
+    "text": [
+      {
+        "title": "Lassen Sie uns den richtigen IT-Spezialisten für Sie finden:"
+      },
+      {
+        "title": "Entwickler:",
+        "option_1": "Kenntnisse in gängigen Programmiersprachen (Python, Java, JavaScript, C#, Ruby, etc.)."
+      },
+      {
+        "title": "Service Desk:",
+        "option_1": "Qualifizierter Kundensupport auf allen Ebenen."
+      },
+      {
+        "title": "Anwendungsunterstützung:",
+        "option_1": "Unterstützung und Wartung Ihrer Anwendungen und Systeme."
+      },
+      {
+        "title": "DevOps:",
+        "option_1": "Optimierung der Entwicklungs- und Bereitstellungsprozesse mit modernen Tools (Docker, Kubernetes, Jenkins, Ansible, Terraform, etc.)."
+      },
+      {
+        "title": "Webdesigner:",
+        "option_1": "Kreatives und responsives Webdesign, das auf Ihre Bedürfnisse zugeschnitten ist."
+      }
+    ]
+  },
+  "ai": {
+    "pageTitle": "KI-Implementierungs- und Schulungsdienste",
+    "pageDescription": "Wir bieten umfassende Dienstleistungen für die Implementierung und Schulung Ihrer Mitarbeiter in der Nutzung von Künstlicher Intelligenz (KI)-Technologien an.",
+    "options": [
+      {
+        "title": "DevOps und CI/CD",
+        "description": [
+          {
+            "title": "Bedarfs- und Chancenanalyse:",
+            "option": "Bewertung der aktuellen Geschäftsprozesse und Identifizierung der besten KI-Lösungen für Ihr Unternehmen."
+          },
+          {
+            "title": "Implementierung von KI-Lösungen:",
+            "option": "Integration fortschrittlicher KI-Tools und -Technologien in Ihre Arbeitsumgebung."
+          },
+          {
+            "title": "Mitarbeiterschulung:",
+            "option": "Durchführung von Schulungen und Workshops zur Vermittlung grundlegender und fortgeschrittener Methoden der KI-Nutzung an Ihre Mitarbeiter."
+          },
+          {
+            "title": "Support und Wartung:",
+            "option": "Installation und Konfiguration von Geschäftsanwendungen (CRM, ERP usw.)."
+          }
+        ],
+        "price": "ab 2.500 Euro",
+        "volume": ""
+      }
+    ]
+  },
+  "design": {
+    "pageTitle": "Grafikdesign-Dienste",
+    "pageDescription": "Wir bieten professionelle Design-Dienstleistungen, die Ihrer Marke helfen, sich hervorzuheben, von der Online-Präsenz bis hin zu beeindruckenden Werbematerialien.",
+    "options": [
+      {
+        "title": "Inhaltserstellung für soziale Medien",
+        "description": [
+          {
+            "paragraph_1": "Wir sind auf die Erstellung ansprechender Inhalte für soziale Medienplattformen spezialisiert, die darauf abzielen, die Online-Präsenz Ihrer Marke zu verbessern. Unsere Dienstleistungen umfassen die Erstellung von",
+            "paragraph_1_1": "begeisternden Posts, auffälligen Instagram-Stories und der visuellen Kuratierung Ihres Profils.",
+            "paragraph_2": "Durch die Erstellung von Inhalten, die Ihre Zielgruppe ansprechen, helfen wir Ihnen, eine aktive und visuell ansprechende Präsenz in sozialen Medien aufrechtzuerhalten, das Engagement zu fördern und die Markenloyalität zu stärken."
+          }
+        ],
+        "price": "ab 1.500 Euro",
+        "volume": "/Monat"
+      },
+      {
+        "title": "Druckmaterialien",
+        "description": [
+          {
+            "paragraph_1": "Wir bieten umfassende Design-Dienstleistungen für alle Druckmaterialien Ihres Unternehmens. Ob Sie",
+            "paragraph_1_1": "Broschüren, Visitenkarten, Magazine oder andere Druckmaterialien",
+            "paragraph_1_2": "benötigen, unser Team ist darauf spezialisiert, hochwertige Designs zu liefern, die Ihre Markenidentität widerspiegeln.",
+            "paragraph_2": "Unsere Liebe zum Detail stellt sicher, dass jedes Stück, das wir erstellen, nicht nur visuell ansprechend, sondern auch effektiv in der Kommunikation Ihrer Botschaft ist."
+          }
+        ],
+        "price": "ab 300 Euro",
+        "volume": ""
+      },
+      {
+        "title": "Branding",
+        "description": [
+          {
+            "paragraph_1": "Unsere Branding-Dienste sind darauf ausgelegt, die",
+            "paragraph_1_1": "Identität Ihres Unternehmens zu etablieren und zu stärken.",
+            "paragraph_1_2": "Wir arbeiten eng mit Ihnen zusammen, um einzigartige Logos zu erstellen, eine harmonische Farbpalette auszuwählen, geeignete Schriftarten zu wählen und grafische Elemente zu entwickeln, die mit der Vision Ihrer Marke übereinstimmen.",
+            "paragraph_2": "Unser Ziel ist es, ein kohärentes und einprägsames Markenbild zu schaffen, das Ihre Zielgruppe anspricht und Sie von der Konkurrenz abhebt."
+          }
+        ],
+        "price": "ab 1.000 Euro",
+        "volume": ""
+      },
+      {
+        "title": "Werbung",
+        "description": [
+          {
+            "paragraph_1": "Wir sind auf die Erstellung auffälliger und effektiver Werbematerialien spezialisiert, um die Sichtbarkeit Ihrer Marke zu erhöhen. Vom Design",
+            "paragraph_1_1": "von Google Ads und Bannern für Ihre Website bis hin zur Entwicklung von Animationen, die Ihre Produkte präsentieren",
+            "paragraph_1_2": ", ist unser Team bestrebt, Werbeinhalte zu liefern, die Ergebnisse erzielen.",
+            "paragraph_2": "Wir legen Wert auf die Kombination von Ästhetik und Strategie, um sicherzustellen, dass Ihre Werbemaßnahmen wirkungsvoll sind und mit Ihren Geschäftszielen übereinstimmen."
+          }
+        ],
+        "price": "ab 300 Euro",
+        "volume": ""
+      },
+      {
+        "title": "Webdesign",
+        "description": [
+          {
+            "paragraph_1": "Wir bieten ein umfassendes Angebot an",
+            "paragraph_1_1": "Webdesign- und Entwicklungsdienstleistungen",
+            "paragraph_1_2": ", die auf die einzigartigen Bedürfnisse Ihres Unternehmens abgestimmt sind. Unser Ansatz zum Webdesign geht über die Erstellung einer visuell ansprechenden Website hinaus; wir konzentrieren uns auf die Benutzererfahrung, Funktionalität und stellen sicher, dass Ihre Website die Botschaft Ihrer Marke effektiv kommuniziert.",
+            "paragraph_2": "Von der ersten Konzeptentwicklung bis zum endgültigen Launch arbeiten wir eng mit Ihnen zusammen, um eine Website zu entwickeln, die nicht nur schön, sondern auch reaktionsschnell, benutzerfreundlich und für Suchmaschinen optimiert ist. Unser Ziel ist es, eine digitale Plattform zu schaffen, die Ihre Online-Präsenz stärkt, Besucher anspricht und Konversionen fördert."
+          }
+        ],
+        "price": "ab 3.000 Euro",
+        "volume": ""
+      }
+    ]
+  },
+  "blockCard": {
+    "build": {
+      "title": "Infrastrukturaufbau"
+    },
+    "virtual": {
+      "title": "Virtuelle Maschine"
+    },
+    "storage": {
+      "title": "Storage S3"
+    },
+    "support": {
+      "title": "IT-Support-Dienste"
+    },
+    "devops": {
+      "title": "DevOps- und CI/CD-Dienste"
+    },
+    "staff": {
+      "title": "IT-Personalvermietung"
+    },
+    "ai": {
+      "title": "KI-Implementierungs- und Schulungsdienste"
+    },
+    "design": {
+      "title": "Grafikdesign-Dienste"
+    }
   }
 }
