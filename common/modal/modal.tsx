@@ -6,13 +6,17 @@ import Close from "@/assest/icon/close";
 import clsx from "clsx";
 import {CSSProperties} from "react";
 import s from './modal.module.scss'
+import {useMobileContext} from "@/context/mobile.context";
 
 
 type Props = {
     openModal:boolean
     isModalOpen: (open:boolean) => void
+    isMobile?: boolean
 };
-export const Modal: React.FC<Props> = ({openModal,isModalOpen}) => {
+export const Modal: React.FC<Props> = ({openModal,isModalOpen,isMobile}) => {
+
+
 
     const classNames : CSSProperties = {
         container: clsx(openModal && s.modalContainer, openModal && s.activeContent)
@@ -23,9 +27,9 @@ export const Modal: React.FC<Props> = ({openModal,isModalOpen}) => {
     return (
         <div className={s.modal} onClick={()=>isModalOpen(false)}>
             <div className={classNames.container} onClick={(event)=>event.stopPropagation()}>
-                <button onClick={()=>isModalOpen(false)} className={s.iconButtonClose}>
+                {isMobile && <button onClick={() => isModalOpen(false)} className={s.iconButtonClose}>
                     <Close/>
-                </button>
+                </button>}
                 <Typography variant={'title'} className={s.modalTitle}>
                     {t('Get in Touch')}
                 </Typography>

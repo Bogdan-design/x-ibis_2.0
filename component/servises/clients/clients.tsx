@@ -10,6 +10,7 @@ import {useMobileContext} from "@/context/mobile.context";
 import 'swiper/css';
 import 'swiper/css/bundle';
 import s from './clients.module.scss'
+import Link from "next/link";
 
 
 export const Clients = () => {
@@ -32,19 +33,26 @@ export const Clients = () => {
                         navigation
                     >
                         <SwiperSlide>
-                            <Image src={'https://galeinvest.pl/wp-content/themes/newgale/images/logo.svg'}
-                                   style={{backgroundColor: 'none'}} alt={'gala-invest'} width={'163'}
-                                   height={'60'}/>
+                            <Link href='https://galeinvest.pl/'>
+                                <Image src={'https://galeinvest.pl/wp-content/themes/newgale/images/logo.svg'}
+                                       style={{backgroundColor: 'none'}} alt={'gala-invest'} width={'163'}
+                                       height={'60'}/>
+                            </Link>
+
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <Link href='https://tinesrail.com/'>
+                                <img src='/icons/tines.png'
+                                     width={'192'} height={'36'} alt={'tines'}/>
+                            </Link>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src='/icons/tines.png'
-                                 width={'192'} height={'36'} alt={'tines'}/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <Nodral/>
+                            <Link href={'https://nodral.com/pl/'}>
+                                <Nodral/>
+                            </Link>
                         </SwiperSlide>
                     </Swiper>
-
 
                     :
 
@@ -52,13 +60,18 @@ export const Clients = () => {
                         <div className={s.description}>
                             <p style={monumentExtended.style} className={s.quantity}>{t('have been')}</p>
                         </div>
-                        <Image src={'https://galeinvest.pl/wp-content/themes/newgale/images/logo.svg'}
-                               style={{backgroundColor: 'none'}} alt={'gala-invest'} width={'163'}
-                               height={'60'}/>
-                        <img src='/icons/tines.png'
-                             width={'192'} height={'36'} alt={'tines'}/>
-                        <Nodral/>
-
+                        <Link href='https://galeinvest.pl/'>
+                            <Image src={'https://galeinvest.pl/wp-content/themes/newgale/images/logo.svg'}
+                                   style={{backgroundColor: 'none'}} alt={'gala-invest'} width={'163'}
+                                   height={'60'}/>
+                        </Link>
+                        <Link href={'https://tinesrail.com/'}>
+                            <img src='/icons/tines.png'
+                                 width={'192'} height={'36'} alt={'tines'}/>
+                        </Link>
+                        <Link href={'https://nodral.com/pl/'}>
+                            <Nodral/>
+                        </Link>
                     </>
                 }
             </div>
