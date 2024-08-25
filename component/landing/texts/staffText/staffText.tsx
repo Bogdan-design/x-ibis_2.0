@@ -1,7 +1,7 @@
 import React from 'react';
-import s from './staffText.module.scss'
 import {Typography} from "@/component/ui/typography/typography";
 import {useTranslation} from "next-i18next";
+import s from './staffText.module.scss'
 
 export const StaffText = () => {
     const {t}= useTranslation();

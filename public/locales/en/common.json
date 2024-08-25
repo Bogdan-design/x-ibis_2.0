@@ -531,7 +531,7 @@
     "pageText": "We help development teams implement advanced DevOps practices and tools. We conduct an audit of existing approaches, technological processes, development tools, testing, deployment, and infrastructure management. We identify shortcomings and suggest ways to eliminate them. We will set up a simple, convenient, and effective system from scratch.",
     "options": [
       {
-        "title": "Cloud Technologies",
+        "title": "DevOps and CI/CD",
         "description": [
           {
             "title": "Process Audit and Optimization:",

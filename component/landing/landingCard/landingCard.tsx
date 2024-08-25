@@ -32,8 +32,8 @@ export const LandingCard = ({
         setSubject(t(`${pages}.pageTitle`) + ' ' + title)
     }
 
-    const style: CSSProperties = pages === 'devops' ?
-        {width: '870px'} : pages === 'ai' ?
+    const style: CSSProperties = pages === 'devops' && !isMobile ?
+        {width: '870px'} : pages === 'ai' && !isMobile ?
             {width: '592px'} : pages === 'design' ?
                 {width: ''} : {width: '300px'}
 

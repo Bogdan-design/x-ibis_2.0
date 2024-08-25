@@ -6,3 +6,9 @@
   line-height: 120%;
   color: #555555;
 }
+
+@media screen and (max-width: 768px) {
+  .devopsText {
+    padding: 0 31px;
+  }
+}

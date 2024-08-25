@@ -1,10 +1,11 @@
 import React from 'react';
 import {useTranslation} from "next-i18next";
+import s from './designText.module.scss'
 
 export const SocialMedia = () => {
     const {t} = useTranslation()
     return (
-        <div>
+        <div className={s.designText}>
             <ul>
                 <li>{t('design.options.0.description.0.paragraph_1')}
                     <span
@@ -22,7 +23,7 @@ export const SocialMedia = () => {
 export const PrintMaterials = () => {
     const {t} = useTranslation()
     return (
-        <div>
+        <div className={s.designText}>
             <ul>
                 <li>{t('design.options.1.description.0.paragraph_1')}
                     <span
@@ -41,7 +42,7 @@ export const PrintMaterials = () => {
 export const Branding = () => {
     const {t} = useTranslation()
     return (
-        <div>
+        <div className={s.designText}>
             <ul>
                 <li>{t('design.options.2.description.0.paragraph_1')}
                     <span
@@ -62,7 +63,7 @@ export const Branding = () => {
 export const ADS = () => {
     const {t} = useTranslation()
     return (
-        <div>
+        <div className={s.designText}>
             <ul>
                 <li>{t('design.options.3.description.0.paragraph_1')}<span style={{textDecoration: 'underline'}}>
                     {t('design.options.3.description.0.paragraph_1_1')}
@@ -81,7 +82,7 @@ export const ADS = () => {
 export const WebDesign = () => {
     const {t} = useTranslation()
     return (
-        <div>
+        <div className={s.designText}>
             <ul>
                 <li>{t('design.options.3.description.0.paragraph_1')} <span style={{textDecoration: 'underline'}}>
                     {t('design.options.3.description.0.paragraph_1_1')}

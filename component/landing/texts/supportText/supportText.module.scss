@@ -6,3 +6,10 @@
   font-size: 18px;
   gap: 20px
 }
+
+@media screen and (max-width: 768px){
+  .supportsText{
+    padding: 0 31px 54px 31px;
+  }
+}
+

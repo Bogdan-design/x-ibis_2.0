@@ -72,7 +72,13 @@ function Page({params: {pages}}: { params: { pages: (typeof landingPageDateOptio
         dataIndex === 2 ? {justifyContent: 'center'} :
             dataIndex === 4 ? {justifyContent: 'center'} :
                 dataIndex === 6 ? {justifyContent: 'center'} :
-                    dataIndex === 7 ? {
+                    dataIndex === 7 && isMobile ? {
+                        flexDirection: 'column',
+                        justifyContent: 'center',
+                        gap: '25px',
+                        padding:'0 31px 56px 31px'
+                    } :
+                        dataIndex === 7 && !isMobile ? {
                         flexDirection: 'column',
                         justifyContent: 'center',
                         gap: '54px',
@@ -93,16 +99,9 @@ function Page({params: {pages}}: { params: { pages: (typeof landingPageDateOptio
             <Typography style={stylePageDescription} variant={'title'} className={s.description}>
                 {t(`${pages}.pageDescription`)}
             </Typography>
-            {dataIndex === 4 && <Typography variant={'text'}>{t(`${pages}.pageText`)}</Typography>}
-            {!isMobile ?
-                <div style={styleForPages}
-                     className={s.landingPageCardsContainer}>
-                    {...landingPagesData[dataIndex].options.map((o, i) => (
-                        <React.Fragment key={i}>
-                            <LandingCard index={i} t={t} pages={pages} isModalOpen={isModalOpen} {...o}/>
-                        </React.Fragment>
-                    ))}
-                </div> :
+            {dataIndex === 4 && <Typography style={isMobile ? {padding:'0 31px'} : {}} variant={'text'}>{t(`${pages}.pageText`)}</Typography>}
+            {isMobile && dataIndex !== 7  ?
+
                 <Swiper className={s.landingPageCardsContainer}
                         modules={[Pagination]}
                         pagination={true}
@@ -116,7 +115,17 @@ function Page({params: {pages}}: { params: { pages: (typeof landingPageDateOptio
                         ))}
                     </div>
 
-                </Swiper>}
+                </Swiper>
+                :
+                <div style={styleForPages}
+                     className={s.landingPageCardsContainer}>
+                    {...landingPagesData[dataIndex].options.map((o, i) => (
+                        <React.Fragment key={i}>
+                            <LandingCard index={i} t={t} pages={pages} isModalOpen={isModalOpen} {...o}/>
+                        </React.Fragment>
+                    ))}
+                </div>
+            }
 
             {dataIndex === 3 && <SupportText/>}
             {dataIndex === 4 && <DevopsText/>}

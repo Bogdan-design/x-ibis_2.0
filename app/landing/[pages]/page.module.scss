@@ -15,8 +15,6 @@
     gap: 60px;
 
 
-
-
     .titleContainer {
       @include titleContainer();
     }
@@ -40,16 +38,21 @@
 }
 
 
-
-@media screen and (max-width: 768px)
-{
+@media screen and (max-width: 768px) {
   .landingPage .landingPageContainer {
-      padding: 0 0 50px 31px;
-
-
-      .description {
-        font-size: 17px;
-      }
+    padding: 0;
+    gap: 0;
+    .titleContainer{
+      padding: 0 31px;
     }
+    .description{
+      padding: 20px 31px;
+      font-size: 17px;
+    }
+    .landingPageCardsContainer {
+      padding: 0 0 0 31px;
+    }
+
+  }
 
 }

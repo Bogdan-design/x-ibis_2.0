@@ -9,7 +9,7 @@
   color: #555555;
 
   border: 3px solid #C4C4C4;
-  padding: 38px 0;
+  padding: 38px 10px;
 
 
 
@@ -59,9 +59,10 @@
 
 @media screen and (max-width: 768px) {
   .landingCard{
+    text-align: center;
     min-width: 320px;
     width: 100%;
     gap: 20px;
   }
-
 }
+
