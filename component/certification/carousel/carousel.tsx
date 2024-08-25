@@ -37,8 +37,8 @@ const Carousel: React.FC<CarouselProps> = ({images}) => {
             ))}
             <SwiperSlide style={{display:'flex',alignItems:'center'}}>
                 <img
-                    width={isMobile ? 69 : 165}
-                    height={isMobile ? 45 : 77}
+                    width={isMobile ? 69 : 172}
+                    height={isMobile ? 45 : 60}
                     src='/icons/apple.png'
                 />
             </SwiperSlide>
