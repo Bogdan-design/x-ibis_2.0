@@ -422,7 +422,7 @@ export const landingPagesData = [
         options:
             [
                 {
-                    title: 'DevOps and CI/CD',
+                    title: '',
                     description: createElement(AiTextCard),
                     price:'from 2,500 Euros',
                     volume:''
