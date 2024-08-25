@@ -15,8 +15,8 @@ import {Modal} from "@/common/modal/modal";
 import {useMobileContext} from "@/context/mobile.context";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Pagination} from "swiper/modules";
-import 'swiper/css/bundle';
 import s from "./page.module.scss";
+import 'swiper/css/bundle';
 
 
 function Page({params: {pages}}: { params: { pages: (typeof landingPageDateOptions)[number]['page'] } }) {
@@ -111,10 +111,11 @@ function Page({params: {pages}}: { params: { pages: (typeof landingPageDateOptio
                     <div style={styleForPages}>
                         {...landingPagesData[dataIndex].options.map((o, i) => (
                             <SwiperSlide key={i}>
-                                <LandingCard index={i} t={t} pages={pages} isModalOpen={isModalOpen} {...o}/>
+                                <LandingCard isMobile index={i} t={t} pages={pages} isModalOpen={isModalOpen} {...o}/>
                             </SwiperSlide>
                         ))}
                     </div>
+
                 </Swiper>}
 
             {dataIndex === 3 && <SupportText/>}

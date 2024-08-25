@@ -11,8 +11,11 @@
     max-width: 1440px;
     width: 100%;
     padding: 0 174px 80px 174px;
-    --swiper-theme-color:#E75934;
+
     gap: 60px;
+
+
+
 
     .titleContainer {
       @include titleContainer();
@@ -29,15 +32,20 @@
       display: flex;
       align-items: start;
       width: 100%;
+      height: 120%;
+
     }
 
   }
 }
 
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 768px)
+{
   .landingPage .landingPageContainer {
-      padding: 0 0 100px 31px;
+      padding: 0 0 50px 31px;
+
 
       .description {
         font-size: 17px;

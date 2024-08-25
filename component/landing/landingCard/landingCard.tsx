@@ -6,6 +6,7 @@ import {useSubjectStore} from "@/store/subject";
 import s from './landingCards.module.scss'
 
 type LandingCardsOptionsProps = (typeof landingPagesData)[number]['options'][number] & {
+    isMobile?: boolean
     pages: string
     index: number
     t: (text: string) => string
@@ -19,7 +20,8 @@ export const LandingCard = ({
                                 volume,
                                 t,
                                 pages,
-                                isModalOpen
+                                isModalOpen,
+                                isMobile
                             }: LandingCardsOptionsProps) => {
 
     const setSubject = useSubjectStore(state => state.setSubject)
@@ -37,19 +39,24 @@ export const LandingCard = ({
 
 
     return (
-        <div className={s.landingCard}>
-            {title && <Typography className={s.landingCardTitle} variant={'title'}>
-                {t(`${pages}.options.${index}.title`)}
-            </Typography>}
-            <div style={style} className={s.landingCardDescription}>{description}</div>
+        <div>
+            <div className={s.landingCard}>
+                {title && <Typography className={s.landingCardTitle} variant={'title'}>
+                    {t(`${pages}.options.${index}.title`)}
+                </Typography>}
+                <div style={style} className={s.landingCardDescription}>{description}</div>
 
-            {price && <Typography variant={'title'}
-                                  className={s.landingCardPrice}>{t(`${pages}.options.${index}.price`)}</Typography>}
-            {volume && <Typography variant={'text'}
-                                   className={s.landingCardVolume}>{t(`${pages}.options.${index}.volume`)}</Typography>}
-            <div>
-                <Button className={s.LandingButton} onClick={onClickHandler}>{t('Offer')}</Button>
+                {price && <Typography variant={'title'}
+                                      className={s.landingCardPrice}>{t(`${pages}.options.${index}.price`)}</Typography>}
+                {volume && <Typography variant={'text'}
+                                       className={s.landingCardVolume}>{t(`${pages}.options.${index}.volume`)}</Typography>}
+                <div>
+                    <Button className={s.LandingButton} onClick={onClickHandler}>{t('Offer')}</Button>
+                </div>
+
             </div>
+            {isMobile && <div style={{height: '51px', width: '100%'}}></div>}
         </div>
+
     );
 };
