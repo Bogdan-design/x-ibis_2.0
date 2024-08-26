@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="links on main page">
+    <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="refactor">
+      <change afterPath="$PROJECT_DIR$/store/local.store.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/servises/clients/clients.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/servises/clients/clients.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/landing/[pages]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/[pages]/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/landing/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/local/I18nProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/common/local/I18nProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/local/i18n.ts" beforeDir="false" afterPath="$PROJECT_DIR$/common/local/i18n.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/home/homePage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/home/homePage.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/home/homePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/home/homePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/menu/menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/menu/menu.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,15 +373,8 @@
       <workItem from="1724579512009" duration="8191000" />
       <workItem from="1724595155622" duration="2337000" />
       <workItem from="1724597868165" duration="1154000" />
-      <workItem from="1724612927784" duration="1888000" />
-    </task>
-    <task id="LOCAL-00129" summary="mobile services">
-      <option name="closed" value="true" />
-      <created>1713043893518</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1713043893518</updated>
+      <workItem from="1724612927784" duration="5493000" />
+      <workItem from="1724654229804" duration="7693000" />
     </task>
     <task id="LOCAL-00130" summary="mobile services">
       <option name="closed" value="true" />
@@ -760,7 +760,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724613155863</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1724615325268</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1724615325269</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -796,7 +804,6 @@
     <MESSAGE value="BuildText component" />
     <MESSAGE value="finished" />
     <MESSAGE value="add to header link offer" />
-    <MESSAGE value="refactor" />
     <MESSAGE value="new content page build" />
     <MESSAGE value="design page" />
     <MESSAGE value="modal form" />
@@ -804,7 +811,8 @@
     <MESSAGE value="mobile swiper page" />
     <MESSAGE value="mobile design page" />
     <MESSAGE value="links on main page" />
-    <option name="LAST_COMMIT_MESSAGE" value="links on main page" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

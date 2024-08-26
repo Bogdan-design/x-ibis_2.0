@@ -24,18 +24,17 @@
       z-index: 1;
 
 
-      h1 {
-        margin: 0;
-        max-width: 529px;
-        width: 100%;
-        color: #333;
-        font-size: 35px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 120%;
-        text-transform: uppercase;
+
+
+
+      .titlePl{
+        h2 {
+          font-size: 33px;
+        }
       }
+
     }
+
   }
 
   .image {
@@ -45,6 +44,28 @@
   }
 
 }
+
+.title {
+  margin: 0;
+  max-width: 529px;
+  width: 100%;
+  color: #333;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+
+}
+
+.titlePl{
+    font-size: 33px;
+  }
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
   .homePage {

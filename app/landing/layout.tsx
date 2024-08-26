@@ -6,11 +6,11 @@ import {Certification} from "@/component/certification/certification";
 import {Contact} from "@/component/contact/contact";
 
 export default function LandingLayout({
-                                        children,
-                                    }: {
+                                          children,
+                                      }: {
     children: React.ReactNode
 }) {
-    return <section >
+    return <section>
         <HeaderPage/>
         {children}
         <About/>

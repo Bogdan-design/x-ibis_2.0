@@ -24,7 +24,7 @@ const resources :{[key:string]:{translation: typeof en | typeof de | typeof pl}}
 i18n
     .use(HttpApi)
     .use(initReactI18next)
-    .use(LanguageDetector)
+    // .use(LanguageDetector)
     .init({
         resources,
         fallbackLng:Constants.EN,

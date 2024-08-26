@@ -3,12 +3,14 @@ import {useCallback, useState} from 'react';
 import Global from "@/assest/icon/global";
 import i18next from "i18next";
 import {Constants} from "@/common/local/constants";
+import {useLocalStore} from "@/store/local.store";
 import s from './menu.module.scss'
 
 export const Menu = () => {
     const [isOpen, setIsOpen] = useState(false);
-    const [local,setLocal]=useState<string>(Constants.EN);
-
+    // const [local,setLocal]=useState<string>(Constants.EN);
+const local = useLocalStore(state => state.local);
+const setLocal = useLocalStore(state => state.setLocal);
 
     const toggleDropdown = () => {
         setIsOpen(!isOpen);
@@ -24,7 +26,7 @@ export const Menu = () => {
         } catch (error) {
             console.error("Error changing language:", error);
         }
-    },[local])
+    },[local,isOpen])
 
 
     return (
