@@ -17,8 +17,9 @@ export const HomePage = () => {
 
 
     const {isMobile} = useMobileContext()
-
+debugger
     const classNames = {
+
         title: clsx(s.title,local === Constants.PL ? s.titlePl : '')
     }
 
