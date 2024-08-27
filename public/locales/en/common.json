@@ -8,7 +8,6 @@
   "Back to Services": "Back to Services",
   "have been": "OUR CLIENTS:",
   "What we do": "What we do",
-  "Offers": "Offers",
   "We specialize": "Our mission",
   "Our mission": "Our mission to develop and uphold cutting-edge tech solutions, ensuring reliability, efficiency, and protection.",
   "experienced": "Our mission is to be a reliable partner, providing high quality IT services and products, contributing to business growth and ensuring our clients' competitive advantage in the world of digital technologies.",
@@ -41,6 +40,7 @@
         "title": "Regulatory Compliance",
         "description": "Ensure that the company is compliant with relevant industry regulations and data security standards (e.g. GDPR, HIPAA) depending on the business area."
       },
+
       {
         "title": "Backup and Recovery",
         "description": "Evaluate data backup strategies and recovery plans to ensure systems can be recovered in the event of failures."
@@ -755,5 +755,8 @@
     "design": {
       "title": "Graphic Design Services"
     }
-  }
+  },
+  "Offers": "Offers",
+  "less": "Less...",
+  "show": "Show more..."
 }

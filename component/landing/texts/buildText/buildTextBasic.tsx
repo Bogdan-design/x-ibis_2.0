@@ -89,7 +89,7 @@ export const BuildTextBasic = () => {
                     <li>{t('build.options.0.description.8.option_2')}</li>
                 </ul>
             </>}
-            <ButtonShowMore show={show}/>
+            <ButtonShowMore t={t} show={show}/>
         </div>
 
     );
@@ -174,7 +174,7 @@ export const BuildTextAdvanced = () => {
                     <li>{t('build.options.1.description.8.option_2')}</li>
                 </ul>
             </>}
-            <ButtonShowMore show={show}/>
+            <ButtonShowMore t={t} show={show}/>
         </div>
 
     );
@@ -256,7 +256,7 @@ export const BuildTextProfessional = () => {
 
             </>
             }
-            <ButtonShowMore show={show}/>
+            <ButtonShowMore t={t} show={show}/>
         </div>
 
     );

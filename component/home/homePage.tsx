@@ -12,15 +12,14 @@ import clsx from "clsx";
 import s from './homePage.module.scss'
 
 export const HomePage = () => {
-    const {t} = useTranslation()
-    const local = useLocalStore(state => state.local)
-
+    const {t,i18n} = useTranslation()
 
     const {isMobile} = useMobileContext()
-debugger
+
     const classNames = {
 
-        title: clsx(s.title,local === Constants.PL ? s.titlePl : '')
+        title: clsx(s.title,i18n.language
+            === Constants.PL && s.titlePl)
     }
 
 
@@ -28,7 +27,12 @@ debugger
         <section id='home' className={s.homePage}>
             <div className={s.container}>
                 <div className={s.description}>
-                    <Typography variant={'title'} className={classNames.title}>{t('Home page title')}</Typography>
+                    <Typography
+                        variant={'title'}
+                        className={classNames.title}
+                    >
+                        {t('Home page title')}
+                    </Typography>
                     {!isMobile &&
                         <Button as={'a'} variant={'link'} href={'/#contact'}>
                             {t('Home page button')}

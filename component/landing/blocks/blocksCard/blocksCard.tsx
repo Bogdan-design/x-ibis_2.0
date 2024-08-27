@@ -9,6 +9,8 @@ type landingPageDateOptions = (typeof landingPageDateOptions)[number]
 
 export const BlocksCard = ({icon,page}: landingPageDateOptions) => {
     const {t} = useTranslation();
+
+
     return (
         <div className={s.blockCard}>
             <Typography className={s.blockTitle} variant={'title'}>{t(`blockCard.${page}.title`)}</Typography>

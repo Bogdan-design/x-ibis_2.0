@@ -5,8 +5,6 @@ import de from '@/public/locales/de/common.json'
 import pl from '@/public/locales/pl/common.json'
 import {Constants} from "@/common/local/constants";
 import HttpApi from 'i18next-http-backend';
-import LanguageDetector from 'i18next-browser-languagedetector';
-
 
 const resources :{[key:string]:{translation: typeof en | typeof de | typeof pl}} =  {
     [Constants.EN]: {

@@ -6,9 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="font size on Home page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/local/I18nProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/common/local/I18nProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/local/i18n.ts" beforeDir="false" afterPath="$PROJECT_DIR$/common/local/i18n.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/modal/modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/common/modal/modal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/certification/carousel/carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/certification/carousel/carousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/home/homePage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/home/homePage.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/component/home/homePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/home/homePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/blocks/blocksCard/blocksCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/blocks/blocksCard/blocksCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/landingCard/landingCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/landingCard/landingCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/texts/buildText/buildTextBasic.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/texts/buildText/buildTextBasic.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/texts/buildText/buttonShowMore/buttonShowMore.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/texts/buildText/buttonShowMore/buttonShowMore.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ui/typography/typography.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/component/ui/typography/typography.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/locales/de/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/de/common.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/common.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/locales/pl/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/pl/common.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -371,15 +382,8 @@
       <workItem from="1724597868165" duration="1154000" />
       <workItem from="1724612927784" duration="5493000" />
       <workItem from="1724654229804" duration="8641000" />
-      <workItem from="1724703373087" duration="1741000" />
-    </task>
-    <task id="LOCAL-00131" summary="mobile services">
-      <option name="closed" value="true" />
-      <created>1713217067773</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1713217067774</updated>
+      <workItem from="1724703373087" duration="4896000" />
+      <workItem from="1724741235671" duration="13726000" />
     </task>
     <task id="LOCAL-00132" summary="mobile services">
       <option name="closed" value="true" />
@@ -765,7 +769,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724663007191</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <task id="LOCAL-00180" summary="font size on Home page">
+      <option name="closed" value="true" />
+      <created>1724705242861</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1724705242862</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

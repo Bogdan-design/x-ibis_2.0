@@ -29,7 +29,7 @@ const Carousel: React.FC<CarouselProps> = ({images}) => {
             {images.map((image, index) => (
                 <SwiperSlide key={index} className={s.carouselCell}>
                     <img
-                        width={isMobile ? 69 : 122}
+                        width={isMobile ? 69 : 138}
                         height={isMobile ? 77 : 138}
                         src={image.src} alt={image.alt}
                     />

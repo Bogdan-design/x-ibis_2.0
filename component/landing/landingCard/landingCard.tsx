@@ -51,7 +51,7 @@ export const LandingCard = ({
                 {volume && <Typography variant={'text'}
                                        className={s.landingCardVolume}>{t(`${pages}.options.${index}.volume`)}</Typography>}
                 <div>
-                    <Button className={s.LandingButton} onClick={onClickHandler}>{t('Offer')}</Button>
+                    <Button className={s.LandingButton} onClick={onClickHandler}>{t('buttonBlock')}</Button>
                 </div>
 
             </div>

@@ -31,7 +31,7 @@ export const Modal: React.FC<Props> = ({openModal,isModalOpen,isMobile}) => {
                     <Close/>
                 </button>}
                 <Typography variant={'title'} className={s.modalTitle}>
-                    {t('Get in Touch')}
+                    {t('Home page button')}
                 </Typography>
                 <div className={s.modalForm}>
                     <Form isModalOpen={isModalOpen} modal/>

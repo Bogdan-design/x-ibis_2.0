@@ -15,9 +15,10 @@ export const metadata: Metadata = {
 }
 
 
+
 export default function RootLayout({children}: { children: ReactNode }) {
     return (
-        <html lang={Constants.EN}>
+        <html lang={Constants.PL}>
         <body className={`${BDO_Grotesk.className}`}>
         <I18nProvider>
             <MobileContextProvider>
