@@ -11,14 +11,16 @@ type PropsType = {
     link: string
     title: string
     text: string
-    className?: string
     children: ReactNode
+    className?: string
+    pl?: boolean
 }
 
-export const WeDo = ({link, title, text, children, right, className}: PropsType) => {
+export const WeDo = ({link, title, text, children, right, className,pl}: PropsType) => {
 
     const classNames = {
-        root: clsx(s.weDoTitleBg, className)
+        root: clsx(s.weDoTitleBg, className),
+        weDoText:clsx(s.weDoText,pl && s.pl)
     }
 
     return (
@@ -31,7 +33,7 @@ export const WeDo = ({link, title, text, children, right, className}: PropsType)
                         {title}
                     </div>
                     <div style={{paddingLeft: '46px'}}>
-                        <Typography className={s.weDoText} variant='text'>
+                        <Typography className={classNames.weDoText} variant='text'>
                             {text}
                         </Typography>
                     </div>

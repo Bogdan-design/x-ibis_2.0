@@ -44,7 +44,7 @@ export const Clients = () => {
                         <SwiperSlide>
                             <Link href='https://tinesrail.com/'>
                                 <img src='/icons/tines.png'
-                                     width={'203'} height={'58'} alt={'tines'}/>
+                                     width={'183'} height={'52'} alt={'tines'}/>
                             </Link>
                         </SwiperSlide>
                         <SwiperSlide>

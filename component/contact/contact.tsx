@@ -8,21 +8,30 @@ import {useTranslation} from "next-i18next";
 import {Footer} from "@/component/footer/footer";
 import {useMobileContext} from "@/context/mobile.context";
 import {Form} from "@/component/contact/form/form";
+import clsx from "clsx";
 import s from './contact.module.scss'
 
 export const Contact = () => {
 
 
-    const {t} = useTranslation()
+    const {t, i18n} = useTranslation()
 
-    const {isMobile}= useMobileContext()
+    const {isMobile} = useMobileContext()
+
+    const pl = i18n.language === 'pl'
+
+    // debugger
+
+    const classNames = {
+        title: clsx(s.title, pl ? s.pl : {})
+    }
 
     return (
         <section>
             <div id={'contact'} className={s.contact}>
                 <div className={s.container}>
                     <div className={s.text}>
-                        <Typography className={s.title}>
+                        <Typography className={classNames.title}>
                             {t('Home page button')}
                         </Typography>
                         <Typography className={s.description} variant={'text'}>
@@ -30,14 +39,17 @@ export const Contact = () => {
                         </Typography>
                         <div className={s.ourContact}>
                             <div>
-                                <Sms/><a style={{fontSize: isMobile ? '16px' : '25px', fontWeight: '500'}} href={'mailto:info@x-ibis.com'}>info@x-ibis.com</a>
+                                <Sms/><a style={{fontSize: isMobile ? '16px' : '25px', fontWeight: '500'}}
+                                         href={'mailto:info@x-ibis.com'}>info@x-ibis.com</a>
                             </div>
                             <div>
-                                <Call/><Typography style={{fontSize: isMobile ? '16px' : '25px', fontWeight: '500'}} variant={'text'}>+48
+                                <Call/><Typography style={{fontSize: isMobile ? '16px' : '25px', fontWeight: '500'}}
+                                                   variant={'text'}>+48
                                 694 670 955</Typography>
                             </div>
                             <div>
-                                <Location/><Typography style={{fontSize: isMobile ? '16px' : '25px', fontWeight: '500'}} variant={'text'}>Warsaw,
+                                <Location/><Typography style={{fontSize: isMobile ? '16px' : '25px', fontWeight: '500'}}
+                                                       variant={'text'}>Warsaw,
                                 Poland</Typography>
                             </div>
                         </div>
@@ -45,14 +57,15 @@ export const Contact = () => {
                     <Form/>
                     <div className={s.frame}>
                         <div style={{
-                            zIndex:0,
+                            zIndex: 0,
                             width: "249px",
                             height: "235px",
                             display: 'flex',
                             justifyContent: 'center',
                             alignItems: 'center'
                         }}>
-                            <video width={isMobile ? '243x' : "530px"} height={isMobile ? '243x' : "520px"} playsInline autoPlay loop muted
+                            <video width={isMobile ? '243x' : "530px"} height={isMobile ? '243x' : "520px"} playsInline
+                                   autoPlay loop muted
                                    style={{maxWidth: '240%', maxHeight: '240%'}}>
                                 <source src="/video/contact.mp4" type="video/mp4"/>
                                 Your browser does not support the video tag.

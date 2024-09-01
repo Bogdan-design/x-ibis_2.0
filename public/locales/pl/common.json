@@ -8,7 +8,7 @@
   "Back to Services": "Powrót do usług",
   "have been": "NASI KLIENCI",
   "What we do": "Co robimy",
-  "We specialize": "Nasza misja",
+  "We specialize": "Misja",
   "Our mission": "Nasza misja to rozwijanie i utrzymywanie nowoczesnych rozwiązań technologicznych, zapewniających niezawodność, efektywność i ochronę.",
   "experienced": "Naszą misją jest bycie niezawodnym partnerem, dostarczającym wysokiej jakości usługi i produkty informatyczne, przyczyniającym się do rozwoju biznesu i zapewniającym naszym klientom przewagę konkurencyjną w świecie technologii cyfrowych.",
   "collaborate": "Ścisła współpraca z naszymi klientami, tworzenie spersonalizowanych rozwiązań idealnie dopasowanych do ich celów i potrzeb.",
@@ -99,7 +99,7 @@
     ]
   },
   "ensuring": {
-    "title": "Zapewnienie niezawodności infrastruktury",
+    "title": "Infrastruktura",
     "description": "Nasza profesjonalna administracja IT utrzymuje Twoje technologie w doskonałym stanie.",
     "pageTitle": "Zabezpieczenie niezawodności infrastruktury",
     "pageDescription": "Nasza specjalizacja polega na tworzeniu niezawodnej infrastruktury IT dla efektywnych operacji.",
@@ -143,7 +143,7 @@
     ]
   },
   "administration": {
-    "title": "Administracja IT",
+    "title": "Wsparcie",
     "description": "Specjalizujemy się w rozwiązaniach biznesowych nowej generacji, optymalizujemy efektywność.",
     "pageTitle": "Administracja IT",
     "pageDescription": "Nasza profesjonalna administracja IT zapewnia płynne działanie Twojej technologii.",

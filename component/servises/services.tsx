@@ -12,13 +12,18 @@ import {useMobileContext} from "@/context/mobile.context";
 import s from './services.module.scss'
 
 export const Services = () => {
-    const {t} = useTranslation()
+    const {t, i18n} = useTranslation()
 
     const {isMobile} = useMobileContext()
+
+    const pl = i18n.language === 'pl'
 
     const classNames = {
         right: clsx(s.weDoTitleBg, s.right),
         left: clsx(s.weDoTitleBg, s.left),
+        text: clsx(s.text, pl && s.pl),
+        innovateSolution: clsx(s.weDoTitle, pl && s.plTitle)
+
     }
 
     return (
@@ -33,6 +38,7 @@ export const Services = () => {
                             {t('What we do')}
                         </div>
                         <WeDo
+                            pl={pl}
                             link={'audit'}
                             title={t('audit.title')}
                             text={t('audit.description')}
@@ -40,6 +46,7 @@ export const Services = () => {
                             <Animation src="/video/doc.mp4"/>
                         </WeDo>
                         <WeDo
+                            pl={pl}
                             link='security'
                             right
                             className={s.security}
@@ -56,7 +63,7 @@ export const Services = () => {
                                     {t('ensuring.title')}
                                 </div>
                                 <div className={s.weDoContent}>
-                                    <Typography className={s.text} variant='text'>{t('ensuring.description')}
+                                    <Typography className={classNames.text} variant='text'>{t('ensuring.description')}
                                     </Typography>
                                     <Animation src="/video/server.mp4"/>
                                 </div>
@@ -79,7 +86,7 @@ export const Services = () => {
                                     {t('administration.title')}
                                 </div>
                                 <div style={{paddingLeft: '46px'}}>
-                                    <Typography className={s.text} variant='text'>{t('administration.description')}
+                                    <Typography className={classNames.text} variant='text'>{t('administration.description')}
                                     </Typography>
                                 </div>
                             </div>
@@ -87,13 +94,13 @@ export const Services = () => {
                         <Link href={'solution'} style={{textDecoration: 'none', color: 'inherit'}}>
                             <div className={s.weDo}>
                                 <div style={{alignItems: 'start'}} className={s.weDoContainer}>
-                                    <div style={monumentExtended.style} className={s.weDoTitle}>
+                                    <div style={monumentExtended.style} className={classNames.innovateSolution}>
                                         <span className={classNames.left}></span>
                                         {t('solution.title')}
                                     </div>
                                     <div style={{paddingLeft: '46px', width: '80%', justifyContent: 'space-between'}}
                                          className={s.weDoContent}>
-                                        <Typography className={s.text} variant='text'>{t('solution.description')}
+                                        <Typography className={classNames.text} variant='text'>{t('solution.description')}
                                         </Typography>
                                         <Animation width={'530px'} height={'520px'} src="/video/screen.mp4"/>
                                     </div>
