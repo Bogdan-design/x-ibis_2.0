@@ -44,7 +44,7 @@ export const Clients = () => {
                         <SwiperSlide>
                             <Link href='https://tinesrail.com/'>
                                 <img src='/icons/tines.png'
-                                     width={'183'} height={'52'} alt={'tines'}/>
+                                     width={'153'} height={'45'} alt={'tines'}/>
                             </Link>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -67,7 +67,7 @@ export const Clients = () => {
                         </Link>
                         <Link href={'https://tinesrail.com/'}>
                             <img src='/icons/tines.png'
-                                 width={'203'} height={'58'} alt={'tines'}/>
+                                 width={'153'} height={'45'} alt={'tines'}/>
                         </Link>
                         <Link href={'https://nodral.com/pl/'}>
                             <Nodral/>
