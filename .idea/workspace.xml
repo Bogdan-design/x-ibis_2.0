@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9d947795-6c7e-49cc-afe0-15c3d0671f05" name="Changes" comment="refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/contact/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/contact/contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/home/homePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/home/homePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/landing/landingHeager/landingHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/landing/landingHeager/landingHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/de/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/de/common.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/pl/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/pl/common.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,14 +377,9 @@
       <workItem from="1724791730125" duration="57000" />
       <workItem from="1725202109723" duration="5509000" />
       <workItem from="1725207878886" duration="96000" />
-    </task>
-    <task id="LOCAL-00134" summary="mobile services">
-      <option name="closed" value="true" />
-      <created>1713822487494</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1713822487495</updated>
+      <workItem from="1725248537807" duration="9362000" />
+      <workItem from="1725268697910" duration="6394000" />
+      <workItem from="1725367978848" duration="612000" />
     </task>
     <task id="LOCAL-00135" summary="mobile services">
       <option name="closed" value="true" />
@@ -765,7 +765,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725207927887</updated>
     </task>
-    <option name="localTasksCounter" value="183" />
+    <task id="LOCAL-00183" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1725248699920</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1725248699920</updated>
+    </task>
+    <option name="localTasksCounter" value="184" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

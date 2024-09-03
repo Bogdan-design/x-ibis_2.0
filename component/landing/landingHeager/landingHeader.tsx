@@ -28,7 +28,7 @@ export const LandingHeader = () => {
                             {t('Home page button')}
                         </Button>}
                 </div>
-                <Image src={landingImage} width={'279'} height={'252'} alt={'landingImage'}/>
+                <img src={'/icons/homePageLanding.png'} width={'279'} height={'252'} alt={'landingImage'}/>
                 {isMobile && <div style={{zIndex: '1'}}>
 
                     <Button as={'a'}

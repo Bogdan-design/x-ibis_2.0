@@ -3,10 +3,8 @@ import React from 'react';
 import {Button} from "@/component/ui/button";
 import '@/common/local/i18n'
 import {useTranslation} from "next-i18next";
-import {monumentExtended} from "@/fonts/fonts";
 import {Typography} from "@/component/ui/typography/typography";
 import {useMobileContext} from "@/context/mobile.context";
-import {useLocalStore} from "@/store/local.store";
 import {Constants} from "@/common/local/constants";
 import clsx from "clsx";
 import s from './homePage.module.scss'

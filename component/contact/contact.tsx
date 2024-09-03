@@ -20,7 +20,7 @@ export const Contact = () => {
 
     const pl = i18n.language === 'pl'
 
-    // debugger
+
 
     const classNames = {
         title: clsx(s.title, pl ? s.pl : {})
