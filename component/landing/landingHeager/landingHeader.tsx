@@ -5,8 +5,6 @@ import {useMobileContext} from "@/context/mobile.context";
 import {Typography} from "@/component/ui/typography/typography";
 import {monumentExtended} from "@/fonts/fonts";
 import {Button} from "@/component/ui/button";
-import landingImage from '@/assest/icon/homePageLanding.png'
-import Image from "next/image";
 import s from './landingHeader.module.scss'
 
 

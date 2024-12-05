@@ -3,6 +3,7 @@ import {whatWeDoData} from "@/lid/data";
 import Link from "next/link";
 import {useTranslation} from "next-i18next";
 import s from './mobile.service.card.module.scss'
+import {monumentExtended} from "@/fonts/fonts";
 
 type ProjectProps = (typeof whatWeDoData)[number]
 
@@ -17,7 +18,7 @@ export const MobileServiceCard = ({link,video}:ProjectProps) => {
 
     return (
         <Link href={link} className={s.card}>
-            <h3 className={s.title}>{t(`${fideTitle(link)}.title`)}</h3>
+            <h3 style={monumentExtended.style} className={s.title}>{t(`${fideTitle(link)}.title`)}</h3>
             <p className={s.description}>{t(`${fideTitle(link)}.description`)}</p>
             <div style={{
                 zIndex: -1,
