@@ -4,7 +4,7 @@ import {Resend} from "resend";
 import {getErrorMessage, validateString} from "@/lid/utils/utils";
 import {ContactFormEmail} from "@/email/form";
 
-const key = "re_YqmA5zHc_MUmXfs1HJF7xfvZ1Lkmgpv4z"
+const key = process.env.RESENT_API_KEY
 
 const resend = new Resend(key)
 // const resend = new Resend(process.env.RESENT_API_KEY)
